@@ -22,8 +22,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
 
 		<!-- Web Fonts  -->
-		<link id="googleFonts" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7CShadows+Into+Light&display=swap" rel="stylesheet" type="text/css">
-
+		<link id="googleFonts" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800%7CShadows+Into+Light&display=swap" rel="stylesheet" type="text/css">
 		<!-- Vendor CSS -->
 		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="vendor/fontawesome-free/css/all.min.css">
@@ -53,7 +52,18 @@
 
 	</head>
 
-	<body data-plugin-cursor-effect>
+	<body class="loading-overlay-showing" data-loading-overlay data-plugin-options="{'hideDelay': 500, 'effect': 'floatBars'}">
+		<div class="loading-overlay">
+			<div class="bounce-loader">
+				<div class="cssload-float-bars-container">
+					<ul class="cssload-float-bars-flex-container">
+						<li>
+							<span class="cssload-float-bars-loading"></span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 		<div class="body">
 			<header id="header" class="header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyChangeLogo': true, 'stickyStartAt': 120, 'stickyHeaderContainerHeight': 85}">
 				<div class="header-body border-top-0">
