@@ -42,7 +42,7 @@
 */
 @media (min-width: 992px) {
 		.custom-text-background {
-				background-repeat: no-repeat;
+				/* background-repeat: no-repeat; */
 				background-size: 100%;
 				background-position: 20% 30%;
 				-webkit-background-clip: text;
