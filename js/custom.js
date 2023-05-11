@@ -194,23 +194,116 @@ const headerContent = `
 </div>
 `;
 
-const header = document.getElementById('header');
-if(header){
-header.innerHTML = headerContent;
-header.classList.add("header-effect-shrink"); // Add the 'header-effect-shrink' class
-  
-  var pluginOptions = { // Define the plugin options as an object
-    'stickyEnabled': true,
-    'stickyEffect': 'shrink',
-    'stickyEnableOnBoxed': true,
-    'stickyEnableOnMobile': false,
-    'stickyChangeLogo': true,
-    'stickyStartAt': 30,
-    'stickyHeaderContainerHeight': 70
-  };
-  
-  header.setAttribute("data-plugin-options", JSON.stringify(pluginOptions)); // Add the 'data-plugin-options' attribute with the plugin options as a string
+const header = document.getElementById("header");
+if (header) {
+  header.innerHTML = headerContent;
+  header.classList.add("header-effect-shrink"); // Add the 'header-effect-shrink' class
 
+  var pluginOptions = {
+    // Define the plugin options as an object
+    stickyEnabled: true,
+    stickyEffect: "shrink",
+    stickyEnableOnBoxed: true,
+    stickyEnableOnMobile: false,
+    stickyChangeLogo: true,
+    stickyStartAt: 30,
+    stickyHeaderContainerHeight: 70,
+  };
+
+  header.setAttribute("data-plugin-options", JSON.stringify(pluginOptions)); // Add the 'data-plugin-options' attribute with the plugin options as a string
 }
 
 // *************** Loading Header to All pages : END *****************
+
+// *************** Loading footer to All pages : START ***************
+
+const footerContent = `
+<div class="container pt-3">
+<div class="row justify-content-between align-items-center py-5 mb-3">
+  <div class="col-auto mb-4 mb-lg-0">
+    <h2 class="font-weight-semibold text-color-light text-10 ls-0 mb-0">Hydro Sensing </h2>
+  </div>
+  <div class="col-auto">
+    <a href="contact.html" class="btn btn-primary custom-btn-style-1 font-weight-medium btn-px-4 btn-py-2 text-4" data-cursor-effect-hover="plus" data-cursor-effect-hover-color="light">
+      <span class="text-color-light">Contact Us</span>
+    </a>
+  </div>
+</div>
+<hr class="bg-color-light opacity-1 my-0">
+<div class="row pt-3 mt-5">
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <a href="index.html" class="text-decoration-none">
+      <img src="img/dms/hydroSensing/logo.png" class="img-fluid mb-4" width="123" height="33" alt="" />
+    </a>
+    <p class="text-3-5">Top Notch Consulting, Research and Development Firm to Fullfil your Hydro Research & Consultancy Needs and Requirements. </p>
+    <ul class="social-icons social-icons-clean social-icons-clean-with-border social-icons-medium social-icons-icon-light">
+      <li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook" data-cursor-effect-hover="fit"><i class="fab fa-facebook-f"></i></a></li>
+      <li class="social-icons-twitter mx-2"><a href="http://www.twitter.com/" target="_blank" title="Twitter" data-cursor-effect-hover="fit"><i class="fab fa-twitter"></i></a></li>
+      <li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin" data-cursor-effect-hover="fit"><i class="fab fa-linkedin-in"></i></a></li>
+    </ul>
+  </div>
+  <div class="col-lg-5 mb-4 mb-lg-0">
+    <ul class="list list-icons list-icons-lg">
+      <li class="d-flex px-0 mb-1">
+        <img width="25" src="img/dms/hydroSensing/icons/phone.svg" alt="Phone Icon" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" />
+        <a href="tel:+8618600955977" class=" font-weight-normal text-3-4 ms-2">	
+                              +86-18600955977</a>
+      </li>
+      <li class="d-flex px-0 my-3">
+        <img width="25" src="img/dms/hydroSensing/icons/email.svg" alt="Email Icon" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" />
+        <a href="mailto:info@hydrosensing4u.com" class=" font-weight-normal text-3-4 ms-2">info@hydrosensing4u.com</a>
+      </li>
+      <li class="d-flex font-weight-normal  px-0 mb-1">
+        <img width="25" src="img/dms/hydroSensing/icons/map-pin.svg" alt="Location" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary me-2'}" />
+        Department of Hydraulic Engineering, Tsinghua University, Beijing 100084, CHINA
+      </li>
+    </ul>
+  </div>
+  
+              
+  <div class="col-lg-3">
+    <h4 class="font-weight-bold text-4" text-color-primary">Useful Links</h4>
+    <ul class="list list-icons list-icons-sm">
+      <li>
+        <i class="fas fa-angle-right text-color-default"></i>
+        <a href="index.html" class="link-hover-style-1 ms-1"> Home</a>
+      </li>
+      <li>
+        <i class="fas fa-angle-right text-color-default"></i>
+        <a href="about-us.html" class="link-hover-style-1 ms-1"> About Us</a>
+      </li>
+      <li>
+        <i class="fas fa-angle-right text-color-default"></i>
+        <a href="cases.html" class="link-hover-style-1 ms-1"> Our Research</a>
+      </li>
+      <li>
+        <i class="fas fa-angle-right text-color-default"></i>
+        <a href="#" class="link-hover-style-1 ms-1"> Resource</a>
+      </li>
+                      <li>
+        <i class="fas fa-angle-right text-color-default"></i>
+        <a href="team.html" class="link-hover-style-1 ms-1"> Our Team</a>
+      </li>
+      <li>
+        <i class="fas fa-angle-right text-color-default"></i>
+        <a href="#" class="link-hover-style-1 ms-1"> FAQs</a>
+      </li>
+    </ul>
+  </div>
+</div>
+</div>
+<div class="footer-copyright container bg-transparent">
+<div class="row pb-5">
+  <div class="col-lg-12 text-center m-0">
+    <hr class="bg-color-light opacity-1 mt-5 mb-4">
+    <p class="text-3-4">Hydrosensing, Research & Consulting Services. © 2023. All Rights Reserved. Developed by <a href="https://bxtechnologies.net/">BX Technologies Pvt Limited</a></p>
+  </div>
+</div>
+</div>
+`;
+
+const footer = document.getElementById("footer");
+if (footer) {
+  footer.innerHTML = footerContent;
+}
+// *************** Loading footer to All pages : END *************
