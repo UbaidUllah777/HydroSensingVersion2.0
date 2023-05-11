@@ -66,8 +66,8 @@ const headerContent = `
             <img id="idHeaderLogo"
               src="img/dms/hydroSensing/logo.png"
               class="img-fluid"
-              width="123"
-              height="32"
+              width="90"
+              height="auto"
               alt=""
             />
           </a>
@@ -205,7 +205,7 @@ if (header) {
     stickyEffect: "shrink",
     stickyEnableOnBoxed: true,
     stickyEnableOnMobile: false,
-    stickyChangeLogo: true,
+    stickyChangeLogo: false,
     stickyStartAt: 30,
     stickyHeaderContainerHeight: 70,
   };
@@ -237,11 +237,13 @@ const footerContent = `
     </a>
     <p class="text-3-5">Top Notch Consulting, Research and Development Firm to Fullfil your Hydro Research & Consultancy Needs and Requirements. </p>
     <ul class="social-icons social-icons-clean social-icons-clean-with-border social-icons-medium social-icons-icon-light">
-      <li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook" data-cursor-effect-hover="fit"><i class="fab fa-facebook-f"></i></a></li>
-      <li class="social-icons-twitter mx-2"><a href="http://www.twitter.com/" target="_blank" title="Twitter" data-cursor-effect-hover="fit"><i class="fab fa-twitter"></i></a></li>
-      <li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin" data-cursor-effect-hover="fit"><i class="fab fa-linkedin-in"></i></a></li>
-    </ul>
-  </div>
+      <li class="social-icons-facebook"><a href="https://www.facebook.com/hydrosensing" target="_blank" title="Facebook" data-cursor-effect-hover="fit"><i class="fab fa-facebook-f"></i></a></li>
+      <li class="social-icons-twitter mx-2"><a href="https://twitter.com/HydroSensing" target="_blank" title="Twitter" data-cursor-effect-hover="fit"><i class="fab fa-twitter"></i></a></li>
+      <li class="social-icons-linkedin "><a href="http://www.linkedin.com/" target="_blank" title="Linkedin" data-cursor-effect-hover="fit"><i class="fab fa-linkedin-in"></i></a></li>
+    
+      <li class="social-icons-youtube mx-2 "><a href="https://www.youtube.com/@HydroSensing" target="_blank" title="Youtube" data-cursor-effect-hover="fit"><i class="fab fa-youtube"></i></a></li>
+  </ul>
+      </div>
   <div class="col-lg-5 mb-4 mb-lg-0">
     <ul class="list list-icons list-icons-lg">
       <li class="d-flex px-0 mb-1">
@@ -284,10 +286,6 @@ const footerContent = `
         <i class="fas fa-angle-right text-color-default"></i>
         <a href="team.html" class="link-hover-style-1 ms-1"> Our Team</a>
       </li>
-      <li>
-        <i class="fas fa-angle-right text-color-default"></i>
-        <a href="#" class="link-hover-style-1 ms-1"> FAQs</a>
-      </li>
     </ul>
   </div>
 </div>
@@ -296,7 +294,7 @@ const footerContent = `
 <div class="row pb-5">
   <div class="col-lg-12 text-center m-0">
     <hr class="bg-color-light opacity-1 mt-5 mb-4">
-    <p class="text-3-4">Hydrosensing, Research & Consulting Services. © 2023. All Rights Reserved. Developed by <a href="https://bxtechnologies.net/">BX Technologies Pvt Limited</a></p>
+    <p class="text-3-4">Hydrosensing, Research & Consulting Services. © 2023. All Rights Reserved. Developed by <a href="https://bxtechnologies.net/">BX Technologies</a></p>
   </div>
 </div>
 </div>
