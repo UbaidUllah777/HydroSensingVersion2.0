@@ -102,8 +102,8 @@ const headerContent = `
                 </li>
                 <!-- Consultancy Services  -->
                 <li>
-                  <a id="idHeaderLinkConsultancyServices" href="services.html" class="nav-link"
-                    >Consultancy Services</a
+                  <a id="idHeaderLinkConsultancyServices" href="focus-area.html" class="nav-link"
+                    >Focus Areas</a
                   >
                 </li>
                 <!-- Resources DropDown :START -->
