@@ -51,13 +51,12 @@ const teamMembers = [
     ],
   },
 
-  // *** Dr khalil ur rehaman profile ***
+  // *** Dr Sajjad Haider profile ***
   {
-    member_id: "DrKhalilUrRahman",
-    member_heading: "Dr. Khalil Ur Rahman",
-    member_designation:
-      "Reprehenderit voluptate incididunt dolore eu incididunt esse.",
-    member_image: "",
+    member_id: "DrSajjadHaider",
+    member_heading: "Dr.sajjad Haider",
+    member_designation: "Assistant Professor",
+    member_image: "img/team/Dr.sajjad Haider.jpg",
     member_Linkedin: "",
     member_Tiwtter: "",
     member_Facebook: "",
@@ -77,13 +76,12 @@ const teamMembers = [
     ],
   },
 
-  // *** Dr khalil ur rehaman profile ***
+  // *** Dr Shahid profile ***
   {
-    member_id: "DrKhalilUrRahman",
-    member_heading: "Dr. Khalil Ur Rahman",
-    member_designation:
-      "Reprehenderit voluptate incididunt dolore eu incididunt esse.",
-    member_image: "",
+    member_id: "DrShahid",
+    member_heading: "Dr. Shahid",
+    member_designation: "Assistant Professor",
+    member_image: "img/team/Dr-Shahid.jpg",
     member_Linkedin: "",
     member_Tiwtter: "",
     member_Facebook: "",
@@ -103,13 +101,12 @@ const teamMembers = [
     ],
   },
 
-  // *** Dr khalil ur rehaman profile ***
+  // *** Dr. Jabbar profile ***
   {
-    member_id: "DrKhalilUrRahman",
-    member_heading: "Dr. Khalil Ur Rahman",
-    member_designation:
-      "Reprehenderit voluptate incididunt dolore eu incididunt esse.",
-    member_image: "",
+    member_id: "DrJabbar",
+    member_heading: "Dr. Jabbar",
+    member_designation: "Assistant Professor",
+    member_image: "img/team/Dr.-Jabbar.jpg",
     member_Linkedin: "",
     member_Tiwtter: "",
     member_Facebook: "",
@@ -129,13 +126,12 @@ const teamMembers = [
     ],
   },
 
-  // *** Dr khalil ur rehaman profile ***
+  // *** Dr ProfDrHamzaFarooqGabriel profile ***
   {
-    member_id: "DrKhalilUrRahman",
-    member_heading: "Dr. Khalil Ur Rahman",
-    member_designation:
-      "Reprehenderit voluptate incididunt dolore eu incididunt esse.",
-    member_image: "",
+    member_id: "ProfDrHamzaFarooqGabriel",
+    member_heading: "Prof Dr Hamza Farooq Gabriel",
+    member_designation: "Professor",
+    member_image: "img/team/ProfDrHamzaFarooqGabriel.jpg",
     member_Linkedin: "",
     member_Tiwtter: "",
     member_Facebook: "",
@@ -155,13 +151,37 @@ const teamMembers = [
     ],
   },
 
-  // *** Dr khalil ur rehaman profile ***
+  // *** Dr Pham profile ***
   {
-    member_id: "DrKhalilUrRahman",
-    member_heading: "Dr. Khalil Ur Rahman",
-    member_designation:
-      "Reprehenderit voluptate incididunt dolore eu incididunt esse.",
-    member_image: "",
+    member_id: "DrPham",
+    member_heading: "Dr. Pham",
+    member_designation: "Professor",
+    member_image: "img/team/Pham.jpg",
+    member_Linkedin: "",
+    member_Tiwtter: "",
+    member_Facebook: "",
+    member_email: "",
+    member_Google_scholar: "",
+
+    member_paragraphs: [
+      {
+        paragraph: "",
+      },
+      {
+        paragraph: "",
+      },
+      {
+        paragraph: "",
+      },
+    ],
+  },
+
+  // *** Mr Nouman  profile ***
+  {
+    member_id: "MrNuamanEjaz",
+    member_heading: "Mr. Nuaman Ejaz",
+    member_designation: "Lecturer",
+    member_image: "img/team/Mr. Nuaman Ejaz.jpg",
     member_Linkedin: "",
     member_Tiwtter: "",
     member_Facebook: "",
