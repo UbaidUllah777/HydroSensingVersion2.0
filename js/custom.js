@@ -94,10 +94,10 @@ const headerContent = `
                     >About Us</a
                   >
                 </li>
-                <!-- Our Research  -->
+                <!-- Research  -->
                 <li>
                   <a id="idHeaderLinkOurResearch" href="cases.html" class="nav-link"
-                    >Our Research</a
+                    >Research Projects</a
                   >
                 </li>
                 <!-- Consultancy Services  -->
