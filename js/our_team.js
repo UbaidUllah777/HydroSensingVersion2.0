@@ -56,7 +56,7 @@ const teamMembers = [
     member_id: "DrSajjadHaider",
     member_heading: "Dr.sajjad Haider",
     member_designation: "Assistant Professor",
-    member_image: "img/team/Dr.sajjad Haider.jpg",
+    member_image: "img/team/Dr.sajjadHaider.jpeg",
     member_Linkedin: "",
     member_Tiwtter: "",
     member_Facebook: "",
@@ -181,7 +181,7 @@ const teamMembers = [
     member_id: "MrNuamanEjaz",
     member_heading: "Mr. Nuaman Ejaz",
     member_designation: "Lecturer",
-    member_image: "img/team/Mr. Nuaman Ejaz.jpg",
+    member_image: "img/team/Mr-NuamanEjaz.jpeg",
     member_Linkedin: "",
     member_Tiwtter: "",
     member_Facebook: "",
@@ -199,37 +199,6 @@ const teamMembers = [
         paragraph: "",
       },
     ],
-  },
+  }
 ];
 // *** ALL DATA of Our Focus Area : END ***
-
-const stage = document.getElementById("owlStage");
-for (const singleMember of teamMembers) {
-  if (stage) {
-    let item = document.createElement("div");
-    item.classList.add("owl-item", "active");
-    item.style.cssText = "width: 410.5px; padding-left: 5px;";
-
-    item.innerHTML = `
-        <div>
-										<a href="team.html#john" class="custom-link-hover-effects text-decoration-none" data-cursor-effect-hover="plus">
-											<div class="card border-0">
-												<div class="card-img-top position-relative overlay">
-													<div class="position-absolute bottom-0 left-0 w-100 py-3 px-4 z-index-3">
-														<div class="custom-crooked-line">
-															<img width="154" height="26" src="img/dms/hydroSensing/icons/infinite-crooked-line.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" style="width: 154px;" />
-														</div>
-													</div>
-													<img src="img/dms/hydroSensing/team/team-1.jpg" class="img-fluid" alt="John Doe" />
-												</div>
-												<div class="card-body">
-													<h4 class="text-color-hover-primary text-6 mb-0">Dr. Khalil Ur Rahman</h4>
-													<p class="text-3-5 mb-0">Senior Researcher and Founder </p>
-												</div>
-											</div>
-										</a>
-									</div>`;
-
-    stage.appendChild(item);
-  }
-}
