@@ -15,10 +15,6 @@ const focusAreas = [
         paragraph:
           "2nd ParagrapghSunt elit reprehenderit laborum elit proident ea enim. Nisi ullamco minim ad eiusmod. Voluptate dolor aliquip non exercitation adipisicing elit Lorem anim mollit ut fugiat deserunt proident. Nulla minim laboris exercitation magna. Consectetur non laborum ipsum aliqua id elit commodo et id eu cupidatat eiusmod mollit pariatur. Laboris et laborum qui velit nisi laboris ex adipisicing cupidatat eu in proident Lorem. Eu non ea pariatur eiusmod quis sint aute commodo excepteur dolor qui Lorem.Qui et labore ut esse. Adipisicing amet exercitation laboris ipsum veniam. Commodo voluptate deserunt est officia laboris sint laboris velit irure. Consectetur elit anim dolore amet. Laborum eiusmod ullamco dolor dolore anim nisi consequat Lorem cillum. Duis ipsum Lorem minim officia laboris dolor ullamco non.",
       },
-      {
-        paragraph:
-          "3rd Officia consectetur qui voluptate cillum duis irure elit incididunt sit minim cupidatat fugiat cillum. Officia dolor et eu et voluptate est veniam. Sit amet voluptate eu minim. Dolor dolor anim officia veniam commodo quis officia ea reprehenderit in velit qui enim. Deserunt in qui enim irure ad aliquip veniam. Reprehenderit deserunt dolor anim sunt magna culpa proident ad do est. Nisi enim ipsum proident cupidatat in minim sint.Anim aliqua tempor sint quis mollit sit ex incididunt velit nulla ipsum sint. Voluptate fugiat Lorem do enim do cillum ut eu deserunt do do culpa cupidatat. Non occaecat adipisicing magna ea Lorem consectetur ipsum commodo cupidatat nostrud.",
-      },
     ],
     fca_QAs: [
       {
@@ -51,8 +47,38 @@ const focusAreas = [
                             tortor. Donec tellus massa, tristique sit amet condim
                             vel, facilisis quis sapien.`,
       },
+      {
+        Qheading: "",
+         QA: `Donec tellus massa, tristique sit amet condim vel,
+                            facilisis quis sapien. Praesent id enim sit amet odio
+                            vulputate eleifend in in tortor. Donec tellus massa,
+                            tristique sit amet condim vel, facilisis quis sapien.
+                            Praesent id enim sit amet odio vulputate eleifend in in
+                            tortor. Donec tellus massa, tristique sit amet condim
+                            vel, facilisis quis sapien.`,
+      },
+      {
+        Qheading: "",
+         QA: `Donec tellus massa, tristique sit amet condim vel,
+                            facilisis quis sapien. Praesent id enim sit amet odio
+                            vulputate eleifend in in tortor. Donec tellus massa,
+                            tristique sit amet condim vel, facilisis quis sapien.
+                            Praesent id enim sit amet odio vulputate eleifend in in
+                            tortor. Donec tellus massa, tristique sit amet condim
+                            vel, facilisis quis sapien.`,
+      },
+      {
+        Qheading: "",
+         QA: `Donec tellus massa, tristique sit amet condim vel,
+                            facilisis quis sapien. Praesent id enim sit amet odio
+                            vulputate eleifend in in tortor. Donec tellus massa,
+                            tristique sit amet condim vel, facilisis quis sapien.
+                            Praesent id enim sit amet odio vulputate eleifend in in
+                            tortor. Donec tellus massa, tristique sit amet condim
+                            vel, facilisis quis sapien.`,
+      },
     ],
-    fca_front_image: "",
+    fca_front_image: "img/foucusAreas/services-1.jpg",
     fca_image393x205: "img/foucusAreas/generic-6.jpg",
     fca_image291x245: "img/foucusAreas/generic-3.jpg",
     fca_related_projects: [
@@ -113,7 +139,7 @@ const focusAreas = [
                             vel, facilisis quis sapien.`,
       },
     ],
-    fca_front_image: "",
+    fca_front_image: "img/foucusAreas/services-1.jpg",
     fca_image393x205: "img/foucusAreas/generic-6.jpg",
     fca_image291x245: "img/foucusAreas/generic-3.jpg",
     fca_related_projects: [
@@ -170,7 +196,7 @@ const focusAreas = [
                             vel, facilisis quis sapien.`,
       },
     ],
-    fca_front_image: "",
+    fca_front_image: "img/foucusAreas/services-1.jpg",
     fca_image393x205: "img/foucusAreas/generic-6.jpg",
     fca_image291x245: "img/foucusAreas/generic-3.jpg",
     fca_related_projects: [
@@ -223,7 +249,7 @@ const focusAreas = [
                             vel, facilisis quis sapien.`,
       },
     ],
-    fca_front_image: "",
+    fca_front_image: "img/foucusAreas/services-1.jpg",
     fca_image393x205: "img/foucusAreas/generic-6.jpg",
     fca_image291x245: "img/foucusAreas/generic-3.jpg",
     fca_related_projects: [
@@ -280,7 +306,7 @@ const focusAreas = [
                             vel, facilisis quis sapien.`,
       },
     ],
-    fca_front_image: "",
+    fca_front_image: "img/foucusAreas/services-1.jpg",
     fca_image393x205: "img/foucusAreas/generic-6.jpg",
     fca_image291x245: "img/foucusAreas/generic-3.jpg",
     fca_related_projects: [
@@ -333,7 +359,7 @@ const focusAreas = [
                             vel, facilisis quis sapien.`,
       },
     ],
-    fca_front_image: "",
+    fca_front_image: "img/foucusAreas/services-1.jpg",
     fca_image393x205: "img/foucusAreas/generic-6.jpg",
     fca_image291x245: "img/foucusAreas/generic-3.jpg",
     fca_related_projects: [

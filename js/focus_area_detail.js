@@ -89,7 +89,7 @@ function getFoucsArea (){
           items: 2 // 3 items on medium screens
         },
         992: {
-          items: 4 // 6 items on large screens
+          items: 3 // 6 items on large screens
         }
       }
     });
@@ -101,23 +101,26 @@ for (const singleOwlFocusArea of focusAreas) {
   if (ElowlstageFocusAreas) {
     const areaItem = `
       <div class="owl-item" style="width: 177.667px; margin-right: 10px;">
-      <div class="portfolio-item">
-      <a onclick="loadFocusARea('${singleOwlFocusArea.fca_id}')" href="focus-area-detail.html" >
-        <span class="thumb-info thumb-info-lighten border-radius-0">
-          <span class="thumb-info-wrapper border-radius-0">
-            <img src="img/projects/project.jpg" class="img-fluid border-radius-0" alt="${singleOwlFocusArea.fca_heading}">
+      <a onclick="loadFocusARea('${singleOwlFocusArea.fca_id}')" href="focus-area-detail.html" class="custom-link-hover-effects text-decoration-none" data-cursor-effect-hover="plus">
+      <div class="card box-shadow-4">
+          <div class="card-img-top position-relative overlay overlay-show">
+              <div class="position-absolute bottom-0 left-0 w-100 py-3 px-4 z-index-3">
+                  <h4 class="font-weight-semibold text-color-light text-6 mb-1">${singleOwlFocusArea.fca_heading}</h4>
 
-            <span class="thumb-info-title" style="width:100%; max-width: 100%; font-size: 1em !important;">
-              <span class="thumb-info-inner text-1">${singleOwlFocusArea.fca_heading}</span>
-              <span class="thumb-info-type"></span>
-            </span>
-            <span class="thumb-info-action">
-              <span class="thumb-info-action-icon bg-dark opacity-8"><i class="fas fa-plus"></i></span>
-            </span>
-          </span>
-        </span>
-      </a>
-    </div>
+              </div>
+              <img src="img/foucusAreas/services-1.jpg" class="img-fluid" alt="${singleOwlFocusArea.fca_heading}" />
+          </div>
+          <div class="card-body d-flex align-items-center custom-view-more px-4">
+          <p class="card-text w-100 mb-0">${singleOwlFocusArea.fca_short_desc} </p>
+          <div class="animated-icon animated fadeIn svg-fill-color-primary"><!--?xml version="1.0" ?-->
+                  <svg version="1.1" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="icon_21684230898848" data-filename="arrow-right.svg" width="50" height="50">
+                  <polygon points="1,26 44.586,26 38.293,32.293 39.707,33.707 48.414,25 39.707,16.293 38.293,17.707 44.586,24 1,24  "></polygon>
+                  <!-- Code injected by live-server -->
+
+                  </svg></div>
+      </div>
+      </div>
+  </a>
       </div>
     `;
     
