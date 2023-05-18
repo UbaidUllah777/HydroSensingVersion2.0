@@ -128,8 +128,8 @@ const teamMembers = [
 
   // *** Dr ProfDrHamzaFarooqGabriel profile ***
   {
-    member_id: "ProfDrHamzaFarooqGabriel",
-    member_heading: "Prof Dr Hamza Farooq Gabriel",
+    member_id: "DrHamzaFarooqGabriel",
+    member_heading: "Dr Hamza Farooq Gabriel",
     member_designation: "Professor",
     member_image: "img/team/ProfDrHamzaFarooqGabriel.jpg",
     member_Linkedin: "",
@@ -202,3 +202,72 @@ const teamMembers = [
   }
 ];
 // *** ALL DATA of Our Focus Area : END ***
+
+function initializeOwlCarousel() {
+  $('.myTeamOwlCarousel').owlCarousel({
+    margin: 10,
+    loop: true,
+    nav: true,
+    dots: false,
+    responsive: {
+      0: {
+        items: 1 // 1 item on small screens
+      },
+      768: {
+        items: 2 // 3 items on medium screens
+      },
+      992: {
+        items: 4 // 6 items on large screens
+      }
+    }
+  });
+}
+
+const ElowlstageTeam = document.getElementById("owlstageTeam");
+
+for (const singleOwlTeamMember of teamMembers) {
+if (ElowlstageTeam) {
+  const TeamItem = `
+  <div class="owl-item " style="width: 255.667px; margin-right: 20px;">
+  <div>
+    <a href="team.html#john" class="custom-link-hover-effects text-decoration-none"
+      data-cursor-effect-hover="plus">
+      <div class="card border-0">
+        <div class="card-img-top position-relative overlay">
+          <div class="position-absolute bottom-0 left-0 w-100 py-3 px-4 z-index-3">
+            <div class="custom-crooked-line">
+              <div class="animated-icon animated fadeIn svg-fill-color-primary">
+             
+              </div>
+            </div>
+          </div>
+          <img src="${singleOwlTeamMember.member_image}" class="img-fluid" alt="${singleOwlTeamMember.member_heading}">
+        </div>
+        <div class="card-body">
+          <h5 class="text-color-hover-primary text-color-secondary  text-3 mb-0">${singleOwlTeamMember.member_heading}</h5>
+          <p class="text-2 mb-0">${singleOwlTeamMember.member_designation} </p>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
+  `;
+  
+  ElowlstageTeam.innerHTML += TeamItem;
+}
+}
+
+// Call the initialization function after adding the items
+initializeOwlCarousel();
+
+// Previous button event listener
+const owlPrevButton = document.getElementById("owlPrevButton");
+owlPrevButton.addEventListener("click", function() {
+$('.owl-carousel').trigger('prev.owl.carousel');
+});
+
+// Next button event listener
+const owlNextButton = document.getElementById("owlNextButton");
+owlNextButton.addEventListener("click", function() {
+$('.owl-carousel').trigger('next.owl.carousel');
+});
