@@ -96,7 +96,7 @@ const headerContent = `
                 </li>
                 <!-- Research  -->
                 <li>
-                  <a id="idHeaderLinkOurResearch" href="cases.html" class="nav-link"
+                  <a id="idHeaderLinkOurResearch" href="research-projects.html" class="nav-link"
                     >Research Projects</a
                   >
                 </li>
@@ -276,7 +276,7 @@ const footerContent = `
       </li>
       <li>
         <i class="fas fa-angle-right text-color-default"></i>
-        <a href="cases.html" class="link-hover-style-1 ms-1"> Our Research</a>
+        <a href="research-projects.html" class="link-hover-style-1 ms-1"> Our Research</a>
       </li>
       <li>
         <i class="fas fa-angle-right text-color-default"></i>
