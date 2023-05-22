@@ -31,3 +31,26 @@ if(ElblogPost_blogheading){
     }
 }
 }
+
+
+const ElblogPost_recentBlogs=document.getElementById("blogPost_recentBlogs");
+
+const LatestFiveBlogs = HydroBlogs.slice(-5);
+for (const singleLatestBlog of LatestFiveBlogs) {
+    if(ElblogPost_recentBlogs){
+        const recentBlogItem=`<div>
+        <p
+        class="text-color-default text-uppercase text-1 mb-0 d-block text-decoration-none"
+        >${singleLatestBlog.blog_fullDate}
+        <span class="opacity-3 d-inline-block px-2">|</span> ${singleLatestBlog.blog_author}</p
+      >
+      <a  onclick="setBlogId('${singleLatestBlog.blog_id}')"
+        href="blog-post.html"
+        class="text-color-dark text-hover-primary font-weight-bold text-3 d-block pb-3 line-height-4"
+        >${singleLatestBlog.blog_heading}</a
+      >
+      </div>`;
+      ElblogPost_recentBlogs.innerHTML+=recentBlogItem;
+    }
+
+}
