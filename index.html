@@ -55,6 +55,78 @@
 		<script src="js/focus_areas.js" defer></script>
 		<script src="js/our_team.js" defer></script>
 
+		<style>
+			
+.our-team{
+    padding: 20px 15px 30px;
+    background: #212529;
+    border-radius: 15px;
+    text-align: center;
+}
+.our-team .pic{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    /* background: #fff; */
+    padding: 10px;
+    margin-bottom: 25px;
+    transition: all 0.5s ease 0s;
+}
+.our-team:hover .pic{
+    background: #5187cf ;
+    border-radius: 50%;
+}
+.pic img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.our-team .title{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0 0 7px 0;
+}
+.our-team .post{
+    display: block;
+    font-size: 15px;
+    color: #7bb146;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.our-team .social{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.our-team .social li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.our-team .social li a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #17bebb;
+    border: 1px solid #17bebb;
+    transition: all 0.5s ease 0s;
+}
+.our-team:hover .social li a{
+    background: #17bebb;
+    color: #fff;
+}
+@media only screen and (max-width: 990px){
+    .our-team{ margin-bottom: 30px; }
+}
+			
+
+		</style>
+
 	</head>
 <!-- Head Section Ends  Here  -->
 
@@ -388,26 +460,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="container">
-						<div class="row my-5 mb-lg-0 my-xl-5">
-							<div class="col">
-
-							  <div class="myTeamOwlCarousel owl-carousel owl-theme show-nav-hover owl-loaded owl-drag owl-carousel-init"
-								data-plugin-options="{'items': 6, 'margin': 10, 'loop': true, 'nav': true, 'dots': false}" style="height: auto;">
-								<div class="owl-stage-outer">
-								  <div id="owlstageTeam" class="owl-stage"
-									style="transform: translate3d(-563px, 0px, 0px); transition: all 0.25s ease 0s; width: 2628px;">
-							  
-								  </div>
-								</div>
-								<div class="owl-nav">
-								  <button id="owlPrevButton" type="button" role="presentation" class="owl-prev"></button>
-								  <button id="owlNextButton" type="button" role="presentation" class="owl-next"></button>
-								</div>
-								<div class="owl-dots disabled"></div>
-							  </div>
-							</div>
-						  </div>
+					<div class="container-fluid  appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">
+						<div id="indexTeamMemRow" class="row pb-5 mb-5 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" style="animation-delay: 200ms;">
+						
+						</div>
 						</div>
 					</div>
 				</section>

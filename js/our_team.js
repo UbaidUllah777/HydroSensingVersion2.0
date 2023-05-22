@@ -6,9 +6,9 @@ const teamMembers = [
     member_heading: "Dr. Khalil Ur Rahman",
     member_designation: "Senior Researcher and Founder",
     member_image: "img/team/Dr-Khalil.jpg",
-    member_Linkedin: "",
-    member_Tiwtter: "",
-    member_Facebook: "",
+    member_Linkedin: "#",
+    member_Tiwtter: "#",
+    member_Facebook: "#",
     member_email: "",
     member_Google_scholar: "",
 
@@ -32,9 +32,9 @@ const teamMembers = [
     member_heading: "Dr. Songhao Shang",
     member_designation: "Professor",
     member_image: "img/team/Dr.-Shang.jpg",
-    member_Linkedin: "",
-    member_Tiwtter: "",
-    member_Facebook: "",
+    member_Linkedin: "#",
+    member_Tiwtter: "#",
+    member_Facebook: "#",
     member_email: "",
     member_Google_scholar: "",
 
@@ -57,9 +57,9 @@ const teamMembers = [
     member_heading: "Dr.sajjad Haider",
     member_designation: "Assistant Professor",
     member_image: "img/team/Dr.sajjadHaider.jpeg",
-    member_Linkedin: "",
-    member_Tiwtter: "",
-    member_Facebook: "",
+    member_Linkedin: "#",
+    member_Tiwtter: "#",
+    member_Facebook: "#",
     member_email: "",
     member_Google_scholar: "",
 
@@ -82,9 +82,9 @@ const teamMembers = [
     member_heading: "Dr. Shahid",
     member_designation: "Assistant Professor",
     member_image: "img/team/Dr-Shahid.jpg",
-    member_Linkedin: "",
-    member_Tiwtter: "",
-    member_Facebook: "",
+    member_Linkedin: "#",
+    member_Tiwtter: "#",
+    member_Facebook: "#",
     member_email: "",
     member_Google_scholar: "",
 
@@ -107,9 +107,9 @@ const teamMembers = [
     member_heading: "Dr. Jabbar",
     member_designation: "Assistant Professor",
     member_image: "img/team/Dr.-Jabbar.jpg",
-    member_Linkedin: "",
-    member_Tiwtter: "",
-    member_Facebook: "",
+    member_Linkedin: "#",
+    member_Tiwtter: "#",
+    member_Facebook: "#",
     member_email: "",
     member_Google_scholar: "",
 
@@ -132,9 +132,9 @@ const teamMembers = [
     member_heading: "Dr Hamza Farooq Gabriel",
     member_designation: "Professor",
     member_image: "img/team/ProfDrHamzaFarooqGabriel.jpg",
-    member_Linkedin: "",
-    member_Tiwtter: "",
-    member_Facebook: "",
+    member_Linkedin: "#",
+    member_Tiwtter: "#",
+    member_Facebook: "#",
     member_email: "",
     member_Google_scholar: "",
 
@@ -157,9 +157,9 @@ const teamMembers = [
     member_heading: "Dr. Pham",
     member_designation: "Professor",
     member_image: "img/team/Pham.jpg",
-    member_Linkedin: "",
-    member_Tiwtter: "",
-    member_Facebook: "",
+    member_Linkedin: "#",
+    member_Tiwtter: "#",
+    member_Facebook: "#",
     member_email: "",
     member_Google_scholar: "",
 
@@ -182,9 +182,9 @@ const teamMembers = [
     member_heading: "Mr. Nuaman Ejaz",
     member_designation: "Lecturer",
     member_image: "img/team/Mr-NuamanEjaz.jpeg",
-    member_Linkedin: "",
-    member_Tiwtter: "",
-    member_Facebook: "",
+    member_Linkedin: "#",
+    member_Tiwtter: "#",
+    member_Facebook: "#",
     member_email: "",
     member_Google_scholar: "",
 
@@ -203,71 +203,37 @@ const teamMembers = [
 ];
 // *** ALL DATA of Our Focus Area : END ***
 
-function initializeOwlCarousel() {
-  $('.myTeamOwlCarousel').owlCarousel({
-    margin: 10,
-    loop: true,
-    nav: true,
-    dots: false,
-    responsive: {
-      0: {
-        items: 1 // 1 item on small screens
-      },
-      768: {
-        items: 2 // 3 items on medium screens
-      },
-      992: {
-        items: 4 // 6 items on large screens
-      }
-    }
-  });
-}
 
-const ElowlstageTeam = document.getElementById("owlstageTeam");
 
-for (const singleOwlTeamMember of teamMembers) {
-if (ElowlstageTeam) {
-  const TeamItem = `
-  <div class="owl-item " style="width: 255.667px; margin-right: 20px;">
-  <div>
-    <a href="team.html#john" class="custom-link-hover-effects text-decoration-none"
-      data-cursor-effect-hover="plus">
-      <div class="card border-0">
-        <div class="card-img-top position-relative overlay">
-          <div class="position-absolute bottom-0 left-0 w-100 py-3 px-4 z-index-3">
-            <div class="custom-crooked-line">
-              <div class="animated-icon animated fadeIn svg-fill-color-primary">
-             
-              </div>
-            </div>
-          </div>
-          <img src="${singleOwlTeamMember.member_image}" class="img-fluid" alt="${singleOwlTeamMember.member_heading}">
+const ElindexTeamMemRow=document.getElementById("indexTeamMemRow");
+const firstFourTeammembers = teamMembers.slice(0, 4);
+for(const singleTeamMember of firstFourTeammembers){
+  if(ElindexTeamMemRow){
+    const singleMemberData=`
+    <div class="col-md-3 col-sm-6">
+    <div class="our-team">
+    <a  onclick="setTeamMemberid('${singleTeamMember.member_id}')" href="#" class=" text-decoration-none">
+        <div class="pic">
+            <img src="${singleTeamMember.member_image}" alt="${singleTeamMember.member_heading}">
         </div>
-        <div class="card-body">
-          <h5 class="text-color-hover-primary text-color-secondary  text-3 mb-0">${singleOwlTeamMember.member_heading}</h5>
-          <p class="text-2 mb-0">${singleOwlTeamMember.member_designation} </p>
-        </div>
-      </div>
-    </a>
-  </div>
+       
+          <h3 class="title  text-color-hover-secondary ">${singleTeamMember.member_heading}</h3>
+        </a>
+        <span class="post">${singleTeamMember.member_designation}</span>
+        <ul  class="pt-2 pb-2 social-icons social-icons-clean social-icons-clean-with-border social-icons-medium">
+        <li class="social-icons-facebook"><a href="${singleTeamMember.member_Facebook}" target="_blank" title="Facebook" data-cursor-effect-hover="fit"><i class="fab fa-facebook-f"></i></a></li>
+        <li class="social-icons-twitter mx-2"><a href="${singleTeamMember.member_Tiwtter}" target="_blank" title="Twitter" data-cursor-effect-hover="fit"><i class="fab fa-twitter"></i></a></li>
+        <li class="social-icons-linkedin "><a href="${singleTeamMember.member_Linkedin}" target="_blank" title="Linkedin" data-cursor-effect-hover="fit"><i class="fab fa-linkedin-in"></i></a></li>
+       </ul>
+    </div>
 </div>
-  `;
-  
-  ElowlstageTeam.innerHTML += TeamItem;
+    
+    `;
+    ElindexTeamMemRow.innerHTML+=singleMemberData;
+  }
 }
+
+
+function setTeamMemberid(getMemberId){
+  sessionStorage.setItem("ClickedMember", getMemberId);
 }
-
-// Call the initialization function after adding the items
-initializeOwlCarousel();
-
-// Previous button event listener
-const owlPrevButton = document.getElementById("owlPrevButton");
-owlPrevButton.addEventListener("click", function() {
-$('.owl-carousel').trigger('prev.owl.carousel');
-});
-
-// Next button event listener
-const owlNextButton = document.getElementById("owlNextButton");
-owlNextButton.addEventListener("click", function() {
-$('.owl-carousel').trigger('next.owl.carousel');
-});
