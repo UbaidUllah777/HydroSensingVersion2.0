@@ -221,9 +221,9 @@ for(const singleTeamMember of firstFourTeammembers){
         </a>
         <span class="post">${singleTeamMember.member_designation}</span>
         <ul  class="pt-2 pb-2  social-icons social-icons-clean social-icons-clean-with-border social-icons-small">
-        <li class="social-icons-facebook"><a style="background: #3b5a9a  !important;"  href="${singleTeamMember.member_Facebook}" target="_blank" title="Facebook" data-cursor-effect-hover="fit"><i class="fab fa-facebook-f"></i></a></li>
-        <li class="social-icons-twitter mx-2"><a  style="background: #1aa9e1  !important;"  href="${singleTeamMember.member_Tiwtter}" target="_blank" title="Twitter" data-cursor-effect-hover="fit"><i class="fab fa-twitter"></i></a></li>
-        <li class="social-icons-linkedin "><a style="background: #0073b2 !important;" href="${singleTeamMember.member_Linkedin}" target="_blank" title="Linkedin" data-cursor-effect-hover="fit"><i class="fab fa-linkedin-in"></i></a></li>
+        <li class=" TeamMemberSocial social-icons-facebook"><a style="background: #3b5a9a  !important;"  href="${singleTeamMember.member_Facebook}" target="_blank" title="Facebook" data-cursor-effect-hover="fit"><i class="fab fa-facebook-f"></i></a></li>
+        <li class=" TeamMemberSocial social-icons-twitter mx-2"><a  style="background: #1aa9e1  !important;"  href="${singleTeamMember.member_Tiwtter}" target="_blank" title="Twitter" data-cursor-effect-hover="fit"><i class="fab fa-twitter"></i></a></li>
+        <li class=" TeamMemberSocial social-icons-linkedin "><a style="background: #0073b2 !important;" href="${singleTeamMember.member_Linkedin}" target="_blank" title="Linkedin" data-cursor-effect-hover="fit"><i class="fab fa-linkedin-in"></i></a></li>
        </ul>
     </div>
 </div>
