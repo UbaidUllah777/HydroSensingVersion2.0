@@ -115,6 +115,7 @@ const HydroBlogs = [
   },
 ];
 
+const pagination = document.getElementById("pagination");
 const LatestThreeBlogs = HydroBlogs.slice(-3);
 
 const ElindexBlogRow = document.getElementById("indexBlogRow");
@@ -155,3 +156,132 @@ for (const singleLatestBlog of LatestThreeBlogs) {
 function setBlogId(blogId) {
   sessionStorage.setItem("ClickedBlog", blogId);
 }
+
+
+
+
+const Elblog_recentBlogs=document.getElementById("blog_recentBlogs");
+const LatestFiveBlogs_blogPage = HydroBlogs.slice(-5);
+for (const singleLatestBlog of LatestFiveBlogs_blogPage) {
+    if(Elblog_recentBlogs){
+        const recentBlogItem=`<div>
+        <p
+        class="text-color-default text-uppercase text-1 mb-0 d-block text-decoration-none"
+        >${singleLatestBlog.blog_fullDate}
+        <span class="opacity-3 d-inline-block px-2">|</span> ${singleLatestBlog.blog_author}</p
+      >
+      <a  onclick="setBlogId('${singleLatestBlog.blog_id}')"
+        href="blog-post.html"
+        class="text-color-dark text-hover-primary font-weight-bold text-3 d-block pb-3 line-height-4"
+        >${singleLatestBlog.blog_heading}</a
+      >
+      </div>`;
+      Elblog_recentBlogs.innerHTML+=recentBlogItem;
+    }
+
+}
+
+
+
+
+  const blogsPerPage = 3; // Number of blogs to display per page
+  const blogs = HydroBlogs; // Copy the HydroBlogs array
+
+  function displayBlogs(page) {
+    const blogContainer = document.getElementById("blogContainer");
+    if(blogContainer){
+      blogContainer.innerHTML = ""; // Clear the container
+      const startIndex = (page - 1) * blogsPerPage;
+      const endIndex = startIndex + blogsPerPage;
+      const paginatedBlogs = blogs.slice(startIndex, endIndex);
+  
+      paginatedBlogs.forEach((blog) => {
+        const article = document.createElement("article");
+        article.className = "mb-5";
+        article.innerHTML = `
+          <div class="card bg-transparent border-0 custom-border-radius-1">
+            <div class="card-body p-0 z-index-1">
+              <a  onclick="setBlogId('${blog.blog_id}')" href="blog-post.html" data-cursor-effect-hover="plus">
+                <img class="card-img-top custom-border-radius-1 mb-2" src="${blog.blog_image}" alt="Card Image">
+              </a>
+              <p class="text-uppercase text-color-default text-1 my-2">
+                <time pubdate="" datetime="${blog.blog_fullDate}">${blog.blog_fullDate}</time>
+        
+                <span class="opacity-3 d-inline-block px-2">|</span>
+                ${blog.blog_author}
+              </p>
+              <div class="card-body p-0">
+                <h4 class="card-title text-5 font-weight-bold pb-1 mb-2">
+                  <a  onclick="setBlogId('${blog.blog_id}')"  class="text-color-dark text-color-hover-primary text-decoration-none" href="blog-post.html">${blog.blog_heading}</a>
+                </h4>
+                <p class="card-text mb-2 showOnlyThreeLines">
+                  ${blog.blog_paragraphs[0].paragraph}
+                </p>
+                <a   onclick="setBlogId('${blog.blog_id}')"  href="blog-post.html" class="text-decoration-none custom-link-hover-effects">
+                  <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                    Read More
+                    <div class="animated-icon animated fadeIn svg-fill-color-primary ms-2"><!--?xml version="1.0" ?-->
+                      <svg version="1.1" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="icon_241684820538634" data-filename="arrow-right.svg" width="27" height="27">
+                        <polygon points="1,26 44.586,26 38.293,32.293 39.707,33.707 48.414,25 39.707,16.293 38.293,17.707 44.586,24 1,24"></polygon>
+                      </svg>
+                    </div>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        `;
+        blogContainer.appendChild(article);
+      });
+    
+    }
+
+    
+  }
+  function displayPagination() {
+    if(pagination){
+
+      pagination.innerHTML = ""; // Clear the pagination links
+  
+      const totalPages = Math.ceil(blogs.length / blogsPerPage);
+    
+      for (let page = 1; page <= totalPages; page++) {
+        const listItem = document.createElement("li");
+        listItem.className = "page-item";
+        const link = document.createElement("a");
+        link.className = "page-link";
+        link.href = "#";
+        link.textContent = page;
+        listItem.appendChild(link);
+        pagination.appendChild(listItem);
+      }
+    
+      // Add active class to the first page item initially
+      pagination.querySelector("li:first-child").classList.add("active");
+    
+      // Add event listeners to pagination links
+      const pageLinks = document.querySelectorAll("#pagination .page-link");
+      pageLinks.forEach(function (link) {
+        link.addEventListener("click", function (event) {
+          event.preventDefault();
+          const page = parseInt(this.textContent);
+          displayBlogs(page);
+    
+          // Remove active class from all pagination links
+          pageLinks.forEach(function (link) {
+            link.parentNode.classList.remove("active");
+          });
+    
+          // Add active class to the clicked pagination link
+          this.parentNode.classList.add("active");
+        });
+      });
+
+    }
+  
+  }
+  
+  // Display the initial page
+  displayBlogs(1);
+  displayPagination();
+  
