@@ -1,23 +1,24 @@
 const HydroBlogs = [
   // Blog One
   {
-    blog_id: "BlogOne",
-    blog_heading: "Blog One",
+    blog_id: "March2023climaticvariations",
+    blog_heading:
+      "March 2023 month has interesting information regarding climatic variations",
 
-    blog_author: "author Name",
-    blog_day: "11",
-    blog_Month: "JAN",
-    blog_fullDate: "10 MAY 2023",
-    blog_image: "/img/blog/blog-1.jpg", //393x205
-    blog_area: "My Area",
+    blog_author: "Salah Ud Din",
+    blog_day: "10",
+    blog_Month: "APR",
+    blog_fullDate: "10 APR 2023",
+    blog_image: "/img/blog/blog1.jpg", //393x205
+    blog_area: "Climate Change Impact",
     blog_paragraphs: [
       {
         paragraph:
-          "1st Paragrapgh Laborum non incididunt et anim duis cupidatat consequat duis. Magna et consequat aliquip proident elit sit commodo dolore quis amet do. Dolore voluptate sunt dolore mollit velit ad quis cillum.Officia mollit ea ipsum exercitation qui. Velit exercitation magna consectetur eiusmod. Sint in ullamco laborum nostrud fugiat labore culpa duis nostrud minim aute pariatur. Nisi in mollit sit enim proident anim veniam duis. Esse laborum aliqua voluptate sit commodo irure elit. Cillum enim excepteur ex culpa occaecat nulla dolor labore aute excepteur consectetur quis.",
+          "Rainfall National rainfall for the month of March 2023 was largely above average (+42%) for whole Pakistan. However, Azad & Jammu Kashmir and Gilgit received less rainfall and were ranked 10th and 11th driest months with -59% and -74% below normal rainfall since 1961. KPK received 21% less rainfall. On the other hand, Balochistan (+132% above), Punjab (104% above) and Sindh (68% above) received rainfall and were ranked 8th, 10th and 11th wettest month since 1961.",
       },
       {
         paragraph:
-          "2nd ParagrapghSunt elit reprehenderit laborum elit proident ea enim. Nisi ullamco minim ad eiusmod. Voluptate dolor aliquip non exercitation adipisicing elit Lorem anim mollit ut fugiat deserunt proident. Nulla minim laboris exercitation magna. Consectetur non laborum ipsum aliqua id elit commodo et id eu cupidatat eiusmod mollit pariatur. Laboris et laborum qui velit nisi laboris ex adipisicing cupidatat eu in proident Lorem. Eu non ea pariatur eiusmod quis sint aute commodo excepteur dolor qui Lorem.Qui et labore ut esse. Adipisicing amet exercitation laboris ipsum veniam. Commodo voluptate deserunt est officia laboris sint laboris velit irure. Consectetur elit anim dolore amet. Laborum eiusmod ullamco dolor dolore anim nisi consequat Lorem cillum. Duis ipsum Lorem minim officia laboris dolor ullamco non.",
+          "Temperature March 2023 was +1.63 °C warmer than average and ranked 13th warmest March during past 63 years. The situation on regional scale was similar; Balochistan (+1.22 °C),KPK  (+2.01 °C), Sindh (+1.74 °C), AJK (+2.86 °C), Punjab (+1.36 °C) and GB (+3.39 °C) all recorded warmer than average temperatures. March 2023 mean maximum temperature +1.57 °C warmer than average. The average minimum temperature also +2.16 °C Warmer than the country-average and ranked 6th warmest mean minimum in March since 1961.",
       },
     ],
   },
@@ -157,14 +158,11 @@ function setBlogId(blogId) {
   sessionStorage.setItem("ClickedBlog", blogId);
 }
 
-
-
-
-const Elblog_recentBlogs=document.getElementById("blog_recentBlogs");
+const Elblog_recentBlogs = document.getElementById("blog_recentBlogs");
 const LatestFiveBlogs_blogPage = HydroBlogs.slice(-5);
 for (const singleLatestBlog of LatestFiveBlogs_blogPage) {
-    if(Elblog_recentBlogs){
-        const recentBlogItem=`<div>
+  if (Elblog_recentBlogs) {
+    const recentBlogItem = `<div>
         <p
         class="text-color-default text-uppercase text-1 mb-0 d-block text-decoration-none"
         >${singleLatestBlog.blog_fullDate}
@@ -176,29 +174,25 @@ for (const singleLatestBlog of LatestFiveBlogs_blogPage) {
         >${singleLatestBlog.blog_heading}</a
       >
       </div>`;
-      Elblog_recentBlogs.innerHTML+=recentBlogItem;
-    }
-
+    Elblog_recentBlogs.innerHTML += recentBlogItem;
+  }
 }
 
+const blogsPerPage = 3; // Number of blogs to display per page
+const blogs = HydroBlogs; // Copy the HydroBlogs array
 
+function displayBlogs(page) {
+  const blogContainer = document.getElementById("blogContainer");
+  if (blogContainer) {
+    blogContainer.innerHTML = ""; // Clear the container
+    const startIndex = (page - 1) * blogsPerPage;
+    const endIndex = startIndex + blogsPerPage;
+    const paginatedBlogs = blogs.slice(startIndex, endIndex);
 
-
-  const blogsPerPage = 3; // Number of blogs to display per page
-  const blogs = HydroBlogs; // Copy the HydroBlogs array
-
-  function displayBlogs(page) {
-    const blogContainer = document.getElementById("blogContainer");
-    if(blogContainer){
-      blogContainer.innerHTML = ""; // Clear the container
-      const startIndex = (page - 1) * blogsPerPage;
-      const endIndex = startIndex + blogsPerPage;
-      const paginatedBlogs = blogs.slice(startIndex, endIndex);
-  
-      paginatedBlogs.forEach((blog) => {
-        const article = document.createElement("article");
-        article.className = "mb-5";
-        article.innerHTML = `
+    paginatedBlogs.forEach((blog) => {
+      const article = document.createElement("article");
+      article.className = "mb-5";
+      article.innerHTML = `
           <div class="card bg-transparent border-0 custom-border-radius-1">
             <div class="card-body p-0 z-index-1">
               <a  onclick="setBlogId('${blog.blog_id}')" href="blog-post.html" data-cursor-effect-hover="plus">
@@ -231,57 +225,50 @@ for (const singleLatestBlog of LatestFiveBlogs_blogPage) {
             </div>
           </div>
         `;
-        blogContainer.appendChild(article);
-      });
-    
+      blogContainer.appendChild(article);
+    });
+  }
+}
+function displayPagination() {
+  if (pagination) {
+    pagination.innerHTML = ""; // Clear the pagination links
+
+    const totalPages = Math.ceil(blogs.length / blogsPerPage);
+
+    for (let page = 1; page <= totalPages; page++) {
+      const listItem = document.createElement("li");
+      listItem.className = "page-item";
+      const link = document.createElement("a");
+      link.className = "page-link";
+      link.href = "#";
+      link.textContent = page;
+      listItem.appendChild(link);
+      pagination.appendChild(listItem);
     }
 
-    
-  }
-  function displayPagination() {
-    if(pagination){
+    // Add active class to the first page item initially
+    pagination.querySelector("li:first-child").classList.add("active");
 
-      pagination.innerHTML = ""; // Clear the pagination links
-  
-      const totalPages = Math.ceil(blogs.length / blogsPerPage);
-    
-      for (let page = 1; page <= totalPages; page++) {
-        const listItem = document.createElement("li");
-        listItem.className = "page-item";
-        const link = document.createElement("a");
-        link.className = "page-link";
-        link.href = "#";
-        link.textContent = page;
-        listItem.appendChild(link);
-        pagination.appendChild(listItem);
-      }
-    
-      // Add active class to the first page item initially
-      pagination.querySelector("li:first-child").classList.add("active");
-    
-      // Add event listeners to pagination links
-      const pageLinks = document.querySelectorAll("#pagination .page-link");
-      pageLinks.forEach(function (link) {
-        link.addEventListener("click", function (event) {
-          event.preventDefault();
-          const page = parseInt(this.textContent);
-          displayBlogs(page);
-    
-          // Remove active class from all pagination links
-          pageLinks.forEach(function (link) {
-            link.parentNode.classList.remove("active");
-          });
-    
-          // Add active class to the clicked pagination link
-          this.parentNode.classList.add("active");
+    // Add event listeners to pagination links
+    const pageLinks = document.querySelectorAll("#pagination .page-link");
+    pageLinks.forEach(function (link) {
+      link.addEventListener("click", function (event) {
+        event.preventDefault();
+        const page = parseInt(this.textContent);
+        displayBlogs(page);
+
+        // Remove active class from all pagination links
+        pageLinks.forEach(function (link) {
+          link.parentNode.classList.remove("active");
         });
-      });
 
-    }
-  
+        // Add active class to the clicked pagination link
+        this.parentNode.classList.add("active");
+      });
+    });
   }
-  
-  // Display the initial page
-  displayBlogs(1);
-  displayPagination();
-  
+}
+
+// Display the initial page
+displayBlogs(1);
+displayPagination();
