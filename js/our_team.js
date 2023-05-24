@@ -199,20 +199,18 @@ const teamMembers = [
         paragraph: "",
       },
     ],
-  }
+  },
 ];
 // *** ALL DATA of Our Focus Area : END ***
 
-
-
-const ElindexTeamMemRow=document.getElementById("indexTeamMemRow");
+const ElindexTeamMemRow = document.getElementById("indexTeamMemRow");
 const firstFourTeammembers = teamMembers.slice(0, 4);
-for(const singleTeamMember of firstFourTeammembers){
-  if(ElindexTeamMemRow){
-    const singleMemberData=`
+for (const singleTeamMember of firstFourTeammembers) {
+  if (ElindexTeamMemRow) {
+    const singleMemberData = `
     <div class="col-md-3 col-sm-6">
     <div class="our-team">
-    <a  onclick="setTeamMemberid('${singleTeamMember.member_id}')" href="#" class=" text-decoration-none">
+    <a  onclick="setTeamMemberid('${singleTeamMember.member_id}')" href="team-member-detail.html" class=" text-decoration-none">
         <div class="pic">
             <img src="${singleTeamMember.member_image}" alt="${singleTeamMember.member_heading}">
         </div>
@@ -229,11 +227,37 @@ for(const singleTeamMember of firstFourTeammembers){
 </div>
     
     `;
-    ElindexTeamMemRow.innerHTML+=singleMemberData;
+    ElindexTeamMemRow.innerHTML += singleMemberData;
   }
 }
 
+const ElTeamPageMemRow = document.getElementById("TeamPageMemRow");
+for (const singleMember of teamMembers) {
+  if (ElTeamPageMemRow) {
+    const singleMemberitem = `
+    <div class="col-md-3 col-sm-6 my-3">
+    <div class="our-team">
+    <a  onclick="setTeamMemberid('${singleMember.member_id}')" href="team-member-detail.html" class=" text-decoration-none">
+        <div class="pic">
+            <img src="${singleMember.member_image}" alt="${singleMember.member_heading}">
+        </div>
+       
+          <h4 class="title  text-color-hover-secondary ">${singleMember.member_heading}</h4>
+        </a>
+        <span class="post">${singleMember.member_designation}</span>
+        <ul  class="pt-2 pb-2  social-icons social-icons-clean social-icons-clean-with-border social-icons-small">
+        <li class=" TeamMemberSocial social-icons-facebook"><a style="background: #3b5a9a  !important;"  href="${singleMember.member_Facebook}" target="_blank" title="Facebook" data-cursor-effect-hover="fit"><i class="fab fa-facebook-f"></i></a></li>
+        <li class=" TeamMemberSocial social-icons-twitter mx-2"><a  style="background: #1aa9e1  !important;"  href="${singleMember.member_Tiwtter}" target="_blank" title="Twitter" data-cursor-effect-hover="fit"><i class="fab fa-twitter"></i></a></li>
+        <li class=" TeamMemberSocial social-icons-linkedin "><a style="background: #0073b2 !important;" href="${singleMember.member_Linkedin}" target="_blank" title="Linkedin" data-cursor-effect-hover="fit"><i class="fab fa-linkedin-in"></i></a></li>
+       </ul>
+    </div>
+</div>
+    
+    `;
+    ElTeamPageMemRow.innerHTML += singleMemberitem;
+  }
+}
 
-function setTeamMemberid(getMemberId){
+function setTeamMemberid(getMemberId) {
   sessionStorage.setItem("ClickedMember", getMemberId);
 }
