@@ -89,6 +89,8 @@
 
     <!-- Head Libs -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
+    <script src="js/our_team.js" defer></script>
+    <script src="js/team_member_details.js" defer></script>
   </head>
 
   <body
@@ -156,7 +158,7 @@
           </div>
         </section>
 
-        <div class="container pt-3 pb-5 mt-4 mb-5">
+        <div class="container-fluid pt-3 pb-5 mt-4 mb-5">
           <div class="row">
             <div class="col text-center">
               <h2
@@ -164,7 +166,7 @@
                 data-appear-animation="fadeInUpShorter"
                 data-appear-animation-delay="250"
               >
-                The best professionals for your business
+                Meet Our professional Team member
               </h2>
               <p
                 class="text-3-5 mb-5 appear-animation"
@@ -179,18 +181,14 @@
             </div>
           </div>
 
-          <div
-            id="chris"
-            class="row appear-animation"
-            data-appear-animation="fadeInUpShorter"
-            data-appear-animation-delay="250"
-          >
+          <div id="chris" class="row">
             <div class="col">
               <div
                 class="d-flex flex-wrap bg-light box-shadow-4 custom-link-hover-effects"
               >
                 <div
-                  class="position-relative lazyload col-12 col-md-4"
+                  id="TM_detail_memberImage"
+                  class="position-relative col-12 col-md-4"
                   data-bg-src="img/dms/hydroSensing/team/team-5.jpg"
                   style="
                     background-position: center;
@@ -200,19 +198,7 @@
                 >
                   <div
                     class="position-absolute bottom-0 left-0 w-100 py-3 px-4 z-index-3"
-                  >
-                    <div class="custom-crooked-line">
-                      <img
-                        width="154"
-                        height="26"
-                        src="img/dms/hydroSensing/icons/infinite-crooked-line.svg"
-                        alt=""
-                        data-icon
-                        data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
-                        style="width: 154px"
-                      />
-                    </div>
-                  </div>
+                  ></div>
                 </div>
                 <div class="col-md-8 p-5">
                   <div
@@ -220,11 +206,17 @@
                   >
                     <div>
                       <h2
-                        class="font-weight-semibold text-6 line-height-1 mb-0"
+                        id="TM_detail_memberHeading"
+                        class="font-weight-semibold text-6 line-height-1 mb-0 text-color-secondary"
                       >
                         Chris Doe
                       </h2>
-                      <p class="text-3-5 mb-0">CEO and Founder</p>
+                      <p
+                        id="TM_detail_memberDesg"
+                        class="text-3-5 mb-0 text-color-primary"
+                      >
+                        CEO and Founder
+                      </p>
                     </div>
                     <div
                       class="bg-color-grey ms-4 me-1 d-none d-md-block"
@@ -233,18 +225,20 @@
                     <ul
                       class="social-icons social-icons-clean social-icons-icon-dark social-icons-big m-0 ms-lg-2"
                     >
-                      <li class="social-icons-instagram">
+                      <li class="social-icons-linkedin">
                         <a
-                          href="http://www.instagram.com/"
+                          id="TM_detail_memberLinkedin"
+                          href="http://www.linkedin.com/"
                           target="_blank"
                           class="text-4"
-                          title="Instagram"
+                          title="linkedin"
                           data-cursor-effect-hover="fit"
-                          ><i class="fab fa-instagram"></i
+                          ><i class="fab fa-linkedin"></i
                         ></a>
                       </li>
                       <li class="social-icons-twitter">
                         <a
+                          id="TM_detail_memberTwitter"
                           href="http://www.twitter.com/"
                           target="_blank"
                           class="text-4"
@@ -255,6 +249,7 @@
                       </li>
                       <li class="social-icons-facebook">
                         <a
+                          id="TM_detail_memberFacebook"
                           href="http://www.facebook.com/"
                           target="_blank"
                           class="text-4"
@@ -266,31 +261,15 @@
                     </ul>
                   </div>
                   <div
+                    id="TM_detail_memberParas"
                     class="custom-read-more-style-1"
                     data-plugin-readmore
                     data-plugin-options="{
 											'buttonOpenLabel': 'View More <i class=\'fas fa-chevron-down text-2 ms-1\'></i>',
 											'buttonCloseLabel': 'View Less <i class=\'fas fa-chevron-up text-2 ms-1\'></i>',
-											'maxHeight': 160
+											'maxHeight': 500
 										}"
                   >
-                    <p class="text-3-5">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Curabitur vulputate posuere tortor luctus vulputate. Cras
-                      laoreet pretium blandit.
-                    </p>
-                    <p class="text-3-5">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Curabitur vulputate posuere tortor luctus vulputate. Cras
-                      laoreet pretium blandit. Lorem ipsum dolor sit amet,
-                      consectetur adipiscing elit. Curabitur vulputate posuere
-                      tortor luctus vulputate. Cras laoreet pretium blandit.
-                    </p>
-                    <p class="text-3-5">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Curabitur vulputate posuere tortor luctus vulputate. Cras
-                      laoreet pretium blandit.
-                    </p>
                     <div class="readmore-button-wrapper d-none">
                       <a href="#" class="text-decoration-none">
                         View More
