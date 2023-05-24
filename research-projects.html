@@ -184,42 +184,40 @@
             <div class="container py-2">
               <ul
                 class="nav nav-pills sort-source sort-source-style-3 justify-content-center"
-                data-sort-id="portfolio"
-                data-option-key="filter"
-                data-plugin-options="{'layoutMode': 'fitRows', 'filter': '*'}"
+
+           
               >
-                <li class="nav-item active" data-option-value="*">
-                  <a class="nav-link text-2-5 text-uppercase active" href="#"
+                <li class="nav-item " onclick="loadResearch('allResearchs',this)" >
+                  <a id="showAll_Rp" class="nav-link RP_nav   text-2-5 text-uppercase active" href="#showAll_Rp"
                     >Show All</a
                   >
                 </li>
-                <li class="nav-item" data-option-value=".CompletedResearchProjects">
-                  <a class="nav-link text-2-5 text-uppercase" href="#"
+                <li class="nav-item" onclick="loadResearch('CompletedResearchProjects',this)" >
+                  <a id="CompletedResearchProjects" class="nav-link RP_nav text-2-5 text-uppercase" href="#CompletedResearchProjects"
                     >Completed Research Projects</a
                   >
                 </li>
-                <li class="nav-item" data-option-value=".ConsultancyServices">
-                  <a class="nav-link text-2-5 text-uppercase" href="#">Consultancy Services</a>
+                <li  class="nav-item" onclick="loadResearch('ConsultancyServices',this)" >
+                  <a id="ConsultancyServices" class="nav-link RP_nav text-2-5 text-uppercase" href="#ConsultancyServices">Consultancy Services</a>
                 </li>
-                <li class="nav-item" data-option-value=".OngoingResearchProjects">
-                  <a class="nav-link text-2-5 text-uppercase" href="#"
+                <li class="nav-item" onclick="loadResearch('OngoingResearchProjects',this)" >
+                  <a id="OngoingResearchProjects" class="nav-link RP_nav text-2-5 text-uppercase" href="#OngoingResearchProjects"
                     >Ongoing Research Projects</a
                   >
                 </li>
          
               </ul>
 
-              <div id="research_projects_container"
-                class="sort-destination-loader sort-destination-loader-showing mt-4 pt-2"
-              >
-                <div id="research_projects_row"
-                  class="row portfolio-list sort-destination"
-                  data-sort-id="portfolio"
+                <div id="research_projects_container"
+                  class="row my-5"
                 >
                  
 
+
+
                 </div>
-              </div>
+
+               
 
 
 
