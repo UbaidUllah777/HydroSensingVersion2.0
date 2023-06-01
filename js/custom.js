@@ -108,13 +108,13 @@ const headerContent = `
                 </li>
                 <!-- Resources DropDown :START -->
                 <li class="dropdown">
-                  <a class="dropdown-item dropdown-toggle" href="#">
+                  <a id="idHeaderLinkresources" class="dropdown-item dropdown-toggle" href="#">
                       Resources
                       <i class="fas fa-chevron-down"></i>
                   </a>
                   <ul class="dropdown-menu">
                       <li>
-                          <a class="dropdown-item" href="#">
+                          <a class="dropdown-item" href="Entrepreneurship.html">
                               Entrepreneurship
                             
                           </a>
@@ -147,7 +147,7 @@ const headerContent = `
                           </ul> -->
                       </li>
                       <li >
-                          <a class="dropdown-item" href="#">
+                          <a  class="dropdown-item" href="opportunities.html">
                               Opportunities 
       
                           </a>
