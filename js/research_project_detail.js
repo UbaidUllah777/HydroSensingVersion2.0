@@ -1,10 +1,15 @@
 
 function getResearchProject (){
-    var ClickedResearchProject = sessionStorage.getItem('ClikedResearch');
-    return ClickedResearchProject
+  var ClickedResearchProject = sessionStorage.getItem('ClikedResearch');
+  return ClickedResearchProject
+}
+function getResearchCategory (){
+    var ClickedResearchCategory=sessionStorage.getItem('ResearchCetegory');
+    return ClickedResearchCategory
   }
   
 const ResearchProject =getResearchProject();
+const ResearchCategory =getResearchCategory();
 
 
 const ElRP_detail_Heading=document.getElementById("RP_detail_Heading");
@@ -45,3 +50,59 @@ if(singleClickedResearch.RP_id==ResearchProject){
 }
 
 } 
+
+
+
+
+// Realted Projects : START
+
+const Elrelated_RP_container_RP_detail=document.getElementById("related_RP_container_RP_detail");
+
+if(Elrelated_RP_container_RP_detail){
+
+
+
+  Elrelated_RP_container_RP_detail.innerHTML='';
+
+  
+
+for(const singleProject of researchProjects){
+    if(singleProject.RP_category==ResearchCategory){
+        var researchitem=`
+        <div class="col-sm-6 col-lg-3 my-4 ${singleProject.RP_status_id}">
+        <div class="portfolio-item">
+          <a onclick="setResearchId('${singleProject.RP_id}','${singleProject.RP_category}')"  href="research-project-detial.html">
+            <span
+              class="thumb-info thumb-info-lighten border-radius-0"
+            >
+              <span class="thumb-info-wrapper border-radius-0">
+                <img
+                  src="${singleProject.RP_image}"
+                  class="img-fluid border-radius-0"
+                  alt="${singleProject.RP_heading}"
+                />
+
+                <span class="thumb-info-title">
+                  <span class="thumb-info-inner">${singleProject.RP_heading}</span>
+                  <span class="thumb-info-type">${""}</span>
+                </span>
+                <span class="thumb-info-action">
+                  <span
+                    class="thumb-info-action-icon bg-dark opacity-8"
+                    ><i class="fas fa-plus"></i
+                  ></span>
+                </span>
+              </span>
+            </span>
+          </a>
+        </div>
+      </div>
+
+
+        
+        `;
+        Elrelated_RP_container_RP_detail.innerHTML+=researchitem;
+    }
+
+}
+}

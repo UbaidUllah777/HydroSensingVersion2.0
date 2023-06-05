@@ -7,6 +7,7 @@ const researchProjects=[
         RP_status:"Completed Research Projects",
         RP_image:"img/projects/project.jpg",
         RP_detail_image:"img/projects/project-short.jpg",
+        RP_category: "categ1",
 
         RP_paragraphs:[
           {paragraph:"Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse."},
@@ -34,6 +35,7 @@ const researchProjects=[
         RP_status:"Completed Research Projects",
         RP_image:"img/projects/project.jpg",
         RP_detail_image:"img/projects/project-short.jpg",
+        RP_category: "categ1",
         RP_paragraphs:[
           {paragraph:"Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse."},
           {paragraph:"Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse."},
@@ -58,6 +60,7 @@ const researchProjects=[
         RP_status:"Consultancy Services",
         RP_image:"img/projects/project.jpg",
         RP_detail_image:"img/projects/project-short.jpg",
+        RP_category: "categ1",
         RP_paragraphs:[
           {paragraph:"Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse."},
           {paragraph:"Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse."},
@@ -82,6 +85,7 @@ const researchProjects=[
         RP_status:"Consultancy Services",
         RP_image:"img/projects/project.jpg",
         RP_detail_image:"img/projects/project-short.jpg",
+        RP_category: "categ2",
         RP_paragraphs:[
           {paragraph:"Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse."},
           {paragraph:"Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse."},
@@ -106,6 +110,7 @@ const researchProjects=[
         RP_status:"Consultancy Services",
         RP_image:"img/projects/project.jpg",
         RP_detail_image:"img/projects/project-short.jpg",
+        RP_category: "categ3",
         RP_paragraphs:[
           {paragraph:"Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse."},
           {paragraph:"Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse."},
@@ -130,6 +135,7 @@ const researchProjects=[
         RP_status:"Ongoing Research Projects",
         RP_image:"img/projects/project.jpg",
         RP_detail_image:"img/projects/project-short.jpg",
+        RP_category: "categ4",
         RP_paragraphs:[
           {paragraph:"Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse."},
           {paragraph:"Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse."},
@@ -169,7 +175,7 @@ if(researchId!='allResearchs'){
           var researchitem=`
           <div class="col-sm-6 col-lg-3 my-4  ${singleProject.RP_status_id}">
           <div class="portfolio-item">
-            <a onclick="setResearchId('${singleProject.RP_id}')" href="research-project-detial.html">
+            <a onclick="setResearchId('${singleProject.RP_id}','${singleProject.RP_category}')" href="research-project-detial.html">
               <span
                 class="thumb-info thumb-info-lighten border-radius-0"
               >
@@ -209,7 +215,7 @@ else if(researchId=='allResearchs'){
           var researchitem=`
           <div class="col-sm-6 col-lg-3 my-4 ${singleProject.RP_status_id}">
           <div class="portfolio-item">
-            <a  onclick="setResearchId('${singleProject.RP_id}')"  href="research-project-detial.html">
+            <a onclick="setResearchId('${singleProject.RP_id}','${singleProject.RP_category}')"  href="research-project-detial.html">
               <span
                 class="thumb-info thumb-info-lighten border-radius-0"
               >
@@ -264,6 +270,7 @@ showAllNavLink.classList.add('active');
 loadResearch('allResearchs',null);
 
 
-function setResearchId(ResearchId){
+function setResearchId(ResearchId,ResearchCetegory){
     sessionStorage.setItem("ClikedResearch", ResearchId);
+    sessionStorage.setItem("ResearchCetegory",ResearchCetegory)
 }
