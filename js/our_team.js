@@ -69,7 +69,56 @@ const teamMembers = [
         AcadProfName:"ORCID",
         AcadProfURL:"https://orcid.org/my-orcid?orcid=0000-0001-8927-3467",
       },
-    ]
+    ],
+    member_ResearchInterests:[
+      {
+        ResearchInterest:"Satellite Precipitation Estimation",
+      },
+      {
+        ResearchInterest:"Merging Satellite Precipitation Products and their applications",
+      },
+      {
+        ResearchInterest:"GIS and Remote Sensing applications in Hydrology",
+      },
+      {
+        ResearchInterest:"Drought",
+      },
+      {
+        ResearchInterest:"Hydrological Modeling (both surface and groundwater)",
+      },
+    ],
+    member_ReprPublications:[
+      {
+        publication:"Rahman, K.U., Pham, Q.B., Jadoon, K.Z., Shahid, M., Kushwaha, D.P., Duan, Z., Mohammadi, B., Khedher, K.M., Anh, D.T., “Comparison of machine learning and process-based SWAT model in simulating streamflow in the Upper Indus Basin”, accepted in Applied Water Science (2022).",
+      },
+      {
+        publication:"Rahman, K.U., Hussain, A., Ejaz, N., Shahid, M., Duan, Z., Mohammadi, B., Hoai, P.N., Pham, Q.B., Khedher, K.M. and Anh, D.T., 2022. Evaluating the impact of the environment on depleting groundwater resources: a case study from a semi-arid and arid climatic region. Hydrological Sciences Journal, pp.1-15.",
+      },
+      {
+        publication:"Rahman, K.U., Shang, S. and Zohaib, M., 2021. Assessment of Merged Satellite Precipitation Datasets in Monitoring Meteorological Drought over Pakistan. Remote Sensing, 13(9), p.1662.",
+      },
+      {
+        publication:"Rahman, K.U., Shang, S., Shahid, M., Wen, Y. and Khan, A.J., 2020. Development of a novel weighted average least squares-based ensemble multi-satellite precipitation dataset and its comprehensive evaluation over Pakistan. Atmospheric Research, 246, p.105133.",
+      },
+      {
+        publication:"Rahman, K.U., Shang, S., Shahid, M. and Wen, Y., 2020. Hydrological evaluation of merged satellite precipitation datasets for streamflow simulation using SWAT: a case study of Potohar Plateau, Pakistan. Journal of Hydrology, 587, p.125040.",
+      },
+      {
+        publication:"Rahman, K.U., Shang, S., Shahid, M., Wen, Y. and Khan, Z., 2020. Application of a dynamic clustered bayesian model averaging (DCBA) algorithm for merging multisatellite precipitation products over Pakistan. Journal of Hydrometeorology, 21(1), pp.17-37.",
+      },
+      {
+        publication:"Rahman, K.U., Shang, S., Shahid, M. and Wen, Y., 2019. An appraisal of dynamic bayesian model averaging-based merged multi-satellite precipitation datasets over complex topography and the diverse climate of Pakistan. Remote Sensing, 12(1), p.10.",
+      },
+      {
+        publication:"Rahman, K.U., Shang, S., Shahid, M. and Wen, Y., 2019. Performance assessment of SM2RAIN-CCI and SM2RAIN-ASCAT precipitation products over Pakistan. Remote Sensing, 11(17), p.2040.",
+      },
+      {
+        publication:"Balkhair, K.S. and Rahman, K.U., 2021. Development and assessment of rainwater harvesting suitability map using analytical hierarchy process, GIS and RS techniques. Geocarto International, 36(4), pp.421-448.",
+      },
+      {
+        publication:"Balkhair, K.S. and Rahman, K.U., 2017. Sustainable and economical small-scale and low-head hydropower generation: A promising alternative potential solution for energy generation at local and regional scale. Applied Energy, 188, pp.378-391.",
+      },
+    ],
 
 
   },
@@ -128,6 +177,52 @@ const teamMembers = [
         To:"SEP 2021",
         designation:"Second Designation",
         experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
+      },
+    ],
+    member_AcadProf:[
+      {
+        AcadProfName:"Google Scholar",
+        AcadProfURL:" https://scholar.google.com/citations?user=I9_x85wAAAAJ&hl=en",
+      },
+      {
+        AcadProfName:"ResearchGate",
+        AcadProfURL:"https://www.researchgate.net/profile/Khalil-Rahman-3",
+      },
+      {
+        AcadProfName:"Publons",
+        AcadProfURL:" https://publons.com/researcher/2913773/khalil-ur-rahman/",
+      },
+      {
+        AcadProfName:"ORCID",
+        AcadProfURL:"https://orcid.org/my-orcid?orcid=0000-0001-8927-3467",
+      },
+    ],
+    member_ResearchInterests:[
+      {
+        ResearchInterest:"Satellite Precipitation Estimation",
+      },
+      {
+        ResearchInterest:"Merging Satellite Precipitation Products and their applications",
+      },
+      {
+        ResearchInterest:"GIS and Remote Sensing applications in Hydrology",
+      },
+      {
+        ResearchInterest:"Drought",
+      },
+      {
+        ResearchInterest:"Hydrological Modeling (both surface and groundwater)",
+      },
+    ],
+    member_ReprPublications:[
+      {
+        publication:"",
+      },
+      {
+        publication:"",
+      },
+      {
+        publication:"",
       },
     ],
   },
@@ -189,6 +284,53 @@ const teamMembers = [
         experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
       },
     ],
+    member_AcadProf:[
+      {
+        AcadProfName:"Google Scholar",
+        AcadProfURL:" https://scholar.google.com/citations?user=I9_x85wAAAAJ&hl=en",
+      },
+      {
+        AcadProfName:"ResearchGate",
+        AcadProfURL:"https://www.researchgate.net/profile/Khalil-Rahman-3",
+      },
+      {
+        AcadProfName:"Publons",
+        AcadProfURL:" https://publons.com/researcher/2913773/khalil-ur-rahman/",
+      },
+      {
+        AcadProfName:"ORCID",
+        AcadProfURL:"https://orcid.org/my-orcid?orcid=0000-0001-8927-3467",
+      },
+    ],
+    member_ResearchInterests:[
+      {
+        ResearchInterest:"Satellite Precipitation Estimation",
+      },
+      {
+        ResearchInterest:"Merging Satellite Precipitation Products and their applications",
+      },
+      {
+        ResearchInterest:"GIS and Remote Sensing applications in Hydrology",
+      },
+      {
+        ResearchInterest:"Drought",
+      },
+      {
+        ResearchInterest:"Hydrological Modeling (both surface and groundwater)",
+      },
+    ],
+    
+    member_ReprPublications:[
+      {
+        publication:"",
+      },
+      {
+        publication:"",
+      },
+      {
+        publication:"",
+      },
+    ],
   },
 
   // *** Dr Shahid profile ***
@@ -246,6 +388,53 @@ const teamMembers = [
         To:"SEP 2021",
         designation:"Second Designation",
         experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
+      },
+    ],
+    member_AcadProf:[
+      {
+        AcadProfName:"Google Scholar",
+        AcadProfURL:" https://scholar.google.com/citations?user=I9_x85wAAAAJ&hl=en",
+      },
+      {
+        AcadProfName:"ResearchGate",
+        AcadProfURL:"https://www.researchgate.net/profile/Khalil-Rahman-3",
+      },
+      {
+        AcadProfName:"Publons",
+        AcadProfURL:" https://publons.com/researcher/2913773/khalil-ur-rahman/",
+      },
+      {
+        AcadProfName:"ORCID",
+        AcadProfURL:"https://orcid.org/my-orcid?orcid=0000-0001-8927-3467",
+      },
+    ],
+    member_ResearchInterests:[
+      {
+        ResearchInterest:"Satellite Precipitation Estimation",
+      },
+      {
+        ResearchInterest:"Merging Satellite Precipitation Products and their applications",
+      },
+      {
+        ResearchInterest:"GIS and Remote Sensing applications in Hydrology",
+      },
+      {
+        ResearchInterest:"Drought",
+      },
+      {
+        ResearchInterest:"Hydrological Modeling (both surface and groundwater)",
+      },
+    ],
+    
+    member_ReprPublications:[
+      {
+        publication:"",
+      },
+      {
+        publication:"",
+      },
+      {
+        publication:"",
       },
     ],
   },
@@ -307,6 +496,53 @@ const teamMembers = [
         experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
       },
     ],
+    member_AcadProf:[
+      {
+        AcadProfName:"Google Scholar",
+        AcadProfURL:" https://scholar.google.com/citations?user=I9_x85wAAAAJ&hl=en",
+      },
+      {
+        AcadProfName:"ResearchGate",
+        AcadProfURL:"https://www.researchgate.net/profile/Khalil-Rahman-3",
+      },
+      {
+        AcadProfName:"Publons",
+        AcadProfURL:" https://publons.com/researcher/2913773/khalil-ur-rahman/",
+      },
+      {
+        AcadProfName:"ORCID",
+        AcadProfURL:"https://orcid.org/my-orcid?orcid=0000-0001-8927-3467",
+      },
+    ],
+    member_ResearchInterests:[
+      {
+        ResearchInterest:"Satellite Precipitation Estimation",
+      },
+      {
+        ResearchInterest:"Merging Satellite Precipitation Products and their applications",
+      },
+      {
+        ResearchInterest:"GIS and Remote Sensing applications in Hydrology",
+      },
+      {
+        ResearchInterest:"Drought",
+      },
+      {
+        ResearchInterest:"Hydrological Modeling (both surface and groundwater)",
+      },
+    ],
+    
+    member_ReprPublications:[
+      {
+        publication:"",
+      },
+      {
+        publication:"",
+      },
+      {
+        publication:"",
+      },
+    ],
   },
 
   // *** Dr ProfDrHamzaFarooqGabriel profile ***
@@ -364,6 +600,53 @@ const teamMembers = [
         To:"SEP 2021",
         designation:"Second Designation",
         experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
+      },
+    ],
+    member_AcadProf:[
+      {
+        AcadProfName:"Google Scholar",
+        AcadProfURL:" https://scholar.google.com/citations?user=I9_x85wAAAAJ&hl=en",
+      },
+      {
+        AcadProfName:"ResearchGate",
+        AcadProfURL:"https://www.researchgate.net/profile/Khalil-Rahman-3",
+      },
+      {
+        AcadProfName:"Publons",
+        AcadProfURL:" https://publons.com/researcher/2913773/khalil-ur-rahman/",
+      },
+      {
+        AcadProfName:"ORCID",
+        AcadProfURL:"https://orcid.org/my-orcid?orcid=0000-0001-8927-3467",
+      },
+    ],
+    member_ResearchInterests:[
+      {
+        ResearchInterest:"Satellite Precipitation Estimation",
+      },
+      {
+        ResearchInterest:"Merging Satellite Precipitation Products and their applications",
+      },
+      {
+        ResearchInterest:"GIS and Remote Sensing applications in Hydrology",
+      },
+      {
+        ResearchInterest:"Drought",
+      },
+      {
+        ResearchInterest:"Hydrological Modeling (both surface and groundwater)",
+      },
+    ],
+    
+    member_ReprPublications:[
+      {
+        publication:"",
+      },
+      {
+        publication:"",
+      },
+      {
+        publication:"",
       },
     ],
   },
@@ -425,6 +708,53 @@ const teamMembers = [
         experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
       },
     ],
+    member_AcadProf:[
+      {
+        AcadProfName:"Google Scholar",
+        AcadProfURL:" https://scholar.google.com/citations?user=I9_x85wAAAAJ&hl=en",
+      },
+      {
+        AcadProfName:"ResearchGate",
+        AcadProfURL:"https://www.researchgate.net/profile/Khalil-Rahman-3",
+      },
+      {
+        AcadProfName:"Publons",
+        AcadProfURL:" https://publons.com/researcher/2913773/khalil-ur-rahman/",
+      },
+      {
+        AcadProfName:"ORCID",
+        AcadProfURL:"https://orcid.org/my-orcid?orcid=0000-0001-8927-3467",
+      },
+    ],
+    member_ResearchInterests:[
+      {
+        ResearchInterest:"Satellite Precipitation Estimation",
+      },
+      {
+        ResearchInterest:"Merging Satellite Precipitation Products and their applications",
+      },
+      {
+        ResearchInterest:"GIS and Remote Sensing applications in Hydrology",
+      },
+      {
+        ResearchInterest:"Drought",
+      },
+      {
+        ResearchInterest:"Hydrological Modeling (both surface and groundwater)",
+      },
+    ],
+    
+    member_ReprPublications:[
+      {
+        publication:"",
+      },
+      {
+        publication:"",
+      },
+      {
+        publication:"",
+      },
+    ],
   },
 
   // *** Mr Nouman  profile ***
@@ -482,6 +812,53 @@ const teamMembers = [
         To:"SEP 2021",
         designation:"Second Designation",
         experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
+      },
+    ],
+    member_AcadProf:[
+      {
+        AcadProfName:"Google Scholar",
+        AcadProfURL:" https://scholar.google.com/citations?user=I9_x85wAAAAJ&hl=en",
+      },
+      {
+        AcadProfName:"ResearchGate",
+        AcadProfURL:"https://www.researchgate.net/profile/Khalil-Rahman-3",
+      },
+      {
+        AcadProfName:"Publons",
+        AcadProfURL:" https://publons.com/researcher/2913773/khalil-ur-rahman/",
+      },
+      {
+        AcadProfName:"ORCID",
+        AcadProfURL:"https://orcid.org/my-orcid?orcid=0000-0001-8927-3467",
+      },
+    ],
+    member_ResearchInterests:[
+      {
+        ResearchInterest:"Satellite Precipitation Estimation",
+      },
+      {
+        ResearchInterest:"Merging Satellite Precipitation Products and their applications",
+      },
+      {
+        ResearchInterest:"GIS and Remote Sensing applications in Hydrology",
+      },
+      {
+        ResearchInterest:"Drought",
+      },
+      {
+        ResearchInterest:"Hydrological Modeling (both surface and groundwater)",
+      },
+    ],
+    
+    member_ReprPublications:[
+      {
+        publication:"",
+      },
+      {
+        publication:"",
+      },
+      {
+        publication:"",
       },
     ],
   },

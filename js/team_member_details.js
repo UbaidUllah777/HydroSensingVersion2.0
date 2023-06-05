@@ -28,6 +28,8 @@ const ElTM_detail_memberParas = document.getElementById(
 const ElTM_detail_memberEducation=document.getElementById("TM_detail_memberEducation");
 const ElTM_detail_memberExperience=document.getElementById("TM_detail_memberExperience");
 const ELTM_detail_memberAcadProf=document.getElementById("TM_detail_memberAcadProf");
+const ElTM_detail_memberRsrchInt=document.getElementById("TM_detail_memberRsrchInt");
+const ElTM_detail_memberReprPublications=document.getElementById("TM_detail_memberReprPublications");
 
 
 
@@ -100,6 +102,30 @@ for (const singleMember of teamMembers) {
         ELTM_detail_memberAcadProf.appendChild(liElement);
 
       }
+
+
+
+      
+      for (const singleRsrchInt of singleMember.member_ResearchInterests) {
+        const liElement = document.createElement("li");
+        liElement.classList.add("my-3")
+        liElement.textContent = singleRsrchInt.ResearchInterest ;
+        ElTM_detail_memberRsrchInt.appendChild(liElement);
+
+      }
+
+      
+
+      
+      for (const singleRsrchPub of singleMember.member_ReprPublications) {
+        const liElement = document.createElement("li");
+        liElement.classList.add("my-3")
+        liElement.textContent = singleRsrchPub.publication ;
+        ElTM_detail_memberReprPublications.appendChild(liElement);
+
+      }
+
+
 
     }
   }
