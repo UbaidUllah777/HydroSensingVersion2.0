@@ -26,6 +26,52 @@ const teamMembers = [
           "Qui duis officia ullamco in laborum Lorem reprehenderit amet do excepteur Lorem. Commodo magna est non irure anim ad adipisicing laborum aute aute enim aute consequat. Labore ullamco aute reprehenderit adipisicing sint labore nostrud eiusmod occaecat sint ad fugiat in commodo. Aute do tempor dolor enim. Ullamco fugiat aliqua minim consequat sunt. Minim est dolore laborum elit minim enim exercitation deserunt aliqua exercitation. Cillum sint esse minim ad duis.",
       },
     ],
+    member_education:[
+      {
+        institute_name:"Tsinghua University, Beijing, China.",
+        graduation_period:"2017-2019",
+        degree_name:"Ph.D. in Hydraulic Engineering"
+
+      },
+    ],
+    member_Experience:[
+      {
+        orgName:"Department of Hydraulic Engineering, Tsinghua University",
+        orgPlace:"China",
+        From:"NOV 2021",
+        To:"PRESENT",
+        designation:"Shuimu Scholar (Assistant Researcher/Postdoc)",
+        experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
+      },
+      {
+        orgName:"Second Organisation",
+        orgPlace:"Islamabad",
+        From:"JAN 2017",
+        To:"SEP 2021",
+        designation:"Second Designation",
+        experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
+      },
+    ],
+    member_AcadProf:[
+      {
+        AcadProfName:"Google Scholar",
+        AcadProfURL:" https://scholar.google.com/citations?user=I9_x85wAAAAJ&hl=en",
+      },
+      {
+        AcadProfName:"ResearchGate",
+        AcadProfURL:"https://www.researchgate.net/profile/Khalil-Rahman-3",
+      },
+      {
+        AcadProfName:"Publons",
+        AcadProfURL:" https://publons.com/researcher/2913773/khalil-ur-rahman/",
+      },
+      {
+        AcadProfName:"ORCID",
+        AcadProfURL:"https://orcid.org/my-orcid?orcid=0000-0001-8927-3467",
+      },
+    ]
+
+
   },
 
   // *** Dr Dr.-Shang profile ***
@@ -49,6 +95,39 @@ const teamMembers = [
       },
       {
         paragraph: "",
+      },
+    ],
+    member_education:[
+      {
+        institute_name:"Capital University Of Science and Technology, Islamabad, Pakistan",
+        graduation_period:"2017-2019",
+        degree_name:"MS Computer Science"
+
+      },
+      {
+        institute_name:"University of Agriculture, Peshawar , Kpk, Pakistan",
+        graduation_period:"2011-2015",
+        degree_name:"BS Computer Science"
+
+      },
+    ],
+    
+    member_Experience:[
+      {
+        orgName:"Department of Hydraulic Engineering, Tsinghua University",
+        orgPlace:"China",
+        From:"NOV 2021",
+        To:"PRESENT",
+        designation:"Shuimu Scholar (Assistant Researcher/Postdoc)",
+        experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
+      },
+      {
+        orgName:"Second Organisation",
+        orgPlace:"Islamabad",
+        From:"JAN 2017",
+        To:"SEP 2021",
+        designation:"Second Designation",
+        experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
       },
     ],
   },
@@ -76,6 +155,40 @@ const teamMembers = [
         paragraph: "",
       },
     ],
+    
+    member_education:[
+      {
+        institute_name:"Capital University Of Science and Technology, Islamabad, Pakistan",
+        graduation_period:"2017-2019",
+        degree_name:"MS Computer Science"
+
+      },
+      {
+        institute_name:"University of Agriculture, Peshawar , Kpk, Pakistan",
+        graduation_period:"2011-2015",
+        degree_name:"BS Computer Science"
+
+      },
+    ],
+    
+    member_Experience:[
+      {
+        orgName:"Department of Hydraulic Engineering, Tsinghua University",
+        orgPlace:"China",
+        From:"NOV 2021",
+        To:"PRESENT",
+        designation:"Shuimu Scholar (Assistant Researcher/Postdoc)",
+        experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
+      },
+      {
+        orgName:"Second Organisation",
+        orgPlace:"Islamabad",
+        From:"JAN 2017",
+        To:"SEP 2021",
+        designation:"Second Designation",
+        experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
+      },
+    ],
   },
 
   // *** Dr Shahid profile ***
@@ -99,6 +212,40 @@ const teamMembers = [
       },
       {
         paragraph: "",
+      },
+    ],
+    
+    member_education:[
+      {
+        institute_name:"Capital University Of Science and Technology, Islamabad, Pakistan",
+        graduation_period:"2017-2019",
+        degree_name:"MS Computer Science"
+
+      },
+      {
+        institute_name:"University of Agriculture, Peshawar , Kpk, Pakistan",
+        graduation_period:"2011-2015",
+        degree_name:"BS Computer Science"
+
+      },
+    ],
+    
+    member_Experience:[
+      {
+        orgName:"Department of Hydraulic Engineering, Tsinghua University",
+        orgPlace:"China",
+        From:"NOV 2021",
+        To:"PRESENT",
+        designation:"Shuimu Scholar (Assistant Researcher/Postdoc)",
+        experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
+      },
+      {
+        orgName:"Second Organisation",
+        orgPlace:"Islamabad",
+        From:"JAN 2017",
+        To:"SEP 2021",
+        designation:"Second Designation",
+        experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
       },
     ],
   },
@@ -126,6 +273,40 @@ const teamMembers = [
         paragraph: "",
       },
     ],
+    
+    member_education:[
+      {
+        institute_name:"Capital University Of Science and Technology, Islamabad, Pakistan",
+        graduation_period:"2017-2019",
+        degree_name:"MS Computer Science"
+
+      },
+      {
+        institute_name:"University of Agriculture, Peshawar , Kpk, Pakistan",
+        graduation_period:"2011-2015",
+        degree_name:"BS Computer Science"
+
+      },
+    ],
+    
+    member_Experience:[
+      {
+        orgName:"Department of Hydraulic Engineering, Tsinghua University",
+        orgPlace:"China",
+        From:"NOV 2021",
+        To:"PRESENT",
+        designation:"Shuimu Scholar (Assistant Researcher/Postdoc)",
+        experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
+      },
+      {
+        orgName:"Second Organisation",
+        orgPlace:"Islamabad",
+        From:"JAN 2017",
+        To:"SEP 2021",
+        designation:"Second Designation",
+        experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
+      },
+    ],
   },
 
   // *** Dr ProfDrHamzaFarooqGabriel profile ***
@@ -149,6 +330,40 @@ const teamMembers = [
       },
       {
         paragraph: "",
+      },
+    ],
+    
+    member_education:[
+      {
+        institute_name:"Capital University Of Science and Technology, Islamabad, Pakistan",
+        graduation_period:"2017-2019",
+        degree_name:"MS Computer Science"
+
+      },
+      {
+        institute_name:"University of Agriculture, Peshawar , Kpk, Pakistan",
+        graduation_period:"2011-2015",
+        degree_name:"BS Computer Science"
+
+      },
+    ],
+    
+    member_Experience:[
+      {
+        orgName:"Department of Hydraulic Engineering, Tsinghua University",
+        orgPlace:"China",
+        From:"NOV 2021",
+        To:"PRESENT",
+        designation:"Shuimu Scholar (Assistant Researcher/Postdoc)",
+        experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
+      },
+      {
+        orgName:"Second Organisation",
+        orgPlace:"Islamabad",
+        From:"JAN 2017",
+        To:"SEP 2021",
+        designation:"Second Designation",
+        experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
       },
     ],
   },
@@ -176,6 +391,40 @@ const teamMembers = [
         paragraph: "",
       },
     ],
+    
+    member_education:[
+      {
+        institute_name:"Capital University Of Science and Technology, Islamabad, Pakistan",
+        graduation_period:"2017-2019",
+        degree_name:"MS Computer Science"
+
+      },
+      {
+        institute_name:"University of Agriculture, Peshawar , Kpk, Pakistan",
+        graduation_period:"2011-2015",
+        degree_name:"BS Computer Science"
+
+      },
+    ],
+    
+    member_Experience:[
+      {
+        orgName:"Department of Hydraulic Engineering, Tsinghua University",
+        orgPlace:"China",
+        From:"NOV 2021",
+        To:"PRESENT",
+        designation:"Shuimu Scholar (Assistant Researcher/Postdoc)",
+        experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
+      },
+      {
+        orgName:"Second Organisation",
+        orgPlace:"Islamabad",
+        From:"JAN 2017",
+        To:"SEP 2021",
+        designation:"Second Designation",
+        experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
+      },
+    ],
   },
 
   // *** Mr Nouman  profile ***
@@ -199,6 +448,40 @@ const teamMembers = [
       },
       {
         paragraph: "",
+      },
+    ],
+    
+    member_education:[
+      {
+        institute_name:"Capital University Of Science and Technology, Islamabad, Pakistan",
+        graduation_period:"2017-2019",
+        degree_name:"MS Computer Science"
+
+      },
+      {
+        institute_name:"University of Agriculture, Peshawar , Kpk, Pakistan",
+        graduation_period:"2011-2015",
+        degree_name:"BS Computer Science"
+
+      },
+    ],
+    
+    member_Experience:[
+      {
+        orgName:"Department of Hydraulic Engineering, Tsinghua University",
+        orgPlace:"China",
+        From:"NOV 2021",
+        To:"PRESENT",
+        designation:"Shuimu Scholar (Assistant Researcher/Postdoc)",
+        experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
+      },
+      {
+        orgName:"Second Organisation",
+        orgPlace:"Islamabad",
+        From:"JAN 2017",
+        To:"SEP 2021",
+        designation:"Second Designation",
+        experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
       },
     ],
   },

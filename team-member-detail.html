@@ -91,6 +91,25 @@
     <script src="vendor/modernizr/modernizr.min.js"></script>
     <script src="js/our_team.js" defer></script>
     <script src="js/team_member_details.js" defer></script>
+    <style>
+      .inline-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.inline-list li {
+  margin-right: 1.5em;
+  
+}.inline-list li:hover {
+  transition: transform 0.2s ease-in-out; /* Add a smooth transition effect */
+}
+
+.inline-list li:hover {
+  transform: scale(1.05);
+}
+
+    </style>
   </head>
 
   <body
@@ -184,25 +203,21 @@
           </div>
 
           <div id="chris" class="row">
-            <div class="col">
+            <div class="col" >
               <div
-                class="d-flex flex-wrap bg-light box-shadow-4 custom-link-hover-effects"
+                class="d-flex flex-wrap bg-light box-shadow-4 custom-link-hover-effects" 
               >
-                <div
-                  id="TM_detail_memberImage"
-                  class="position-relative col-12 col-md-4"
-                  data-bg-src="img/dms/hydroSensing/team/team-5.jpg"
-                  style="
-                    background-position: center;
-                    background-size: cover;
-                    min-height: 320px;
-                  "
+                <!-- <div id="TM_detail_memberImage" 
+                 
+                  class="col-12 col-md-4 align-items-center"
+                 
                 >
+                <img  src="" alt="Member Image" class=" position-relative  w-80 h-80 pt-5 mt-3 ">
                   <div
                     class="position-absolute bottom-0 left-0 w-100 py-3 px-4 z-index-3"
                   ></div>
-                </div>
-                <div class="col-md-8 p-5">
+                </div> -->
+                <div class="col-md-12 p-5" >
                   <div
                     class="d-flex justify-content-between justify-content-md-start mb-4"
                   >
@@ -211,59 +226,75 @@
                         id="TM_detail_memberHeading"
                         class="font-weight-semibold text-6 line-height-1 mb-0 text-color-secondary"
                       >
-                        Chris Doe
+                     
                       </h2>
                       <p
                         id="TM_detail_memberDesg"
-                        class="text-3-5 mb-0 text-color-primary"
+                        class="text-3-5 mb-1 text-color-primary"
                       >
-                        CEO and Founder
+                      
                       </p>
+                      <p
+                        id="TM_detail_memberContactInfo"
+                        class="text-5 mb-1  font-weight-bold text-color-secondary"
+                      >
+                      Contact Info :
+                     </p> 
+                     <span class="font-weight-bold">Email &nbsp: </span> <a id="TM_detail_memberContactInfoEMail"  href="#" class="text-decoration-none mb-1"> abc@gmail.com</a><br>
+                     <span class="font-weight-bold">Phone : </span>  <a id="TM_detail_memberContactInfoPhone"  href="#" class="text-decoration-none mb-1"> 1293879182397</a>
+                     <br>
+                     <ul
+                     class="social-icons social-icons-clean social-icons-icon-dark social-icons-big m-0 ms-lg-2 justify-content-center"
+                   >
+                     <li class="social-icons-linkedin">
+                       <a
+                         id="TM_detail_memberLinkedin"
+                         href="http://www.linkedin.com/"
+                         target="_blank"
+                         class="text-4"
+                         title="linkedin"
+                         data-cursor-effect-hover="fit"
+                         ><i class="fab fa-linkedin"></i
+                       ></a>
+                     </li>
+                     <li class="social-icons-twitter">
+                       <a
+                         id="TM_detail_memberTwitter"
+                         href="http://www.twitter.com/"
+                         target="_blank"
+                         class="text-4"
+                         title="Twitter"
+                         data-cursor-effect-hover="fit"
+                         ><i class="fab fa-twitter"></i
+                       ></a>
+                     </li>
+                     <li class="social-icons-facebook">
+                       <a
+                         id="TM_detail_memberFacebook"
+                         href="http://www.facebook.com/"
+                         target="_blank"
+                         class="text-4"
+                         title="Facebook"
+                         data-cursor-effect-hover="fit"
+                         ><i class="fab fa-facebook-f"></i
+                       ></a>
+                     </li>
+                   </ul>
                     </div>
                     <div
-                      class="bg-color-grey ms-4 me-1 d-none d-md-block"
+                      class="bg-color-grey mx-5 d-none d-sm-block"
                       style="width: 8px"
-                    ></div>
-                    <ul
-                      class="social-icons social-icons-clean social-icons-icon-dark social-icons-big m-0 ms-lg-2"
                     >
-                      <li class="social-icons-linkedin">
-                        <a
-                          id="TM_detail_memberLinkedin"
-                          href="http://www.linkedin.com/"
-                          target="_blank"
-                          class="text-4"
-                          title="linkedin"
-                          data-cursor-effect-hover="fit"
-                          ><i class="fab fa-linkedin"></i
-                        ></a>
-                      </li>
-                      <li class="social-icons-twitter">
-                        <a
-                          id="TM_detail_memberTwitter"
-                          href="http://www.twitter.com/"
-                          target="_blank"
-                          class="text-4"
-                          title="Twitter"
-                          data-cursor-effect-hover="fit"
-                          ><i class="fab fa-twitter"></i
-                        ></a>
-                      </li>
-                      <li class="social-icons-facebook">
-                        <a
-                          id="TM_detail_memberFacebook"
-                          href="http://www.facebook.com/"
-                          target="_blank"
-                          class="text-4"
-                          title="Facebook"
-                          data-cursor-effect-hover="fit"
-                          ><i class="fab fa-facebook-f"></i
-                        ></a>
-                      </li>
-                    </ul>
+                  </div>
+                   
+                    <div class="col-lg-3">
+                      <span class="img-thumbnail d-block">
+                        <img id="TM_detail_memberImage"  class="img-fluid" src="" alt="">
+                      </span>
+                    </div>
                   </div>
                   <div
-                    id="TM_detail_memberParas"
+                   
                     class="custom-read-more-style-1"
                     data-plugin-readmore
                     data-plugin-options="{
@@ -272,6 +303,25 @@
 											'maxHeight': 500
 										}"
                   >
+                  <h4 style="text-transform: uppercase;" class="text-color-secondary text-upper mt-3">Biography: </h4>
+                  <div  id="TM_detail_memberParas"></div>
+
+                  <h4 style="text-transform: uppercase;" class="text-color-secondary text-upper mt-3">Education:  </h4>
+                  <div  id="TM_detail_memberEducation"></div>
+
+
+
+                  <h4 style="text-transform: uppercase;" class="text-color-secondary text-upper mt-3">Experience: </h4>
+                  <div  id="TM_detail_memberExperience"></div>
+
+                  <h4 style="text-transform: uppercase;" class="text-color-secondary text-upper mt-3">Academic Profiles: </h4>
+                  <div >
+                    <ol  id="TM_detail_memberAcadProf" class="list list-ordened inline-list list-ordened-style-2 mb-5">
+                      
+                    </ol>
+                  </div>
+
+
                     <div class="readmore-button-wrapper d-none">
                       <a href="#" class="text-decoration-none">
                         View More
