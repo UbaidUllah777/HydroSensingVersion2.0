@@ -6,6 +6,24 @@ const researchProjects=[
         RP_status_id:"CompletedResearchProjects",
         RP_status:"Completed Research Projects",
         RP_image:"img/projects/project.jpg",
+        RP_detail_image:"img/projects/project-short.jpg",
+
+        RP_paragraphs:[
+          {paragraph:"Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse."},
+          {paragraph:"Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse."},
+          {paragraph:"Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse."},
+          {paragraph:"Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse."},
+        ],
+        RP_scopes:[
+          {scope:"scope1"},
+          {scope:"scope2"},
+          {scope:"scope3"},
+        ],
+        RP_client:"Client Name",
+        RP_year:"2023",
+        RP_URL:"url will come here",
+
+
         
     },
     //project Two
@@ -15,6 +33,21 @@ const researchProjects=[
         RP_status_id:"CompletedResearchProjects",
         RP_status:"Completed Research Projects",
         RP_image:"img/projects/project.jpg",
+        RP_detail_image:"img/projects/project-short.jpg",
+        RP_paragraphs:[
+          {paragraph:"Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse."},
+          {paragraph:"Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse."},
+          {paragraph:"Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse."},
+          {paragraph:"Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse."},
+        ],
+        RP_scopes:[
+          {scope:"scope1"},
+          {scope:"scope2"},
+          {scope:"scope3"},
+        ],
+        RP_client:"Client Name",
+        RP_year:"2023",
+        RP_URL:"url will come here",
         
     },
     //project Three
@@ -24,6 +57,21 @@ const researchProjects=[
         RP_status_id:"ConsultancyServices",
         RP_status:"Consultancy Services",
         RP_image:"img/projects/project.jpg",
+        RP_detail_image:"img/projects/project-short.jpg",
+        RP_paragraphs:[
+          {paragraph:"Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse."},
+          {paragraph:"Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse."},
+          {paragraph:"Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse."},
+          {paragraph:"Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse."},
+        ],
+        RP_scopes:[
+          {scope:"scope1"},
+          {scope:"scope2"},
+          {scope:"scope3"},
+        ],
+        RP_client:"Client Name",
+        RP_year:"2023",
+        RP_URL:"url will come here",
         
     },
     //project Four
@@ -33,6 +81,21 @@ const researchProjects=[
         RP_status_id:"ConsultancyServices",
         RP_status:"Consultancy Services",
         RP_image:"img/projects/project.jpg",
+        RP_detail_image:"img/projects/project-short.jpg",
+        RP_paragraphs:[
+          {paragraph:"Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse."},
+          {paragraph:"Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse."},
+          {paragraph:"Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse."},
+          {paragraph:"Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse."},
+        ],
+        RP_scopes:[
+          {scope:"scope1"},
+          {scope:"scope2"},
+          {scope:"scope3"},
+        ],
+        RP_client:"Client Name",
+        RP_year:"2023",
+        RP_URL:"url will come here",
         
     },
     //project Five
@@ -42,6 +105,21 @@ const researchProjects=[
         RP_status_id:"ConsultancyServices",
         RP_status:"Consultancy Services",
         RP_image:"img/projects/project.jpg",
+        RP_detail_image:"img/projects/project-short.jpg",
+        RP_paragraphs:[
+          {paragraph:"Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse."},
+          {paragraph:"Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse."},
+          {paragraph:"Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse."},
+          {paragraph:"Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse."},
+        ],
+        RP_scopes:[
+          {scope:"scope1"},
+          {scope:"scope2"},
+          {scope:"scope3"},
+        ],
+        RP_client:"Client Name",
+        RP_year:"2023",
+        RP_URL:"url will come here",
         
     },
     //project Six
@@ -51,6 +129,21 @@ const researchProjects=[
         RP_status_id:"OngoingResearchProjects",
         RP_status:"Ongoing Research Projects",
         RP_image:"img/projects/project.jpg",
+        RP_detail_image:"img/projects/project-short.jpg",
+        RP_paragraphs:[
+          {paragraph:"Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse."},
+          {paragraph:"Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse."},
+          {paragraph:"Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse."},
+          {paragraph:"Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse."},
+        ],
+        RP_scopes:[
+          {scope:"scope1"},
+          {scope:"scope2"},
+          {scope:"scope3"},
+        ],
+        RP_client:"Client Name",
+        RP_year:"2023",
+        RP_URL:"url will come here",
         
     },
 ]
@@ -89,7 +182,7 @@ if(researchId!='allResearchs'){
   
                   <span class="thumb-info-title">
                     <span class="thumb-info-inner">${singleProject.RP_heading}</span>
-                    <span class="thumb-info-type">${singleProject.RP_status}</span>
+                    <span class="thumb-info-type">${""}</span>
                   </span>
                   <span class="thumb-info-action">
                     <span
@@ -129,7 +222,7 @@ else if(researchId=='allResearchs'){
   
                   <span class="thumb-info-title">
                     <span class="thumb-info-inner">${singleProject.RP_heading}</span>
-                    <span class="thumb-info-type">${singleProject.RP_status}</span>
+                    <span class="thumb-info-type">${""}</span>
                   </span>
                   <span class="thumb-info-action">
                     <span
