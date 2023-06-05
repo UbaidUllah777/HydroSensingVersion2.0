@@ -25,7 +25,7 @@ const headerContent = `
           >
             <li id="idHeaderFacebook" class="social-icons-facebook">
               <a
-              href="#"
+              href="https://www.facebook.com/hydrosensing"
               target="_blank"
               title="Facebook"
               ><i class="fab fa-facebook-f"></i
@@ -33,18 +33,27 @@ const headerContent = `
             </li>
             <li id="idHeaderTwitter" class="social-icons-twitter">
               <a
-              href="#"
+              href="https://twitter.com/HydroSensing"
               target="_blank"
               title="Twitter"
               ><i class="fab fa-twitter"></i
               ></a>
             </li>
-            <li id="idHeaderInstagram" class="social-icons-instagram">
+            <li id="idHeaderInstagram" class="social-icons-linkedin">
               <a
               href="#"
               target="_blank"
-              title="Instagram"
-              ><i class="fab fa-instagram"></i
+              title="Linkedin"
+              ><i class="fab fa-linkedin"></i
+              ></a>
+            </li>
+
+            <li id="idHeaderInstagram" class="social-icons-youtube">
+              <a
+              href="https://www.youtube.com/@HydroSensing"
+              target="_blank"
+              title="Youtube"
+              ><i class="fab fa-youtube"></i
               ></a>
             </li>
           </ul>
@@ -94,18 +103,21 @@ const headerContent = `
                     >About Us</a
                   >
                 </li>
-                <!-- Research  -->
-                <li>
-                  <a id="idHeaderLinkOurResearch" href="research-projects.html" class="nav-link"
-                    >Research Projects</a
-                  >
-                </li>
-                <!-- Consultancy Services  -->
+
+                <!-- Focus Areas -->
                 <li>
                   <a id="idHeaderLinkConsultancyServices" href="focus-area.html" class="nav-link"
                     >Focus Areas</a
                   >
                 </li>
+
+                <!-- Research Projects  -->
+                <li>
+                  <a id="idHeaderLinkOurResearch" href="research-projects.html" class="nav-link"
+                    >Research Projects</a
+                  >
+                </li>
+               
                 <!-- Resources DropDown :START -->
                 <li class="dropdown">
                   <a id="idHeaderLinkresources" class="dropdown-item dropdown-toggle" href="#">
@@ -159,14 +171,14 @@ const headerContent = `
                 <!-- Blogs -->
                 <li>
                   <a id="idHeaderLinkBlogs" href="blog.html" class="nav-link"
-                    >Blogs</a
+                    >Our Blogs</a
                   >
                 </li>
                 
-                <!-- Team -->
+                <!-- Our Team -->
                 <li>
                   <a id="idHeaderLinkTeam" href="team.html" class="nav-link"
-                    >Team</a
+                    >Our Team</a
                   >
                 </li>
                
