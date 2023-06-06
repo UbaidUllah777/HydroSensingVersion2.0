@@ -1,7 +1,7 @@
 
 OrcidIcon=`<i class="fa-brands fa-orcid pt-3 fa-2xl " style="color: #a5cd39;"></i>`;
-ResearchGateIcone=`  <i class="fa-brands pt-3  fa-researchgate fa-2xl " style="color: #44bc9c;  border-radius: 50%;"></i>`;
-googleScolarIcon=`<img width="35" height="35" src="https://img.icons8.com/color/48/google-scholar--v3.png" alt="google-scholar--v3"/>`;
+ResearchGateIcone=` <img width="28" height="28" src="img/icons/research-gate.png" alt="Reseach Gate"/>`;
+googleScolarIcon=`<img width="32" height="32" src="https://img.icons8.com/color/48/google-scholar--v3.png" alt="google-scholar--v3"/>`;
 publonsIcon=`img/icons/publons.png`;
 
 
@@ -106,13 +106,13 @@ for (const singleMember of teamMembers) {
         const liElement = document.createElement("li");
         liElement.classList.add("my-2")
         if(singleAcadProf.AcadProfName=="Research Gate"){
-          liElement.innerHTML = `${ResearchGateIcone} &nbsp <a href="${singleAcadProf.AcadProfURL}" target="_blank" class="custom-link-hover-effects text-decoration-none text-color-dark">${singleAcadProf.AcadProfName}</a> &nbsp |`;
+          liElement.innerHTML = `${ResearchGateIcone} &nbsp <a href="${singleAcadProf.AcadProfURL}" target="_blank" class="custom-link-hover-effects text-decoration-none text-color-dark">${singleAcadProf.AcadProfName}</a> &nbsp  `;
         }
         else  if(singleAcadProf.AcadProfName=="ORCID"){
-          liElement.innerHTML = `${OrcidIcon} &nbsp <a href="${singleAcadProf.AcadProfURL}"  target="_blank"  class="custom-link-hover-effects text-decoration-none text-color-dark">${singleAcadProf.AcadProfName}</a> &nbsp |`;
+          liElement.innerHTML = `${OrcidIcon} &nbsp <a href="${singleAcadProf.AcadProfURL}"  target="_blank"  class="custom-link-hover-effects text-decoration-none text-color-dark">${singleAcadProf.AcadProfName}</a> &nbsp  `;
         }
         else  if(singleAcadProf.AcadProfName=="Google Scholar"){
-          liElement.innerHTML = `${googleScolarIcon} &nbsp <a href="${singleAcadProf.AcadProfURL}"  target="_blank"  class="custom-link-hover-effects text-decoration-none text-color-dark">${singleAcadProf.AcadProfName}</a> &nbsp |`;
+          liElement.innerHTML = `${googleScolarIcon} &nbsp <a href="${singleAcadProf.AcadProfURL}"  target="_blank"  class="custom-link-hover-effects text-decoration-none text-color-dark">${singleAcadProf.AcadProfName}</a> &nbsp  `;
         }
         
         else  if(singleAcadProf.AcadProfName=="Publons"){
@@ -121,11 +121,11 @@ for (const singleMember of teamMembers) {
           height: 2em;
           border-radius: 50%;
           text-align: center;
-          line-height: 2em;" src="${publonsIcon}" alt=""> &nbsp <a href="${singleAcadProf.AcadProfURL}"  target="_blank"  class="custom-link-hover-effects text-decoration-none text-color-dark">${singleAcadProf.AcadProfName}</a> &nbsp |`;
+          line-height: 2em;" src="${publonsIcon}" alt=""> &nbsp <a href="${singleAcadProf.AcadProfURL}"  target="_blank"  class="custom-link-hover-effects text-decoration-none text-color-dark">${singleAcadProf.AcadProfName}</a> &nbsp  `;
         }
         
         else{
-          liElement.innerHTML = `<a href="${singleAcadProf.AcadProfURL}"  target="_blank"  class="custom-link-hover-effects text-decoration-none text-color-dark">${singleAcadProf.AcadProfName}</a>  &nbsp |`;
+          liElement.innerHTML = `<a href="${singleAcadProf.AcadProfURL}"  target="_blank"  class="custom-link-hover-effects text-decoration-none text-color-dark">${singleAcadProf.AcadProfName}</a>  &nbsp  `;
         }
         
         ELTM_detail_memberAcadProf.appendChild(liElement);

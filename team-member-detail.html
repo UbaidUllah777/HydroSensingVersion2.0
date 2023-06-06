@@ -109,6 +109,14 @@
   transform: scale(1.05);
 }
 
+  @media (min-width: 582px) {
+    #memberDetail_image_container {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+  }
+
     </style>
   </head>
 
@@ -219,8 +227,13 @@
                 </div> -->
                 <div class="col-md-12 p-5" >
                   <div
-                    class="d-flex justify-content-between justify-content-md-start mb-4"
+                    class="justify-content-between justify-content-md-start mb-4"
                   >
+                  <div class="row">
+                    
+
+                    <div class="col-sm-6">
+                      
                     <div>
                       <h2
                         id="TM_detail_memberHeading"
@@ -234,11 +247,12 @@
                       >
                       
                       </p>
+                      <hr style="width: 45%;">
                       <p
                         id="TM_detail_memberContactInfo"
-                        class="text-5 mb-1  font-weight-bold text-color-secondary"
+                        class="text-5 mb-2 font-weight-bold text-color-secondary"
                       >
-                      Contact Info :
+                      Contact Info
                      </p> 
                      <span class="font-weight-bold">Email &nbsp: </span> <a id="TM_detail_memberContactInfoEMail"  href="#" class="text-decoration-none mb-1"> abc@gmail.com</a><br>
                      <span class="font-weight-bold">Phone : </span>  <a id="TM_detail_memberContactInfoPhone"  href="#" class="text-decoration-none mb-1"> 1293879182397</a>
@@ -282,16 +296,20 @@
                    </ul>
                     </div>
                     <div
-                      class="bg-color-grey mx-5 d-none d-sm-block"
-                      style="width: 8px"
-                    >
-                  </div>
-                   
-                    <div class="col-lg-3">
-                      <span class="img-thumbnail d-block">
-                        <img id="TM_detail_memberImage"  class="img-fluid" src="" alt="">
-                      </span>
+                    class="bg-color-grey mx-5  d-block"
+                    style="width: 8px"
+                  >
+                </div>
                     </div>
+                   
+                   
+                   
+                    <div  id="memberDetail_image_container" class="col-sm-6" >
+                     
+                        <img  style="max-width: 250px;" id="TM_detail_memberImage"  class="" src="" alt="">
+                     
+                    </div>
+                  </div>
                   </div>
                   <div
                    
@@ -340,7 +358,7 @@
                     </div>
                 </div>
                   <div >
-                    <ol  id="TM_detail_memberRsrchInt" class="list list-ordened list-ordened-style-2 mb-5">
+                    <ol  id="TM_detail_memberRsrchInt" style="padding-left: 0px;" class="list list-ordened list-ordened-style-2 mb-5">
                       
                     </ol>
                   </div>
@@ -354,7 +372,7 @@
                     </div>
                 </div>
                   <div >
-                    <ol  id="TM_detail_memberReprPublications" class="list list-ordened list-ordened-style-2 mb-5">
+                    <ol  id="TM_detail_memberReprPublications" style="padding-left: 0px;" class="list list-ordened list-ordened-style-2 mb-5">
                       
                     </ol>
                   </div>
