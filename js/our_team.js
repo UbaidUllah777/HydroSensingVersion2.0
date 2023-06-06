@@ -1,3 +1,6 @@
+
+
+
 // *** ALL DATA of Our Focus Area : Start ***
 const teamMembers = [
   // *** Dr khalil ur rehaman profile ***
@@ -58,7 +61,7 @@ const teamMembers = [
         AcadProfURL:" https://scholar.google.com/citations?user=I9_x85wAAAAJ&hl=en",
       },
       {
-        AcadProfName:"ResearchGate",
+        AcadProfName:"Research Gate",
         AcadProfURL:"https://www.researchgate.net/profile/Khalil-Rahman-3",
       },
       {
