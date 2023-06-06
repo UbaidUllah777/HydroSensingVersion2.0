@@ -73,8 +73,8 @@ for (const singleMember of teamMembers) {
       for (const singleExperience of singleMember.member_Experience) {
         const elSingleExperience =  `
         
-      <hr class="my-2">
-        <div class="row my-3 ">
+     
+        <div class="row my-4 ">
         <div class="experience-info col-lg-3 col-sm-5 ">
           <span class="from text-color-dark text-uppercase ">
             <span class="font-weight-semibold text-color-primary">&nbsp ${singleExperience.From}</span>
@@ -94,7 +94,7 @@ for (const singleMember of teamMembers) {
           <p class="custom-text-color-2">${singleExperience.experienceDetail}</p>
         </div>
       </div>
-
+      <hr class="my-2">
       `
 
       ElTM_detail_memberExperience.innerHTML+=elSingleExperience;
