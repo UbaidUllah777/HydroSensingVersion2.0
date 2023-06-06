@@ -31,6 +31,7 @@ if(singleClickedResearch.RP_id==ResearchProject){
         ElRP_detail_image.src=`${singleClickedResearch.RP_detail_image}`;
         for (const paragraph of singleClickedResearch.RP_paragraphs) {
             const pElement = document.createElement("p");
+            pElement.classList.add("text-align-justify");
             pElement.textContent = paragraph.paragraph; // Access the 'paragraph' property
             RP_detail_Paras.appendChild(pElement);
           };
