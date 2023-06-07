@@ -1,6 +1,3 @@
-
-
-
 // *** ALL DATA of Our Focus Area : Start ***
 const teamMembers = [
   // *** Dr khalil ur rehaman profile ***
@@ -12,7 +9,7 @@ const teamMembers = [
     member_Linkedin: "#",
     member_Tiwtter: "#",
     member_Facebook: "#",
-    member_email: "",
+    member_email: "khalil@hydrosensing4u.com",
     member_Google_scholar: "",
 
     member_paragraphs: [
@@ -21,116 +18,127 @@ const teamMembers = [
           "Dr. Khalil Ur Rahman has obtained his Ph.D. degree from the Department of Hydraulic Engineering, Tsinghua University. Dr. Khalil has more than 7 years of research experience in hydrology, GIS and Remote Sensing in prestigious institutes, including Tsinghua University (ranked 14th in QS ranking 2023) and King Abdulaziz University (ranked 106th in QS ranking 2023). Dr. Khalil is working in collaboration with different international and national universities, including King Abdulaziz University, Wuhan University, King Saud University, University of Engineering and Technology (UET) Peshawar, National University of Sciences and Technology (NUST), and International Islamic University Islamabad (IIUI). He Co-PI in several projects sponsored by the Higher Education Commission (HEC) of Pakistan and State Key Laboratories in Tsinghua and Wuhan Universities of China. He is the Advisory Board Member of Ecological Indicators, and reviewer of world-leading high impact journals such as Journal of Hydrology, Atmospheric Research, Hydrological Sciences Journal, Environmental Research Letters, Geocarto International, Remote Sensing, Water, and Atmosphere, etc.",
       },
       {
-        paragraph:
-          "Quis duis voluptate nisi reprehenderit reprehenderit. Anim do officia non ipsum sit ea culpa velit in consectetur ut et. Anim consequat duis ad sunt excepteur sint dolore consequat. Duis elit nulla officia officia elit esse nisi nulla. Officia velit culpa minim id. Pariatur aliquip labore esse consequat aliqua duis incididunt deserunt eu pariatur eu minim.",
+        paragraph: "",
       },
       {
-        paragraph:
-          "Qui duis officia ullamco in laborum Lorem reprehenderit amet do excepteur Lorem. Commodo magna est non irure anim ad adipisicing laborum aute aute enim aute consequat. Labore ullamco aute reprehenderit adipisicing sint labore nostrud eiusmod occaecat sint ad fugiat in commodo. Aute do tempor dolor enim. Ullamco fugiat aliqua minim consequat sunt. Minim est dolore laborum elit minim enim exercitation deserunt aliqua exercitation. Cillum sint esse minim ad duis.",
+        paragraph: "",
       },
     ],
-    member_education:[
+    member_education: [
       {
-        institute_name:"Tsinghua University, Beijing, China.",
-        graduation_period:"2017-2019",
-        degree_name:"Ph.D. in Hydraulic Engineering"
-
+        institute_name: "Tsinghua University, Beijing, China.",
+        graduation_period: "2017-2019",
+        degree_name: "Ph.D. in Hydraulic Engineering",
       },
     ],
-    member_Experience:[
+    member_Experience: [
       {
-        orgName:"Department of Hydraulic Engineering, Tsinghua University",
-        orgPlace:"China",
-        From:"NOV 2021",
-        To:"PRESENT",
-        designation:"Shuimu Scholar (Assistant Researcher/Postdoc)",
-        experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
+        orgName: "Department of Hydraulic Engineering, Tsinghua University",
+        orgPlace: "China",
+        From: "NOV 2021",
+        To: "PRESENT",
+        designation: "Shuimu Scholar (Assistant Researcher/Postdoc)",
+        experienceDetail:
+          "Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
       },
       {
-        orgName:"Second Organisation",
-        orgPlace:"Islamabad",
-        From:"JAN 2017",
-        To:"SEP 2021",
-        designation:"Second Designation",
-        experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
-      },
-    ],
-    member_AcadProf:[
-      {
-        AcadProfName:"Google Scholar",
-        AcadProfURL:" https://scholar.google.com/citations?user=I9_x85wAAAAJ&hl=en",
-      },
-      {
-        AcadProfName:"Research Gate",
-        AcadProfURL:"https://www.researchgate.net/profile/Khalil-Rahman-3",
-      },
-      {
-        AcadProfName:"Publons",
-        AcadProfURL:" https://publons.com/researcher/2913773/khalil-ur-rahman/",
-      },
-      {
-        AcadProfName:"ORCID",
-        AcadProfURL:"https://orcid.org/my-orcid?orcid=0000-0001-8927-3467",
+        orgName: "Second Organisation",
+        orgPlace: "Islamabad",
+        From: "JAN 2017",
+        To: "SEP 2021",
+        designation: "Second Designation",
+        experienceDetail:
+          "Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
       },
     ],
-    member_ResearchInterests:[
+    member_AcadProf: [
       {
-        ResearchInterest:"Satellite Precipitation Estimation",
+        AcadProfName: "Google Scholar",
+        AcadProfURL:
+          " https://scholar.google.com/citations?user=I9_x85wAAAAJ&hl=en",
       },
       {
-        ResearchInterest:"Merging Satellite Precipitation Products and their applications",
+        AcadProfName: "Research Gate",
+        AcadProfURL: "https://www.researchgate.net/profile/Khalil-Rahman-3",
       },
       {
-        ResearchInterest:"GIS and Remote Sensing applications in Hydrology",
+        AcadProfName: "Publons",
+        AcadProfURL:
+          " https://publons.com/researcher/2913773/khalil-ur-rahman/",
       },
       {
-        ResearchInterest:"Drought",
-      },
-      {
-        ResearchInterest:"Hydrological Modeling (both surface and groundwater)",
-      },
-    ],
-    member_ReprPublications:[
-      {
-        publication:"Rahman, K.U., Pham, Q.B., Jadoon, K.Z., Shahid, M., Kushwaha, D.P., Duan, Z., Mohammadi, B., Khedher, K.M., Anh, D.T., “Comparison of machine learning and process-based SWAT model in simulating streamflow in the Upper Indus Basin”, accepted in Applied Water Science (2022).",
-      },
-      {
-        publication:"Rahman, K.U., Hussain, A., Ejaz, N., Shahid, M., Duan, Z., Mohammadi, B., Hoai, P.N., Pham, Q.B., Khedher, K.M. and Anh, D.T., 2022. Evaluating the impact of the environment on depleting groundwater resources: a case study from a semi-arid and arid climatic region. Hydrological Sciences Journal, pp.1-15.",
-      },
-      {
-        publication:"Rahman, K.U., Shang, S. and Zohaib, M., 2021. Assessment of Merged Satellite Precipitation Datasets in Monitoring Meteorological Drought over Pakistan. Remote Sensing, 13(9), p.1662.",
-      },
-      {
-        publication:"Rahman, K.U., Shang, S., Shahid, M., Wen, Y. and Khan, A.J., 2020. Development of a novel weighted average least squares-based ensemble multi-satellite precipitation dataset and its comprehensive evaluation over Pakistan. Atmospheric Research, 246, p.105133.",
-      },
-      {
-        publication:"Rahman, K.U., Shang, S., Shahid, M. and Wen, Y., 2020. Hydrological evaluation of merged satellite precipitation datasets for streamflow simulation using SWAT: a case study of Potohar Plateau, Pakistan. Journal of Hydrology, 587, p.125040.",
-      },
-      {
-        publication:"Rahman, K.U., Shang, S., Shahid, M., Wen, Y. and Khan, Z., 2020. Application of a dynamic clustered bayesian model averaging (DCBA) algorithm for merging multisatellite precipitation products over Pakistan. Journal of Hydrometeorology, 21(1), pp.17-37.",
-      },
-      {
-        publication:"Rahman, K.U., Shang, S., Shahid, M. and Wen, Y., 2019. An appraisal of dynamic bayesian model averaging-based merged multi-satellite precipitation datasets over complex topography and the diverse climate of Pakistan. Remote Sensing, 12(1), p.10.",
-      },
-      {
-        publication:"Rahman, K.U., Shang, S., Shahid, M. and Wen, Y., 2019. Performance assessment of SM2RAIN-CCI and SM2RAIN-ASCAT precipitation products over Pakistan. Remote Sensing, 11(17), p.2040.",
-      },
-      {
-        publication:"Balkhair, K.S. and Rahman, K.U., 2021. Development and assessment of rainwater harvesting suitability map using analytical hierarchy process, GIS and RS techniques. Geocarto International, 36(4), pp.421-448.",
-      },
-      {
-        publication:"Balkhair, K.S. and Rahman, K.U., 2017. Sustainable and economical small-scale and low-head hydropower generation: A promising alternative potential solution for energy generation at local and regional scale. Applied Energy, 188, pp.378-391.",
+        AcadProfName: "ORCID",
+        AcadProfURL: "https://orcid.org/my-orcid?orcid=0000-0001-8927-3467",
       },
     ],
-
-
+    member_ResearchInterests: [
+      {
+        ResearchInterest: "Satellite Precipitation Estimation",
+      },
+      {
+        ResearchInterest:
+          "Merging Satellite Precipitation Products and their applications",
+      },
+      {
+        ResearchInterest: "GIS and Remote Sensing applications in Hydrology",
+      },
+      {
+        ResearchInterest: "Drought",
+      },
+      {
+        ResearchInterest:
+          "Hydrological Modeling (both surface and groundwater)",
+      },
+    ],
+    member_ReprPublications: [
+      {
+        publication:
+          "Rahman, K.U., Pham, Q.B., Jadoon, K.Z., Shahid, M., Kushwaha, D.P., Duan, Z., Mohammadi, B., Khedher, K.M., Anh, D.T., “Comparison of machine learning and process-based SWAT model in simulating streamflow in the Upper Indus Basin”, accepted in Applied Water Science (2022).",
+      },
+      {
+        publication:
+          "Rahman, K.U., Hussain, A., Ejaz, N., Shahid, M., Duan, Z., Mohammadi, B., Hoai, P.N., Pham, Q.B., Khedher, K.M. and Anh, D.T., 2022. Evaluating the impact of the environment on depleting groundwater resources: a case study from a semi-arid and arid climatic region. Hydrological Sciences Journal, pp.1-15.",
+      },
+      {
+        publication:
+          "Rahman, K.U., Shang, S. and Zohaib, M., 2021. Assessment of Merged Satellite Precipitation Datasets in Monitoring Meteorological Drought over Pakistan. Remote Sensing, 13(9), p.1662.",
+      },
+      {
+        publication:
+          "Rahman, K.U., Shang, S., Shahid, M., Wen, Y. and Khan, A.J., 2020. Development of a novel weighted average least squares-based ensemble multi-satellite precipitation dataset and its comprehensive evaluation over Pakistan. Atmospheric Research, 246, p.105133.",
+      },
+      {
+        publication:
+          "Rahman, K.U., Shang, S., Shahid, M. and Wen, Y., 2020. Hydrological evaluation of merged satellite precipitation datasets for streamflow simulation using SWAT: a case study of Potohar Plateau, Pakistan. Journal of Hydrology, 587, p.125040.",
+      },
+      {
+        publication:
+          "Rahman, K.U., Shang, S., Shahid, M., Wen, Y. and Khan, Z., 2020. Application of a dynamic clustered bayesian model averaging (DCBA) algorithm for merging multisatellite precipitation products over Pakistan. Journal of Hydrometeorology, 21(1), pp.17-37.",
+      },
+      {
+        publication:
+          "Rahman, K.U., Shang, S., Shahid, M. and Wen, Y., 2019. An appraisal of dynamic bayesian model averaging-based merged multi-satellite precipitation datasets over complex topography and the diverse climate of Pakistan. Remote Sensing, 12(1), p.10.",
+      },
+      {
+        publication:
+          "Rahman, K.U., Shang, S., Shahid, M. and Wen, Y., 2019. Performance assessment of SM2RAIN-CCI and SM2RAIN-ASCAT precipitation products over Pakistan. Remote Sensing, 11(17), p.2040.",
+      },
+      {
+        publication:
+          "Balkhair, K.S. and Rahman, K.U., 2021. Development and assessment of rainwater harvesting suitability map using analytical hierarchy process, GIS and RS techniques. Geocarto International, 36(4), pp.421-448.",
+      },
+      {
+        publication:
+          "Balkhair, K.S. and Rahman, K.U., 2017. Sustainable and economical small-scale and low-head hydropower generation: A promising alternative potential solution for energy generation at local and regional scale. Applied Energy, 188, pp.378-391.",
+      },
+    ],
   },
 
   // *** Dr Dr.-Shang profile ***
   {
     member_id: "DrSonghaoShang",
     member_heading: "Dr. Songhao Shang",
-    member_designation: "Professor",
+    member_designation: "Associate Professor",
     member_image: "img/team/Dr.-Shang.jpg",
     member_Linkedin: "#",
     member_Tiwtter: "#",
@@ -140,7 +148,8 @@ const teamMembers = [
 
     member_paragraphs: [
       {
-        paragraph: "",
+        paragraph:
+          " Dr. Songhao Shang received his B.Sc. in Hydraulic and Hydropower Engineering from Tsinghua University in 1993 and Ph.D. in Hydraulics and Fluvial Dynamics from Tsinghua University in 1997. He has multidisciplinary teaching and research experience of over 20 years in agricultural /arid region hydrology and water resources, and eco-hydrology. He has supervised 11 Ph.D. theses and 25 M.Sc./M.Eng. theses in hydrology and water resources, and has published over 120 international and national journal /conference papers. Dr. Shang has made significant contributions to the water resources sectors of China and Pakistan. Dr. Shang is the editor/guest editor in several well-reputed journals, including Journal of Irrigation and Drainage Engineering (ASCE), Water, Remote Sensing, etc.",
       },
       {
         paragraph: "",
@@ -149,83 +158,90 @@ const teamMembers = [
         paragraph: "",
       },
     ],
-    member_education:[
+    member_education: [
       {
-        institute_name:"Capital University Of Science and Technology, Islamabad, Pakistan",
-        graduation_period:"2017-2019",
-        degree_name:"MS Computer Science"
+        institute_name: "Tsinghua University",
+        graduation_period: "Sept 1993- June 1997",
+        degree_name: "Ph.D in Hydraulics and Fluvial Dynamics",
+      },
+      {
+        institute_name: "Tsinghua University",
+        graduation_period: "Sept 1988- July 1993",
+        degree_name: "B.Sc Hydraulic and Hydropower Engineering,",
+      },
+    ],
 
-      },
+    member_Experience: [
       {
-        institute_name:"University of Agriculture, Peshawar , Kpk, Pakistan",
-        graduation_period:"2011-2015",
-        degree_name:"BS Computer Science"
+        orgName: "Tsinghua University, China",
 
+        orgPlace: "",
+        From: "July 1999 ",
+        To: "PRESENT",
+        designation: "Associate Professor  ",
+        experienceDetail:
+          "Department of Hydraulic Engineering & State Key Laboratory of Hydroscience and Engineering",
+      },
+      {
+        orgName: "Second Organisation",
+        orgPlace: "Islamabad",
+        From: "JAN 2017",
+        To: "SEP 2021",
+        designation: "Second Designation",
+        experienceDetail:
+          "Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
       },
     ],
-    
-    member_Experience:[
+    member_AcadProf: [
       {
-        orgName:"Department of Hydraulic Engineering, Tsinghua University",
-        orgPlace:"China",
-        From:"NOV 2021",
-        To:"PRESENT",
-        designation:"Shuimu Scholar (Assistant Researcher/Postdoc)",
-        experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
+        AcadProfName: "Google Scholar",
+        AcadProfURL:
+          "https://scholar.google.com/citations?user=7_piIK0AAAAJ&hl=en",
       },
       {
-        orgName:"Second Organisation",
-        orgPlace:"Islamabad",
-        From:"JAN 2017",
-        To:"SEP 2021",
-        designation:"Second Designation",
-        experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
+        AcadProfName: "ResearchGate",
+        AcadProfURL: "https://www.researchgate.net/profile/Songhao-Shang",
       },
-    ],
-    member_AcadProf:[
+
       {
-        AcadProfName:"Google Scholar",
-        AcadProfURL:" https://scholar.google.com/citations?user=I9_x85wAAAAJ&hl=en",
+        AcadProfName: "Publons",
+        AcadProfURL:
+          " http://www.civil.tsinghua.edu.cn/en/he/essay/543/2546.html",
       },
       {
-        AcadProfName:"ResearchGate",
-        AcadProfURL:"https://www.researchgate.net/profile/Khalil-Rahman-3",
-      },
-      {
-        AcadProfName:"Publons",
-        AcadProfURL:" https://publons.com/researcher/2913773/khalil-ur-rahman/",
-      },
-      {
-        AcadProfName:"ORCID",
-        AcadProfURL:"https://orcid.org/my-orcid?orcid=0000-0001-8927-3467",
+        AcadProfName: "ORCID",
+        AcadProfURL: "https://orcid.org/0000-0002-2971-2621",
       },
     ],
-    member_ResearchInterests:[
+    member_ResearchInterests: [
       {
-        ResearchInterest:"Satellite Precipitation Estimation",
+        ResearchInterest: "Satellite Precipitation Estimation",
       },
       {
-        ResearchInterest:"Merging Satellite Precipitation Products and their applications",
+        ResearchInterest:
+          "Merging Satellite Precipitation Products and their applications",
       },
       {
-        ResearchInterest:"GIS and Remote Sensing applications in Hydrology",
+        ResearchInterest: "GIS and Remote Sensing applications in Hydrology",
       },
       {
-        ResearchInterest:"Drought",
+        ResearchInterest: "Drought",
       },
       {
-        ResearchInterest:"Hydrological Modeling (both surface and groundwater)",
+        ResearchInterest:
+          "Hydrological Modeling (both surface and groundwater)",
       },
     ],
-    member_ReprPublications:[
+    member_ReprPublications: [
       {
-        publication:"",
+        publication:
+          "Mapping daily evapotranspiration over a large irrigation district from MODIS data using a novel hybrid dual-source coupling model",
       },
       {
-        publication:"",
+        publication: "",
       },
       {
-        publication:"",
+        publication: "",
       },
     ],
   },
@@ -253,85 +269,90 @@ const teamMembers = [
         paragraph: "",
       },
     ],
-    
-    member_education:[
-      {
-        institute_name:"Capital University Of Science and Technology, Islamabad, Pakistan",
-        graduation_period:"2017-2019",
-        degree_name:"MS Computer Science"
 
+    member_education: [
+      {
+        institute_name:
+          "Capital University Of Science and Technology, Islamabad, Pakistan",
+        graduation_period: "2017-2019",
+        degree_name: "MS Computer Science",
       },
       {
-        institute_name:"University of Agriculture, Peshawar , Kpk, Pakistan",
-        graduation_period:"2011-2015",
-        degree_name:"BS Computer Science"
+        institute_name: "University of Agriculture, Peshawar , Kpk, Pakistan",
+        graduation_period: "2011-2015",
+        degree_name: "BS Computer Science",
+      },
+    ],
 
+    member_Experience: [
+      {
+        orgName: "Department of Hydraulic Engineering, Tsinghua University",
+        orgPlace: "China",
+        From: "NOV 2021",
+        To: "PRESENT",
+        designation: "Shuimu Scholar (Assistant Researcher/Postdoc)",
+        experienceDetail:
+          "Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
+      },
+      {
+        orgName: "Second Organisation",
+        orgPlace: "Islamabad",
+        From: "JAN 2017",
+        To: "SEP 2021",
+        designation: "Second Designation",
+        experienceDetail:
+          "Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
       },
     ],
-    
-    member_Experience:[
+    member_AcadProf: [
       {
-        orgName:"Department of Hydraulic Engineering, Tsinghua University",
-        orgPlace:"China",
-        From:"NOV 2021",
-        To:"PRESENT",
-        designation:"Shuimu Scholar (Assistant Researcher/Postdoc)",
-        experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
+        AcadProfName: "Google Scholar",
+        AcadProfURL:
+          " https://scholar.google.com/citations?user=I9_x85wAAAAJ&hl=en",
       },
       {
-        orgName:"Second Organisation",
-        orgPlace:"Islamabad",
-        From:"JAN 2017",
-        To:"SEP 2021",
-        designation:"Second Designation",
-        experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
-      },
-    ],
-    member_AcadProf:[
-      {
-        AcadProfName:"Google Scholar",
-        AcadProfURL:" https://scholar.google.com/citations?user=I9_x85wAAAAJ&hl=en",
+        AcadProfName: "ResearchGate",
+        AcadProfURL: "https://www.researchgate.net/profile/Khalil-Rahman-3",
       },
       {
-        AcadProfName:"ResearchGate",
-        AcadProfURL:"https://www.researchgate.net/profile/Khalil-Rahman-3",
+        AcadProfName: "Publons",
+        AcadProfURL:
+          " https://publons.com/researcher/2913773/khalil-ur-rahman/",
       },
       {
-        AcadProfName:"Publons",
-        AcadProfURL:" https://publons.com/researcher/2913773/khalil-ur-rahman/",
-      },
-      {
-        AcadProfName:"ORCID",
-        AcadProfURL:"https://orcid.org/my-orcid?orcid=0000-0001-8927-3467",
+        AcadProfName: "ORCID",
+        AcadProfURL: "https://orcid.org/my-orcid?orcid=0000-0001-8927-3467",
       },
     ],
-    member_ResearchInterests:[
+    member_ResearchInterests: [
       {
-        ResearchInterest:"Satellite Precipitation Estimation",
+        ResearchInterest: "Satellite Precipitation Estimation",
       },
       {
-        ResearchInterest:"Merging Satellite Precipitation Products and their applications",
+        ResearchInterest:
+          "Merging Satellite Precipitation Products and their applications",
       },
       {
-        ResearchInterest:"GIS and Remote Sensing applications in Hydrology",
+        ResearchInterest: "GIS and Remote Sensing applications in Hydrology",
       },
       {
-        ResearchInterest:"Drought",
+        ResearchInterest: "Drought",
       },
       {
-        ResearchInterest:"Hydrological Modeling (both surface and groundwater)",
+        ResearchInterest:
+          "Hydrological Modeling (both surface and groundwater)",
       },
     ],
-    
-    member_ReprPublications:[
+
+    member_ReprPublications: [
       {
-        publication:"",
+        publication: "",
       },
       {
-        publication:"",
+        publication: "",
       },
       {
-        publication:"",
+        publication: "",
       },
     ],
   },
@@ -359,85 +380,90 @@ const teamMembers = [
         paragraph: "",
       },
     ],
-    
-    member_education:[
-      {
-        institute_name:"Capital University Of Science and Technology, Islamabad, Pakistan",
-        graduation_period:"2017-2019",
-        degree_name:"MS Computer Science"
 
+    member_education: [
+      {
+        institute_name:
+          "Capital University Of Science and Technology, Islamabad, Pakistan",
+        graduation_period: "2017-2019",
+        degree_name: "MS Computer Science",
       },
       {
-        institute_name:"University of Agriculture, Peshawar , Kpk, Pakistan",
-        graduation_period:"2011-2015",
-        degree_name:"BS Computer Science"
+        institute_name: "University of Agriculture, Peshawar , Kpk, Pakistan",
+        graduation_period: "2011-2015",
+        degree_name: "BS Computer Science",
+      },
+    ],
 
+    member_Experience: [
+      {
+        orgName: "Department of Hydraulic Engineering, Tsinghua University",
+        orgPlace: "China",
+        From: "NOV 2021",
+        To: "PRESENT",
+        designation: "Shuimu Scholar (Assistant Researcher/Postdoc)",
+        experienceDetail:
+          "Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
+      },
+      {
+        orgName: "Second Organisation",
+        orgPlace: "Islamabad",
+        From: "JAN 2017",
+        To: "SEP 2021",
+        designation: "Second Designation",
+        experienceDetail:
+          "Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
       },
     ],
-    
-    member_Experience:[
+    member_AcadProf: [
       {
-        orgName:"Department of Hydraulic Engineering, Tsinghua University",
-        orgPlace:"China",
-        From:"NOV 2021",
-        To:"PRESENT",
-        designation:"Shuimu Scholar (Assistant Researcher/Postdoc)",
-        experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
+        AcadProfName: "Google Scholar",
+        AcadProfURL:
+          " https://scholar.google.com/citations?user=I9_x85wAAAAJ&hl=en",
       },
       {
-        orgName:"Second Organisation",
-        orgPlace:"Islamabad",
-        From:"JAN 2017",
-        To:"SEP 2021",
-        designation:"Second Designation",
-        experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
-      },
-    ],
-    member_AcadProf:[
-      {
-        AcadProfName:"Google Scholar",
-        AcadProfURL:" https://scholar.google.com/citations?user=I9_x85wAAAAJ&hl=en",
+        AcadProfName: "ResearchGate",
+        AcadProfURL: "https://www.researchgate.net/profile/Khalil-Rahman-3",
       },
       {
-        AcadProfName:"ResearchGate",
-        AcadProfURL:"https://www.researchgate.net/profile/Khalil-Rahman-3",
+        AcadProfName: "Publons",
+        AcadProfURL:
+          " https://publons.com/researcher/2913773/khalil-ur-rahman/",
       },
       {
-        AcadProfName:"Publons",
-        AcadProfURL:" https://publons.com/researcher/2913773/khalil-ur-rahman/",
-      },
-      {
-        AcadProfName:"ORCID",
-        AcadProfURL:"https://orcid.org/my-orcid?orcid=0000-0001-8927-3467",
+        AcadProfName: "ORCID",
+        AcadProfURL: "https://orcid.org/my-orcid?orcid=0000-0001-8927-3467",
       },
     ],
-    member_ResearchInterests:[
+    member_ResearchInterests: [
       {
-        ResearchInterest:"Satellite Precipitation Estimation",
+        ResearchInterest: "Satellite Precipitation Estimation",
       },
       {
-        ResearchInterest:"Merging Satellite Precipitation Products and their applications",
+        ResearchInterest:
+          "Merging Satellite Precipitation Products and their applications",
       },
       {
-        ResearchInterest:"GIS and Remote Sensing applications in Hydrology",
+        ResearchInterest: "GIS and Remote Sensing applications in Hydrology",
       },
       {
-        ResearchInterest:"Drought",
+        ResearchInterest: "Drought",
       },
       {
-        ResearchInterest:"Hydrological Modeling (both surface and groundwater)",
+        ResearchInterest:
+          "Hydrological Modeling (both surface and groundwater)",
       },
     ],
-    
-    member_ReprPublications:[
+
+    member_ReprPublications: [
       {
-        publication:"",
+        publication: "",
       },
       {
-        publication:"",
+        publication: "",
       },
       {
-        publication:"",
+        publication: "",
       },
     ],
   },
@@ -465,85 +491,90 @@ const teamMembers = [
         paragraph: "",
       },
     ],
-    
-    member_education:[
-      {
-        institute_name:"Capital University Of Science and Technology, Islamabad, Pakistan",
-        graduation_period:"2017-2019",
-        degree_name:"MS Computer Science"
 
+    member_education: [
+      {
+        institute_name:
+          "Capital University Of Science and Technology, Islamabad, Pakistan",
+        graduation_period: "2017-2019",
+        degree_name: "MS Computer Science",
       },
       {
-        institute_name:"University of Agriculture, Peshawar , Kpk, Pakistan",
-        graduation_period:"2011-2015",
-        degree_name:"BS Computer Science"
+        institute_name: "University of Agriculture, Peshawar , Kpk, Pakistan",
+        graduation_period: "2011-2015",
+        degree_name: "BS Computer Science",
+      },
+    ],
 
+    member_Experience: [
+      {
+        orgName: "Department of Hydraulic Engineering, Tsinghua University",
+        orgPlace: "China",
+        From: "NOV 2021",
+        To: "PRESENT",
+        designation: "Shuimu Scholar (Assistant Researcher/Postdoc)",
+        experienceDetail:
+          "Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
+      },
+      {
+        orgName: "Second Organisation",
+        orgPlace: "Islamabad",
+        From: "JAN 2017",
+        To: "SEP 2021",
+        designation: "Second Designation",
+        experienceDetail:
+          "Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
       },
     ],
-    
-    member_Experience:[
+    member_AcadProf: [
       {
-        orgName:"Department of Hydraulic Engineering, Tsinghua University",
-        orgPlace:"China",
-        From:"NOV 2021",
-        To:"PRESENT",
-        designation:"Shuimu Scholar (Assistant Researcher/Postdoc)",
-        experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
+        AcadProfName: "Google Scholar",
+        AcadProfURL:
+          " https://scholar.google.com/citations?user=I9_x85wAAAAJ&hl=en",
       },
       {
-        orgName:"Second Organisation",
-        orgPlace:"Islamabad",
-        From:"JAN 2017",
-        To:"SEP 2021",
-        designation:"Second Designation",
-        experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
-      },
-    ],
-    member_AcadProf:[
-      {
-        AcadProfName:"Google Scholar",
-        AcadProfURL:" https://scholar.google.com/citations?user=I9_x85wAAAAJ&hl=en",
+        AcadProfName: "ResearchGate",
+        AcadProfURL: "https://www.researchgate.net/profile/Khalil-Rahman-3",
       },
       {
-        AcadProfName:"ResearchGate",
-        AcadProfURL:"https://www.researchgate.net/profile/Khalil-Rahman-3",
+        AcadProfName: "Publons",
+        AcadProfURL:
+          " https://publons.com/researcher/2913773/khalil-ur-rahman/",
       },
       {
-        AcadProfName:"Publons",
-        AcadProfURL:" https://publons.com/researcher/2913773/khalil-ur-rahman/",
-      },
-      {
-        AcadProfName:"ORCID",
-        AcadProfURL:"https://orcid.org/my-orcid?orcid=0000-0001-8927-3467",
+        AcadProfName: "ORCID",
+        AcadProfURL: "https://orcid.org/my-orcid?orcid=0000-0001-8927-3467",
       },
     ],
-    member_ResearchInterests:[
+    member_ResearchInterests: [
       {
-        ResearchInterest:"Satellite Precipitation Estimation",
+        ResearchInterest: "Satellite Precipitation Estimation",
       },
       {
-        ResearchInterest:"Merging Satellite Precipitation Products and their applications",
+        ResearchInterest:
+          "Merging Satellite Precipitation Products and their applications",
       },
       {
-        ResearchInterest:"GIS and Remote Sensing applications in Hydrology",
+        ResearchInterest: "GIS and Remote Sensing applications in Hydrology",
       },
       {
-        ResearchInterest:"Drought",
+        ResearchInterest: "Drought",
       },
       {
-        ResearchInterest:"Hydrological Modeling (both surface and groundwater)",
+        ResearchInterest:
+          "Hydrological Modeling (both surface and groundwater)",
       },
     ],
-    
-    member_ReprPublications:[
+
+    member_ReprPublications: [
       {
-        publication:"",
+        publication: "",
       },
       {
-        publication:"",
+        publication: "",
       },
       {
-        publication:"",
+        publication: "",
       },
     ],
   },
@@ -571,85 +602,90 @@ const teamMembers = [
         paragraph: "",
       },
     ],
-    
-    member_education:[
-      {
-        institute_name:"Capital University Of Science and Technology, Islamabad, Pakistan",
-        graduation_period:"2017-2019",
-        degree_name:"MS Computer Science"
 
+    member_education: [
+      {
+        institute_name:
+          "Capital University Of Science and Technology, Islamabad, Pakistan",
+        graduation_period: "2017-2019",
+        degree_name: "MS Computer Science",
       },
       {
-        institute_name:"University of Agriculture, Peshawar , Kpk, Pakistan",
-        graduation_period:"2011-2015",
-        degree_name:"BS Computer Science"
+        institute_name: "University of Agriculture, Peshawar , Kpk, Pakistan",
+        graduation_period: "2011-2015",
+        degree_name: "BS Computer Science",
+      },
+    ],
 
+    member_Experience: [
+      {
+        orgName: "Department of Hydraulic Engineering, Tsinghua University",
+        orgPlace: "China",
+        From: "NOV 2021",
+        To: "PRESENT",
+        designation: "Shuimu Scholar (Assistant Researcher/Postdoc)",
+        experienceDetail:
+          "Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
+      },
+      {
+        orgName: "Second Organisation",
+        orgPlace: "Islamabad",
+        From: "JAN 2017",
+        To: "SEP 2021",
+        designation: "Second Designation",
+        experienceDetail:
+          "Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
       },
     ],
-    
-    member_Experience:[
+    member_AcadProf: [
       {
-        orgName:"Department of Hydraulic Engineering, Tsinghua University",
-        orgPlace:"China",
-        From:"NOV 2021",
-        To:"PRESENT",
-        designation:"Shuimu Scholar (Assistant Researcher/Postdoc)",
-        experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
+        AcadProfName: "Google Scholar",
+        AcadProfURL:
+          " https://scholar.google.com/citations?user=I9_x85wAAAAJ&hl=en",
       },
       {
-        orgName:"Second Organisation",
-        orgPlace:"Islamabad",
-        From:"JAN 2017",
-        To:"SEP 2021",
-        designation:"Second Designation",
-        experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
-      },
-    ],
-    member_AcadProf:[
-      {
-        AcadProfName:"Google Scholar",
-        AcadProfURL:" https://scholar.google.com/citations?user=I9_x85wAAAAJ&hl=en",
+        AcadProfName: "ResearchGate",
+        AcadProfURL: "https://www.researchgate.net/profile/Khalil-Rahman-3",
       },
       {
-        AcadProfName:"ResearchGate",
-        AcadProfURL:"https://www.researchgate.net/profile/Khalil-Rahman-3",
+        AcadProfName: "Publons",
+        AcadProfURL:
+          " https://publons.com/researcher/2913773/khalil-ur-rahman/",
       },
       {
-        AcadProfName:"Publons",
-        AcadProfURL:" https://publons.com/researcher/2913773/khalil-ur-rahman/",
-      },
-      {
-        AcadProfName:"ORCID",
-        AcadProfURL:"https://orcid.org/my-orcid?orcid=0000-0001-8927-3467",
+        AcadProfName: "ORCID",
+        AcadProfURL: "https://orcid.org/my-orcid?orcid=0000-0001-8927-3467",
       },
     ],
-    member_ResearchInterests:[
+    member_ResearchInterests: [
       {
-        ResearchInterest:"Satellite Precipitation Estimation",
+        ResearchInterest: "Satellite Precipitation Estimation",
       },
       {
-        ResearchInterest:"Merging Satellite Precipitation Products and their applications",
+        ResearchInterest:
+          "Merging Satellite Precipitation Products and their applications",
       },
       {
-        ResearchInterest:"GIS and Remote Sensing applications in Hydrology",
+        ResearchInterest: "GIS and Remote Sensing applications in Hydrology",
       },
       {
-        ResearchInterest:"Drought",
+        ResearchInterest: "Drought",
       },
       {
-        ResearchInterest:"Hydrological Modeling (both surface and groundwater)",
+        ResearchInterest:
+          "Hydrological Modeling (both surface and groundwater)",
       },
     ],
-    
-    member_ReprPublications:[
+
+    member_ReprPublications: [
       {
-        publication:"",
+        publication: "",
       },
       {
-        publication:"",
+        publication: "",
       },
       {
-        publication:"",
+        publication: "",
       },
     ],
   },
@@ -677,85 +713,90 @@ const teamMembers = [
         paragraph: "",
       },
     ],
-    
-    member_education:[
-      {
-        institute_name:"Capital University Of Science and Technology, Islamabad, Pakistan",
-        graduation_period:"2017-2019",
-        degree_name:"MS Computer Science"
 
+    member_education: [
+      {
+        institute_name:
+          "Capital University Of Science and Technology, Islamabad, Pakistan",
+        graduation_period: "2017-2019",
+        degree_name: "MS Computer Science",
       },
       {
-        institute_name:"University of Agriculture, Peshawar , Kpk, Pakistan",
-        graduation_period:"2011-2015",
-        degree_name:"BS Computer Science"
+        institute_name: "University of Agriculture, Peshawar , Kpk, Pakistan",
+        graduation_period: "2011-2015",
+        degree_name: "BS Computer Science",
+      },
+    ],
 
+    member_Experience: [
+      {
+        orgName: "Department of Hydraulic Engineering, Tsinghua University",
+        orgPlace: "China",
+        From: "NOV 2021",
+        To: "PRESENT",
+        designation: "Shuimu Scholar (Assistant Researcher/Postdoc)",
+        experienceDetail:
+          "Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
+      },
+      {
+        orgName: "Second Organisation",
+        orgPlace: "Islamabad",
+        From: "JAN 2017",
+        To: "SEP 2021",
+        designation: "Second Designation",
+        experienceDetail:
+          "Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
       },
     ],
-    
-    member_Experience:[
+    member_AcadProf: [
       {
-        orgName:"Department of Hydraulic Engineering, Tsinghua University",
-        orgPlace:"China",
-        From:"NOV 2021",
-        To:"PRESENT",
-        designation:"Shuimu Scholar (Assistant Researcher/Postdoc)",
-        experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
+        AcadProfName: "Google Scholar",
+        AcadProfURL:
+          " https://scholar.google.com/citations?user=I9_x85wAAAAJ&hl=en",
       },
       {
-        orgName:"Second Organisation",
-        orgPlace:"Islamabad",
-        From:"JAN 2017",
-        To:"SEP 2021",
-        designation:"Second Designation",
-        experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
-      },
-    ],
-    member_AcadProf:[
-      {
-        AcadProfName:"Google Scholar",
-        AcadProfURL:" https://scholar.google.com/citations?user=I9_x85wAAAAJ&hl=en",
+        AcadProfName: "ResearchGate",
+        AcadProfURL: "https://www.researchgate.net/profile/Khalil-Rahman-3",
       },
       {
-        AcadProfName:"ResearchGate",
-        AcadProfURL:"https://www.researchgate.net/profile/Khalil-Rahman-3",
+        AcadProfName: "Publons",
+        AcadProfURL:
+          " https://publons.com/researcher/2913773/khalil-ur-rahman/",
       },
       {
-        AcadProfName:"Publons",
-        AcadProfURL:" https://publons.com/researcher/2913773/khalil-ur-rahman/",
-      },
-      {
-        AcadProfName:"ORCID",
-        AcadProfURL:"https://orcid.org/my-orcid?orcid=0000-0001-8927-3467",
+        AcadProfName: "ORCID",
+        AcadProfURL: "https://orcid.org/my-orcid?orcid=0000-0001-8927-3467",
       },
     ],
-    member_ResearchInterests:[
+    member_ResearchInterests: [
       {
-        ResearchInterest:"Satellite Precipitation Estimation",
+        ResearchInterest: "Satellite Precipitation Estimation",
       },
       {
-        ResearchInterest:"Merging Satellite Precipitation Products and their applications",
+        ResearchInterest:
+          "Merging Satellite Precipitation Products and their applications",
       },
       {
-        ResearchInterest:"GIS and Remote Sensing applications in Hydrology",
+        ResearchInterest: "GIS and Remote Sensing applications in Hydrology",
       },
       {
-        ResearchInterest:"Drought",
+        ResearchInterest: "Drought",
       },
       {
-        ResearchInterest:"Hydrological Modeling (both surface and groundwater)",
+        ResearchInterest:
+          "Hydrological Modeling (both surface and groundwater)",
       },
     ],
-    
-    member_ReprPublications:[
+
+    member_ReprPublications: [
       {
-        publication:"",
+        publication: "",
       },
       {
-        publication:"",
+        publication: "",
       },
       {
-        publication:"",
+        publication: "",
       },
     ],
   },
@@ -783,85 +824,90 @@ const teamMembers = [
         paragraph: "",
       },
     ],
-    
-    member_education:[
-      {
-        institute_name:"Capital University Of Science and Technology, Islamabad, Pakistan",
-        graduation_period:"2017-2019",
-        degree_name:"MS Computer Science"
 
+    member_education: [
+      {
+        institute_name:
+          "Capital University Of Science and Technology, Islamabad, Pakistan",
+        graduation_period: "2017-2019",
+        degree_name: "MS Computer Science",
       },
       {
-        institute_name:"University of Agriculture, Peshawar , Kpk, Pakistan",
-        graduation_period:"2011-2015",
-        degree_name:"BS Computer Science"
+        institute_name: "University of Agriculture, Peshawar , Kpk, Pakistan",
+        graduation_period: "2011-2015",
+        degree_name: "BS Computer Science",
+      },
+    ],
 
+    member_Experience: [
+      {
+        orgName: "Department of Hydraulic Engineering, Tsinghua University",
+        orgPlace: "China",
+        From: "NOV 2021",
+        To: "PRESENT",
+        designation: "Shuimu Scholar (Assistant Researcher/Postdoc)",
+        experienceDetail:
+          "Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
+      },
+      {
+        orgName: "Second Organisation",
+        orgPlace: "Islamabad",
+        From: "JAN 2017",
+        To: "SEP 2021",
+        designation: "Second Designation",
+        experienceDetail:
+          "Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
       },
     ],
-    
-    member_Experience:[
+    member_AcadProf: [
       {
-        orgName:"Department of Hydraulic Engineering, Tsinghua University",
-        orgPlace:"China",
-        From:"NOV 2021",
-        To:"PRESENT",
-        designation:"Shuimu Scholar (Assistant Researcher/Postdoc)",
-        experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
+        AcadProfName: "Google Scholar",
+        AcadProfURL:
+          " https://scholar.google.com/citations?user=I9_x85wAAAAJ&hl=en",
       },
       {
-        orgName:"Second Organisation",
-        orgPlace:"Islamabad",
-        From:"JAN 2017",
-        To:"SEP 2021",
-        designation:"Second Designation",
-        experienceDetail:"Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
-      },
-    ],
-    member_AcadProf:[
-      {
-        AcadProfName:"Google Scholar",
-        AcadProfURL:" https://scholar.google.com/citations?user=I9_x85wAAAAJ&hl=en",
+        AcadProfName: "ResearchGate",
+        AcadProfURL: "https://www.researchgate.net/profile/Khalil-Rahman-3",
       },
       {
-        AcadProfName:"ResearchGate",
-        AcadProfURL:"https://www.researchgate.net/profile/Khalil-Rahman-3",
+        AcadProfName: "Publons",
+        AcadProfURL:
+          " https://publons.com/researcher/2913773/khalil-ur-rahman/",
       },
       {
-        AcadProfName:"Publons",
-        AcadProfURL:" https://publons.com/researcher/2913773/khalil-ur-rahman/",
-      },
-      {
-        AcadProfName:"ORCID",
-        AcadProfURL:"https://orcid.org/my-orcid?orcid=0000-0001-8927-3467",
+        AcadProfName: "ORCID",
+        AcadProfURL: "https://orcid.org/my-orcid?orcid=0000-0001-8927-3467",
       },
     ],
-    member_ResearchInterests:[
+    member_ResearchInterests: [
       {
-        ResearchInterest:"Satellite Precipitation Estimation",
+        ResearchInterest: "Satellite Precipitation Estimation",
       },
       {
-        ResearchInterest:"Merging Satellite Precipitation Products and their applications",
+        ResearchInterest:
+          "Merging Satellite Precipitation Products and their applications",
       },
       {
-        ResearchInterest:"GIS and Remote Sensing applications in Hydrology",
+        ResearchInterest: "GIS and Remote Sensing applications in Hydrology",
       },
       {
-        ResearchInterest:"Drought",
+        ResearchInterest: "Drought",
       },
       {
-        ResearchInterest:"Hydrological Modeling (both surface and groundwater)",
+        ResearchInterest:
+          "Hydrological Modeling (both surface and groundwater)",
       },
     ],
-    
-    member_ReprPublications:[
+
+    member_ReprPublications: [
       {
-        publication:"",
+        publication: "",
       },
       {
-        publication:"",
+        publication: "",
       },
       {
-        publication:"",
+        publication: "",
       },
     ],
   },
