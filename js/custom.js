@@ -233,7 +233,8 @@ const footerContent = `
 <div class="container pt-3">
 <div class="row justify-content-between align-items-center py-5 mb-3">
   <div class="col-auto mb-4 mb-lg-0">
-    <h2 class="font-weight-semibold text-color-light text-10 ls-0 mb-0">Hydro Sensing </h2>
+    <h2 class="font-weight-normal text-color-light text-7 ls-0 mb-0">Let's Explore 
+    <strong>HydroSensing</strong> with Us </h2>
   </div>
   <div class="col-auto">
     <a href="contact.html" class="btn btn-primary custom-btn-style-1 font-weight-medium btn-px-4 btn-py-2 text-4" data-cursor-effect-hover="plus" data-cursor-effect-hover-color="light">

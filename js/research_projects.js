@@ -2,8 +2,7 @@ const researchProjects = [
   //project One
   {
     RP_id: "projectOne",
-    RP_heading:
-      "Real-Time calibration and validation of Groundwater Storage Depletion using GRACE",
+    RP_heading: "Project one",
     RP_status_id: "CompletedResearchProjects",
     RP_status: "Completed Research Projects",
     RP_image: "img/projects/project.jpg",
@@ -12,8 +11,7 @@ const researchProjects = [
 
     RP_paragraphs: [
       {
-        paragraph:
-          "Real-Time calibration and validation of Groundwater Storage Depletion using GRACE",
+        paragraph: "",
       },
       {
         paragraph:
