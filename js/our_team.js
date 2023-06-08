@@ -173,9 +173,9 @@ const teamMembers = [
 
     member_Experience: [
       {
-        orgName: "Tsinghua University, China",
+        orgName: "Tsinghua University, ",
 
-        orgPlace: "",
+        orgPlace: "China",
         From: "July 1999 ",
         To: "PRESENT",
         designation: "Associate Professor  ",
@@ -183,15 +183,44 @@ const teamMembers = [
           "Department of Hydraulic Engineering & State Key Laboratory of Hydroscience and Engineering",
       },
       {
-        orgName: "Second Organisation",
-        orgPlace: "Islamabad",
-        From: "JAN 2017",
-        To: "SEP 2021",
-        designation: "Second Designation",
+        orgName: "Tsinghua University",
+        orgPlace: "China",
+        From: "Nov 2012",
+        To: "July 2017",
+        designation: "Vice Director",
         experienceDetail:
-          "Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
+          "Institute of Hydrology and Water Resources, Department of Hydraulic Engineering",
+      },
+
+      {
+        orgName: "The University of Edinburgh",
+        orgPlace: " United Kingdom",
+        From: "June 2006",
+        To: "Sept 2006",
+        designation: "Senior visiting scholar",
+        experienceDetail: "Institute for Infrastructure and Environment",
+      },
+
+      {
+        orgName: "Tsinghua University",
+        orgPlace: "China",
+        From: "March 1999",
+        To: "March 2010",
+        designation: "Director of Water Resources Laboratory",
+        experienceDetail:
+          "Department of Hydraulic Engineering, Tsinghua University",
+      },
+
+      {
+        orgName: "Tsinghua University",
+        orgPlace: "China",
+        From: "July 1997",
+        To: "June 1999",
+        designation: "Lecture of Hydrology and Water Resources",
+        experienceDetail: "Department of Hydraulic Engineering",
       },
     ],
+
     member_AcadProf: [
       {
         AcadProfName: "Google Scholar",
@@ -199,7 +228,7 @@ const teamMembers = [
           "https://scholar.google.com/citations?user=7_piIK0AAAAJ&hl=en",
       },
       {
-        AcadProfName: "ResearchGate",
+        AcadProfName: "Research Gate",
         AcadProfURL: "https://www.researchgate.net/profile/Songhao-Shang",
       },
 
@@ -215,33 +244,64 @@ const teamMembers = [
     ],
     member_ResearchInterests: [
       {
-        ResearchInterest: "Satellite Precipitation Estimation",
-      },
-      {
         ResearchInterest:
           "Merging Satellite Precipitation Products and their applications",
       },
       {
-        ResearchInterest: "GIS and Remote Sensing applications in Hydrology",
+        ResearchInterest: "GIS and Remote Sensing applications in Hydrologys",
       },
       {
-        ResearchInterest: "Drought",
+        ResearchInterest: "Agricultural hydrology and water resources",
       },
       {
         ResearchInterest:
-          "Hydrological Modeling (both surface and groundwater)",
+          "Arid region hydrology and water resources and ecological water use",
+      },
+      {
+        ResearchInterest: "Remote Sensing in hydrology and agriculture.",
       },
     ],
     member_ReprPublications: [
       {
         publication:
-          "Mapping daily evapotranspiration over a large irrigation district from MODIS data using a novel hybrid dual-source coupling model",
+          "Wen, Y., Wan, H., Shang, S. *, and Rahman, K.U., 2022. A monthly distributed agro-hydrological model for irrigation district in arid region with shallow groundwater table. Journal of Hydrology, 609, p.127746.",
       },
       {
-        publication: "",
+        publication:
+          "Chen, S., Mao, X. and Shang, S.*, 2022. Response and contribution of shallow groundwater to soil water/salt budget and crop growth in layered soils. Agricultural Water Management, 266, p.107574.",
       },
       {
-        publication: "",
+        publication:
+          "Wan, H., Li, J., Shang, S.*, and Rahman, K.U., 2021. Exploratory factor analysis-based co-kriging method for spatial interpolation of multi-layered soil particle-size fractions and texture. Journal of Soils and Sediments, 21(12), pp.3868-3887.",
+      },
+
+      {
+        publication:
+          "Li J., Shang S.*, Jiang H.Z., Song J., Rahman K.U., Adeloye A.J., 2021. Simulation-based optimization for spatiotemporal allocation of irrigation water in arid region. Agricultural Water Management, 254, 106952. https://doi.org/10.1016/j.agwat.2021.106952.",
+      },
+      {
+        publication:
+          "Rahman K.U., Shang S.*, Shahid M., Wen Y., Khan A.J., 2020. Development of a novel weighted average least squares-based ensemble multi-satellite precipitation dataset and its comprehensive evaluation over Pakistan. Atmospheric Research, 246: 105133. https://doi.org/10.1016/j.atmosres.2020.105133.",
+      },
+      {
+        publication:
+          "Rahman K.U., Shang S*., Shahid M., Wen Y., 2020. Hydrological evaluation of merged satellite precipitation datasets for streamflow simulation using SWAT: A case study of Potohar Plateau, Pakistan. Journal of Hydrology, 587: 125040. https://doi.org/10.1016/j.jhydrol.2020.125040.",
+      },
+      {
+        publication:
+          "Li, J., Wan, H. and Shang, S.*, 2020. Comparison of interpolation methods for mapping layered soil particle-size fractions and texture in an arid oasis. Catena, 190, p.104514.",
+      },
+      {
+        publication:
+          "Wen, Y., Shang, S.*, Rahman, K.U., Xia, Y. and Ren, D., 2020. A semi-distributed drainage model for monthly drainage water and salinity simulation in a large irrigation district in arid region. Agricultural Water Management, 230, p.105962.",
+      },
+      {
+        publication:
+          "Yu B, Shang S.*, Zhu WB, Gentine P, Cheng Y. 2019. Mapping daily evapotranspiration over a large irrigation district from MODIS data using a novel hybrid dual-source coupling model. Agricultural and Forest Meteorology, 276-277: 107612. https://doi.org/10.1016/j.agrformet. 2019.06.011.",
+      },
+      {
+        publication:
+          "Wen Y., Shang S.*, Jian Y. 2017. Optimization of irrigation scheduling for spring wheat with mulching and limited irrigation water in an arid climate. Agricultural Water Management, 2017, 192, 33-44. https://doi.org/10.1016/j.agwat.2017.06.023.",
       },
     ],
   },
