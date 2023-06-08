@@ -10,6 +10,7 @@ const teamMembers = [
     member_Tiwtter: "#",
     member_Facebook: "#",
     member_email: "khalil@hydrosensing4u.com",
+    member_Phone: "+8618600955977",
     member_Google_scholar: "",
 
     member_paragraphs: [
@@ -143,7 +144,8 @@ const teamMembers = [
     member_Linkedin: "#",
     member_Tiwtter: "#",
     member_Facebook: "#",
-    member_email: "",
+    member_email: "abc@gmail.com",
+    member_Phone: "12345678",
     member_Google_scholar: "",
 
     member_paragraphs: [
@@ -316,6 +318,7 @@ const teamMembers = [
     member_Tiwtter: "#",
     member_Facebook: "#",
     member_email: "",
+    member_Phone: "",
     member_Google_scholar: "",
 
     member_paragraphs: [
@@ -427,6 +430,7 @@ const teamMembers = [
     member_Tiwtter: "#",
     member_Facebook: "#",
     member_email: "",
+    member_Phone: "",
     member_Google_scholar: "",
 
     member_paragraphs: [
@@ -538,6 +542,7 @@ const teamMembers = [
     member_Tiwtter: "#",
     member_Facebook: "#",
     member_email: "",
+    member_Phone: "",
     member_Google_scholar: "",
 
     member_paragraphs: [
@@ -649,6 +654,7 @@ const teamMembers = [
     member_Tiwtter: "#",
     member_Facebook: "#",
     member_email: "",
+    member_Phone: "",
     member_Google_scholar: "",
 
     member_paragraphs: [
@@ -760,6 +766,7 @@ const teamMembers = [
     member_Tiwtter: "#",
     member_Facebook: "#",
     member_email: "",
+    member_Phone: "",
     member_Google_scholar: "",
 
     member_paragraphs: [
@@ -871,6 +878,7 @@ const teamMembers = [
     member_Tiwtter: "#",
     member_Facebook: "#",
     member_email: "",
+    member_Phone: "",
     member_Google_scholar: "",
 
     member_paragraphs: [
