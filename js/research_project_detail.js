@@ -13,7 +13,7 @@ const ResearchCategory =getResearchCategory();
 
 
 const ElRP_detail_Heading=document.getElementById("RP_detail_Heading");
-const ElRP_detail_Heading2=document.getElementById("RP_detail_Heading2");
+// const ElRP_detail_Heading2=document.getElementById("RP_detail_Heading2");
 const ElRP_detail_image=document.getElementById("RP_detail_image");
 const RP_detail_Paras=document.getElementById("RP_detail_Paras");
 const ElRP_detail_Scope=document.getElementById("RP_detail_Scope");
@@ -27,7 +27,7 @@ if(singleClickedResearch.RP_id==ResearchProject){
     if(ElRP_detail_Heading){
 
         ElRP_detail_Heading.textContent=`${singleClickedResearch.RP_heading}`;
-        ElRP_detail_Heading2.textContent=`${singleClickedResearch.RP_heading}`;
+        // ElRP_detail_Heading2.textContent=`${singleClickedResearch.RP_heading}`;
         ElRP_detail_image.src=`${singleClickedResearch.RP_detail_image}`;
         for (const paragraph of singleClickedResearch.RP_paragraphs) {
             const pElement = document.createElement("p");
@@ -83,7 +83,7 @@ for(const singleProject of researchProjects){
                   alt="${singleProject.RP_heading}"
                 />
 
-                <span class="thumb-info-title">
+                <span class="thumb-info-title text-2"  style="font-size: 9px; padding: 5px 8px 2px; font-weight: 400; width:100%; max-width:100%; line-height: 1.5;">
                   <span class="thumb-info-inner">${singleProject.RP_heading}</span>
                   <span class="thumb-info-type">${""}</span>
                 </span>

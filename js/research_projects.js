@@ -2,7 +2,7 @@ const researchProjects = [
   //project One
   {
     RP_id: "projectOne",
-    RP_heading: "Project one",
+    RP_heading: "Excepteur nisi deserunt dolore minim anim do ut eiusmod adipisicing.",
     RP_status_id: "CompletedResearchProjects",
     RP_status: "Completed Research Projects",
     RP_image: "img/projects/project.jpg",
@@ -220,8 +220,8 @@ function loadResearch(researchId, element) {
                     alt="${singleProject.RP_heading}"
                   />
   
-                  <span class="thumb-info-title">
-                    <span class="thumb-info-inner text-1">${
+                  <span class="thumb-info-title  text-2"  style="font-size: 9px; padding: 5px 8px 2px; font-weight: 400; width:100%; max-width:100%; line-height: 1.5;">
+                    <span class="thumb-info-inner">${
                       singleProject.RP_heading
                     }</span>
                     <span class="thumb-info-type">${""}</span>
@@ -261,7 +261,7 @@ function loadResearch(researchId, element) {
                     alt="${singleProject.RP_heading}"
                   />
   
-                  <span class="thumb-info-title">
+                  <span class="thumb-info-title  text-2" style="font-size: 9px; padding: 5px 8px 2px; font-weight: 400; width:100%; max-width:100%; line-height: 1.5;">
                     <span class="thumb-info-inner">${
                       singleProject.RP_heading
                     }</span>
