@@ -525,7 +525,7 @@
 								<h2 class="custom-highlight-text-1 d-inline-block line-height-5 text-4 positive-ls-3 font-weight-medium text-color-primary mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">GET IN TOUCH</h2>
 								<h3 class="text-9 line-height-3 text-transform-none font-weight-medium text-color-light ls-0 mb-3 pb-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">Send Us a Message and Learn More About Our Services</h3>
 								<p class="text-3-5 pb-3 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="750">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendreriast ehicula leo, vel efficitur felis ultrices non. Cras a elit sit amet. </p>
-								<form class="contact-form form-style-4 form-placeholders-light form-errors-light appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000" action="php/contact-form.php" method="POST">
+								<form class="contact-form form-style-4 form-placeholders-light form-errors-light appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000" action="php/contact-form-recaptcha-v2.php" method="POST">
 									<div class="contact-form-success alert alert-success d-none mt-4">
 										<strong>Success!</strong> Your message has been sent to us.
 									</div>
@@ -548,6 +548,11 @@
 									<div class="row mb-4">
 										<div class="form-group col">
 											<textarea maxlength="5000" data-msg-required="Please enter your message." rows="8" class="form-control text-3 custom-border-color-grey-1 h-auto py-2" name="message" placeholder="* Message" required></textarea>
+										</div>
+									</div>
+									<div class="form-row">
+										<div class="form-group col">
+											<div class="g-recaptcha" data-sitekey="6LfU23wmAAAAAIcIbMSqQQ4Cxl5r5Jb0sBKz6gGI"></div>
 										</div>
 									</div>
 									<div class="row">
@@ -641,6 +646,7 @@
 
 		<!-- Vendor -->
 		<script src="vendor/plugins/js/plugins.min.js"></script>
+		<script src="vendor/jquery.validation/jquery.validate.min.js"></script>
 
 		<!-- Theme Base, Components and Settings -->
 		<script src="js/theme.js"></script>
@@ -653,6 +659,7 @@
 
 		<!-- Theme Initialization Files -->
 		<script src="js/theme.init.js"></script>
+		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 	<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
 		<script>
