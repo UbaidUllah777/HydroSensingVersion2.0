@@ -273,6 +273,7 @@ const footerContent = `
         Department of Hydraulic Engineering, Tsinghua University, Beijing 100084, CHINA
       </li>
     </ul>
+    <h4 class="d-none">Current Visitors: <span class="text-color-primary " id="visitorCount">Loading...</span></h4>
   </div>
   
               
