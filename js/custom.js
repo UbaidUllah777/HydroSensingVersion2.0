@@ -125,7 +125,7 @@ const headerContent = `
                 </li>
                 <!-- Services -->
                 <li>
-                  <a id="idHeaderLinkServices" href="about-us.html" class="nav-link"
+                  <a id="idHeaderLinkServices" href="services.html" class="nav-link"
                     >Services</a
                   >
                 </li>
