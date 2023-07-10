@@ -1,11 +1,11 @@
 // *** ALL DATA of  service  : Start ***
 const Services = [
-  // *** Water Resource Engineering & Management SERVICE ***
+  // *** Water Resources ***
   {
-    service_id: "WaterResourceEngineering&Management2",
-    service_heading: "Water Resource Engineering & Management SERVICE",
+    service_id: "WaterResources",
+    service_heading: "Water Resources ",
     service_short_desc:
-      "Reprehenderit voluptate incididunt dolore eu incididunt esse.",
+      "Reprehenderit voluptate incididunt dolore eu incididunt esse.Reprehenderit voluptate incididunt dolore eu incididunt esse.",
     service_paragraphs: [
       {
         paragraph:
@@ -27,11 +27,12 @@ const Services = [
     ],
   },
 
-  // *** Satellite Precipitation Measurements SERVICE ***
+  // *** Surface water***
   {
-    service_id: "SatellitePrecipitationMeasurements2",
-    service_heading: "Satellite Precipitation Measurements SERVICE",
-    service_short_desc: "Irure do et minim est do ea mollit quis proident.",
+    service_id: "Surfacewater",
+    service_heading: "Surface Water",
+    service_short_desc:
+      "Irure do et minim est do ea mollit quis proident. Reprehenderit voluptate incididunt dolore eu incididunt esse.",
     service_paragraphs: [
       {
         paragraph:
@@ -57,11 +58,12 @@ const Services = [
     ],
   },
 
-  // *** Drought Monitoring & Impact Assessment SERVICE***
+  // *** Storm water***
   {
-    service_id: "DroughtMonitoring&ImpactAssessment2",
-    service_heading: "Drought Monitoring & Impact Assessment SERVICE",
-    service_short_desc: "Et sint dolor esse ad labore esse commodo.",
+    service_id: "Stormwater",
+    service_heading: "Storm Water",
+    service_short_desc:
+      "Et sint dolor esse ad labore esse commodo.Reprehenderit voluptate incididunt dolore eu incididunt esse.",
     service_paragraphs: [
       {
         paragraph:
@@ -83,11 +85,12 @@ const Services = [
     ],
   },
 
-  // *** Hydrological Modeling SERVICE ***
+  // *** Groundwater ***
   {
-    service_id: "HydrologicalModeling2 ",
-    service_heading: "Hydrological Modeling SERVICE ",
-    service_short_desc: "Aliqua laborum qui tempor ex cillum cupidatat est.",
+    service_id: "Groundwater",
+    service_heading: "Ground Water ",
+    service_short_desc:
+      "Aliqua laborum qui tempor ex cillum cupidatat est.Reprehenderit voluptate incididunt dolore eu incididunt esse.",
     service_paragraphs: [
       {
         paragraph:
@@ -105,11 +108,93 @@ const Services = [
     ],
   },
 
-  // *** GIS & Remote Sensing Applications SERVICE ***
+  // *** Environmental Risk assessment  ***
   {
-    service_id: "GIS&RemoteSensingApplications2",
-    service_heading: "GIS & Remote Sensing Applications SERVICE",
-    service_short_desc: "Aute ullamco labore in reprehenderit.",
+    service_id: "EnvironmentalRiskassessment ",
+    service_heading: "Environmental Risk Assessment ",
+    service_short_desc:
+      "Aute ullamco labore in reprehenderit. Reprehenderit voluptate incididunt dolore eu incididunt esse.",
+    service_paragraphs: [
+      {
+        paragraph:
+          "Et et officia dolor duis magna ut ea occaecat quis aute laborum. Dolore velit nisi nostrud nostrud minim sit ullamco laboris. Duis non enim enim irure amet. Quis culpa sint in commodo amet aliquip magna nostrud nostrud amet exercitation cillum ad laborum. Ipsum in Lorem consequat Lorem occaecat officia reprehenderit.Culpa id est minim Lorem. Ea voluptate et enim quis commodo quis consequat cillum voluptate. Laboris ad minim eu magna est est do cupidatat labore officia.Ex nulla consectetur magna nostrud Lorem excepteur ad ea qui magna incididunt do. Lorem occaecat exercitation Lorem anim cupidatat elit minim magna sit. Do deserunt occaecat commodo dolore velit in non ad quis labore fugiat. Laborum pariatur aliquip anim duis non incididunt id id anim non aliquip anim commodo ad. Dolor minim reprehenderit pariatur id velit reprehenderit adipisicing minim ad. Magna labore nisi occaecat et.",
+      },
+      {
+        paragraph:
+          "Sint ullamco incididunt exercitation cillum fugiat nisi cupidatat pariatur tempor velit aliqua minim aliqua. Deserunt Lorem aliquip minim velit tempor elit eiusmod occaecat. Cupidatat non eu ut esse ea irure mollit quis irure ipsum sit sit. Minim proident quis cupidatat aliquip elit. Sit non ex incididunt laboris cupidatat labore voluptate sunt laboris. Aute consectetur nostrud eu proident irure ipsum officia sint ipsum sunt. Consequat nostrud in enim sint irure laborum laborum incididunt irure sunt dolor.Mollit nulla cupidatat pariatur deserunt sit. Aliquip nulla nulla sunt consectetur ipsum. Proident velit eiusmod aliqua quis ullamco culpa excepteur veniam sint voluptate dolore ex.Aute do amet minim sit in Lorem voluptate non adipisicing laboris. Dolore est mollit sint nisi mollit aliquip enim quis exercitation. Aliquip laborum commodo labore est veniam deserunt. Et esse laboris pariatur commodo. Incididunt duis deserunt nostrud minim. Aliqua enim velit enim ea veniam ut ullamco labore nulla irure veniam mollit commodo.",
+      },
+    ],
+
+    service_front_image: "img/foucusAreas/services-1.jpg",
+    service_image393x205: "img/foucusAreas/generic-6.jpg",
+    service_image291x245: "img/foucusAreas/generic-3.jpg",
+    service_related_projects: [
+      { project_id: "" },
+      { project_id: "" },
+      { project_id: "" },
+    ],
+  },
+
+  // *** Hydraulic Engineering   ***
+  {
+    service_id: "HydraulicEngineering ",
+    service_heading: "Hydraulic Engineering",
+    service_short_desc:
+      "Aute ullamco labore in reprehenderit. Reprehenderit voluptate incididunt dolore eu incididunt esse.",
+    service_paragraphs: [
+      {
+        paragraph:
+          "Et et officia dolor duis magna ut ea occaecat quis aute laborum. Dolore velit nisi nostrud nostrud minim sit ullamco laboris. Duis non enim enim irure amet. Quis culpa sint in commodo amet aliquip magna nostrud nostrud amet exercitation cillum ad laborum. Ipsum in Lorem consequat Lorem occaecat officia reprehenderit.Culpa id est minim Lorem. Ea voluptate et enim quis commodo quis consequat cillum voluptate. Laboris ad minim eu magna est est do cupidatat labore officia.Ex nulla consectetur magna nostrud Lorem excepteur ad ea qui magna incididunt do. Lorem occaecat exercitation Lorem anim cupidatat elit minim magna sit. Do deserunt occaecat commodo dolore velit in non ad quis labore fugiat. Laborum pariatur aliquip anim duis non incididunt id id anim non aliquip anim commodo ad. Dolor minim reprehenderit pariatur id velit reprehenderit adipisicing minim ad. Magna labore nisi occaecat et.",
+      },
+      {
+        paragraph:
+          "Sint ullamco incididunt exercitation cillum fugiat nisi cupidatat pariatur tempor velit aliqua minim aliqua. Deserunt Lorem aliquip minim velit tempor elit eiusmod occaecat. Cupidatat non eu ut esse ea irure mollit quis irure ipsum sit sit. Minim proident quis cupidatat aliquip elit. Sit non ex incididunt laboris cupidatat labore voluptate sunt laboris. Aute consectetur nostrud eu proident irure ipsum officia sint ipsum sunt. Consequat nostrud in enim sint irure laborum laborum incididunt irure sunt dolor.Mollit nulla cupidatat pariatur deserunt sit. Aliquip nulla nulla sunt consectetur ipsum. Proident velit eiusmod aliqua quis ullamco culpa excepteur veniam sint voluptate dolore ex.Aute do amet minim sit in Lorem voluptate non adipisicing laboris. Dolore est mollit sint nisi mollit aliquip enim quis exercitation. Aliquip laborum commodo labore est veniam deserunt. Et esse laboris pariatur commodo. Incididunt duis deserunt nostrud minim. Aliqua enim velit enim ea veniam ut ullamco labore nulla irure veniam mollit commodo.",
+      },
+    ],
+
+    service_front_image: "img/foucusAreas/services-1.jpg",
+    service_image393x205: "img/foucusAreas/generic-6.jpg",
+    service_image291x245: "img/foucusAreas/generic-3.jpg",
+    service_related_projects: [
+      { project_id: "" },
+      { project_id: "" },
+      { project_id: "" },
+    ],
+  },
+
+  // *** Climate change   ***
+  {
+    service_id: "Climatechange",
+    service_heading: "Climate Change",
+    service_short_desc:
+      "Aute ullamco labore in reprehenderit. Reprehenderit voluptate incididunt dolore eu incididunt esse.",
+    service_paragraphs: [
+      {
+        paragraph:
+          "Et et officia dolor duis magna ut ea occaecat quis aute laborum. Dolore velit nisi nostrud nostrud minim sit ullamco laboris. Duis non enim enim irure amet. Quis culpa sint in commodo amet aliquip magna nostrud nostrud amet exercitation cillum ad laborum. Ipsum in Lorem consequat Lorem occaecat officia reprehenderit.Culpa id est minim Lorem. Ea voluptate et enim quis commodo quis consequat cillum voluptate. Laboris ad minim eu magna est est do cupidatat labore officia.Ex nulla consectetur magna nostrud Lorem excepteur ad ea qui magna incididunt do. Lorem occaecat exercitation Lorem anim cupidatat elit minim magna sit. Do deserunt occaecat commodo dolore velit in non ad quis labore fugiat. Laborum pariatur aliquip anim duis non incididunt id id anim non aliquip anim commodo ad. Dolor minim reprehenderit pariatur id velit reprehenderit adipisicing minim ad. Magna labore nisi occaecat et.",
+      },
+      {
+        paragraph:
+          "Sint ullamco incididunt exercitation cillum fugiat nisi cupidatat pariatur tempor velit aliqua minim aliqua. Deserunt Lorem aliquip minim velit tempor elit eiusmod occaecat. Cupidatat non eu ut esse ea irure mollit quis irure ipsum sit sit. Minim proident quis cupidatat aliquip elit. Sit non ex incididunt laboris cupidatat labore voluptate sunt laboris. Aute consectetur nostrud eu proident irure ipsum officia sint ipsum sunt. Consequat nostrud in enim sint irure laborum laborum incididunt irure sunt dolor.Mollit nulla cupidatat pariatur deserunt sit. Aliquip nulla nulla sunt consectetur ipsum. Proident velit eiusmod aliqua quis ullamco culpa excepteur veniam sint voluptate dolore ex.Aute do amet minim sit in Lorem voluptate non adipisicing laboris. Dolore est mollit sint nisi mollit aliquip enim quis exercitation. Aliquip laborum commodo labore est veniam deserunt. Et esse laboris pariatur commodo. Incididunt duis deserunt nostrud minim. Aliqua enim velit enim ea veniam ut ullamco labore nulla irure veniam mollit commodo.",
+      },
+    ],
+
+    service_front_image: "img/foucusAreas/services-1.jpg",
+    service_image393x205: "img/foucusAreas/generic-6.jpg",
+    service_image291x245: "img/foucusAreas/generic-3.jpg",
+    service_related_projects: [
+      { project_id: "" },
+      { project_id: "" },
+      { project_id: "" },
+    ],
+  },
+
+  // *** Resilience   ***
+  {
+    service_id: "Resilience",
+    service_heading: "Resilience",
+    service_short_desc:
+      "Aute ullamco labore in reprehenderit. Reprehenderit voluptate incididunt dolore eu incididunt esse.",
     service_paragraphs: [
       {
         paragraph:
@@ -143,60 +228,12 @@ document.addEventListener("DOMContentLoaded", function () {
       Elservices_container.innerHTML += `
           <div id="${singleService.service_id}" class="col-sm-9 col-md-6 col-lg-4 mb-4">
           <a onclick="loadService('${singleService.service_id}')" href="service-detail.html" class="custom-link-hover-effects text-decoration-none" data-cursor-effect-hover="plus">
-              <div class="card box-shadow-4">
-                  <div class="card-img-top position-relative overlay overlay-show">
-                      <div class="position-absolute bottom-0 left-0 w-100 py-3 px-4 z-index-3">
-                          <h4 class="font-weight-semibold text-color-light text-6 mb-1">${singleService.service_heading}</h4>
-  
-                      </div>
-                      <img src="img/foucusAreas/services-1.jpg" class="img-fluid" alt="${singleService.service_heading}" />
-                  </div>
-                  <div class="card-body d-flex align-items-center custom-view-more px-4">
-                  <p class="card-text w-100 mb-0">${singleService.service_short_desc} </p>
-                  <div class="animated-icon animated fadeIn svg-fill-color-primary"><!--?xml version="1.0" ?-->
-                          <svg version="1.1" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="icon_21684230898848" data-filename="arrow-right.svg" width="50" height="50">
-                          <polygon points="1,26 44.586,26 38.293,32.293 39.707,33.707 48.414,25 39.707,16.293 38.293,17.707 44.586,24 1,24  "></polygon>
-                          <!-- Code injected by live-server -->
-                          <script>
-                          //   &lt;-- For SVG support
-                          if ('WebSocket' in window) {
-                          (function () {
-                          function refreshCSS() {
-                          var sheets = [].slice.call(document.getElementsByTagName("link"));
-                          var head = document.getElementsByTagName("head")[0];
-                          for (var i = 0; i &lt; sheets.length; ++i) {
-                          var elem = sheets[i];
-                          var parent = elem.parentElement || head;
-                          parent.removeChild(elem);
-                          var rel = elem.rel;
-                          if (elem.href &amp;&amp; typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-                          var url = elem.href.replace(/(&amp;|\?)_cacheOverride=\d+/, '');
-                          elem.href = url + (url.indexOf('?') &gt;= 0 ? '&amp;' : '?') + '_cacheOverride=' + (new Date().valueOf());
-                          }
-                          parent.appendChild(elem);
-                          }
-                          }
-                          var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-                          var address = protocol + window.location.host + window.location.pathname + '/ws';
-                          var socket = new WebSocket(address);
-                          socket.onmessage = function (msg) {
-                          if (msg.data == 'reload') window.location.reload();
-                          else if (msg.data == 'refreshcss') refreshCSS();
-                          };
-                          if (sessionStorage &amp;&amp; !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-                          console.log('Live reload enabled.');
-                          sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-                          }
-                          })();
-                          }
-                          else {
-                          console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-                          }
-                          // 
-                          </script>
-                          </svg></div>
-              </div>
-              </div>
+          <div class="card card-border card-border-bottom card-border-hover bg-color-grey box-shadow-6 box-shadow-hover anim-hover-translate-top-10px transition-3ms">
+          <div class="card-body py-5">
+              <h4 class="card-title mb-1 text-4 font-weight-bold text-color-secondary">${singleService.service_heading}</h4>
+              <p class="card-text showOnlyTwoLines">${singleService.service_short_desc}</p>
+          </div>
+      </div>
           </a>
       </div>
       

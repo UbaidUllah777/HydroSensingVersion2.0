@@ -1,22 +1,31 @@
-.showOnlyThreeLines{
-    display: -webkit-box;
-    -webkit-line-clamp: 3; /* Number of lines to show */
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
+.showOnlyThreeLines {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Number of lines to show */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.showOnlyTwoLines {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Number of lines to show */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .tabs-box {
-    padding: 12px 0 12px 12px;
-    margin-bottom: 10px;
-    position: relative;
-    background: #f5f5f5;
-    border-left: solid 5px #5187cf;
+  padding: 12px 0 12px 12px;
+  margin-bottom: 10px;
+  position: relative;
+  background: #f5f5f5;
+  border-left: solid 5px #5187cf;
 }
-  @media (max-width: 1379px){
+@media (max-width: 1379px) {
   .tabs-box {
-      padding-left: 30px;
-  }}
-
-  .text-align-justify {
-    text-align: justify;
+    padding-left: 30px;
   }
+}
+
+.text-align-justify {
+  text-align: justify;
+}
