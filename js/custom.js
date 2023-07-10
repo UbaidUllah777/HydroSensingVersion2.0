@@ -28,7 +28,7 @@ const headerContent = `
               href="https://www.facebook.com/hydrosensing"
               target="_blank"
               title="Facebook"
-              ><i class="fab fa-facebook-f"></i
+              ><i class="fab fa-facebook-f "></i
               ></a>
             </li>
             <li id="idHeaderTwitter" class="social-icons-twitter">
@@ -36,7 +36,7 @@ const headerContent = `
               href="https://twitter.com/HydroSensing"
               target="_blank"
               title="Twitter"
-              ><i class="fab fa-twitter"></i
+              ><i class="fab fa-twitter "></i
               ></a>
             </li>
             <li id="idHeaderInstagram" class="social-icons-linkedin">
@@ -44,7 +44,7 @@ const headerContent = `
               href="#"
               target="_blank"
               title="Linkedin"
-              ><i class="fab fa-linkedin"></i
+              ><i class="fab fa-linkedin "></i
               ></a>
             </li>
 
@@ -53,7 +53,7 @@ const headerContent = `
               href="https://www.youtube.com/@HydroSensing"
               target="_blank"
               title="Youtube"
-              ><i class="fab fa-youtube"></i
+              ><i class="fab fa-youtube "></i
               ></a>
             </li>
           </ul>
@@ -77,6 +77,7 @@ const headerContent = `
               class="img-fluid"
               width="90"
               height="auto"
+          
               alt=""
             />
           </a>
@@ -99,8 +100,23 @@ const headerContent = `
                 </li>
                 <!-- About Us -->
                 <li>
-                  <a id="idHeaderLinkAboutUs" href="about-us.html" class="nav-link"
-                    >About Us</a
+                  <a id="idHeaderLinkAboutUs" href="about-us.html" class="dropdown-item dropdown-toggle"
+                    >About Us
+
+                    <i class="fas fa-chevron-down"> </i>
+                    </a>
+                    <ul class = "dropdown-menu"> 
+                    <li>
+                    <a class = "dropdown-item " href="team.html"> Our Team
+                    </a></li>
+                    </ul>
+                </li>
+
+                </li>
+                <!-- Services -->
+                <li>
+                  <a id="idHeaderLinkServices" href="about-us.html" class="nav-link"
+                    >Services</a
                   >
                 </li>
 

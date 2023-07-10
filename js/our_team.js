@@ -308,6 +308,376 @@ const teamMembers = [
     ],
   },
 
+  // *** Dr ProfDrHamzaFarooqGabriel profile ***
+  {
+    member_id: "DrHamzaFarooqGabriel",
+    member_heading: "Dr.Hamza Farooq Gabriel",
+    member_designation: "Professor/HoD",
+    member_image: "img/team/ProfDrHamzaFarooqGabriel.jpg",
+    member_Linkedin: "#",
+    member_Tiwtter: "#",
+    member_Facebook: "#",
+    member_email: "hamza_farooq@hydrosensing4u.com",
+    member_Phone: "",
+    member_Google_scholar: "",
+
+    member_paragraphs: [
+      {
+        paragraph:
+          "Prof. Dr. Hamza Farooq Gabriel has a multidisciplinary teaching and research experience of over 35 years in water resources management, water resources engineering, engineering hydrology and construction project management.",
+      },
+      {
+        paragraph:
+          "He has supervised 100 MSc/MPhil theses in various disciplines of civil engineering and has published over 90 international and national journal /conference papers. Dr. Hamza has worked as Principal Investigator in a number of UNESCO and ICIMOD sponsored projects. Also he has organized many international workshops/conferences/short term trainings sponsored by UNESCO, ICIMOD, US Embassy in Pakistan and Higher Education Commission (HEC) of Pakistan.",
+      },
+      {
+        paragraph: "",
+      },
+    ],
+
+    member_education: [
+      {
+        institute_name:
+          "Charles Sturt University (CSU), New South Wales (NSW), Australia",
+        graduation_period: "",
+        degree_name: "Ph.D. in Applied Hydrology",
+      },
+      {
+        institute_name: "University of Birmingham, United Kingdom",
+        graduation_period: "",
+        degree_name: "MSc. Civil Engineering",
+      },
+      {
+        institute_name:
+          "Centre of Excellence in Water Resources Engineering (CEWRE), University of Engineering & Technology, Lahore, Pakistan",
+        graduation_period: "",
+        degree_name: "M.Phil Water Resources Management",
+      },
+      {
+        institute_name:
+          " University of Engineering & Technology, Lahore, Pakistan",
+        graduation_period: "",
+        degree_name: "BSc. Civil Engineering",
+      },
+    ],
+
+    member_Experience: [
+      {
+        orgName: " NUST",
+        orgPlace: "Islamabad",
+        From: "April 2015",
+        To: "PRESENT",
+        designation: "Professor/HoD (WRE&M)",
+        experienceDetail:
+          "School of Civil and Environmental Engineering, National University of Sciences and Technology",
+      },
+      {
+        orgName: "NUST",
+        orgPlace: "Islamabad",
+        From: "April 2015",
+        To: "April 2015",
+        designation: "Associate Professor",
+        experienceDetail:
+          "School of Civil and Environmental Engineering, National University of Sciences and Technology",
+      },
+      {
+        orgName: "Charles Sturt University (CSU)",
+        orgPlace: "NSW, Australia",
+        From: "August 2006",
+        To: "March 2010",
+        designation: "Research Associate & PhD Scholar",
+        experienceDetail:
+          "International Centre of Water for Food Security (IC WATER)",
+      },
+      {
+        orgName: "NUST",
+        orgPlace: "NUST Risalpur Campus",
+        From: "March 2004",
+        To: "July 2006",
+        designation: "Assistant Professor, NIT/MCE,",
+        experienceDetail:
+          "National Institute of Transportation and Department of Construction Engineering Management",
+      },
+      {
+        orgName: "University of Engineering and Technology",
+        orgPlace: "Lahore, Pakistan",
+        From: "Sept 1999",
+        To: "Feb 2004",
+        designation: "Assistant Professor",
+        experienceDetail:
+          "Centre of Excellence in Water Resources Engineering (CEWRE)",
+      },
+      {
+        orgName: "University of Engineering and Technology",
+        orgPlace: "Lahore, Pakistan",
+        From: "Aug 1984",
+        To: "Aug 1999",
+        designation: "Lecturer/JRA",
+        experienceDetail:
+          "Centre of Excellence in Water Resources Engineering (CEWRE)",
+      },
+    ],
+    member_AcadProf: [
+      {
+        AcadProfName: "Google Scholar",
+        AcadProfURL:
+          " https://scholar.google.com/citations?hl=en&user=7AabTvcAAAAJ",
+      },
+      {
+        AcadProfName: "Research Gate",
+        AcadProfURL: "https://www.researchgate.net/profile/Hamza_Gabriel",
+      },
+      {
+        AcadProfName: "Publons",
+        AcadProfURL:
+          " https://publons.com/researcher/1491941/prof-dr-hamza-farooq-gabriel/",
+      },
+      {
+        AcadProfName: "ORCID",
+        AcadProfURL: "https://orcid.org/0000-0001-6159-0030",
+      },
+    ],
+    member_ResearchInterests: [
+      {
+        ResearchInterest: "Applied Hydrology",
+      },
+      {
+        ResearchInterest: "Water Resources Engineering",
+      },
+      {
+        ResearchInterest: "Water Resources Management",
+      },
+      {
+        ResearchInterest: "Eco-hydrology",
+      },
+    ],
+
+    member_ReprPublications: [
+      {
+        publication:
+          "Zafar Iqbal, Shamsuddin Shahid, Kamal Ahmed, Xiaojun Wang, Tarmizi Ismail and Hamza Farooq Gabriel (2022). “Bias correction method of high‑resolution satellite‑based precipitation product for Peninsular Malaysia”, Theoretical and Applied Climatology, doi.org/10.1007/s00704-022-04007-6. Impact Factor: 3.179",
+      },
+      {
+        publication:
+          "Ammara Nusrat, Hamza Farooq Gabriel, Umm e Habiba, Habib Ur Rehman, Sajjad Haider, Shakil Ahmad, Muhammad Shahid, Saad Ahmed Jamal and Jahangir Ali (2022). “Plausible Precipitation Trends over the Large River Basins of Pakistan in Twenty First Century”, Atmosphere 2022, 13, 190. https://doi.org/10.3390/atmos13020190. Impact Factor: 2.686  ",
+      },
+      {
+        publication:
+          "Muhammad Shahid, Khalil Ur Rahman, Sajjad Haider,  Hamza Farooq Gabriel, Abdul Jabbar Khan, Quoc Bao Pham, Chaitanya B. Pande, Nguyen Thi Thuy Linh & Duong Tran Anh (2021). “Quantitative assessment of regional land use and climate change impact on runoff across Gilgit watershed”, Environmental Earth Sciences (2021) 80:743, https://doi.org/10.1007/s12665-021-10032-x. Impact Factor: 2.784",
+      },
+      {
+        publication:
+          "Muhammad Shahid, Khalil Ur Rahman, Sajjad Haider, Hamza Farooq Gabriel, Abdul Jabbar Khan, Quoc Bao Pham, Babak Mohammadi, Nguyen Thi Thuy Linh & Duong Tran Anh (2021). “Assessing the potential and hydrological usefulness of the CHIRPS precipitation dataset over a complex topography in Pakistan”, Hydrological Sciences Journal. Volume 66, 2021 – Issue 11, pp. 1664–1684 https://doi.org/10.1080/02626667.2021.1957476 Impact Factor: 3.787",
+      },
+      {
+        publication:
+          "Faraz ul Haq, Usman Ali Naeem, Hamza Farooq Gabriel, Noor Muhammad Khan, Ijaz Ahmad, Habib Ur Rehman & Muhammad Awais Zafar (2021). “Impact of Urbanization on Groundwater Levels in Rawalpindi City, Pakistan”. Pure Appl. Geophys. (2021). https://doi.org/10.1007/s00024-021-02660-y. Electronic ISSN: 1420-9136, Print ISSN: 0033-4553 Impact Factor: 1.586",
+      },
+      {
+        publication:
+          "Umer, M., Gabriel, H.F., Haider, S., Nusrat A., Shahid M., and Umer M. (2021). “Application of precipitation products for flood modeling of transboundary river basin: a case study of Jhelum Basin”. Theor Appl Climatol (2021). 143:989–1004 https://doi.org/10.1007/s00704-020-03471-2. Impact Factor: 2.882",
+      },
+      {
+        publication:
+          "Nusrat A, Gabriel H F, Haider S, Ahmad S, Shahid M and Jamal S A (2020). “Application of Machine Learning Techniques to Delineate Homogeneous Climate Zones in River Basins of Pakistan for Hydro-Climatic Change Impact Studies”. Appl. Sci. 2020, Volume 10, Issue 19; doi:10.3390/app10196878. Impact Factor:2.474",
+      },
+      {
+        publication:
+          "Shah Z, Gabriel H, Haider S, Jafri T (2020). “Analysis of Seepage Loss from Concrete Lined Irrigation Canals in Punjab, Pakistan”. Irrig. and Drain. 2020; Vol. 69, Issue 4, pp.668 – 681. https://doi.org/10.1002/ird.2474. Impact Factor:1.027",
+      },
+      {
+        publication:
+          "Kanwal S, Sajjad M, Gabriel H F, Hussain E. (2020). “Towards Sustainable Wastewater Management: A spatial Multi-criteria Framework to Site the Land-FILTER System in a Complex Urban Environment”, Journal of Cleaner Production (2020), Volume 266, Article 121987,  doi: https://doi.org/10.1016/j.jclepro.2020.121987.  Impact Factor: 7.246",
+      },
+      {
+        publication:
+          "Khan A J, Akhter G,  Gabriel H F,  Shahid M. (2020). “Anthropogenic Effects of Coal Mining on Ecological Resources of the Central Indus Basin, Pakistan”, International Journal of Environmental Research and Public Health, Volume: 17, Issue: 4, DOI: 10.3390/ijerph17041255. Impact Factor: 2.468",
+      },
+      {
+        publication:
+          "Gabriel, H. F. & Khan, S. (2010). “Climate Responsive Urban Groundwater Management Options in a Stressed Aquifer System”. Kovacs Colloqium “Hydrocomplexity: New Tools for Solving Wicked Water Problems”. Edited by Shahbaz Khan, Hubert H. G. Savenjie, Siegfried Demuth & Pierre Hubert. 2 – 3 July, 2010, UNESCO, Paris, France. IAHS Publication 338, pp. 166-168. ISSN 0144-7815",
+      },
+      {
+        publication:
+          "Mu J., Liu Q., Gabriel H. F., Xu D., Xu J., Wu C., & Ren H. (2013). “The Impacts of Climate Change on Water Stress Situations in the Yellow River Basin, China”, Irrigation and Drainage 62: 545 – 648 (2013). Online ISSN: 1531- 0361. DOI: 10.1002/ird.1784. Impact Factor: 1.108",
+      },
+      {
+        publication:
+          "Mushtaq S., Chen C., Hafeez M., Maroulis, J. and Gabriel H. (2012). “The Economic Value of Improved Agrometeorological Information to Irrigators amid Climate Variability”, International Journal of Climatology, 32: 567–581. DOI: 10.1002/joc.2015. Impact Factor: 2.906. Online ISSN 1097-0088.",
+      },
+      {
+        publication:
+          "Khan S., Dassanayake D. And Gabriel H. F. (2010). “An Adaptive Learning Framework for Forecasting Seasonal Water Allocations in Irrigated Catchments”, Natural Resource Modeling, Volume 23, Number 3, pp. 324-353. DOI: 10.1111/j.1939-7445.2010.00066.x. Print ISSN: 0890-8575 Online ISSN: 1939-7445. Impact Factor: 0.596 (2010)",
+      },
+      {
+        publication:
+          "Khan S., Rana T., Carroll J. and Gabriel H. F. (2010). “Assessment of Rice Hydraulic Loading Impacts on Groundwater and Salinity Levels”, Paddy Water Environ., No. 1, Vol. 8, pp. 23-39. DOI 10.1007/s10333-009-0171-0. ISSN: 1611-2490 (Print) 1611-2504 (Online). Impact Factor: 0.986",
+      },
+      {
+        publication:
+          "Khan, S., Rana, T., Dassanayake, D., Abbas, A., Blackwell, J., Akbar, S., and Gabriel, H. F. (2009). “Spatially Distributed Assessment of Channel Seepage Using Geophysics and Artificial Intelligence”, Irrigation and Drainage 58: 307 – 320 (2009) DOI: 10.1002/ird.415. Online ISSN: 1531- 0361. Impact Factor: 1.108",
+      },
+      {
+        publication:
+          "Khan, S., Rana, T., Gabriel, H. F. and Ullah, M. K. (2008). “Hydrogeologic Assessment of Escalating Groundwater Exploitation in the Indus Basin, Pakistan”, Hydrogeology Journal (2008) 16: 1635–1654, DOI: 10.1007/s10040-008-0336-8. ISSN: 1431-2174 (Print) 1435-0157 (Online). Impact Factor: 1.417 (2009)",
+      },
+      {
+        publication:
+          "Khan, S. Gabriel, H. F. and Rana, T. (2008). “Standard Precipitation Index to Track Drought and Assess Impact of Rainfall on Watertables in Irrigation Areas”, Irrigation and Drainage Systems (2008) 22: 159 – 177, DOI: 10.1007/s10795-008-9049-3. ISSN: 0168-6291 (Print) 1573-0654 (Online).",
+      },
+      {
+        publication:
+          "Khan, S., Abbas, A., Gabriel, H. F., Rana, T., and Robinson, D. (2008). “Hydrologic and Economic Evaluation of Water-Saving Options in Irrigation Systems”, Irrigation and Drainage 57: 1 – 14 (2008), DOI: 10.1002/ird.336. Online ISSN: 1531- 0361. Impact Factor: 1.108",
+      },
+      {
+        publication:
+          "Khan, S., Abbas, A., Blackwell, J., Gabriel, H. F., Ahmad, A. (2007). “Hydrogeological Assessment of Serial Biological Concentration of Salts to Manage Saline Drainage”, Agricultural Water Management 92 (2007) 64 – 72. DOI: 10.1016/j.agwat.2007.05.011. ISSN: 0378-3774. Impact Factor: 2.106 (2009)",
+      },
+    ],
+  },
+
+  // *** Dr Quoc Bao Pham Pham profile ***
+  {
+    member_id: "DrPham",
+    member_heading: "Dr.Quoc Bao Pham",
+    member_designation: "Assistant Professor",
+    member_image: "img/team/Pham.jpg",
+    member_Linkedin: "#",
+    member_Tiwtter: "#",
+    member_Facebook: "#",
+    member_email: "quoc_bao.pham@us.edu.pl",
+    member_Phone: "",
+    member_Google_scholar: "",
+
+    member_paragraphs: [
+      {
+        paragraph:
+          "Quoc Bao Pham has obtained his Ph.D. degree from the Department of Hydraulic and Ocean Engineering, National Cheng Kung University, Taiwan. He has more than 8 years of research experience in hydrology, GIS and Remote Sensing. His research interests are water resources engineering, applied machine learning, climate change, hydrology, remote sensing, GIS and spatial analysis. He has collaborated actively with many international researchers in several other disciplines of engineering.",
+      },
+      {
+        paragraph:
+          "He has published more than 80 SCI/SCIE research papers and is a reviewer of more than 20 SCI/SCIE journals. He is also a guest editor of some SCI/SCIE journals in the field of water resources, remote sensing and machine learning. He is also a reviewer of world-leading high-impact journals such as Journal of Hydrology, Science of The Total Environment, Remote Sensing of Environment, Hydrological Sciences Journal, Journal of Environmental Management, Geocarto International and Remote Sensing applications",
+      },
+      {
+        paragraph: "",
+      },
+    ],
+
+    member_education: [
+      {
+        institute_name: "National Cheng Kung University, Taiwan",
+        graduation_period: "",
+        degree_name:
+          "Ph.D. in Application of Machine Learning for Hydrometeorology",
+      },
+      //   {
+      //     institute_name: "University of Agriculture, Peshawar , Kpk, Pakistan",
+      //     graduation_period: "2011-2015",
+      //     degree_name: "BS Computer Science",
+      //   },
+    ],
+
+    member_Experience: [
+      {
+        orgName: "University of Silesia in Katowice",
+        orgPlace: "Poland",
+        From: "",
+        To: "",
+        designation: "Faculty of Natural Sciences,",
+        experienceDetail: "Institute of Earth Sciences",
+      },
+      // {
+      //   orgName: "Second Organisation",
+      //   orgPlace: "Islamabad",
+      //   From: "JAN 2017",
+      //   To: "SEP 2021",
+      //   designation: "Second Designation",
+      //   experienceDetail:
+      //     "Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
+      // },
+    ],
+    member_AcadProf: [
+      {
+        AcadProfName: "Google Scholar",
+        AcadProfURL:
+          " https://scholar.google.com/citations?user=I9_x85wAAAAJ&hl=en",
+      },
+      {
+        AcadProfName: "Research Gate",
+        AcadProfURL: "https://www.researchgate.net/profile/Quoc-Pham-7",
+      },
+      {
+        AcadProfName: "Publons",
+        AcadProfURL:
+          "https://publons.com/wos-op/researcher/3374501/quoc-bao-pham/",
+      },
+      {
+        AcadProfName: "ORCID",
+        AcadProfURL: "https://orcid.org/0000-0002-0468-5962",
+      },
+    ],
+    member_ResearchInterests: [
+      {
+        ResearchInterest: "Applied Hydrology",
+      },
+      {
+        ResearchInterest: "Water Resources Engineering",
+      },
+      {
+        ResearchInterest: "Water Resources Management",
+      },
+      {
+        ResearchInterest: "Hydro-meteorology",
+      },
+      {
+        ResearchInterest: "Machine Learning applications",
+      },
+    ],
+
+    member_ReprPublications: [
+      {
+        publication:
+          "Pham, Q. B., Achour, Y., Ali, S. A., Parvin, F., Vojtek, M., Vojteková, J., … & Anh, D. T. (2021). A comparison among fuzzy multi-criteria decision making, bivariate, multivariate and machine learning models in landslide susceptibility mapping. Geomatics, Natural Hazards and Risk, 12(1), 1741-1777.",
+      },
+      {
+        publication:
+          "Pham, Q. B., Afan, H. A., Mohammadi, B., Ahmed, A. N., Linh, N. T. T., Vo, N. D., … & El-Shafie, A. Hybrid model to improve the river streamflow forecasting utilizing multi-layer perceptron-based intelligent water drop optimization algorithm. Soft computing.",
+      },
+      {
+        publication:
+          "Pham, Q. B*., Ali, S. A., Bielecka, E., Calka, B., Orych, A., Parvin, F., & Łupikasza, E. (2022). Flood vulnerability and buildings’ flood exposure assessment in a densely urbanised city: comparative analysis of three scenarios using a neural network approach. Natural Hazards, 1-39.",
+      },
+      {
+        publication:
+          "Pham, Q. B., Kumar, M., Di Nunno, F., Elbeltagi, A., Granata, F., Islam, A. R. M., … & Anh, D. T. (2022). Groundwater level prediction using machine learning algorithms in a drought-prone area. Neural Computing and Applications, 1-23.",
+      },
+      {
+        publication:
+          "Pham, Q. B., Sammen, S. S., Abba, S. I., Mohammadi, B., Shahid, S., & Abdulkadir, R. A. (2021). A new hybrid model based on relevance vector machine with flower pollination algorithm for phycocyanin pigment concentration estimation. Environmental Science and Pollution Research, 1-16.",
+      },
+      {
+        publication:
+          "Pham, Q. B., Tran, D. A., Ha, N. T., Islam, A. R. M. T., & Salam, R. (2022). Random forest and nature-inspired algorithms for mapping groundwater nitrate concentration in a coastal multi-layer aquifer system. Journal of Cleaner Production, 343, 130900.",
+      },
+      {
+        publication:
+          "Pham, Q. B., Yang, T. C., Kuo, C. M., Tseng, H. W., & Yu, P. S. (2019). Combing Random Forest and Least Square Support Vector Regression for Improving Extreme Rainfall Downscaling. Water, 11(3), 451.",
+      },
+      {
+        publication:
+          "Pham, Q. B., Yang, T. C., Kuo, C. M., Tseng, H. W., & Yu, P. S. (2021). Coupling Singular Spectrum Analysis with Least Square Support Vector Machine to Improve Accuracy of SPI Drought Forecasting. Water Resources Management, 1-22.",
+      },
+      {
+        publication:
+          "Quevedo, R. P., Maciel, D. A., Uehara, T. D. T., Vojtek, M., Rennó, C. D., Pradhan, B., … & Pham, Q. B*. (2021). Consideration of Spatial Heterogeneity in Landslide Susceptibility Mapping using Geographical Random Forest Model. Geocarto International, 1-20.",
+      },
+      {
+        publication:
+          " Mohajane, M., Costache, R., Karimi, F., Pham, Q. B*., Essahlaoui, A., Nguyen, H., … & Oudija, F. (2021). Application of remote sensing and machine learning algorithms for forest fire mapping in a Mediterranean area. Ecological Indicators, 129, 107869.",
+      },
+    ],
+  },
+
   // *** Dr Sajjad Haider profile ***
   {
     member_id: "DrSajjadHaider",
@@ -675,376 +1045,6 @@ const teamMembers = [
       {
         publication:
           "Khan, A.J., Mustafa, F.U., Gabriel, H.F., Khan, H.U., Haider, W., Abbas, H. and Shahid, M., An Integrated Geo-Physical Approach for Groundwater Investigation in Northwestern Part of Pakistan. European Journal of Molecular & Clinical Medicine, 7(03), p.2020.",
-      },
-    ],
-  },
-
-  // *** Dr ProfDrHamzaFarooqGabriel profile ***
-  {
-    member_id: "DrHamzaFarooqGabriel",
-    member_heading: "Dr Hamza Farooq Gabriel",
-    member_designation: "Professor/HoD",
-    member_image: "img/team/ProfDrHamzaFarooqGabriel.jpg",
-    member_Linkedin: "#",
-    member_Tiwtter: "#",
-    member_Facebook: "#",
-    member_email: "hamza_farooq@hydrosensing4u.com",
-    member_Phone: "",
-    member_Google_scholar: "",
-
-    member_paragraphs: [
-      {
-        paragraph:
-          "Prof. Dr. Hamza Farooq Gabriel has a multidisciplinary teaching and research experience of over 35 years in water resources management, water resources engineering, engineering hydrology and construction project management.",
-      },
-      {
-        paragraph:
-          "He has supervised 100 MSc/MPhil theses in various disciplines of civil engineering and has published over 90 international and national journal /conference papers. Dr. Hamza has worked as Principal Investigator in a number of UNESCO and ICIMOD sponsored projects. Also he has organized many international workshops/conferences/short term trainings sponsored by UNESCO, ICIMOD, US Embassy in Pakistan and Higher Education Commission (HEC) of Pakistan.",
-      },
-      {
-        paragraph: "",
-      },
-    ],
-
-    member_education: [
-      {
-        institute_name:
-          "Charles Sturt University (CSU), New South Wales (NSW), Australia",
-        graduation_period: "",
-        degree_name: "Ph.D. in Applied Hydrology",
-      },
-      {
-        institute_name: "University of Birmingham, United Kingdom",
-        graduation_period: "",
-        degree_name: "MSc. Civil Engineering",
-      },
-      {
-        institute_name:
-          "Centre of Excellence in Water Resources Engineering (CEWRE), University of Engineering & Technology, Lahore, Pakistan",
-        graduation_period: "",
-        degree_name: "M.Phil Water Resources Management",
-      },
-      {
-        institute_name:
-          " University of Engineering & Technology, Lahore, Pakistan",
-        graduation_period: "",
-        degree_name: "BSc. Civil Engineering",
-      },
-    ],
-
-    member_Experience: [
-      {
-        orgName: " NUST",
-        orgPlace: "Islamabad",
-        From: "April 2015",
-        To: "PRESENT",
-        designation: "Professor/HoD (WRE&M)",
-        experienceDetail:
-          "School of Civil and Environmental Engineering, National University of Sciences and Technology",
-      },
-      {
-        orgName: "NUST",
-        orgPlace: "Islamabad",
-        From: "April 2015",
-        To: "April 2015",
-        designation: "Associate Professor",
-        experienceDetail:
-          "School of Civil and Environmental Engineering, National University of Sciences and Technology",
-      },
-      {
-        orgName: "Charles Sturt University (CSU)",
-        orgPlace: "NSW, Australia",
-        From: "August 2006",
-        To: "March 2010",
-        designation: "Research Associate & PhD Scholar",
-        experienceDetail:
-          "International Centre of Water for Food Security (IC WATER)",
-      },
-      {
-        orgName: "NUST",
-        orgPlace: "NUST Risalpur Campus",
-        From: "March 2004",
-        To: "July 2006",
-        designation: "Assistant Professor, NIT/MCE,",
-        experienceDetail:
-          "National Institute of Transportation and Department of Construction Engineering Management",
-      },
-      {
-        orgName: "University of Engineering and Technology",
-        orgPlace: "Lahore, Pakistan",
-        From: "Sept 1999",
-        To: "Feb 2004",
-        designation: "Assistant Professor",
-        experienceDetail:
-          "Centre of Excellence in Water Resources Engineering (CEWRE)",
-      },
-      {
-        orgName: "University of Engineering and Technology",
-        orgPlace: "Lahore, Pakistan",
-        From: "Aug 1984",
-        To: "Aug 1999",
-        designation: "Lecturer/JRA",
-        experienceDetail:
-          "Centre of Excellence in Water Resources Engineering (CEWRE)",
-      },
-    ],
-    member_AcadProf: [
-      {
-        AcadProfName: "Google Scholar",
-        AcadProfURL:
-          " https://scholar.google.com/citations?hl=en&user=7AabTvcAAAAJ",
-      },
-      {
-        AcadProfName: "Research Gate",
-        AcadProfURL: "https://www.researchgate.net/profile/Hamza_Gabriel",
-      },
-      {
-        AcadProfName: "Publons",
-        AcadProfURL:
-          " https://publons.com/researcher/1491941/prof-dr-hamza-farooq-gabriel/",
-      },
-      {
-        AcadProfName: "ORCID",
-        AcadProfURL: "https://orcid.org/0000-0001-6159-0030",
-      },
-    ],
-    member_ResearchInterests: [
-      {
-        ResearchInterest: "Applied Hydrology",
-      },
-      {
-        ResearchInterest: "Water Resources Engineering",
-      },
-      {
-        ResearchInterest: "Water Resources Management",
-      },
-      {
-        ResearchInterest: "Eco-hydrology",
-      },
-    ],
-
-    member_ReprPublications: [
-      {
-        publication:
-          "Zafar Iqbal, Shamsuddin Shahid, Kamal Ahmed, Xiaojun Wang, Tarmizi Ismail and Hamza Farooq Gabriel (2022). “Bias correction method of high‑resolution satellite‑based precipitation product for Peninsular Malaysia”, Theoretical and Applied Climatology, doi.org/10.1007/s00704-022-04007-6. Impact Factor: 3.179",
-      },
-      {
-        publication:
-          "Ammara Nusrat, Hamza Farooq Gabriel, Umm e Habiba, Habib Ur Rehman, Sajjad Haider, Shakil Ahmad, Muhammad Shahid, Saad Ahmed Jamal and Jahangir Ali (2022). “Plausible Precipitation Trends over the Large River Basins of Pakistan in Twenty First Century”, Atmosphere 2022, 13, 190. https://doi.org/10.3390/atmos13020190. Impact Factor: 2.686  ",
-      },
-      {
-        publication:
-          "Muhammad Shahid, Khalil Ur Rahman, Sajjad Haider,  Hamza Farooq Gabriel, Abdul Jabbar Khan, Quoc Bao Pham, Chaitanya B. Pande, Nguyen Thi Thuy Linh & Duong Tran Anh (2021). “Quantitative assessment of regional land use and climate change impact on runoff across Gilgit watershed”, Environmental Earth Sciences (2021) 80:743, https://doi.org/10.1007/s12665-021-10032-x. Impact Factor: 2.784",
-      },
-      {
-        publication:
-          "Muhammad Shahid, Khalil Ur Rahman, Sajjad Haider, Hamza Farooq Gabriel, Abdul Jabbar Khan, Quoc Bao Pham, Babak Mohammadi, Nguyen Thi Thuy Linh & Duong Tran Anh (2021). “Assessing the potential and hydrological usefulness of the CHIRPS precipitation dataset over a complex topography in Pakistan”, Hydrological Sciences Journal. Volume 66, 2021 – Issue 11, pp. 1664–1684 https://doi.org/10.1080/02626667.2021.1957476 Impact Factor: 3.787",
-      },
-      {
-        publication:
-          "Faraz ul Haq, Usman Ali Naeem, Hamza Farooq Gabriel, Noor Muhammad Khan, Ijaz Ahmad, Habib Ur Rehman & Muhammad Awais Zafar (2021). “Impact of Urbanization on Groundwater Levels in Rawalpindi City, Pakistan”. Pure Appl. Geophys. (2021). https://doi.org/10.1007/s00024-021-02660-y. Electronic ISSN: 1420-9136, Print ISSN: 0033-4553 Impact Factor: 1.586",
-      },
-      {
-        publication:
-          "Umer, M., Gabriel, H.F., Haider, S., Nusrat A., Shahid M., and Umer M. (2021). “Application of precipitation products for flood modeling of transboundary river basin: a case study of Jhelum Basin”. Theor Appl Climatol (2021). 143:989–1004 https://doi.org/10.1007/s00704-020-03471-2. Impact Factor: 2.882",
-      },
-      {
-        publication:
-          "Nusrat A, Gabriel H F, Haider S, Ahmad S, Shahid M and Jamal S A (2020). “Application of Machine Learning Techniques to Delineate Homogeneous Climate Zones in River Basins of Pakistan for Hydro-Climatic Change Impact Studies”. Appl. Sci. 2020, Volume 10, Issue 19; doi:10.3390/app10196878. Impact Factor:2.474",
-      },
-      {
-        publication:
-          "Shah Z, Gabriel H, Haider S, Jafri T (2020). “Analysis of Seepage Loss from Concrete Lined Irrigation Canals in Punjab, Pakistan”. Irrig. and Drain. 2020; Vol. 69, Issue 4, pp.668 – 681. https://doi.org/10.1002/ird.2474. Impact Factor:1.027",
-      },
-      {
-        publication:
-          "Kanwal S, Sajjad M, Gabriel H F, Hussain E. (2020). “Towards Sustainable Wastewater Management: A spatial Multi-criteria Framework to Site the Land-FILTER System in a Complex Urban Environment”, Journal of Cleaner Production (2020), Volume 266, Article 121987,  doi: https://doi.org/10.1016/j.jclepro.2020.121987.  Impact Factor: 7.246",
-      },
-      {
-        publication:
-          "Khan A J, Akhter G,  Gabriel H F,  Shahid M. (2020). “Anthropogenic Effects of Coal Mining on Ecological Resources of the Central Indus Basin, Pakistan”, International Journal of Environmental Research and Public Health, Volume: 17, Issue: 4, DOI: 10.3390/ijerph17041255. Impact Factor: 2.468",
-      },
-      {
-        publication:
-          "Gabriel, H. F. & Khan, S. (2010). “Climate Responsive Urban Groundwater Management Options in a Stressed Aquifer System”. Kovacs Colloqium “Hydrocomplexity: New Tools for Solving Wicked Water Problems”. Edited by Shahbaz Khan, Hubert H. G. Savenjie, Siegfried Demuth & Pierre Hubert. 2 – 3 July, 2010, UNESCO, Paris, France. IAHS Publication 338, pp. 166-168. ISSN 0144-7815",
-      },
-      {
-        publication:
-          "Mu J., Liu Q., Gabriel H. F., Xu D., Xu J., Wu C., & Ren H. (2013). “The Impacts of Climate Change on Water Stress Situations in the Yellow River Basin, China”, Irrigation and Drainage 62: 545 – 648 (2013). Online ISSN: 1531- 0361. DOI: 10.1002/ird.1784. Impact Factor: 1.108",
-      },
-      {
-        publication:
-          "Mushtaq S., Chen C., Hafeez M., Maroulis, J. and Gabriel H. (2012). “The Economic Value of Improved Agrometeorological Information to Irrigators amid Climate Variability”, International Journal of Climatology, 32: 567–581. DOI: 10.1002/joc.2015. Impact Factor: 2.906. Online ISSN 1097-0088.",
-      },
-      {
-        publication:
-          "Khan S., Dassanayake D. And Gabriel H. F. (2010). “An Adaptive Learning Framework for Forecasting Seasonal Water Allocations in Irrigated Catchments”, Natural Resource Modeling, Volume 23, Number 3, pp. 324-353. DOI: 10.1111/j.1939-7445.2010.00066.x. Print ISSN: 0890-8575 Online ISSN: 1939-7445. Impact Factor: 0.596 (2010)",
-      },
-      {
-        publication:
-          "Khan S., Rana T., Carroll J. and Gabriel H. F. (2010). “Assessment of Rice Hydraulic Loading Impacts on Groundwater and Salinity Levels”, Paddy Water Environ., No. 1, Vol. 8, pp. 23-39. DOI 10.1007/s10333-009-0171-0. ISSN: 1611-2490 (Print) 1611-2504 (Online). Impact Factor: 0.986",
-      },
-      {
-        publication:
-          "Khan, S., Rana, T., Dassanayake, D., Abbas, A., Blackwell, J., Akbar, S., and Gabriel, H. F. (2009). “Spatially Distributed Assessment of Channel Seepage Using Geophysics and Artificial Intelligence”, Irrigation and Drainage 58: 307 – 320 (2009) DOI: 10.1002/ird.415. Online ISSN: 1531- 0361. Impact Factor: 1.108",
-      },
-      {
-        publication:
-          "Khan, S., Rana, T., Gabriel, H. F. and Ullah, M. K. (2008). “Hydrogeologic Assessment of Escalating Groundwater Exploitation in the Indus Basin, Pakistan”, Hydrogeology Journal (2008) 16: 1635–1654, DOI: 10.1007/s10040-008-0336-8. ISSN: 1431-2174 (Print) 1435-0157 (Online). Impact Factor: 1.417 (2009)",
-      },
-      {
-        publication:
-          "Khan, S. Gabriel, H. F. and Rana, T. (2008). “Standard Precipitation Index to Track Drought and Assess Impact of Rainfall on Watertables in Irrigation Areas”, Irrigation and Drainage Systems (2008) 22: 159 – 177, DOI: 10.1007/s10795-008-9049-3. ISSN: 0168-6291 (Print) 1573-0654 (Online).",
-      },
-      {
-        publication:
-          "Khan, S., Abbas, A., Gabriel, H. F., Rana, T., and Robinson, D. (2008). “Hydrologic and Economic Evaluation of Water-Saving Options in Irrigation Systems”, Irrigation and Drainage 57: 1 – 14 (2008), DOI: 10.1002/ird.336. Online ISSN: 1531- 0361. Impact Factor: 1.108",
-      },
-      {
-        publication:
-          "Khan, S., Abbas, A., Blackwell, J., Gabriel, H. F., Ahmad, A. (2007). “Hydrogeological Assessment of Serial Biological Concentration of Salts to Manage Saline Drainage”, Agricultural Water Management 92 (2007) 64 – 72. DOI: 10.1016/j.agwat.2007.05.011. ISSN: 0378-3774. Impact Factor: 2.106 (2009)",
-      },
-    ],
-  },
-
-  // *** Dr Quoc Bao Pham Pham profile ***
-  {
-    member_id: "DrPham",
-    member_heading: "Quoc Bao Pham",
-    member_designation: "Assistant Professor",
-    member_image: "img/team/Pham.jpg",
-    member_Linkedin: "#",
-    member_Tiwtter: "#",
-    member_Facebook: "#",
-    member_email: "quoc_bao.pham@us.edu.pl",
-    member_Phone: "",
-    member_Google_scholar: "",
-
-    member_paragraphs: [
-      {
-        paragraph:
-          "Quoc Bao Pham has obtained his Ph.D. degree from the Department of Hydraulic and Ocean Engineering, National Cheng Kung University, Taiwan. He has more than 8 years of research experience in hydrology, GIS and Remote Sensing. His research interests are water resources engineering, applied machine learning, climate change, hydrology, remote sensing, GIS and spatial analysis. He has collaborated actively with many international researchers in several other disciplines of engineering.",
-      },
-      {
-        paragraph:
-          "He has published more than 80 SCI/SCIE research papers and is a reviewer of more than 20 SCI/SCIE journals. He is also a guest editor of some SCI/SCIE journals in the field of water resources, remote sensing and machine learning. He is also a reviewer of world-leading high-impact journals such as Journal of Hydrology, Science of The Total Environment, Remote Sensing of Environment, Hydrological Sciences Journal, Journal of Environmental Management, Geocarto International and Remote Sensing applications",
-      },
-      {
-        paragraph: "",
-      },
-    ],
-
-    member_education: [
-      {
-        institute_name: "National Cheng Kung University, Taiwan",
-        graduation_period: "",
-        degree_name:
-          "Ph.D. in Application of Machine Learning for Hydrometeorology",
-      },
-      //   {
-      //     institute_name: "University of Agriculture, Peshawar , Kpk, Pakistan",
-      //     graduation_period: "2011-2015",
-      //     degree_name: "BS Computer Science",
-      //   },
-    ],
-
-    member_Experience: [
-      {
-        orgName: "University of Silesia in Katowice",
-        orgPlace: "Poland",
-        From: "",
-        To: "",
-        designation: "Faculty of Natural Sciences,",
-        experienceDetail: "Institute of Earth Sciences",
-      },
-      // {
-      //   orgName: "Second Organisation",
-      //   orgPlace: "Islamabad",
-      //   From: "JAN 2017",
-      //   To: "SEP 2021",
-      //   designation: "Second Designation",
-      //   experienceDetail:
-      //     "Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
-      // },
-    ],
-    member_AcadProf: [
-      {
-        AcadProfName: "Google Scholar",
-        AcadProfURL:
-          " https://scholar.google.com/citations?user=I9_x85wAAAAJ&hl=en",
-      },
-      {
-        AcadProfName: "Research Gate",
-        AcadProfURL: "https://www.researchgate.net/profile/Quoc-Pham-7",
-      },
-      {
-        AcadProfName: "Publons",
-        AcadProfURL:
-          "https://publons.com/wos-op/researcher/3374501/quoc-bao-pham/",
-      },
-      {
-        AcadProfName: "ORCID",
-        AcadProfURL: "https://orcid.org/0000-0002-0468-5962",
-      },
-    ],
-    member_ResearchInterests: [
-      {
-        ResearchInterest: "Applied Hydrology",
-      },
-      {
-        ResearchInterest: "Water Resources Engineering",
-      },
-      {
-        ResearchInterest: "Water Resources Management",
-      },
-      {
-        ResearchInterest: "Hydro-meteorology",
-      },
-      {
-        ResearchInterest: "Machine Learning applications",
-      },
-    ],
-
-    member_ReprPublications: [
-      {
-        publication:
-          "Pham, Q. B., Achour, Y., Ali, S. A., Parvin, F., Vojtek, M., Vojteková, J., … & Anh, D. T. (2021). A comparison among fuzzy multi-criteria decision making, bivariate, multivariate and machine learning models in landslide susceptibility mapping. Geomatics, Natural Hazards and Risk, 12(1), 1741-1777.",
-      },
-      {
-        publication:
-          "Pham, Q. B., Afan, H. A., Mohammadi, B., Ahmed, A. N., Linh, N. T. T., Vo, N. D., … & El-Shafie, A. Hybrid model to improve the river streamflow forecasting utilizing multi-layer perceptron-based intelligent water drop optimization algorithm. Soft computing.",
-      },
-      {
-        publication:
-          "Pham, Q. B*., Ali, S. A., Bielecka, E., Calka, B., Orych, A., Parvin, F., & Łupikasza, E. (2022). Flood vulnerability and buildings’ flood exposure assessment in a densely urbanised city: comparative analysis of three scenarios using a neural network approach. Natural Hazards, 1-39.",
-      },
-      {
-        publication:
-          "Pham, Q. B., Kumar, M., Di Nunno, F., Elbeltagi, A., Granata, F., Islam, A. R. M., … & Anh, D. T. (2022). Groundwater level prediction using machine learning algorithms in a drought-prone area. Neural Computing and Applications, 1-23.",
-      },
-      {
-        publication:
-          "Pham, Q. B., Sammen, S. S., Abba, S. I., Mohammadi, B., Shahid, S., & Abdulkadir, R. A. (2021). A new hybrid model based on relevance vector machine with flower pollination algorithm for phycocyanin pigment concentration estimation. Environmental Science and Pollution Research, 1-16.",
-      },
-      {
-        publication:
-          "Pham, Q. B., Tran, D. A., Ha, N. T., Islam, A. R. M. T., & Salam, R. (2022). Random forest and nature-inspired algorithms for mapping groundwater nitrate concentration in a coastal multi-layer aquifer system. Journal of Cleaner Production, 343, 130900.",
-      },
-      {
-        publication:
-          "Pham, Q. B., Yang, T. C., Kuo, C. M., Tseng, H. W., & Yu, P. S. (2019). Combing Random Forest and Least Square Support Vector Regression for Improving Extreme Rainfall Downscaling. Water, 11(3), 451.",
-      },
-      {
-        publication:
-          "Pham, Q. B., Yang, T. C., Kuo, C. M., Tseng, H. W., & Yu, P. S. (2021). Coupling Singular Spectrum Analysis with Least Square Support Vector Machine to Improve Accuracy of SPI Drought Forecasting. Water Resources Management, 1-22.",
-      },
-      {
-        publication:
-          "Quevedo, R. P., Maciel, D. A., Uehara, T. D. T., Vojtek, M., Rennó, C. D., Pradhan, B., … & Pham, Q. B*. (2021). Consideration of Spatial Heterogeneity in Landslide Susceptibility Mapping using Geographical Random Forest Model. Geocarto International, 1-20.",
-      },
-      {
-        publication:
-          " Mohajane, M., Costache, R., Karimi, F., Pham, Q. B*., Essahlaoui, A., Nguyen, H., … & Oudija, F. (2021). Application of remote sensing and machine learning algorithms for forest fire mapping in a Mediterranean area. Ecological Indicators, 129, 107869.",
       },
     ],
   },
