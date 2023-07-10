@@ -216,7 +216,7 @@ if (header) {
     stickyHeaderContainerHeight: 70,
   };
 
-  header.setAttribute("data-plugin-options", JSON.stringify(pluginOptions)); // Add the 'data-plugin-options' attribute with the plugin options as a string
+  // header.setAttribute("data-plugin-options", JSON.stringify(pluginOptions)); // Add the 'data-plugin-options' attribute with the plugin options as a string
 }
 
 // *************** Loading Header to All pages : END *****************
