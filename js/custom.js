@@ -98,19 +98,29 @@ const headerContent = `
                     >Home </a
                   >
                 </li>
-                <!-- About Us -->
-                <li>
-                  <a id="idHeaderLinkAboutUs" href="about-us.html" class="dropdown-item dropdown-toggle"
-                    >About Us
-
-                    <i class="fas fa-chevron-down"> </i>
-                    </a>
-                    <ul class = "dropdown-menu"> 
-                    <li>
-                    <a class = "dropdown-item " href="team.html"> Our Team
-                    </a></li>
-                    </ul>
-                </li>
+                <!-- About Us DropDown :START -->
+                <li class="dropdown">
+                  <a id="idHeaderLinkresources" class="dropdown-item dropdown-toggle" href="#">
+                      About Us
+                      <i class="fas fa-chevron-down"></i>
+                  </a>
+                  <ul class="dropdown-menu">
+                     
+                      <li >
+                          <a  class="dropdown-item" href="about-us.html">
+                              Who We Are
+      
+                          </a>
+                      </li>
+                      <li>
+                      <a class="dropdown-item" href="team.html">
+                          Our Team
+                        
+                      </a>
+                      
+                  </li>
+                  </ul></li>	
+                <!-- About Us DropDown :END -->
 
                 </li>
                 <!-- Services -->
@@ -146,33 +156,7 @@ const headerContent = `
                               Entrepreneurship
                             
                           </a>
-                          <!-- <ul class="dropdown-menu">
-                              <li>
-                                  <a class="dropdown-item" href="#">
-                                  Wide Slider
-                                  </a>
-                               </li>
-                               <li>
-                                  <a class="dropdown-item" href="#">
-                                      Small Slider
-                                  </a>
-                              </li>
-                              <li>
-                                  <a class="dropdown-item" href="#">
-                                      Full Width Slider
-                                  </a>
-                              </li>
-                              <li>
-                                  <a class="dropdown-item" href="#">
-                                      Gallery
-                                  </a>
-                              </li>
-                              <li>
-                                  <a class="dropdown-item" href="#">
-                                      Carousel
-                                  </a>
-                              </li>
-                          </ul> -->
+                          
                       </li>
                       <li >
                           <a  class="dropdown-item" href="opportunities.html">
@@ -190,13 +174,7 @@ const headerContent = `
                     >Our Blogs</a
                   >
                 </li>
-                
-                <!-- Our Team -->
-                <li>
-                  <a id="idHeaderLinkTeam" href="team.html" class="nav-link"
-                    >Our Team</a
-                  >
-                </li>
+             
                
                 <!-- <li>
                   <a id="idHeaderLinkContactUs" href="#" class="nav-link">
