@@ -212,7 +212,7 @@ if (header) {
     stickyEnableOnBoxed: true,
     stickyEnableOnMobile: false,
     stickyChangeLogo: false,
-    stickyStartAt: 30,
+    stickyStartAt: 120,
     stickyHeaderContainerHeight: 70,
   };
 
