@@ -289,6 +289,7 @@ const footerContent = `
         Department of Hydraulic Engineering, Tsinghua University, Beijing 100084, CHINA
       </li>
     </ul>
+    <h4 class="d-none">Current Visitors: <span class="text-color-primary " id="visitorCount">Loading...</span></h4>
   </div>
   
               
@@ -323,7 +324,7 @@ const footerContent = `
 <div class="row pb-5">
   <div class="col-lg-12 text-center m-0">
     <hr class="bg-color-light opacity-1 mt-5 mb-4">
-    <p class="text-3-4">Hydrosensing, Research & Consulting Services. © 2023. All Rights Reserved. Developed by <a href="https://bxtechnologies.net/">BX Technologies</a></p>
+    <p class="text-3-4">Hydrosensing, Research & Consulting Services. © 2023. All Rights Reserved. <span class="text-1" > Developed by <a class="text-1" href="https://bxtechnologies.net/">BX Technologies</a> </span></p>
   </div>
 </div>
 </div>
