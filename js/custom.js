@@ -65,12 +65,12 @@ const headerContent = `
     </div>
   </div>
 </div>
-<div class="header-container container">
+<div class="header-container container-fluid">
   <div class="header-row">
     <div class="header-column">
       <div class="header-row">
         <!-- HEADER LOGO -->
-        <div class="header-logo">
+        <div class="header-logo mx-lg-2">
           <a href="index.html">
             <img id="idHeaderLogo"
               src="img/dms/hydroSensing/logo.png"
