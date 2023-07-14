@@ -288,7 +288,7 @@ const footerContent = `
       </li>
       <li>
         <i class="fas fa-angle-right text-color-default"></i>
-        <a href="#" class="link-hover-style-1 ms-1"> Resource</a>
+        <a href="repository.html" class="link-hover-style-1 ms-1"> Resources</a>
       </li>
                       <li>
         <i class="fas fa-angle-right text-color-default"></i>
