@@ -1,124 +1,206 @@
-const Allopportunities=[
-    // opportunity1
-    {
-        opportunityId:"opportunity1",
-        opportunityHeading:"opportunity One",
-        opportunityLinks:[
-            {
-                opportunityHeading:"Link Heading",
-                opportunityLink:"#",
-            },
-            {
-                opportunityHeading:"Link Heading",
-                opportunityLink:"#",
-            },
-        ],
-        opportunityParas:[
-            {
-                opportunitypara:"Eu magna minim excepteur est ullamco esse eiusmod fugiat enim. Exercitation elit Lorem ut sunt incididunt velit deserunt excepteur consectetur exercitation laborum eiusmod consequat. Laboris sit deserunt ullamco ut nisi amet eiusmod sint ipsum occaecat voluptate duis. Amet aliquip sint adipisicing quis tempor cillum in et ut aliqua nostrud consectetur laborum do. Consectetur dolor non non proident commodo sint. In veniam adipisicing est consequat dolore veniam duis."
-            },
-            {
-                opportunitypara:"Irure nulla minim sit reprehenderit exercitation minim Lorem aute aute non excepteur. Nostrud consectetur do do veniam ad enim. Veniam cupidatat nisi officia tempor. Officia sunt nisi et reprehenderit nisi est esse reprehenderit mollit occaecat esse in amet excepteur. Non pariatur consectetur enim do incididunt. Tempor velit proident enim minim ullamco. Elit Lorem anim amet culpa aute quis."
-            },
-            {
-                opportunitypara:"Veniam ad magna sunt nulla aliquip eiusmod cupidatat. Anim minim consectetur excepteur cupidatat laboris aliqua commodo. Laboris consectetur amet velit irure voluptate labore reprehenderit cillum. Pariatur esse exercitation cupidatat est excepteur occaecat consectetur ipsum tempor. Nulla incididunt tempor incididunt adipisicing ex Lorem excepteur enim."
-            },
-        ]
-    },
-    // opportunity2
-    {
-        opportunityId:"opportunity2",
-        opportunityHeading:"opportunity Two",
-        opportunityLinks:[
-            {
-                opportunityHeading:"Link Heading",
-                opportunityLink:"#",
-            },
-            {
-                opportunityHeading:"Link Heading",
-                opportunityLink:"#",
-            },
-        ],
-        opportunityParas:[
-            {
-                opportunitypara:"Eu magna minim excepteur est ullamco esse eiusmod fugiat enim. Exercitation elit Lorem ut sunt incididunt velit deserunt excepteur consectetur exercitation laborum eiusmod consequat. Laboris sit deserunt ullamco ut nisi amet eiusmod sint ipsum occaecat voluptate duis. Amet aliquip sint adipisicing quis tempor cillum in et ut aliqua nostrud consectetur laborum do. Consectetur dolor non non proident commodo sint. In veniam adipisicing est consequat dolore veniam duis."
-            },
-            {
-                opportunitypara:"Irure nulla minim sit reprehenderit exercitation minim Lorem aute aute non excepteur. Nostrud consectetur do do veniam ad enim. Veniam cupidatat nisi officia tempor. Officia sunt nisi et reprehenderit nisi est esse reprehenderit mollit occaecat esse in amet excepteur. Non pariatur consectetur enim do incididunt. Tempor velit proident enim minim ullamco. Elit Lorem anim amet culpa aute quis."
-            },
-        ]
-    },
-    // opportunity3
-    {
-        opportunityId:"opportunity3",
-        opportunityHeading:"opportunity Three",
-        opportunityLinks:[
-            {
-                opportunityHeading:"Link Heading",
-                opportunityLink:"#",
-            },
-            {
-                opportunityHeading:"Link Heading",
-                opportunityLink:"#",
-            },
-        ],
-        opportunityParas:[
-            {
-                opportunitypara:"Eu magna minim excepteur est ullamco esse eiusmod fugiat enim. Exercitation elit Lorem ut sunt incididunt velit deserunt excepteur consectetur exercitation laborum eiusmod consequat. Laboris sit deserunt ullamco ut nisi amet eiusmod sint ipsum occaecat voluptate duis. Amet aliquip sint adipisicing quis tempor cillum in et ut aliqua nostrud consectetur laborum do. Consectetur dolor non non proident commodo sint. In veniam adipisicing est consequat dolore veniam duis."
-            },
-            {
-                opportunitypara:"Irure nulla minim sit reprehenderit exercitation minim Lorem aute aute non excepteur. Nostrud consectetur do do veniam ad enim. Veniam cupidatat nisi officia tempor. Officia sunt nisi et reprehenderit nisi est esse reprehenderit mollit occaecat esse in amet excepteur. Non pariatur consectetur enim do incididunt. Tempor velit proident enim minim ullamco. Elit Lorem anim amet culpa aute quis."
-            },
-            {
-                opportunitypara:"Veniam ad magna sunt nulla aliquip eiusmod cupidatat. Anim minim consectetur excepteur cupidatat laboris aliqua commodo. Laboris consectetur amet velit irure voluptate labore reprehenderit cillum. Pariatur esse exercitation cupidatat est excepteur occaecat consectetur ipsum tempor. Nulla incididunt tempor incididunt adipisicing ex Lorem excepteur enim."
-            },
-        ]
-    },
-]
+const Elaccordion100 = document.getElementById("accordion100");
 
+const allOpportunities = [
+  // 1.	Job/Postdoc opportunities
+  {
+    OpportunityCategory: "JobPostdocopportunities",
+    OpportunityName: "Job / Postdoc Opportunities",
+    Opportunities: [
+      //1st Oppotunity
+      {
+        OpportunityID: "firstOpportunity",
+        OpportunityName: "Opportunity Name",
 
-const Elaccordion1=document.getElementById("accordion1");
+        OpportunityLink: "#",
+        OpportunityDescription:
+          "Laborum qui laborum culpa sit ad sit non deserunt nisi eu occaecat. Et deserunt pariatur exercitation sint pariatur labore laboris proident ex consectetur adipisicing ipsum laboris. Aute consectetur reprehenderit laboris nostrud culpa in nulla. Lorem do mollit nostrud qui aute veniam reprehenderit. Fugiat pariatur aliquip dolore elit adipisicing aliqua reprehenderit.",
+      },
 
-var opportunityCount=1;
-        for (const opportunity of Allopportunities) {
-            const opportunityCard=`
-                                    
-                        <div class="card card-default">
-                        <div class="card-header" id="collapse1Heading${opportunityCount}">
-                        <h4 class="card-title m-0">
-                            <a
-                            class="accordion-toggle text-color-dark font-weight-bold collapsed"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapse${opportunityCount}One"
-                            aria-expanded="false"
-                            aria-controls="collapse${opportunityCount}One"
-                            >
-                            ${opportunityCount} - ${opportunity.opportunityHeading}
-                            </a>
-                        </h4>
-                        </div>
-                        <div
-                        id="collapse${opportunityCount}One"
-                        class="collapse"
-                        aria-labelledby="collapse1Heading${opportunityCount}"
-                        data-bs-parent="#accordion1"
-                        >
-                        <div id="accordingBody${opportunityCount}" class="card-body">
-                          
-                        </div>
-                        </div>
-                        </div>
-            `;
-            Elaccordion1.innerHTML += opportunityCard;
-            const ElaccordingBodyId= document.getElementById("accordingBody"+opportunityCount);
+      //2nd Oppotunity
+      {
+        OpportunityID: "secondOpportunity",
+        OpportunityName: "Second Opportunity Name",
 
-            for(const opportunityPara of opportunity.opportunityParas){
-                const pElement = document.createElement("p");
-                pElement.classList.add("mb-1");
-                pElement.textContent = opportunityPara.opportunitypara; // Access the 'paragraph' property
-                ElaccordingBodyId.appendChild(pElement);
-            }
+        day: "03",
+        month: "JAN",
+        year: "2022",
 
-            opportunityCount=opportunityCount+1
+        OpportunityLink: "#",
+        OpportunityDescription:
+          "Laborum qui laborum culpa sit ad sit non deserunt nisi eu occaecat. Et deserunt pariatur exercitation sint pariatur labore laboris proident ex consectetur adipisicing ipsum laboris. Aute consectetur reprehenderit laboris nostrud culpa in nulla. Lorem do mollit nostrud qui aute veniam reprehenderit. Fugiat pariatur aliquip dolore elit adipisicing aliqua reprehenderit.",
+      },
+    ],
+  },
 
-        }
+  // 2.	PhD Opportunities
+  {
+    OpportunityCategory: "PhDOpportunities",
+    OpportunityName: "PhD Opportunities",
+    Opportunities: [
+      //1st Oppotunity
+      {
+        OpportunityID: "PhDOpportunityOne",
+        OpportunityName: "PhD Opportunity One",
+
+        OpportunityLink: "#",
+        OpportunityDescription:
+          "Laborum qui laborum culpa sit ad sit non deserunt nisi eu occaecat. Et deserunt pariatur exercitation sint pariatur labore laboris proident ex consectetur adipisicing ipsum laboris. Aute consectetur reprehenderit laboris nostrud culpa in nulla. Lorem do mollit nostrud qui aute veniam reprehenderit. Fugiat pariatur aliquip dolore elit adipisicing aliqua reprehenderit.",
+      },
+
+      //2nd Oppotunity
+      {
+        OpportunityID: "PhDOpportunitytwo",
+        OpportunityName: "PhD Opportunity Two",
+
+        OpportunityLink: "#",
+        OpportunityDescription:
+          "Laborum qui laborum culpa sit ad sit non deserunt nisi eu occaecat. Et deserunt pariatur exercitation sint pariatur labore laboris proident ex consectetur adipisicing ipsum laboris. Aute consectetur reprehenderit laboris nostrud culpa in nulla. Lorem do mollit nostrud qui aute veniam reprehenderit. Fugiat pariatur aliquip dolore elit adipisicing aliqua reprehenderit.",
+      },
+
+      //3rd Oppotunity
+      {
+        OpportunityID: "PhDOpportunityThree",
+        OpportunityName: "PhD Opportunity Three",
+        OpportunityLink: "#",
+        OpportunityDescription:
+          "Laborum qui laborum culpa sit ad sit non deserunt nisi eu occaecat. Et deserunt pariatur exercitation sint pariatur labore laboris proident ex consectetur adipisicing ipsum laboris. Aute consectetur reprehenderit laboris nostrud culpa in nulla. Lorem do mollit nostrud qui aute veniam reprehenderit. Fugiat pariatur aliquip dolore elit adipisicing aliqua reprehenderit.",
+      },
+    ],
+  },
+
+  // 3.	Master Opportunities
+  {
+    OpportunityCategory: "MasterOpportunities",
+    OpportunityName: "Master Opportunities",
+    Opportunities: [
+      //1st Oppotunity
+      {
+        OpportunityID: "MasterOpportunityOne",
+        OpportunityName: "Master Opportunity One",
+        OpportunityLink: "#",
+        OpportunityDescription:
+          "Laborum qui laborum culpa sit ad sit non deserunt nisi eu occaecat. Et deserunt pariatur exercitation sint pariatur labore laboris proident ex consectetur adipisicing ipsum laboris. Aute consectetur reprehenderit laboris nostrud culpa in nulla. Lorem do mollit nostrud qui aute veniam reprehenderit. Fugiat pariatur aliquip dolore elit adipisicing aliqua reprehenderit.",
+      },
+    ],
+  },
+
+  // 4.	Mentorship Opportunities
+  {
+    OpportunityCategory: "Mentorship",
+    OpportunityName: "Mentorship",
+    Opportunities: [
+      //1st Oppotunity
+      {
+        OpportunityID: "MentorshipOne",
+        OpportunityName: "Mentorship Opportunity One",
+
+        OpportunityLink: "#",
+        OpportunityDescription:
+          "Laborum qui laborum culpa sit ad sit non deserunt nisi eu occaecat. Et deserunt pariatur exercitation sint pariatur labore laboris proident ex consectetur adipisicing ipsum laboris. Aute consectetur reprehenderit laboris nostrud culpa in nulla. Lorem do mollit nostrud qui aute veniam reprehenderit. Fugiat pariatur aliquip dolore elit adipisicing aliqua reprehenderit.",
+      },
+
+      //2nd Oppotunity
+      {
+        OpportunityID: "MentorshipTwo",
+        OpportunityName: "Mentorship Opportunity Two",
+        OpportunityLink: "#",
+        OpportunityDescription:
+          "Laborum qui laborum culpa sit ad sit non deserunt nisi eu occaecat. Et deserunt pariatur exercitation sint pariatur labore laboris proident ex consectetur adipisicing ipsum laboris. Aute consectetur reprehenderit laboris nostrud culpa in nulla. Lorem do mollit nostrud qui aute veniam reprehenderit. Fugiat pariatur aliquip dolore elit adipisicing aliqua reprehenderit.",
+      },
+    ],
+  },
+
+  // 5.	Conferences
+  {
+    OpportunityCategory: "Conferences",
+    OpportunityName: "Conferences",
+    Opportunities: [
+      //1st Conference
+      {
+        OpportunityID: "ConferencesOne",
+        OpportunityName: "Conference One",
+
+        OpportunityLink: "#",
+        OpportunityDescription:
+          "Laborum qui laborum culpa sit ad sit non deserunt nisi eu occaecat. Et deserunt pariatur exercitation sint pariatur labore laboris proident ex consectetur adipisicing ipsum laboris. Aute consectetur reprehenderit laboris nostrud culpa in nulla. Lorem do mollit nostrud qui aute veniam reprehenderit. Fugiat pariatur aliquip dolore elit adipisicing aliqua reprehenderit.",
+      },
+
+      //2nd Conference
+      {
+        OpportunityID: "ConferenceTwo",
+        OpportunityName: "Conference Two",
+
+        OpportunityLink: "#",
+        OpportunityDescription:
+          "Laborum qui laborum culpa sit ad sit non deserunt nisi eu occaecat. Et deserunt pariatur exercitation sint pariatur labore laboris proident ex consectetur adipisicing ipsum laboris. Aute consectetur reprehenderit laboris nostrud culpa in nulla. Lorem do mollit nostrud qui aute veniam reprehenderit. Fugiat pariatur aliquip dolore elit adipisicing aliqua reprehenderit.",
+      },
+    ],
+  },
+];
+
+for (const singleCategory of allOpportunities) {
+  Elaccordion100.innerHTML += `
+    <div class="card card-default">
+    <div class="card-header" id="collapseHeading${singleCategory.OpportunityCategory}">
+      <h4 class="card-title m-0">
+        <a class="accordion-toggle text-color-dark font-weight-bold collapsed" data-bs-toggle="collapse" data-bs-target="#${singleCategory.OpportunityCategory}" aria-expanded="false" aria-controls="${singleCategory.OpportunityCategory}">
+          ${singleCategory.OpportunityName}
+        </a>
+      </h4>
+    </div>
+    <div id="${singleCategory.OpportunityCategory}" class="collapse" aria-labelledby="collapseHeading${singleCategory.OpportunityCategory}" data-bs-parent="#accordion100" style="">
+      <div id="${singleCategory.OpportunityCategory}CardBody" class="card-body">
+        </div>
+    </div>
+  </div>
+    
+    `;
+}
+
+for (const singleOpportunityCateg of allOpportunities) {
+  if (
+    document.getElementById(
+      `${singleOpportunityCateg.OpportunityCategory}CardBody`
+    ).id ==
+    singleOpportunityCateg.OpportunityCategory + "CardBody"
+  ) {
+    for (const singleOpportunity of singleOpportunityCateg.Opportunities) {
+      document.getElementById(
+        `${singleOpportunityCateg.OpportunityCategory}CardBody`
+      ).innerHTML += `
+      <div class="row">
+      <div class="col">
+      <article
+        class="custom-post-event bg-color-light custom-sm-margin-bottom-2 mb-5"
+        style="position: relative"
+      >
+        
+        <div class="post-event-content ">
+          <h4 class="font-weight-bold text-color-dark">
+            <a
+              href="${singleOpportunity.topicPdfDownloadPath}"
+              class="text-decoration-none custom-secondary-font text-color-dark"
+            >
+            ${singleOpportunity.OpportunityName}
+            </a>
+          </h4>
+          <p class="OpportunityDescription">
+           ${singleOpportunity.OpportunityDescription}
+          </p>
+          <a
+          href="${singleOpportunity.OpportunityLink}" target="_blank"
+          class="text-decoration-none custom-secondary-font text-color-primary"
+        > <span><i class="fa-solid fa-link"></i></span> Opportunity Link
+        </a>
+         
+        </div>
+        
+      </article>
+    </div>
+   
+    </div>
+    <hr class="solid" />        
+        `;
+    }
+  }
+}

@@ -90,6 +90,81 @@
     <!-- Head Libs -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
     <script src="js/opportunities.js" defer></script>
+    <style>
+      .softwareDescription{
+         overflow: hidden;
+         width:100%;
+         display: -webkit-box;
+         -webkit-line-clamp: 3;
+         -webkit-box-orient: vertical;
+        }
+ 
+       .custom-post-event .post-event-date {
+         position: absolute;
+         top: 0;
+         left: 0;
+         padding: 15px 20px;
+       }
+       .custom-post-event .post-event-date span {
+         display: block;
+       }
+       .custom-secondary-font {
+         font-family: "Playfair Display", serif !important;
+       }
+       .custom-post-event .post-event-date span.day {
+         font-size: 1.9em;
+       }
+       .custom-post-event .post-event-date span {
+         display: block;
+       }
+       .custom-post-event .post-event-date span.year {
+         font-size: 0.9em;
+       }
+       .custom-margin-1 {
+         margin-left: 95px;
+       }
+ 
+       /* The Modal (background) */
+       .modal {
+         display: none; /* Hidden by default */
+         position: fixed; /* Stay in place */
+         z-index: 1; /* Sit on top */
+         padding-top: 100px;
+         padding-left: 100px;
+         padding-right: 100px;
+         padding-bottom: 100px; /* Location of the box */
+ 
+         width: 100%; /* Full width */
+         height: 100%; /* Full height */
+         overflow: auto; /* Enable scroll if needed */
+         background-color: rgb(14, 13, 13); /* Fallback color */
+         background-color: rgba(6, 7, 6, 0.356); /* Black w/ opacity */
+       }
+ 
+       /* Modal Content */
+       .modal-content {
+         background-color: #fefefe;
+         margin: auto;
+         padding: 20px;
+         border: 1px solid #888;
+         width: 80%;
+       }
+ 
+       /* The Close Button */
+       .close {
+         color: #82ba41;
+         float: right;
+         font-size: 28px;
+         font-weight: bold;
+       }
+ 
+       .close:hover,
+       .close:focus {
+         color: rgb(223, 16, 16);
+         text-decoration: none;
+         cursor: pointer;
+       }
+     </style>
   </head>
 
   <body
@@ -182,28 +257,18 @@
               </p>
             </div>
           </div>
-          <!-- <div class="row">
-            <div
-              class="col-lg-8 mb-5 mb-lg-0 appear-animation"
-              data-appear-animation="fadeInUpShorter"
-              data-appear-animation-delay="1600"
-            >
-              <div id="blogContainer"></div>
-              <div class="py-1 clearfix"></div>
-              <ul
-                id="pagination"
-                class="custom-pagination-style-1 pagination pagination-rounded pagination-md justify-content-center"
-              ></ul>
-            </div>
-          </div> -->
+       
 
 
           <!-- New section Starts here for the accrodins on the oppertunites page  -->
           
           <div class="row row-gutter-sm pt-4 pt-sm-0">
             <div class="col-md-8 col-lg-9 mb-5 mb-md-0">
-              <div class="accordion custom-accordion-style-1 appear-animation" data-appear-animation="fadeInUpShorter"
-                data-appear-animation-delay="250" id="accordion1">
+             
+              <div class="accordion accordion-modern-status accordion-modern-status-arrow accordion-modern-status-primary" id="accordion100">
+                  
+  
+  
               </div>
             </div>
             <div class="col-md-4 col-lg-3 text-center text-md-start">
@@ -243,6 +308,9 @@
 
           <!-- New section ends here for the accrodins on the oppertunites page  -->
         </div>
+
+        
+     
       </div>
 
       <footer
