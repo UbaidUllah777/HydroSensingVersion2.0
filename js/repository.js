@@ -9,11 +9,7 @@ const allRepositories = [
       //1st Topic in Repository one
       {
         topicID: "firstTopicRepoOne",
-        topiName: "First Topic",
-
-        day: "03",
-        month: "JAN",
-        year: "2022",
+        topicName: "First Topic",
 
         YoutubeVidioLink:
           "https://www.youtube.com/watch?v=Bbs_OfyWm6o&pp=ygUNaHlkcm8gc2Vuc2luZw%3D%3D",
@@ -25,11 +21,7 @@ const allRepositories = [
       //2nd Topic in Repository one
       {
         topicID: "secondTopicRepoOne",
-        topiName: "Second  Topic",
-
-        day: "12",
-        month: "JUL",
-        year: "2023",
+        topicName: "Second  Topic",
 
         YoutubeVidioLink:
           "https://www.youtube.com/watch?v=Bbs_OfyWm6o&pp=ygUNaHlkcm8gc2Vuc2luZw%3D%3D",
@@ -41,11 +33,7 @@ const allRepositories = [
       //3rd Topic in Repository one
       {
         topicID: "thirdTopicRepoOne",
-        topiName: "Third  Topic",
-
-        day: "01",
-        month: "JUL",
-        year: "2023",
+        topicName: "Third  Topic",
 
         YoutubeVidioLink:
           "https://www.youtube.com/watch?v=Bbs_OfyWm6o&pp=ygUNaHlkcm8gc2Vuc2luZw%3D%3D",
@@ -64,11 +52,7 @@ const allRepositories = [
       //1st Topic in Repository two
       {
         topicID: "firstTopicRepotwo",
-        topiName: "First Topic",
-
-        day: "11",
-        month: "APR",
-        year: "2020",
+        topicName: "First Topic",
 
         YoutubeVidioLink:
           "https://www.youtube.com/watch?v=Bbs_OfyWm6o&pp=ygUNaHlkcm8gc2Vuc2luZw%3D%3D",
@@ -79,11 +63,7 @@ const allRepositories = [
       //2nd Topic in Repository two
       {
         topicID: "secondTopicRepotwo",
-        topiName: "Second  Topic",
-
-        day: "12",
-        month: "JUL",
-        year: "2023",
+        topicName: "Second  Topic",
 
         YoutubeVidioLink:
           "https://www.youtube.com/watch?v=Bbs_OfyWm6o&pp=ygUNaHlkcm8gc2Vuc2luZw%3D%3D",
@@ -102,11 +82,7 @@ const allRepositories = [
       //1st Topic in Repository three
       {
         topicID: "firstTopicRepothree",
-        topiName: "First Topic",
-
-        day: "03",
-        month: "JAN",
-        year: "2022",
+        topicName: "First Topic",
 
         YoutubeVidioLink:
           "https://www.youtube.com/watch?v=Bbs_OfyWm6o&pp=ygUNaHlkcm8gc2Vuc2luZw%3D%3D",
@@ -117,11 +93,7 @@ const allRepositories = [
       //2nd Topic in Repository three
       {
         topicID: "secondTopicRepothree",
-        topiName: "Second  Topic",
-
-        day: "12",
-        month: "JUL",
-        year: "2023",
+        topicName: "Second  Topic",
 
         YoutubeVidioLink:
           "https://www.youtube.com/watch?v=Bbs_OfyWm6o&pp=ygUNaHlkcm8gc2Vuc2luZw%3D%3D",
@@ -133,11 +105,7 @@ const allRepositories = [
       //3rd Topic in Repository three
       {
         topicID: "thirdTopicRepothree",
-        topiName: "Third  Topic",
-
-        day: "01",
-        month: "JUL",
-        year: "2023",
+        topicName: "Third  Topic",
 
         YoutubeVidioLink:
           "https://www.youtube.com/watch?v=Bbs_OfyWm6o&pp=ygUNaHlkcm8gc2Vuc2luZw%3D%3D",
@@ -175,7 +143,7 @@ for (const singleRepositoryCateg of allRepositories) {
     ).id ==
     singleRepositoryCateg.RepositoryCategory + "CardBody"
   ) {
-    for (singleSoftware of singleRepositoryCateg.RepositoryTopics) {
+    for (singleTopic of singleRepositoryCateg.RepositoryTopics) {
       document.getElementById(
         `${singleRepositoryCateg.RepositoryCategory}CardBody`
       ).innerHTML += `
@@ -185,30 +153,21 @@ for (const singleRepositoryCateg of allRepositories) {
           class="custom-post-event bg-color-light custom-sm-margin-bottom-2 mb-5"
           style="position: relative"
         >
-          <div class="post-event-date bg-color-primary text-center">
-            <span
-              class="month text-uppercase custom-secondary-font text-color-light"
-              >${singleSoftware.month}</span
-            >
-            <span class="day font-weight-bold text-color-light"
-              >${singleSoftware.day}</span
-            >
-            <span class="year text-color-light">${singleSoftware.year}</span>
-          </div>
-          <div class="post-event-content custom-margin-1">
+      
+          <div class="post-event-content">
             <h4 class="font-weight-bold text-color-dark">
               <a
-                href="${singleSoftware.topicPdfDownloadPath}"
+                href="${singleTopic.topicPdfDownloadPath}"
                 class="text-decoration-none custom-secondary-font text-color-dark"
               >
-              ${singleSoftware.topiName}
+              ${singleTopic.topicName}
               </a>
             </h4>
             <p class="topicDescription">
-             ${singleSoftware.topicDescription}
+             ${singleTopic.topicDescription}
             </p>
             <a
-            href="${singleSoftware.YoutubeVidioLink}" target="_blank"
+            href="${singleTopic.YoutubeVidioLink}" target="_blank"
             class="text-decoration-none custom-secondary-font text-color-primary"
           > <span><i class="fa-brands fa-youtube" style="color: #d5151f;"></i></span> Youtube Video Link
           </a>
@@ -221,7 +180,7 @@ for (const singleRepositoryCateg of allRepositories) {
       <ul style="list-style: none" class="mt-5">
       <li>
         <a
-          href="${singleSoftware.topicPdfDownloadPath}" 
+          href="${singleTopic.topicPdfDownloadPath}" 
           class="btn btn-outline btn-primary btn-with-arrow mb-2"
           >Download PDF<span><i class="fas fa-download"></i></span
         ></a>
