@@ -536,148 +536,6 @@ const teamMembers = [
     ],
   },
 
-  // *** Dr Quoc Bao Pham Pham profile ***
-  {
-    member_id: "DrPham",
-    member_heading: "Dr.Quoc Bao Pham",
-    member_designation: "Assistant Professor",
-    member_image: "img/team/Pham.jpg",
-    member_Linkedin: "#",
-    member_Tiwtter: "#",
-    member_Facebook: "#",
-    member_email: "quoc_bao.pham@us.edu.pl",
-    member_Phone: "",
-    member_Google_scholar: "",
-
-    member_paragraphs: [
-      {
-        paragraph:
-          "Quoc Bao Pham has obtained his Ph.D. degree from the Department of Hydraulic and Ocean Engineering, National Cheng Kung University, Taiwan. He has more than 8 years of research experience in hydrology, GIS and Remote Sensing. His research interests are water resources engineering, applied machine learning, climate change, hydrology, remote sensing, GIS and spatial analysis. He has collaborated actively with many international researchers in several other disciplines of engineering.",
-      },
-      {
-        paragraph:
-          "He has published more than 80 SCI/SCIE research papers and is a reviewer of more than 20 SCI/SCIE journals. He is also a guest editor of some SCI/SCIE journals in the field of water resources, remote sensing and machine learning. He is also a reviewer of world-leading high-impact journals such as Journal of Hydrology, Science of The Total Environment, Remote Sensing of Environment, Hydrological Sciences Journal, Journal of Environmental Management, Geocarto International and Remote Sensing applications",
-      },
-      {
-        paragraph: "",
-      },
-    ],
-
-    member_education: [
-      {
-        institute_name: "National Cheng Kung University, Taiwan",
-        graduation_period: "",
-        degree_name:
-          "Ph.D. in Application of Machine Learning for Hydrometeorology",
-      },
-      //   {
-      //     institute_name: "University of Agriculture, Peshawar , Kpk, Pakistan",
-      //     graduation_period: "2011-2015",
-      //     degree_name: "BS Computer Science",
-      //   },
-    ],
-
-    member_Experience: [
-      {
-        orgName: "University of Silesia in Katowice",
-        orgPlace: "Poland",
-        From: "",
-        To: "",
-        designation: "Faculty of Natural Sciences,",
-        experienceDetail: "Institute of Earth Sciences",
-      },
-      // {
-      //   orgName: "Second Organisation",
-      //   orgPlace: "Islamabad",
-      //   From: "JAN 2017",
-      //   To: "SEP 2021",
-      //   designation: "Second Designation",
-      //   experienceDetail:
-      //     "Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
-      // },
-    ],
-    member_AcadProf: [
-      {
-        AcadProfName: "Google Scholar",
-        AcadProfURL:
-          " https://scholar.google.com/citations?user=I9_x85wAAAAJ&hl=en",
-      },
-      {
-        AcadProfName: "Research Gate",
-        AcadProfURL: "https://www.researchgate.net/profile/Quoc-Pham-7",
-      },
-      {
-        AcadProfName: "Publons",
-        AcadProfURL:
-          "https://publons.com/wos-op/researcher/3374501/quoc-bao-pham/",
-      },
-      {
-        AcadProfName: "ORCID",
-        AcadProfURL: "https://orcid.org/0000-0002-0468-5962",
-      },
-    ],
-    member_ResearchInterests: [
-      {
-        ResearchInterest: "Applied Hydrology",
-      },
-      {
-        ResearchInterest: "Water Resources Engineering",
-      },
-      {
-        ResearchInterest: "Water Resources Management",
-      },
-      {
-        ResearchInterest: "Hydro-meteorology",
-      },
-      {
-        ResearchInterest: "Machine Learning applications",
-      },
-    ],
-
-    member_ReprPublications: [
-      {
-        publication:
-          "Pham, Q. B., Achour, Y., Ali, S. A., Parvin, F., Vojtek, M., Vojteková, J., … & Anh, D. T. (2021). A comparison among fuzzy multi-criteria decision making, bivariate, multivariate and machine learning models in landslide susceptibility mapping. Geomatics, Natural Hazards and Risk, 12(1), 1741-1777.",
-      },
-      {
-        publication:
-          "Pham, Q. B., Afan, H. A., Mohammadi, B., Ahmed, A. N., Linh, N. T. T., Vo, N. D., … & El-Shafie, A. Hybrid model to improve the river streamflow forecasting utilizing multi-layer perceptron-based intelligent water drop optimization algorithm. Soft computing.",
-      },
-      {
-        publication:
-          "Pham, Q. B*., Ali, S. A., Bielecka, E., Calka, B., Orych, A., Parvin, F., & Łupikasza, E. (2022). Flood vulnerability and buildings’ flood exposure assessment in a densely urbanised city: comparative analysis of three scenarios using a neural network approach. Natural Hazards, 1-39.",
-      },
-      {
-        publication:
-          "Pham, Q. B., Kumar, M., Di Nunno, F., Elbeltagi, A., Granata, F., Islam, A. R. M., … & Anh, D. T. (2022). Groundwater level prediction using machine learning algorithms in a drought-prone area. Neural Computing and Applications, 1-23.",
-      },
-      {
-        publication:
-          "Pham, Q. B., Sammen, S. S., Abba, S. I., Mohammadi, B., Shahid, S., & Abdulkadir, R. A. (2021). A new hybrid model based on relevance vector machine with flower pollination algorithm for phycocyanin pigment concentration estimation. Environmental Science and Pollution Research, 1-16.",
-      },
-      {
-        publication:
-          "Pham, Q. B., Tran, D. A., Ha, N. T., Islam, A. R. M. T., & Salam, R. (2022). Random forest and nature-inspired algorithms for mapping groundwater nitrate concentration in a coastal multi-layer aquifer system. Journal of Cleaner Production, 343, 130900.",
-      },
-      {
-        publication:
-          "Pham, Q. B., Yang, T. C., Kuo, C. M., Tseng, H. W., & Yu, P. S. (2019). Combing Random Forest and Least Square Support Vector Regression for Improving Extreme Rainfall Downscaling. Water, 11(3), 451.",
-      },
-      {
-        publication:
-          "Pham, Q. B., Yang, T. C., Kuo, C. M., Tseng, H. W., & Yu, P. S. (2021). Coupling Singular Spectrum Analysis with Least Square Support Vector Machine to Improve Accuracy of SPI Drought Forecasting. Water Resources Management, 1-22.",
-      },
-      {
-        publication:
-          "Quevedo, R. P., Maciel, D. A., Uehara, T. D. T., Vojtek, M., Rennó, C. D., Pradhan, B., … & Pham, Q. B*. (2021). Consideration of Spatial Heterogeneity in Landslide Susceptibility Mapping using Geographical Random Forest Model. Geocarto International, 1-20.",
-      },
-      {
-        publication:
-          " Mohajane, M., Costache, R., Karimi, F., Pham, Q. B*., Essahlaoui, A., Nguyen, H., … & Oudija, F. (2021). Application of remote sensing and machine learning algorithms for forest fire mapping in a Mediterranean area. Ecological Indicators, 129, 107869.",
-      },
-    ],
-  },
-
   // *** Dr Sajjad Haider profile ***
   {
     member_id: "DrSajjadHaider",
@@ -936,23 +794,27 @@ const teamMembers = [
     ],
   },
 
-  // *** Dr.Abdul Jabbar profile ***
+  // *** Dr Quoc Bao Pham Pham profile ***
   {
-    member_id: "DrJabbar",
-    member_heading: "Dr. Abdul Jabbar",
+    member_id: "DrPham",
+    member_heading: "Dr.Quoc Bao Pham",
     member_designation: "Assistant Professor",
-    member_image: "img/team/Dr.-Jabbar.jpg",
+    member_image: "img/team/Pham.jpg",
     member_Linkedin: "#",
     member_Tiwtter: "#",
     member_Facebook: "#",
-    member_email: "",
+    member_email: "quoc_bao.pham@us.edu.pl",
     member_Phone: "",
     member_Google_scholar: "",
 
     member_paragraphs: [
       {
         paragraph:
-          "Dr. Abdul Jabbar is an experienced researcher with more than 12 years of experience in research and field. He is supervising and Co-supervising undergraduate students in their dissertation and working as an individual consultant in Islamabad.",
+          "Quoc Bao Pham has obtained his Ph.D. degree from the Department of Hydraulic and Ocean Engineering, National Cheng Kung University, Taiwan. He has more than 8 years of research experience in hydrology, GIS and Remote Sensing. His research interests are water resources engineering, applied machine learning, climate change, hydrology, remote sensing, GIS and spatial analysis. He has collaborated actively with many international researchers in several other disciplines of engineering.",
+      },
+      {
+        paragraph:
+          "He has published more than 80 SCI/SCIE research papers and is a reviewer of more than 20 SCI/SCIE journals. He is also a guest editor of some SCI/SCIE journals in the field of water resources, remote sensing and machine learning. He is also a reviewer of world-leading high-impact journals such as Journal of Hydrology, Science of The Total Environment, Remote Sensing of Environment, Hydrological Sciences Journal, Journal of Environmental Management, Geocarto International and Remote Sensing applications",
       },
       {
         paragraph: "",
@@ -961,90 +823,115 @@ const teamMembers = [
 
     member_education: [
       {
-        institute_name: " Quaid E Azam University Islamabad",
+        institute_name: "National Cheng Kung University, Taiwan",
         graduation_period: "",
-        degree_name: "Ph.D in Earth Sciences",
+        degree_name:
+          "Ph.D. in Application of Machine Learning for Hydrometeorology",
       },
-      {
-        institute_name: " Punjab University Lahore",
-        graduation_period: "",
-        degree_name: "M.Phil in Earth Sciences",
-      },
+      //   {
+      //     institute_name: "University of Agriculture, Peshawar , Kpk, Pakistan",
+      //     graduation_period: "2011-2015",
+      //     degree_name: "BS Computer Science",
+      //   },
     ],
 
     member_Experience: [
       {
-        orgName: " NUST ",
-        orgPlace: "Islamabad, Pakistan",
-        From: "Feb 2011",
-        To: "PRESENT",
-        designation: "Assistant Professor",
-        experienceDetail:
-          "School of Civil and Environmental Engineering, National University of Sciences and Technology ",
+        orgName: "University of Silesia in Katowice",
+        orgPlace: "Poland",
+        From: "",
+        To: "",
+        designation: "Faculty of Natural Sciences,",
+        experienceDetail: "Institute of Earth Sciences",
       },
-      {
-        orgName: " ARM Associates",
-        orgPlace: "",
-        From: "July 2010",
-        To: "Feb 2011",
-        designation: "Principal Geologist ",
-        experienceDetail: "",
-      },
-      {
-        orgName: "  PIAIP Consultants/ Earth Services",
-        orgPlace: "",
-        From: "Jan 2008",
-        To: "July 2010",
-        designation: "Consulting Geologist ",
-        experienceDetail: "",
-      },
+      // {
+      //   orgName: "Second Organisation",
+      //   orgPlace: "Islamabad",
+      //   From: "JAN 2017",
+      //   To: "SEP 2021",
+      //   designation: "Second Designation",
+      //   experienceDetail:
+      //     "Pariatur id qui aliquip amet ipsum tempor eiusmod aliqua qui anim magna exercitation cillum. Id irure consectetur excepteur quis sit dolore ut. Eu sit eiusmod sit tempor mollit Lorem esse ipsum. Magna irure fugiat nostrud veniam veniam. Ut veniam qui irure irure. Dolore cupidatat deserunt qui elit.",
+      // },
     ],
     member_AcadProf: [
       {
         AcadProfName: "Google Scholar",
         AcadProfURL:
-          " https://scholar.google.com/citations?user=uiq8I5MAAAAJ&hl=en",
+          " https://scholar.google.com/citations?user=I9_x85wAAAAJ&hl=en",
       },
       {
         AcadProfName: "Research Gate",
-        AcadProfURL: "https://www.researchgate.net/profile/Abdul-Khan-9",
+        AcadProfURL: "https://www.researchgate.net/profile/Quoc-Pham-7",
       },
       {
         AcadProfName: "Publons",
-        AcadProfURL: "https://sciprofiles.com/profile/911156",
+        AcadProfURL:
+          "https://publons.com/wos-op/researcher/3374501/quoc-bao-pham/",
       },
       {
         AcadProfName: "ORCID",
-        AcadProfURL: "https://orcid.org/0000-0003-1723-6215",
+        AcadProfURL: "https://orcid.org/0000-0002-0468-5962",
       },
     ],
     member_ResearchInterests: [
       {
-        ResearchInterest: "Engineering Geology",
+        ResearchInterest: "Applied Hydrology",
       },
       {
-        ResearchInterest: "Groundwater",
+        ResearchInterest: "Water Resources Engineering",
       },
       {
-        ResearchInterest: "Structural Geology",
+        ResearchInterest: "Water Resources Management",
       },
       {
-        ResearchInterest: "Geo-hazards and Mineral Exploration",
+        ResearchInterest: "Hydro-meteorology",
+      },
+      {
+        ResearchInterest: "Machine Learning applications",
       },
     ],
 
     member_ReprPublications: [
       {
         publication:
-          "Jabbar Khan, A., Akhter, G., Gabriel, H.F. and Shahid, M., 2020. Anthropogenic effects of coal mining on ecological resources of the Central Indus Basin, Pakistan. International journal of environmental research and public health, 17(4), p.1255",
+          "Pham, Q. B., Achour, Y., Ali, S. A., Parvin, F., Vojtek, M., Vojteková, J., … & Anh, D. T. (2021). A comparison among fuzzy multi-criteria decision making, bivariate, multivariate and machine learning models in landslide susceptibility mapping. Geomatics, Natural Hazards and Risk, 12(1), 1741-1777.",
       },
       {
         publication:
-          "Khan, A.J., Ahsan, N., Sanaullah, M. and Akhter, G., 2019. Appraisal of Geotechnical Characteristics of Ormara Soil, Baluchistan, Pakistan. International Journal of Economic and Environmental Geology, 10(3), pp.22-26.",
+          "Pham, Q. B., Afan, H. A., Mohammadi, B., Ahmed, A. N., Linh, N. T. T., Vo, N. D., … & El-Shafie, A. Hybrid model to improve the river streamflow forecasting utilizing multi-layer perceptron-based intelligent water drop optimization algorithm. Soft computing.",
       },
       {
         publication:
-          "Khan, A.J., Mustafa, F.U., Gabriel, H.F., Khan, H.U., Haider, W., Abbas, H. and Shahid, M., An Integrated Geo-Physical Approach for Groundwater Investigation in Northwestern Part of Pakistan. European Journal of Molecular & Clinical Medicine, 7(03), p.2020.",
+          "Pham, Q. B*., Ali, S. A., Bielecka, E., Calka, B., Orych, A., Parvin, F., & Łupikasza, E. (2022). Flood vulnerability and buildings’ flood exposure assessment in a densely urbanised city: comparative analysis of three scenarios using a neural network approach. Natural Hazards, 1-39.",
+      },
+      {
+        publication:
+          "Pham, Q. B., Kumar, M., Di Nunno, F., Elbeltagi, A., Granata, F., Islam, A. R. M., … & Anh, D. T. (2022). Groundwater level prediction using machine learning algorithms in a drought-prone area. Neural Computing and Applications, 1-23.",
+      },
+      {
+        publication:
+          "Pham, Q. B., Sammen, S. S., Abba, S. I., Mohammadi, B., Shahid, S., & Abdulkadir, R. A. (2021). A new hybrid model based on relevance vector machine with flower pollination algorithm for phycocyanin pigment concentration estimation. Environmental Science and Pollution Research, 1-16.",
+      },
+      {
+        publication:
+          "Pham, Q. B., Tran, D. A., Ha, N. T., Islam, A. R. M. T., & Salam, R. (2022). Random forest and nature-inspired algorithms for mapping groundwater nitrate concentration in a coastal multi-layer aquifer system. Journal of Cleaner Production, 343, 130900.",
+      },
+      {
+        publication:
+          "Pham, Q. B., Yang, T. C., Kuo, C. M., Tseng, H. W., & Yu, P. S. (2019). Combing Random Forest and Least Square Support Vector Regression for Improving Extreme Rainfall Downscaling. Water, 11(3), 451.",
+      },
+      {
+        publication:
+          "Pham, Q. B., Yang, T. C., Kuo, C. M., Tseng, H. W., & Yu, P. S. (2021). Coupling Singular Spectrum Analysis with Least Square Support Vector Machine to Improve Accuracy of SPI Drought Forecasting. Water Resources Management, 1-22.",
+      },
+      {
+        publication:
+          "Quevedo, R. P., Maciel, D. A., Uehara, T. D. T., Vojtek, M., Rennó, C. D., Pradhan, B., … & Pham, Q. B*. (2021). Consideration of Spatial Heterogeneity in Landslide Susceptibility Mapping using Geographical Random Forest Model. Geocarto International, 1-20.",
+      },
+      {
+        publication:
+          " Mohajane, M., Costache, R., Karimi, F., Pham, Q. B*., Essahlaoui, A., Nguyen, H., … & Oudija, F. (2021). Application of remote sensing and machine learning algorithms for forest fire mapping in a Mediterranean area. Ecological Indicators, 129, 107869.",
       },
     ],
   },
@@ -1157,6 +1044,119 @@ const teamMembers = [
       },
       {
         publication: "",
+      },
+    ],
+  },
+
+  // *** Dr.Abdul Jabbar profile ***
+  {
+    member_id: "DrJabbar",
+    member_heading: "Dr. Abdul Jabbar",
+    member_designation: "Assistant Professor",
+    member_image: "img/team/Dr.-Jabbar.jpg",
+    member_Linkedin: "#",
+    member_Tiwtter: "#",
+    member_Facebook: "#",
+    member_email: "",
+    member_Phone: "",
+    member_Google_scholar: "",
+
+    member_paragraphs: [
+      {
+        paragraph:
+          "Dr. Abdul Jabbar is an experienced researcher with more than 12 years of experience in research and field. He is supervising and Co-supervising undergraduate students in their dissertation and working as an individual consultant in Islamabad.",
+      },
+      {
+        paragraph: "",
+      },
+    ],
+
+    member_education: [
+      {
+        institute_name: " Quaid E Azam University Islamabad",
+        graduation_period: "",
+        degree_name: "Ph.D in Earth Sciences",
+      },
+      {
+        institute_name: " Punjab University Lahore",
+        graduation_period: "",
+        degree_name: "M.Phil in Earth Sciences",
+      },
+    ],
+
+    member_Experience: [
+      {
+        orgName: " NUST ",
+        orgPlace: "Islamabad, Pakistan",
+        From: "Feb 2011",
+        To: "PRESENT",
+        designation: "Assistant Professor",
+        experienceDetail:
+          "School of Civil and Environmental Engineering, National University of Sciences and Technology ",
+      },
+      {
+        orgName: " ARM Associates",
+        orgPlace: "",
+        From: "July 2010",
+        To: "Feb 2011",
+        designation: "Principal Geologist ",
+        experienceDetail: "",
+      },
+      {
+        orgName: "  PIAIP Consultants/ Earth Services",
+        orgPlace: "",
+        From: "Jan 2008",
+        To: "July 2010",
+        designation: "Consulting Geologist ",
+        experienceDetail: "",
+      },
+    ],
+    member_AcadProf: [
+      {
+        AcadProfName: "Google Scholar",
+        AcadProfURL:
+          " https://scholar.google.com/citations?user=uiq8I5MAAAAJ&hl=en",
+      },
+      {
+        AcadProfName: "Research Gate",
+        AcadProfURL: "https://www.researchgate.net/profile/Abdul-Khan-9",
+      },
+      {
+        AcadProfName: "Publons",
+        AcadProfURL: "https://sciprofiles.com/profile/911156",
+      },
+      {
+        AcadProfName: "ORCID",
+        AcadProfURL: "https://orcid.org/0000-0003-1723-6215",
+      },
+    ],
+    member_ResearchInterests: [
+      {
+        ResearchInterest: "Engineering Geology",
+      },
+      {
+        ResearchInterest: "Groundwater",
+      },
+      {
+        ResearchInterest: "Structural Geology",
+      },
+      {
+        ResearchInterest: "Geo-hazards and Mineral Exploration",
+      },
+    ],
+
+    member_ReprPublications: [
+      {
+        publication:
+          "Jabbar Khan, A., Akhter, G., Gabriel, H.F. and Shahid, M., 2020. Anthropogenic effects of coal mining on ecological resources of the Central Indus Basin, Pakistan. International journal of environmental research and public health, 17(4), p.1255",
+      },
+      {
+        publication:
+          "Khan, A.J., Ahsan, N., Sanaullah, M. and Akhter, G., 2019. Appraisal of Geotechnical Characteristics of Ormara Soil, Baluchistan, Pakistan. International Journal of Economic and Environmental Geology, 10(3), pp.22-26.",
+      },
+      {
+        publication:
+          "Khan, A.J., Mustafa, F.U., Gabriel, H.F., Khan, H.U., Haider, W., Abbas, H. and Shahid, M., An Integrated Geo-Physical Approach for Groundwater Investigation in Northwestern Part of Pakistan. European Journal of Molecular & Clinical Medicine, 7(03), p.2020.",
       },
     ],
   },
