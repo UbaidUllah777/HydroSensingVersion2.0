@@ -2,7 +2,8 @@ const researchProjects = [
   //project One
   {
     RP_id: "projectOne",
-    RP_heading: "Excepteur nisi deserunt dolore minim anim do ut eiusmod adipisicing.",
+    RP_heading:
+      "Excepteur nisi deserunt dolore minim anim do ut eiusmod adipisicing.",
     RP_status_id: "CompletedResearchProjects",
     RP_status: "Completed Research Projects",
     RP_image: "img/projects/project.jpg",
@@ -29,7 +30,7 @@ const researchProjects = [
     RP_scopes: [{ scope: "scope1" }, { scope: "scope2" }, { scope: "scope3" }],
     RP_client: "Client Name",
     RP_year: "2023",
-    RP_URL: "url will come here",
+    RP_URL: "#",
   },
   //project Two
   {
@@ -61,7 +62,7 @@ const researchProjects = [
     RP_scopes: [{ scope: "scope1" }, { scope: "scope2" }, { scope: "scope3" }],
     RP_client: "Client Name",
     RP_year: "2023",
-    RP_URL: "url will come here",
+    RP_URL: "#",
   },
   //project Three
   {
@@ -93,7 +94,7 @@ const researchProjects = [
     RP_scopes: [{ scope: "scope1" }, { scope: "scope2" }, { scope: "scope3" }],
     RP_client: "Client Name",
     RP_year: "2023",
-    RP_URL: "url will come here",
+    RP_URL: "#",
   },
   //project Four
   {
@@ -125,7 +126,7 @@ const researchProjects = [
     RP_scopes: [{ scope: "scope1" }, { scope: "scope2" }, { scope: "scope3" }],
     RP_client: "Client Name",
     RP_year: "2023",
-    RP_URL: "url will come here",
+    RP_URL: "#",
   },
   //project Five
   {
@@ -157,7 +158,7 @@ const researchProjects = [
     RP_scopes: [{ scope: "scope1" }, { scope: "scope2" }, { scope: "scope3" }],
     RP_client: "Client Name",
     RP_year: "2023",
-    RP_URL: "url will come here",
+    RP_URL: "#",
   },
   //project Six
   {
@@ -189,7 +190,7 @@ const researchProjects = [
     RP_scopes: [{ scope: "scope1" }, { scope: "scope2" }, { scope: "scope3" }],
     RP_client: "Client Name",
     RP_year: "2023",
-    RP_URL: "url will come here",
+    RP_URL: "#",
   },
 ];
 
