@@ -100,7 +100,7 @@ const headerContent = `
                 </li>
                 <!-- About Us DropDown :START -->
                 <li class="dropdown">
-                  <a id="idHeaderLinkresources" class="dropdown-item dropdown-toggle" href="#">
+                  <a id="idHeaderLinkAboutUs" class="dropdown-item dropdown-toggle" href="#">
                       About Us
                       <i class="fas fa-chevron-down"></i>
                   </a>
