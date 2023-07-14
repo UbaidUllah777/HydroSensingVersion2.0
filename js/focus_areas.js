@@ -5,21 +5,32 @@ const focusAreas = [
     fca_id: "WaterResourceEngineering&Management",
     fca_heading: "Water Resource Engineering & Management",
     fca_short_desc:
-      "Reprehenderit voluptate incididunt dolore eu incididunt esse.",
+      "Navigating Sustainable Solutions for Our Most Precious Resource",
     fca_paragraphs: [
       {
-        paragraph:
-          "1st Paragrapgh Laborum non incididunt et anim duis cupidatat consequat duis. Magna et consequat aliquip proident elit sit commodo dolore quis amet do. Dolore voluptate sunt dolore mollit velit ad quis cillum.Officia mollit ea ipsum exercitation qui. Velit exercitation magna consectetur eiusmod. Sint in ullamco laborum nostrud fugiat labore culpa duis nostrud minim aute pariatur. Nisi in mollit sit enim proident anim veniam duis. Esse laborum aliqua voluptate sit commodo irure elit. Cillum enim excepteur ex culpa occaecat nulla dolor labore aute excepteur consectetur quis.",
+        paragraph: `Our expertise in Water Resources Engineering and Management encompasses a vast array
+           of professional services designed to address the complex challenges associated with water
+            management. We tailor strategies to maximize water efficiency while minimizing environmental
+             impact as part of our sustainable water management solutions. We ensure the long-term
+             sustainability of water resources through innovative design, advanced modelling,
+              and integrated planning.`,
       },
       {
-        paragraph:
-          "2nd ParagrapghSunt elit reprehenderit laborum elit proident ea enim. Nisi ullamco minim ad eiusmod. Voluptate dolor aliquip non exercitation adipisicing elit Lorem anim mollit ut fugiat deserunt proident. Nulla minim laboris exercitation magna. Consectetur non laborum ipsum aliqua id elit commodo et id eu cupidatat eiusmod mollit pariatur. Laboris et laborum qui velit nisi laboris ex adipisicing cupidatat eu in proident Lorem. Eu non ea pariatur eiusmod quis sint aute commodo excepteur dolor qui Lorem.Qui et labore ut esse. Adipisicing amet exercitation laboris ipsum veniam. Commodo voluptate deserunt est officia laboris sint laboris velit irure. Consectetur elit anim dolore amet. Laborum eiusmod ullamco dolor dolore anim nisi consequat Lorem cillum. Duis ipsum Lorem minim officia laboris dolor ullamco non.",
+        paragraph: `In addition, we recognize the role of technology in improving operational efficiency and 
+          outcomes in water management. We utilize cutting-edge technologies and advanced modeling
+           techniques, to assist clients in optimizing irrigation systems and allocating water resources
+            efficiently. Through comprehensive analyses of water availability, crop water requirements,
+             and soil characteristics, we develop tailored irrigation strategies that promote water
+              conservation while ensuring optimal crop growth and yield. By applying our expertise in
+               water allocation, we help clients make informed decisions regarding the equitable
+               distribution of water resources, taking into account various factors such
+                as agricultural needs, environmental considerations, and societal demands.`,
       },
     ],
     fca_QAs: [
       {
         Qheading: "Why we Water Resource Engineering and Managment",
-         QA: `aw kana Donec tellus massa, tristique sit amet condim vel,
+        QA: `aw kana Donec tellus massa, tristique sit amet condim vel,
                             facilisis quis sapien. Praesent id enim sit amet odio
                             vulputate eleifend in in tortor. Donec tellus massa,
                             tristique sit amet condim vel, facilisis quis sapien.
@@ -29,7 +40,7 @@ const focusAreas = [
       },
       {
         Qheading: "dalta ba dwayam question v",
-         QA: `Donec tellus massa, tristique sit amet condim vel,
+        QA: `Donec tellus massa, tristique sit amet condim vel,
                             facilisis quis sapien. Praesent id enim sit amet odio
                             vulputate eleifend in in tortor. Donec tellus massa,
                             tristique sit amet condim vel, facilisis quis sapien.
@@ -39,7 +50,7 @@ const focusAreas = [
       },
       {
         Qheading: "",
-         QA: `Donec tellus massa, tristique sit amet condim vel,
+        QA: `Donec tellus massa, tristique sit amet condim vel,
                             facilisis quis sapien. Praesent id enim sit amet odio
                             vulputate eleifend in in tortor. Donec tellus massa,
                             tristique sit amet condim vel, facilisis quis sapien.
@@ -49,7 +60,7 @@ const focusAreas = [
       },
       {
         Qheading: "",
-         QA: `Donec tellus massa, tristique sit amet condim vel,
+        QA: `Donec tellus massa, tristique sit amet condim vel,
                             facilisis quis sapien. Praesent id enim sit amet odio
                             vulputate eleifend in in tortor. Donec tellus massa,
                             tristique sit amet condim vel, facilisis quis sapien.
@@ -59,7 +70,7 @@ const focusAreas = [
       },
       {
         Qheading: "",
-         QA: `Donec tellus massa, tristique sit amet condim vel,
+        QA: `Donec tellus massa, tristique sit amet condim vel,
                             facilisis quis sapien. Praesent id enim sit amet odio
                             vulputate eleifend in in tortor. Donec tellus massa,
                             tristique sit amet condim vel, facilisis quis sapien.
@@ -69,7 +80,7 @@ const focusAreas = [
       },
       {
         Qheading: "",
-         QA: `Donec tellus massa, tristique sit amet condim vel,
+        QA: `Donec tellus massa, tristique sit amet condim vel,
                             facilisis quis sapien. Praesent id enim sit amet odio
                             vulputate eleifend in in tortor. Donec tellus massa,
                             tristique sit amet condim vel, facilisis quis sapien.
@@ -78,9 +89,9 @@ const focusAreas = [
                             vel, facilisis quis sapien.`,
       },
     ],
-    fca_front_image: "img/foucusAreas/services-1.jpg",
-    fca_image393x205: "img/foucusAreas/generic-6.jpg",
-    fca_image291x245: "img/foucusAreas/generic-3.jpg",
+    fca_front_image: "img/foucusAreas/waterresoruceimage1.jpg",
+    fca_image393x205: "img/foucusAreas/waterresoruceimage1.jpg",
+    fca_image291x245: "img/foucusAreas/waterresoruceimage2.jpg",
     fca_related_projects: [
       { project_id: "" },
       { project_id: "" },
@@ -92,25 +103,30 @@ const focusAreas = [
   {
     fca_id: "SatellitePrecipitationMeasurements",
     fca_heading: "Satellite Precipitation Measurements",
-    fca_short_desc: "Irure do et minim est do ea mollit quis proident.",
+    fca_short_desc:
+      "Unlocking the Skies by Revolutionizing Rainfall Analysis with Satellite Precision",
     fca_paragraphs: [
       {
-        paragraph:
-          "AliquLabore Lorem nisi in occaecat culpa in commodo. Aute pariatur anim commodo esse cupidatat. Dolor irure sunt cillum aliqua occaecat aliqua duis sunt sunt irure ullamco tempor proident. Deserunt quis commodo reprehenderit Lorem nostrud sint deserunt tempor duis ipsum qui laboris. Ullamco id esse ut nisi exercitation.ip et cupidatat pariatur fugiat enim. Amet cillum dolore ullamco et ex occaecat nostrud esse eiusmod ut nostrud. Magna ullamco proident cillum commodo eiusmod. Sunt aliqua velit et id nisi laborum cillum in commodo exercitation est.",
+        paragraph: `Our expertise in Satellite Precipitation Measurement allows us to access real-time data 
+          from various satellites including IMERG, TRMM, TMPA, ERA-Interim, SM2RAIN-CCI, SM2RAINAscat etc.
+          Our sophisticated data acquisition and processing capabilities enable us to collect and analyze vital
+           information such as soil moisture, temperature, and land surface temperature distribution
+            from satellites such as Landsat, Sentinel, MODIS, SMOS, SMAP, and GRACE.`,
       },
       {
-        paragraph:
-          "Elit esse anim magna nostrud exercitation ullamco Lorem dolore ullamco. Qui dolore veniam amet ipsum nisi cupidatat commodo excepteur incididunt. Tempor nulla esse culpa tempor. Quis officia sunt amet voluptate. Consequat ut deserunt ullamco sit labore veniam tempor amet. Duis nulla exercitation sunt nisi sint tempor.Dolor laborum consectetur veniam enim commodo tempor qui dolore aliquip laborum adipisicing mollit. Nisi sint adipisicing veniam nostrud fugiat in ullamco ea. Aliquip adipisicing aute irure ad est non excepteur. Cillum aute nisi non culpa consequat est voluptate excepteur quis non nisi nostrud. Amet id sint sunt velit aliqua cillum aute id cillum. Eu do sunt nulla nostrud nulla ex tempor exercitation esse anim consectetur.",
-      },
-      {
-        paragraph:
-          "Proident quis excepteur id ut sint ut anim enim aliquip occaecat. Est irure commodo do et eiusmod enim sit ut cupidatat quis voluptate magna. Pariatur elit ea consectetur quis sunt irure ea amet. Ullamco cillum nisi tempor elit ipsum.Elit incididunt nisi nulla sunt officia commodo aute ut minim ut Lorem ipsum. Quis ipsum cillum occaecat qui mollit esse do. Cupidatat consectetur do occaecat labore aliqua consectetur.",
+        paragraph: `This comprehensive data coverage spans vast geographic regions, empowering our clients 
+          to make informed decisions regarding water resource management, disaster preparedness,
+           and response strategies. The acquisition of this data plays a crucial role in developing
+           early warning systems, aiding communities, and authorities in responding to weather-related
+           occurrences. By utilizing satellite data, we contribute to the improvement of weather
+           forecasting models, enhancing their accuracy,and facilitating proactive measures
+           to mitigate risks associated with floods, landslides, and droughts.`,
       },
     ],
     fca_QAs: [
       {
         Qheading: "",
-         QA: `Donec tellus massa, tristique sit amet condim vel,
+        QA: `Donec tellus massa, tristique sit amet condim vel,
                             facilisis quis sapien. Praesent id enim sit amet odio
                             vulputate eleifend in in tortor. Donec tellus massa,
                             tristique sit amet condim vel, facilisis quis sapien.
@@ -120,7 +136,7 @@ const focusAreas = [
       },
       {
         Qheading: "",
-         QA: `Donec tellus massa, tristique sit amet condim vel,
+        QA: `Donec tellus massa, tristique sit amet condim vel,
                             facilisis quis sapien. Praesent id enim sit amet odio
                             vulputate eleifend in in tortor. Donec tellus massa,
                             tristique sit amet condim vel, facilisis quis sapien.
@@ -130,7 +146,7 @@ const focusAreas = [
       },
       {
         Qheading: "",
-         QA: `Donec tellus massa, tristique sit amet condim vel,
+        QA: `Donec tellus massa, tristique sit amet condim vel,
                             facilisis quis sapien. Praesent id enim sit amet odio
                             vulputate eleifend in in tortor. Donec tellus massa,
                             tristique sit amet condim vel, facilisis quis sapien.
@@ -153,21 +169,34 @@ const focusAreas = [
   {
     fca_id: "DroughtMonitoring&ImpactAssessment",
     fca_heading: "Drought Monitoring & Impact Assessment",
-    fca_short_desc: "Et sint dolor esse ad labore esse commodo.",
+    fca_short_desc:
+      "From Data to Action: Monitoring Drought, Evaluating Impact",
     fca_paragraphs: [
       {
-        paragraph:
-          "Deserunt ea sit veniam exercitation labore dolore culpa nulla pariatur sint tempor exercitation ad. Ea anim nulla est adipisicing amet culpa veniam. Dolor mollit nostrud duis occaecat pariatur. In adipisicing cillum esse Lorem amet nulla aliquip ex laboris esse commodo aute exercitation incididunt. Ex ad deserunt sit amet ut proident.Reprehenderit nostrud consequat do adipisicing laborum qui. Proident commodo ut culpa aliquip et anim. Officia elit esse culpa Lorem officia ex ut magna duis. Aliquip irure dolore reprehenderit minim.Sit nisi elit id incididunt adipisicing adipisicing occaecat laboris sunt elit anim duis voluptate laboris. Cillum irure deserunt non eu adipisicing. Dolor reprehenderit anim consequat commodo ullamco proident laboris nostrud irure eu exercitation laborum.",
+        paragraph: `With our extensive knowledge in monitoring drought conditions and evaluating
+           their impact, we are able to offer a wide range of services aimed at assisting
+            our clients in understanding and addressing the challenges posed by drought.
+            By doing so, we strive to reduce the negative consequences it has on important
+            sectors such as agriculture, water supply, and the environment.Our team provides
+            valuable real-time monitoring techniques that enable us to effectively
+             track and analyze various forms of drought, including meteorological, hydrological,
+             and agricultural drought.`,
       },
       {
-        paragraph:
-          "Irure ipsum incididunt commodo fugiat eu excepteur in anim ex ullamco laboris nulla commodo qui. Voluptate ea adipisicing commodo laboris ut aliqua qui velit sit qui quis labore. Id incididunt do esse magna laborum do eu fugiat. Veniam occaecat fugiat aliquip eiusmod incididunt. Quis tempor et nisi qui irure velit nulla officia laborum ullamco velit. Consequat aliqua ullamco sit nulla labore nostrud exercitation qui proident.Laboris labore voluptate commodo sint consequat esse fugiat adipisicing est incididunt. Adipisicing ea anim veniam do mollit deserunt cupidatat id Lorem reprehenderit ullamco tempor qui. Reprehenderit nostrud ullamco velit dolore. Ullamco non sint nostrud labore amet aute laboris velit quis ea.",
+        paragraph: `Our comprehensive range of services goes beyond just real-time monitoring.
+           We also provide valuable early warnings regarding potential impacts of drought.
+           Through careful analysis of historical data, climate patterns, and other pertinent
+            factors, we are able to discern indicators and early signs of the impacts that
+            drought can have on our environment. In addition, we are pleased to provide our
+            clients with valuable services such as drought risk assessments and impact assessments.
+             These assessments are designed to enhance our clients' understanding
+             of the potential consequences associated with drought events. `,
       },
     ],
     fca_QAs: [
       {
         Qheading: "",
-         QA: `Donec tellus massa, tristique sit amet condim vel,
+        QA: `Donec tellus massa, tristique sit amet condim vel,
                             facilisis quis sapien. Praesent id enim sit amet odio
                             vulputate eleifend in in tortor. Donec tellus massa,
                             tristique sit amet condim vel, facilisis quis sapien.
@@ -177,7 +206,7 @@ const focusAreas = [
       },
       {
         Qheading: "",
-         QA: `Donec tellus massa, tristique sit amet condim vel,
+        QA: `Donec tellus massa, tristique sit amet condim vel,
                             facilisis quis sapien. Praesent id enim sit amet odio
                             vulputate eleifend in in tortor. Donec tellus massa,
                             tristique sit amet condim vel, facilisis quis sapien.
@@ -187,7 +216,7 @@ const focusAreas = [
       },
       {
         Qheading: "",
-         QA: `Donec tellus massa, tristique sit amet condim vel,
+        QA: `Donec tellus massa, tristique sit amet condim vel,
                             facilisis quis sapien. Praesent id enim sit amet odio
                             vulputate eleifend in in tortor. Donec tellus massa,
                             tristique sit amet condim vel, facilisis quis sapien.
@@ -210,17 +239,40 @@ const focusAreas = [
   {
     fca_id: "HydrologicalModeling ",
     fca_heading: "Hydrological Modeling ",
-    fca_short_desc: "Aliqua laborum qui tempor ex cillum cupidatat est.",
+    fca_short_desc: " Hydrological Modeling for Efficient Resource Allocation",
     fca_paragraphs: [
       {
-        paragraph:
-          "Tempor anim ea amet minim cupidatat eu non sit ad ullamco. In sint aliqua occaecat non est dolor nulla ipsum. Id cillum id cillum sint.Culpa ex reprehenderit pariatur occaecat. Eu irure exercitation velit anim quis laboris cillum velit sint ea commodo do elit voluptate. Incididunt irure minim ea nulla exercitation pariatur. Mollit sunt pariatur voluptate ipsum officia esse. Minim nulla et mollit et minim ad velit tempor in cupidatat magna eiusmod.Id ut laboris mollit deserunt occaecat deserunt id laborum duis cupidatat dolore. Duis quis ipsum eu occaecat enim laboris veniam occaecat ex aliquip incididunt. Consectetur consectetur excepteur aute duis non nulla consectetur ipsum laboris sint ea.Magna elit dolore consequat ullamco. Nostrud sit culpa irure tempor tempor sit nulla qui consectetur qui. Velit voluptate non ullamco aliqua reprehenderit deserunt officia laboris mollit laborum ex sint. Aliqua reprehenderit enim nostrud ut ut qui officia ullamco proident est esse.",
+        paragraph: `We can provide advanced technology and modelling techniques for simulating water
+           flow and the hydrologic cycle because of our expertise in hydrological modelling.
+           We can accurately and reliably analyze and predict hydrological processes by using 
+           conceptual, empirical, and physically based models.
+           This includes rainfall- runoff relationship simulation, streamflow forecasting,
+      groundwater recharge, sediment retention, water quality and water balance assessments`,
+      },
+      {
+        paragraph: `We
+          provide valuable insights into water systems by leveraging the power of advanced modelling
+          technology, assisting stakeholders in making informed decisions and implementing sustainable
+          water management strategies.
+          `,
+      },
+      {
+        paragraph: `In addition to our hydrological modelling expertise, we also provide tutorials on various
+          hydrological modelling software, including HEC-RAS, HEC-HMS, MODFLOW, TerrSet and
+          SWAT. These tutorials are useful resources for professionals and researchers who want to improve
+          their knowledge and skills in hydrological modelling. We empower individuals to use these
+          software tools effectively for a variety of applications, including flood analysis, river channel
+          design, groundwater modelling, and watershed management, by providing step-by-step guidance
+          and practical examples. Our tutorials aim to bridge the gap between theoretical concepts and
+          practical implementation, allowing users to fully utilize the capabilities of these hydrological
+          modelling platforms.`,
       },
     ],
+
     fca_QAs: [
       {
         Qheading: "",
-         QA: `Donec tellus massa, tristique sit amet condim vel,
+        QA: `Donec tellus massa, tristique sit amet condim vel,
                             facilisis quis sapien. Praesent id enim sit amet odio
                             vulputate eleifend in in tortor. Donec tellus massa,
                             tristique sit amet condim vel, facilisis quis sapien.
@@ -230,7 +282,7 @@ const focusAreas = [
       },
       {
         Qheading: "",
-         QA: `Donec tellus massa, tristique sit amet condim vel,
+        QA: `Donec tellus massa, tristique sit amet condim vel,
                             facilisis quis sapien. Praesent id enim sit amet odio
                             vulputate eleifend in in tortor. Donec tellus massa,
                             tristique sit amet condim vel, facilisis quis sapien.
@@ -240,7 +292,7 @@ const focusAreas = [
       },
       {
         Qheading: "",
-         QA: `Donec tellus massa, tristique sit amet condim vel,
+        QA: `Donec tellus massa, tristique sit amet condim vel,
                             facilisis quis sapien. Praesent id enim sit amet odio
                             vulputate eleifend in in tortor. Donec tellus massa,
                             tristique sit amet condim vel, facilisis quis sapien.
@@ -263,21 +315,35 @@ const focusAreas = [
   {
     fca_id: "GIS&RemoteSensingApplications",
     fca_heading: "GIS & Remote Sensing Applications",
-    fca_short_desc: "Aute ullamco labore in reprehenderit.",
+    fca_short_desc:
+      "Discover. Analyze. Innovate: Embracing GIS & Remote Sensing Applications",
     fca_paragraphs: [
       {
-        paragraph:
-          "Et et officia dolor duis magna ut ea occaecat quis aute laborum. Dolore velit nisi nostrud nostrud minim sit ullamco laboris. Duis non enim enim irure amet. Quis culpa sint in commodo amet aliquip magna nostrud nostrud amet exercitation cillum ad laborum. Ipsum in Lorem consequat Lorem occaecat officia reprehenderit.Culpa id est minim Lorem. Ea voluptate et enim quis commodo quis consequat cillum voluptate. Laboris ad minim eu magna est est do cupidatat labore officia.Ex nulla consectetur magna nostrud Lorem excepteur ad ea qui magna incididunt do. Lorem occaecat exercitation Lorem anim cupidatat elit minim magna sit. Do deserunt occaecat commodo dolore velit in non ad quis labore fugiat. Laborum pariatur aliquip anim duis non incididunt id id anim non aliquip anim commodo ad. Dolor minim reprehenderit pariatur id velit reprehenderit adipisicing minim ad. Magna labore nisi occaecat et.",
+        paragraph: `We are experts in Geographic Information Systems (GIS) and Remote Sensing Applications. We
+          use advanced technology and techniques to analyze spatial data. Our expertise in this field allows
+          us to provide valuable insights by utilizing satellite imagery, aerial photography, and LiDAR data
+          to obtain detailed geospatial information. We use these cutting-edge technologies to assist clients
+          in environmental monitoring, land use planning, and water resources management`,
       },
       {
-        paragraph:
-          "Sint ullamco incididunt exercitation cillum fugiat nisi cupidatat pariatur tempor velit aliqua minim aliqua. Deserunt Lorem aliquip minim velit tempor elit eiusmod occaecat. Cupidatat non eu ut esse ea irure mollit quis irure ipsum sit sit. Minim proident quis cupidatat aliquip elit. Sit non ex incididunt laboris cupidatat labore voluptate sunt laboris. Aute consectetur nostrud eu proident irure ipsum officia sint ipsum sunt. Consequat nostrud in enim sint irure laborum laborum incididunt irure sunt dolor.Mollit nulla cupidatat pariatur deserunt sit. Aliquip nulla nulla sunt consectetur ipsum. Proident velit eiusmod aliqua quis ullamco culpa excepteur veniam sint voluptate dolore ex.Aute do amet minim sit in Lorem voluptate non adipisicing laboris. Dolore est mollit sint nisi mollit aliquip enim quis exercitation. Aliquip laborum commodo labore est veniam deserunt. Et esse laboris pariatur commodo. Incididunt duis deserunt nostrud minim. Aliqua enim velit enim ea veniam ut ullamco labore nulla irure veniam mollit commodo.",
+        paragraph: `We are proficient in using a variety of software and tools for GIS and Remote Sensing. We provide
+        support and tutorials on popular GIS software such as ArcGIS and QGIS. These software platforms
+        offer a wide range of capabilities for spatial analysis, data integration, and cartographic
+        representation. We also have expertise in software like ENVI, which specializes in remote sensing
+        analysis, image classification, and spectral analysis. By using these powerful software tools, we
+        are able to conduct comprehensive geospatial analyses and make informed decisions for our
+        clients.`,
+      },
+      {
+        paragraph: `We believe that GIS and Remote Sensing are powerful tools that can be used to solve a wide range
+        of problems. We are committed to providing our clients with the best possible service and to
+        helping them achieve their goals`,
       },
     ],
     fca_QAs: [
       {
         Qheading: "",
-         QA: `Donec tellus massa, tristique sit amet condim vel,
+        QA: `Donec tellus massa, tristique sit amet condim vel,
                             facilisis quis sapien. Praesent id enim sit amet odio
                             vulputate eleifend in in tortor. Donec tellus massa,
                             tristique sit amet condim vel, facilisis quis sapien.
@@ -287,7 +353,7 @@ const focusAreas = [
       },
       {
         Qheading: "",
-         QA: `Donec tellus massa, tristique sit amet condim vel,
+        QA: `Donec tellus massa, tristique sit amet condim vel,
                             facilisis quis sapien. Praesent id enim sit amet odio
                             vulputate eleifend in in tortor. Donec tellus massa,
                             tristique sit amet condim vel, facilisis quis sapien.
@@ -297,7 +363,7 @@ const focusAreas = [
       },
       {
         Qheading: "",
-         QA: `Donec tellus massa, tristique sit amet condim vel,
+        QA: `Donec tellus massa, tristique sit amet condim vel,
                             facilisis quis sapien. Praesent id enim sit amet odio
                             vulputate eleifend in in tortor. Donec tellus massa,
                             tristique sit amet condim vel, facilisis quis sapien.
@@ -320,17 +386,38 @@ const focusAreas = [
   {
     fca_id: "GoogleEarthEngine",
     fca_heading: "Google Earth Engine",
-    fca_short_desc: "Qui ex qui aute enim consequat adipisicing Lorem officia.",
+    fca_short_desc: "Discover Earth's Wonders with Google Earth Engine",
     fca_paragraphs: [
       {
-        paragraph:
-          "Nostrud sunt do aliqua ex. Aute qui labore cillum occaecat cillum deserunt ea excepteur labore laborum est. Voluptate officia Lorem duis sint duis tempor esse amet ut voluptate elit reprehenderit laboris amet. Culpa magna sunt exercitation ipsum esse labore occaecat aliqua. Mollit commodo officia sunt eiusmod est. Aliqua ut occaecat quis aliquip ullamco quis sint. Sint anim occaecat cupidatat Lorem voluptate laborum enim adipisicing ullamco nisi commodo culpa pariatur amet.Cupidatat aute eiusmod occaecat ipsum duis dolore et ut ullamco elit nulla. Ipsum nulla quis aliqua deserunt eiusmod amet qui exercitation occaecat aliqua laboris excepteur. Reprehenderit labore duis aute quis magna laborum labore laborum cupidatat in. Et occaecat minim in enim occaecat esse. Fugiat et id officia aliqua nulla. Duis non ea dolor tempor commodo culpa nostrud eiusmod duis ad nisi non ipsum ad. Aliqua minim magna ad ex in.Ut officia sit incididunt aliqua adipisicing mollit dolore est sunt id anim aute exercitation cillum. Officia ex aliqua elit culpa dolore labore esse labore. Incididunt consectetur minim consequat minim ex ullamco consectetur ex nisi ut laboris in eu.",
+        paragraph: `Utilizing the GEE (Google Earth Engine) cloud-based platform, we offer a wide range of services
+          to support various geospatial applications. We provide a variety of services that make use of GEE's
+          efficient and precise land use and land cover monitoring capabilities. We evaluate changes in land
+          use patterns, identify urban growth, and monitor deforestation or land degradation by analyzing
+          satellite imagery and historical data. In addition, we utilize GEE for vegetation analysis and
+          mapping, allowing our clients to gain insight into ecosystem health, vegetation density, and
+          vegetation types. `,
+      },
+      {
+        paragraph: `Our services include drought assessment and monitoring, flood monitoring and analysis,
+        modelling and evaluation of soil erosion, and water resource management and analysis. We
+        integrate meteorological data, soil moisture indices, and vegetation indices to evaluate and monitor
+        the spatial and temporal extent of drought conditions. We utilize remote sensing data and
+        hydrological modelling to provide valuable insights regarding flood-prone areas, flood dynamics,
+        and flood risk assessment. In addition, we identify areas prone to erosion, assess erosion rates, and
+        develop strategies for soil conservation. `,
+      },
+      {
+        paragraph: `In addition, we offer hands-on tutorials on Google Earth Engine to equip professionals and
+        researchers with the knowledge required to utilize the platform's capabilities for geospatial
+        analysis, including drought, flood, and vegetation analysis. Our services are intended to facilitate
+        informed decision-making in a variety of fields, including environmental management, emergency
+        response, and water resource management.`,
       },
     ],
     fca_QAs: [
       {
         Qheading: "",
-         QA: `Donec tellus massa, tristique sit amet condim vel,
+        QA: `Donec tellus massa, tristique sit amet condim vel,
                             facilisis quis sapien. Praesent id enim sit amet odio
                             vulputate eleifend in in tortor. Donec tellus massa,
                             tristique sit amet condim vel, facilisis quis sapien.
@@ -340,7 +427,7 @@ const focusAreas = [
       },
       {
         Qheading: "",
-         QA: `Donec tellus massa, tristique sit amet condim vel,
+        QA: `Donec tellus massa, tristique sit amet condim vel,
                             facilisis quis sapien. Praesent id enim sit amet odio
                             vulputate eleifend in in tortor. Donec tellus massa,
                             tristique sit amet condim vel, facilisis quis sapien.
@@ -350,7 +437,7 @@ const focusAreas = [
       },
       {
         Qheading: "",
-         QA: `Donec tellus massa, tristique sit amet condim vel,
+        QA: `Donec tellus massa, tristique sit amet condim vel,
                             facilisis quis sapien. Praesent id enim sit amet odio
                             vulputate eleifend in in tortor. Donec tellus massa,
                             tristique sit amet condim vel, facilisis quis sapien.
