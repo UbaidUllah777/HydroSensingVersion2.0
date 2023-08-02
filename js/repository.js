@@ -68,24 +68,43 @@ const allRepositories = [
     RepositoryTopics: [
       //1st Topic in Repository two
       {
-        topicID: "firstTopicRepotwo",
-        topicName: "First Topic",
+        topicID: "MachineLearningCourses and Tools",
+        topicName: "Machine Learning Courses",
 
         YoutubeVidioLink:
           "https://www.youtube.com/watch?v=Bbs_OfyWm6o&pp=ygUNaHlkcm8gc2Vuc2luZw%3D%3D",
-        topicDescription:
-          "Laborum qui laborum culpa sit ad sit non deserunt nisi eu occaecat. Et deserunt pariatur exercitation sint pariatur labore laboris proident ex consectetur adipisicing ipsum laboris. Aute consectetur reprehenderit laboris nostrud culpa in nulla. Lorem do mollit nostrud qui aute veniam reprehenderit. Fugiat pariatur aliquip dolore elit adipisicing aliqua reprehenderit.",
+        topicDescription: `Following are the useful youtube channels to learn machine learning.
+
+          1. Machine Learning (ML) by Standford University
+          2. ML
+         3. Deep Learning (2018) by Standford University (materials are available in Syllabus)
+         4. Applied ML
+          5.Intro to ML
+          6.Intro to ML2
+          7.Statistical ML
+         8. ML with Graphics by Standford University
+          9.Probabilistic ML
+          10. Codanics (In Urdu, which I enjoyed the most)`,
         topicPdfDownloadPath: "Repositories/RepositoryName/fileName.pdf",
       },
       //2nd Topic in Repository two
       {
-        topicID: "secondTopicRepotwo",
-        topicName: "Second  Topic",
+        topicID: "Paperswithcode",
+        topicName: "Papers with code",
 
-        YoutubeVidioLink:
-          "https://www.youtube.com/watch?v=Bbs_OfyWm6o&pp=ygUNaHlkcm8gc2Vuc2luZw%3D%3D",
-        topicDescription:
-          "Laborum qui laborum culpa sit ad sit non deserunt nisi eu occaecat. Et deserunt pariatur exercitation sint pariatur labore laboris proident ex consectetur adipisicing ipsum laboris. Aute consectetur reprehenderit laboris nostrud culpa in nulla. Lorem do mollit nostrud qui aute veniam reprehenderit. Fugiat pariatur aliquip dolore elit adipisicing aliqua reprehenderit.",
+        YoutubeVidioLink: "https://paperswithcode.com/",
+        topicDescription: `Papers with code is an extremely useful website that provides recent
+         research articles with their codes. Just modify the codes
+          according to your needs and use them.`,
+        topicPdfDownloadPath: "Repositories/RepositoryName/fileName.pdf",
+      },
+      {
+        topicID: "DatatoViz",
+        topicName: "Data to Viz",
+
+        YoutubeVidioLink: "https://www.data-to-viz.com/",
+        topicDescription: `If you are interested in creating beautiful graphs using R or Python language for your research articles, Data to Viz is one of my
+         favorite websites. Please explore and share with your colleagues.`,
         topicPdfDownloadPath: "Repositories/RepositoryName/fileName.pdf",
       },
     ],
