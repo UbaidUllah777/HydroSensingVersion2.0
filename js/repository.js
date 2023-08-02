@@ -3,42 +3,59 @@ const Elaccordion100 = document.getElementById("accordion100");
 const allRepositories = [
   // Repository One
   {
-    RepositoryCategory: "RepositoryOne",
-    RepositoryName: "Repository &nbsp One",
+    RepositoryCategory: "ToolsandSoftwares",
+    RepositoryName: "Tools, Datasets and Softwares",
     RepositoryTopics: [
       //1st Topic in Repository one
       {
-        topicID: "firstTopicRepoOne",
-        topicName: "First Topic",
+        topicID: "GlobalGlaciersMonitoringService",
+        topicName: "Global Glaciers Monitoring Service",
 
-        YoutubeVidioLink:
-          "https://www.youtube.com/watch?v=Bbs_OfyWm6o&pp=ygUNaHlkcm8gc2Vuc2luZw%3D%3D",
-        topicDescription:
-          "Laborum qui laborum culpa sit ad sit non deserunt nisi eu occaecat. Et deserunt pariatur exercitation sint pariatur labore laboris proident ex consectetur adipisicing ipsum laboris. Aute consectetur reprehenderit laboris nostrud culpa in nulla. Lorem do mollit nostrud qui aute veniam reprehenderit. Fugiat pariatur aliquip dolore elit adipisicing aliqua reprehenderit.",
+        YoutubeVidioLink: "https://wgms.ch/",
+        topicDescription: ` "Are you interested in world glacier data? If yes,
+         then there is huge data available at your fingertips. 
+         The World Glacier Monitoring Services (WGMS) and organizations 
+         under its umbrella are compiling and disseminating the standardized 
+         glacial data. Download the WGMS app and other required data
+         using the link below:WGMS app consists of glacier names 
+         around the globe, glacial area,
+         glacier status (decrease/increase in size), and much more.`,
         topicPdfDownloadPath:
           "Repositories/RepositoryOne/firstTopicRepoOne.pdf",
       },
       //2nd Topic in Repository one
       {
-        topicID: "secondTopicRepoOne",
-        topicName: "Second  Topic",
+        topicID: "GlobalSPEIdataset",
+        topicName: "Global SPEI dataset",
 
-        YoutubeVidioLink:
-          "https://www.youtube.com/watch?v=Bbs_OfyWm6o&pp=ygUNaHlkcm8gc2Vuc2luZw%3D%3D",
-        topicDescription:
-          "Laborum qui laborum culpa sit ad sit non deserunt nisi eu occaecat. Et deserunt pariatur exercitation sint pariatur labore laboris proident ex consectetur adipisicing ipsum laboris. Aute consectetur reprehenderit laboris nostrud culpa in nulla. Lorem do mollit nostrud qui aute veniam reprehenderit. Fugiat pariatur aliquip dolore elit adipisicing aliqua reprehenderit.",
+        YoutubeVidioLink: "https://spei.csic.es/ ",
+        topicDescription: `I am working on Drought characterization, transition,
+           and propagation from one catchment to another using different
+            statistical and machine learning models. Nowadays, trying to
+            develop a new index for the Indus Basin of Pakistan. During my
+            literature review, I came across a global SPEI (Standardized
+               Precipitation Evapotranspiration Index). Researchers working in drought monitoring and assessment can use the global SPEI dataset for their studies. Global SPEI is developed using the temperature and precipitation data retrieved from Climate Research Unit (CRU), where water balance is estimated using the Thornthwaite equation. SPEI data is available from 1- to 48-month timescale. The datasets is available with 0.5-degree x 0.5-degree spatial resolution. The link to Global SPEI is given below.`,
         topicPdfDownloadPath: "Repositories/RepositoryName/fileName.pdf",
       },
 
       //3rd Topic in Repository one
       {
-        topicID: "thirdTopicRepoOne",
-        topicName: "Third  Topic",
+        topicID: "GlobalRunoffDataCentre(GRDC)",
+        topicName: "Global Runoff Data Centre (GRDC)",
 
         YoutubeVidioLink:
-          "https://www.youtube.com/watch?v=Bbs_OfyWm6o&pp=ygUNaHlkcm8gc2Vuc2luZw%3D%3D",
-        topicDescription:
-          "Laborum qui laborum culpa sit ad sit non deserunt nisi eu occaecat. Et deserunt pariatur exercitation sint pariatur labore laboris proident ex consectetur adipisicing ipsum laboris. Aute consectetur reprehenderit laboris nostrud culpa in nulla. Lorem do mollit nostrud qui aute veniam reprehenderit. Fugiat pariatur aliquip dolore elit adipisicing aliqua reprehenderit.",
+          "https://portal.grdc.bafg.de/applications/public.html?publicuser=PublicUser#dataDownload/Subregions",
+        topicDescription: `I am working on Drought characterization, transition, and
+           propagation from one catchment to another using different statistical and machine
+           learning models. Nowadays, trying to develop a new index for the Indus Basin of Pakistan.
+           During my literature review, I came across a global SPEI (Standardized Precipitation
+             Evapotranspiration Index). Researchers working in drought monitoring and assessment
+              can use the global SPEI dataset for their studies. Global SPEI is developed
+               using the temperature and precipitation data retrieved from Climate
+                Research Unit (CRU), where water balance is estimated using the Thornthwaite
+                equation. SPEI data is available from 1- to 48-month timescale.
+                 The datasets is available with 0.5-degree x 0.5-degree spatial resolution.
+                 The link to Global SPEI is given below.`,
         topicPdfDownloadPath: "Repositories/RepositoryName/fileName.pdf",
       },
     ],
@@ -46,8 +63,8 @@ const allRepositories = [
 
   // Repository two
   {
-    RepositoryCategory: "Repositorytwo",
-    RepositoryName: "Repository &nbsp Two",
+    RepositoryCategory: "CoursesandResearchPapers",
+    RepositoryName: "Courses and Research Papers",
     RepositoryTopics: [
       //1st Topic in Repository two
       {

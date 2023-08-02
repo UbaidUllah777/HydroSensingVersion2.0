@@ -2,8 +2,7 @@ const researchProjects = [
   //project One
   {
     RP_id: "projectOne",
-    RP_heading:
-      "Excepteur nisi deserunt dolore minim anim do ut eiusmod adipisicing.",
+    RP_heading: "ARTIFICIAL RECHARGE OF UNDERGROUND AQUIFER",
     RP_status_id: "CompletedResearchProjects",
     RP_status: "Completed Research Projects",
     RP_image: "img/projects/project.jpg",
@@ -12,30 +11,32 @@ const researchProjects = [
 
     RP_paragraphs: [
       {
-        paragraph: "",
+        paragraph: `Earth Services proudly has played a practical role in 
+        developing the Role Model for the concept of “ARTIFICIAL RECHARGE 
+        OF UNDERGROUND AQUIFER” in Pakistan for Irrigation
+          Research Institute, Lahore.Irrigation and Power Department,
+           GOVT OF PUNJAB.`,
       },
       {
-        paragraph:
-          "Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse.",
-      },
-      {
-        paragraph:
-          "Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse.",
-      },
-      {
-        paragraph:
-          "Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse.",
+        paragraph: `Earth Services proudly has played a practical role in 
+        developing the Role Model for the concept of “ARTIFICIAL RECHARGE 
+        OF UNDERGROUND AQUIFER” in Pakistan for Irrigation
+          Research Institute, Lahore.Irrigation and Power Department,
+           GOVT OF PUNJAB.`,
       },
     ],
-    RP_scopes: [{ scope: "scope1" }, { scope: "scope2" }, { scope: "scope3" }],
-    RP_client: "Client Name",
-    RP_year: "2023",
-    RP_URL: "#",
+    RP_scopes: [
+      { scope: "Rainwater Harvesting study," },
+      { scope: "Pond and Model Construction Civil Work" },
+    ],
+    RP_client: "Irrigation Research Institute, Lahore",
+    RP_year: "2019",
+    RP_URL: "",
   },
   //project Two
   {
     RP_id: "projectTwo",
-    RP_heading: "project Two",
+    RP_heading: "Installation of 40 piezometers",
     RP_status_id: "CompletedResearchProjects",
     RP_status: "Completed Research Projects",
     RP_image: "img/projects/project.jpg",
@@ -43,26 +44,15 @@ const researchProjects = [
     RP_category: "categ1",
     RP_paragraphs: [
       {
-        paragraph:
-          "Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse.",
-      },
-      {
-        paragraph:
-          "Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse.",
-      },
-      {
-        paragraph:
-          "Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse.",
-      },
-      {
-        paragraph:
-          "Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse.",
+        paragraph: `Installation of 40 piezometers in different zones of Lahore and Multan
+          for Irrigation Research Institute, Lahore Irrigation and Power
+           Department, GOVT OF PUNJAB.`,
       },
     ],
-    RP_scopes: [{ scope: "scope1" }, { scope: "scope2" }, { scope: "scope3" }],
-    RP_client: "Client Name",
-    RP_year: "2023",
-    RP_URL: "#",
+    RP_scopes: [{ scope: "Ground Water Study" }],
+    RP_client: "Irrigation Research Institute, Lahore",
+    RP_year: "2019",
+    RP_URL: "",
   },
   //project Three
   {
