@@ -5,15 +5,25 @@ const Services = [
     service_id: "WaterResources",
     service_heading: "Water Resources ",
     service_short_desc:
-      "Reprehenderit voluptate incididunt dolore eu incididunt esse.Reprehenderit voluptate incididunt dolore eu incididunt esse.",
+      "From Drops to Oceans: Unraveling the Science of Water Resources.",
     service_paragraphs: [
       {
-        paragraph:
-          "1st Paragrapgh Laborum non incididunt et anim duis cupidatat consequat duis. Magna et consequat aliquip proident elit sit commodo dolore quis amet do. Dolore voluptate sunt dolore mollit velit ad quis cillum.Officia mollit ea ipsum exercitation qui. Velit exercitation magna consectetur eiusmod. Sint in ullamco laborum nostrud fugiat labore culpa duis nostrud minim aute pariatur. Nisi in mollit sit enim proident anim veniam duis. Esse laborum aliqua voluptate sit commodo irure elit. Cillum enim excepteur ex culpa occaecat nulla dolor labore aute excepteur consectetur quis.",
+        paragraph: `Water Resources are an important part of our expertise, 
+        and we take pride in providing a comprehensive range of professional
+        services aimed at addressing the multifaceted challenges associated with
+         water management. We ensure the long-term sustainability of water resources
+          by combining innovative design, advanced modeling, and integrated planning.`,
       },
       {
-        paragraph:
-          "2nd ParagrapghSunt elit reprehenderit laborum elit proident ea enim. Nisi ullamco minim ad eiusmod. Voluptate dolor aliquip non exercitation adipisicing elit Lorem anim mollit ut fugiat deserunt proident. Nulla minim laboris exercitation magna. Consectetur non laborum ipsum aliqua id elit commodo et id eu cupidatat eiusmod mollit pariatur. Laboris et laborum qui velit nisi laboris ex adipisicing cupidatat eu in proident Lorem. Eu non ea pariatur eiusmod quis sint aute commodo excepteur dolor qui Lorem.Qui et labore ut esse. Adipisicing amet exercitation laboris ipsum veniam. Commodo voluptate deserunt est officia laboris sint laboris velit irure. Consectetur elit anim dolore amet. Laborum eiusmod ullamco dolor dolore anim nisi consequat Lorem cillum. Duis ipsum Lorem minim officia laboris dolor ullamco non.",
+        paragraph: `We assist clients in optimizing irrigation systems and efficiently 
+        allocating water resources by utilizing cutting-edge technology and advanced
+         modelling approaches. Based on extensive evaluations of water availability, 
+         crop water requirements, and soil characteristics, our personalized irrigation
+          methods improve water saving while ensuring optimal crop development and output. 
+          Furthermore, we prioritize fair water distribution by taking agricultural needs, 
+          environmental concerns, and social demands into account. Our ultimate objective 
+          is to protect this priceless resource for future generations, paving the way for
+           a more sustainable and water-secure future`,
       },
     ],
 
@@ -32,19 +42,28 @@ const Services = [
     service_id: "Surfacewater",
     service_heading: "Surface Water",
     service_short_desc:
-      "Irure do et minim est do ea mollit quis proident. Reprehenderit voluptate incididunt dolore eu incididunt esse.",
+      "Diving into Discovery: Pioneering the Future of Surface Water Studies",
     service_paragraphs: [
       {
-        paragraph:
-          "AliquLabore Lorem nisi in occaecat culpa in commodo. Aute pariatur anim commodo esse cupidatat. Dolor irure sunt cillum aliqua occaecat aliqua duis sunt sunt irure ullamco tempor proident. Deserunt quis commodo reprehenderit Lorem nostrud sint deserunt tempor duis ipsum qui laboris. Ullamco id esse ut nisi exercitation.ip et cupidatat pariatur fugiat enim. Amet cillum dolore ullamco et ex occaecat nostrud esse eiusmod ut nostrud. Magna ullamco proident cillum commodo eiusmod. Sunt aliqua velit et id nisi laborum cillum in commodo exercitation est.",
+        paragraph: `Our Surface Water expertise encompasses a diverse range of professional services
+           tailored to tackle the complexities of managing surface water resources. Our approach
+           integrates innovative design, advanced modeling, and comprehensive planning to ensure
+            the long-term sustainability of surface water resources. Through the adoption of
+             cutting-edge technologies and advanced modeling techniques, we empower our clients
+              to unlock the full potential of surface water resources. `,
       },
       {
-        paragraph:
-          "Elit esse anim magna nostrud exercitation ullamco Lorem dolore ullamco. Qui dolore veniam amet ipsum nisi cupidatat commodo excepteur incididunt. Tempor nulla esse culpa tempor. Quis officia sunt amet voluptate. Consequat ut deserunt ullamco sit labore veniam tempor amet. Duis nulla exercitation sunt nisi sint tempor.Dolor laborum consectetur veniam enim commodo tempor qui dolore aliquip laborum adipisicing mollit. Nisi sint adipisicing veniam nostrud fugiat in ullamco ea. Aliquip adipisicing aute irure ad est non excepteur. Cillum aute nisi non culpa consequat est voluptate excepteur quis non nisi nostrud. Amet id sint sunt velit aliqua cillum aute id cillum. Eu do sunt nulla nostrud nulla ex tempor exercitation esse anim consectetur.",
+        paragraph: `Our strategies are customized, built upon in-depth analyses of water availability, 
+        hydrological processes, and ecological considerations. By promoting responsible water usage
+         and fostering ecological balance, we cater to the needs of various stakeholders.
+          Committed to equitable water distribution, `,
       },
       {
-        paragraph:
-          "Proident quis excepteur id ut sint ut anim enim aliquip occaecat. Est irure commodo do et eiusmod enim sit ut cupidatat quis voluptate magna. Pariatur elit ea consectetur quis sunt irure ea amet. Ullamco cillum nisi tempor elit ipsum.Elit incididunt nisi nulla sunt officia commodo aute ut minim ut Lorem ipsum. Quis ipsum cillum occaecat qui mollit esse do. Cupidatat consectetur do occaecat labore aliqua consectetur.",
+        paragraph: `we allocate surface water resources in harmony with agricultural requirements,
+         environmental preservation, and societal demands. Our mission is clear - safeguarding
+         surface water resources for future generations and driving us toward a sustainable
+          and water-secure future. With an unwavering dedication to excellence, we
+          forge a path towards a thriving environment and a resilient water supply for all.`,
       },
     ],
 
@@ -63,15 +82,24 @@ const Services = [
     service_id: "Stormwater",
     service_heading: "Storm Water",
     service_short_desc:
-      "Et sint dolor esse ad labore esse commodo.Reprehenderit voluptate incididunt dolore eu incididunt esse.",
+      "Flowing Towards Change: Leading the Charge in Cutting-Edge Stormwater Research",
     service_paragraphs: [
       {
-        paragraph:
-          "Deserunt ea sit veniam exercitation labore dolore culpa nulla pariatur sint tempor exercitation ad. Ea anim nulla est adipisicing amet culpa veniam. Dolor mollit nostrud duis occaecat pariatur. In adipisicing cillum esse Lorem amet nulla aliquip ex laboris esse commodo aute exercitation incididunt. Ex ad deserunt sit amet ut proident.Reprehenderit nostrud consequat do adipisicing laborum qui. Proident commodo ut culpa aliquip et anim. Officia elit esse culpa Lorem officia ex ut magna duis. Aliquip irure dolore reprehenderit minim.Sit nisi elit id incididunt adipisicing adipisicing occaecat laboris sunt elit anim duis voluptate laboris. Cillum irure deserunt non eu adipisicing. Dolor reprehenderit anim consequat commodo ullamco proident laboris nostrud irure eu exercitation laborum.",
+        paragraph: `Our Storm Water Management services offer a wide range of ways to manage stormwater
+           resources in an effective way. We are experts at planning and putting in place stormwater
+            management systems that reduce the effects of runoff, stop flooding, and improve the
+            quality of the water. Our skills include figuring out how storm water needs to be drained,
+             designing new retention and detention systems, and using best management practises to
+              keep the environment as safe as possible.`,
       },
       {
-        paragraph:
-          "Irure ipsum incididunt commodo fugiat eu excepteur in anim ex ullamco laboris nulla commodo qui. Voluptate ea adipisicing commodo laboris ut aliqua qui velit sit qui quis labore. Id incididunt do esse magna laborum do eu fugiat. Veniam occaecat fugiat aliquip eiusmod incididunt. Quis tempor et nisi qui irure velit nulla officia laborum ullamco velit. Consequat aliqua ullamco sit nulla labore nostrud exercitation qui proident.Laboris labore voluptate commodo sint consequat esse fugiat adipisicing est incididunt. Adipisicing ea anim veniam do mollit deserunt cupidatat id Lorem reprehenderit ullamco tempor qui. Reprehenderit nostrud ullamco velit dolore. Ullamco non sint nostrud labore amet aute laboris velit quis ea.",
+        paragraph: `We also monitor and analyze stormwater data to track how well the system works and
+           find places where it could be better. We make sure that stormwater infrastructure
+            works well and follows local rules by using advanced modelling and real-time
+            monitoring techniques. Our stormwater management services are used in urban
+            development, industrial facilities, and infrastructure projects, among other places.
+            By offering sustainable stormwater solutions, we aim to reduce environmental risks,
+             enhance resilience, and foster a healthier environment for communities and ecosystems`,
       },
     ],
 
@@ -90,11 +118,28 @@ const Services = [
     service_id: "Groundwater",
     service_heading: "Ground Water ",
     service_short_desc:
-      "Aliqua laborum qui tempor ex cillum cupidatat est.Reprehenderit voluptate incididunt dolore eu incididunt esse.",
+      "Beneath the Surface: Exploring the World of Groundwater through Research",
     service_paragraphs: [
       {
-        paragraph:
-          "Tempor anim ea amet minim cupidatat eu non sit ad ullamco. In sint aliqua occaecat non est dolor nulla ipsum. Id cillum id cillum sint.Culpa ex reprehenderit pariatur occaecat. Eu irure exercitation velit anim quis laboris cillum velit sint ea commodo do elit voluptate. Incididunt irure minim ea nulla exercitation pariatur. Mollit sunt pariatur voluptate ipsum officia esse. Minim nulla et mollit et minim ad velit tempor in cupidatat magna eiusmod.Id ut laboris mollit deserunt occaecat deserunt id laborum duis cupidatat dolore. Duis quis ipsum eu occaecat enim laboris veniam occaecat ex aliquip incididunt. Consectetur consectetur excepteur aute duis non nulla consectetur ipsum laboris sint ea.Magna elit dolore consequat ullamco. Nostrud sit culpa irure tempor tempor sit nulla qui consectetur qui. Velit voluptate non ullamco aliqua reprehenderit deserunt officia laboris mollit laborum ex sint. Aliqua reprehenderit enim nostrud ut ut qui officia ullamco proident est esse.",
+        paragraph: `With our extensive groundwater expertise, we provide a wide range of services
+         to address groundwater management challenges, including the impact of drought.
+         We accurately track groundwater levels and trends using real-time monitoring
+         techniques and data from sources such as the GRACE satellite, assisting clients
+          in making informed decisions about resource allocation and sustainable management`,
+      },
+      {
+        paragraph: `Our consultancy services extend beyond monitoring by providing early warning 
+        systems to identify potential drought impacts on groundwater resources. We provide valuable
+         insights into early indicators of drought-related effects by analyzing historical data
+         and taking into account various environmental factors. `,
+      },
+      {
+        paragraph: `Furthermore, we prioritize understanding the various environmental factors 
+        that can influence groundwater resources, allowing us to provide more comprehensive
+        drought risk assessments and impact evaluations. Our goal is to provide clients with
+        the knowledge and tools they need to manage groundwater proactively, protecting
+        this vital resource and mitigating the effects of drought on critical sectors
+         such as agriculture, water supply, and the environment. `,
       },
     ],
 
@@ -113,15 +158,24 @@ const Services = [
     service_id: "EnvironmentalRiskassessment ",
     service_heading: "Environmental Risk Assessment ",
     service_short_desc:
-      "Aute ullamco labore in reprehenderit. Reprehenderit voluptate incididunt dolore eu incididunt esse.",
+      "Safeguarding Tomorrow: Pioneering Environmental Risk Assessment",
     service_paragraphs: [
       {
-        paragraph:
-          "Et et officia dolor duis magna ut ea occaecat quis aute laborum. Dolore velit nisi nostrud nostrud minim sit ullamco laboris. Duis non enim enim irure amet. Quis culpa sint in commodo amet aliquip magna nostrud nostrud amet exercitation cillum ad laborum. Ipsum in Lorem consequat Lorem occaecat officia reprehenderit.Culpa id est minim Lorem. Ea voluptate et enim quis commodo quis consequat cillum voluptate. Laboris ad minim eu magna est est do cupidatat labore officia.Ex nulla consectetur magna nostrud Lorem excepteur ad ea qui magna incididunt do. Lorem occaecat exercitation Lorem anim cupidatat elit minim magna sit. Do deserunt occaecat commodo dolore velit in non ad quis labore fugiat. Laborum pariatur aliquip anim duis non incididunt id id anim non aliquip anim commodo ad. Dolor minim reprehenderit pariatur id velit reprehenderit adipisicing minim ad. Magna labore nisi occaecat et.",
+        paragraph: `We provide a variety of environmental risk assessment services, including evaluating 
+          pollution and contamination, managing hazardous materials, monitoring the environment,
+          and mapping risk analysis. Our mission is to assist you in identifying, evaluating,
+          and mitigating risks to your health and the environment. We provide customized solutions
+          that are tailored to your unique requirements, ensuring that you have the knowledge
+          and support to make educated decisions regarding the management of your environment.`,
       },
       {
-        paragraph:
-          "Sint ullamco incididunt exercitation cillum fugiat nisi cupidatat pariatur tempor velit aliqua minim aliqua. Deserunt Lorem aliquip minim velit tempor elit eiusmod occaecat. Cupidatat non eu ut esse ea irure mollit quis irure ipsum sit sit. Minim proident quis cupidatat aliquip elit. Sit non ex incididunt laboris cupidatat labore voluptate sunt laboris. Aute consectetur nostrud eu proident irure ipsum officia sint ipsum sunt. Consequat nostrud in enim sint irure laborum laborum incididunt irure sunt dolor.Mollit nulla cupidatat pariatur deserunt sit. Aliquip nulla nulla sunt consectetur ipsum. Proident velit eiusmod aliqua quis ullamco culpa excepteur veniam sint voluptate dolore ex.Aute do amet minim sit in Lorem voluptate non adipisicing laboris. Dolore est mollit sint nisi mollit aliquip enim quis exercitation. Aliquip laborum commodo labore est veniam deserunt. Et esse laboris pariatur commodo. Incididunt duis deserunt nostrud minim. Aliqua enim velit enim ea veniam ut ullamco labore nulla irure veniam mollit commodo.",
+        paragraph: `Our risk mapping and analysis services utilize cutting-edge technology to identify
+         potential environmental hazard zones, allowing for efficient risk reduction and resource
+          allocation. In addition, our site evaluations are comprehensive, identifying potential
+           hazards and guiding sustainable development practices. Our consulting firm aims
+            to equip businesses and organizations with applicable knowledge, thereby promoting
+             environmentally responsible practices and fostering a more robust ecosystem for
+             future generations.`,
       },
     ],
 
@@ -136,46 +190,38 @@ const Services = [
   },
 
   // *** Hydraulic Engineering   ***
-  {
-    service_id: "HydraulicEngineering ",
-    service_heading: "Hydraulic Engineering",
-    service_short_desc:
-      "Aute ullamco labore in reprehenderit. Reprehenderit voluptate incididunt dolore eu incididunt esse.",
-    service_paragraphs: [
-      {
-        paragraph:
-          "Et et officia dolor duis magna ut ea occaecat quis aute laborum. Dolore velit nisi nostrud nostrud minim sit ullamco laboris. Duis non enim enim irure amet. Quis culpa sint in commodo amet aliquip magna nostrud nostrud amet exercitation cillum ad laborum. Ipsum in Lorem consequat Lorem occaecat officia reprehenderit.Culpa id est minim Lorem. Ea voluptate et enim quis commodo quis consequat cillum voluptate. Laboris ad minim eu magna est est do cupidatat labore officia.Ex nulla consectetur magna nostrud Lorem excepteur ad ea qui magna incididunt do. Lorem occaecat exercitation Lorem anim cupidatat elit minim magna sit. Do deserunt occaecat commodo dolore velit in non ad quis labore fugiat. Laborum pariatur aliquip anim duis non incididunt id id anim non aliquip anim commodo ad. Dolor minim reprehenderit pariatur id velit reprehenderit adipisicing minim ad. Magna labore nisi occaecat et.",
-      },
-      {
-        paragraph:
-          "Sint ullamco incididunt exercitation cillum fugiat nisi cupidatat pariatur tempor velit aliqua minim aliqua. Deserunt Lorem aliquip minim velit tempor elit eiusmod occaecat. Cupidatat non eu ut esse ea irure mollit quis irure ipsum sit sit. Minim proident quis cupidatat aliquip elit. Sit non ex incididunt laboris cupidatat labore voluptate sunt laboris. Aute consectetur nostrud eu proident irure ipsum officia sint ipsum sunt. Consequat nostrud in enim sint irure laborum laborum incididunt irure sunt dolor.Mollit nulla cupidatat pariatur deserunt sit. Aliquip nulla nulla sunt consectetur ipsum. Proident velit eiusmod aliqua quis ullamco culpa excepteur veniam sint voluptate dolore ex.Aute do amet minim sit in Lorem voluptate non adipisicing laboris. Dolore est mollit sint nisi mollit aliquip enim quis exercitation. Aliquip laborum commodo labore est veniam deserunt. Et esse laboris pariatur commodo. Incididunt duis deserunt nostrud minim. Aliqua enim velit enim ea veniam ut ullamco labore nulla irure veniam mollit commodo.",
-      },
-    ],
-
-    service_front_image: "img/foucusAreas/services-1.jpg",
-    service_image393x205: "img/foucusAreas/generic-6.jpg",
-    service_image291x245: "img/foucusAreas/generic-3.jpg",
-    service_related_projects: [
-      { project_id: "" },
-      { project_id: "" },
-      { project_id: "" },
-    ],
-  },
 
   // *** Climate change   ***
   {
     service_id: "Climatechange",
     service_heading: "Climate Change",
     service_short_desc:
-      "Aute ullamco labore in reprehenderit. Reprehenderit voluptate incididunt dolore eu incididunt esse.",
+      "Climate Change: Redefining Progress, Restoring Balance.",
     service_paragraphs: [
       {
-        paragraph:
-          "Et et officia dolor duis magna ut ea occaecat quis aute laborum. Dolore velit nisi nostrud nostrud minim sit ullamco laboris. Duis non enim enim irure amet. Quis culpa sint in commodo amet aliquip magna nostrud nostrud amet exercitation cillum ad laborum. Ipsum in Lorem consequat Lorem occaecat officia reprehenderit.Culpa id est minim Lorem. Ea voluptate et enim quis commodo quis consequat cillum voluptate. Laboris ad minim eu magna est est do cupidatat labore officia.Ex nulla consectetur magna nostrud Lorem excepteur ad ea qui magna incididunt do. Lorem occaecat exercitation Lorem anim cupidatat elit minim magna sit. Do deserunt occaecat commodo dolore velit in non ad quis labore fugiat. Laborum pariatur aliquip anim duis non incididunt id id anim non aliquip anim commodo ad. Dolor minim reprehenderit pariatur id velit reprehenderit adipisicing minim ad. Magna labore nisi occaecat et.",
+        paragraph: `Our comprehensive Climate Change services include advanced climate modelling techniques 
+          for assessing the potential impacts of this global phenomenon. We gain critical insights
+             into changing climate patterns by using sophisticated data analysis and modelling,
+              projecting future scenarios, and identifying
+               areas vulnerable to climate change impacts. `,
       },
       {
-        paragraph:
-          "Sint ullamco incididunt exercitation cillum fugiat nisi cupidatat pariatur tempor velit aliqua minim aliqua. Deserunt Lorem aliquip minim velit tempor elit eiusmod occaecat. Cupidatat non eu ut esse ea irure mollit quis irure ipsum sit sit. Minim proident quis cupidatat aliquip elit. Sit non ex incididunt laboris cupidatat labore voluptate sunt laboris. Aute consectetur nostrud eu proident irure ipsum officia sint ipsum sunt. Consequat nostrud in enim sint irure laborum laborum incididunt irure sunt dolor.Mollit nulla cupidatat pariatur deserunt sit. Aliquip nulla nulla sunt consectetur ipsum. Proident velit eiusmod aliqua quis ullamco culpa excepteur veniam sint voluptate dolore ex.Aute do amet minim sit in Lorem voluptate non adipisicing laboris. Dolore est mollit sint nisi mollit aliquip enim quis exercitation. Aliquip laborum commodo labore est veniam deserunt. Et esse laboris pariatur commodo. Incididunt duis deserunt nostrud minim. Aliqua enim velit enim ea veniam ut ullamco labore nulla irure veniam mollit commodo.",
+        paragraph: `Our sophisticated modelling enables us to forecast temperature changes, precipitation 
+          patterns, and extreme weather events, assisting decision-makers in comprehending the
+           complexities of climate change. Furthermore, our consulting expertise includes
+          conducting vulnerability assessments for various regions and
+          communities, analyzing their susceptibility to the effects of climate change.
+          We identify areas that are particularly vulnerable by assessing various factors
+           such as geographic location, socioeconomic conditions, and infrastructure resilience.`,
+      },
+      {
+        paragraph: `. This understanding enables us to develop adaptive strategies and targeted
+         interventions that improve resilience in key sectors such as water resources, agriculture,
+          and infrastructure. We empower clients to make informed decisions and implement proactive
+           measures to effectively adapt to changing climates by combining advanced modelling
+            with vulnerability assessments. We strive to contribute to a sustainable
+             and resilient future by protecting communities and ecosystems from the
+             effects of climate change through our services.`,
       },
     ],
 
@@ -190,31 +236,6 @@ const Services = [
   },
 
   // *** Resilience   ***
-  {
-    service_id: "Resilience",
-    service_heading: "Resilience",
-    service_short_desc:
-      "Aute ullamco labore in reprehenderit. Reprehenderit voluptate incididunt dolore eu incididunt esse.",
-    service_paragraphs: [
-      {
-        paragraph:
-          "Et et officia dolor duis magna ut ea occaecat quis aute laborum. Dolore velit nisi nostrud nostrud minim sit ullamco laboris. Duis non enim enim irure amet. Quis culpa sint in commodo amet aliquip magna nostrud nostrud amet exercitation cillum ad laborum. Ipsum in Lorem consequat Lorem occaecat officia reprehenderit.Culpa id est minim Lorem. Ea voluptate et enim quis commodo quis consequat cillum voluptate. Laboris ad minim eu magna est est do cupidatat labore officia.Ex nulla consectetur magna nostrud Lorem excepteur ad ea qui magna incididunt do. Lorem occaecat exercitation Lorem anim cupidatat elit minim magna sit. Do deserunt occaecat commodo dolore velit in non ad quis labore fugiat. Laborum pariatur aliquip anim duis non incididunt id id anim non aliquip anim commodo ad. Dolor minim reprehenderit pariatur id velit reprehenderit adipisicing minim ad. Magna labore nisi occaecat et.",
-      },
-      {
-        paragraph:
-          "Sint ullamco incididunt exercitation cillum fugiat nisi cupidatat pariatur tempor velit aliqua minim aliqua. Deserunt Lorem aliquip minim velit tempor elit eiusmod occaecat. Cupidatat non eu ut esse ea irure mollit quis irure ipsum sit sit. Minim proident quis cupidatat aliquip elit. Sit non ex incididunt laboris cupidatat labore voluptate sunt laboris. Aute consectetur nostrud eu proident irure ipsum officia sint ipsum sunt. Consequat nostrud in enim sint irure laborum laborum incididunt irure sunt dolor.Mollit nulla cupidatat pariatur deserunt sit. Aliquip nulla nulla sunt consectetur ipsum. Proident velit eiusmod aliqua quis ullamco culpa excepteur veniam sint voluptate dolore ex.Aute do amet minim sit in Lorem voluptate non adipisicing laboris. Dolore est mollit sint nisi mollit aliquip enim quis exercitation. Aliquip laborum commodo labore est veniam deserunt. Et esse laboris pariatur commodo. Incididunt duis deserunt nostrud minim. Aliqua enim velit enim ea veniam ut ullamco labore nulla irure veniam mollit commodo.",
-      },
-    ],
-
-    service_front_image: "img/foucusAreas/services-1.jpg",
-    service_image393x205: "img/foucusAreas/generic-6.jpg",
-    service_image291x245: "img/foucusAreas/generic-3.jpg",
-    service_related_projects: [
-      { project_id: "" },
-      { project_id: "" },
-      { project_id: "" },
-    ],
-  },
 ];
 // *** ALL DATA of service  : END ***
 

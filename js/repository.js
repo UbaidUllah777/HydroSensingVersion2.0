@@ -3,42 +3,59 @@ const Elaccordion100 = document.getElementById("accordion100");
 const allRepositories = [
   // Repository One
   {
-    RepositoryCategory: "RepositoryOne",
-    RepositoryName: "Repository &nbsp One",
+    RepositoryCategory: "ToolsandSoftwares",
+    RepositoryName: "Tools, Datasets and Softwares",
     RepositoryTopics: [
       //1st Topic in Repository one
       {
-        topicID: "firstTopicRepoOne",
-        topicName: "First Topic",
+        topicID: "GlobalGlaciersMonitoringService",
+        topicName: "Global Glaciers Monitoring Service",
 
-        YoutubeVidioLink:
-          "https://www.youtube.com/watch?v=Bbs_OfyWm6o&pp=ygUNaHlkcm8gc2Vuc2luZw%3D%3D",
-        topicDescription:
-          "Laborum qui laborum culpa sit ad sit non deserunt nisi eu occaecat. Et deserunt pariatur exercitation sint pariatur labore laboris proident ex consectetur adipisicing ipsum laboris. Aute consectetur reprehenderit laboris nostrud culpa in nulla. Lorem do mollit nostrud qui aute veniam reprehenderit. Fugiat pariatur aliquip dolore elit adipisicing aliqua reprehenderit.",
+        YoutubeVidioLink: "https://wgms.ch/",
+        topicDescription: ` "Are you interested in world glacier data? If yes,
+         then there is huge data available at your fingertips. 
+         The World Glacier Monitoring Services (WGMS) and organizations 
+         under its umbrella are compiling and disseminating the standardized 
+         glacial data. Download the WGMS app and other required data
+         using the link below:WGMS app consists of glacier names 
+         around the globe, glacial area,
+         glacier status (decrease/increase in size), and much more.`,
         topicPdfDownloadPath:
           "Repositories/RepositoryOne/firstTopicRepoOne.pdf",
       },
       //2nd Topic in Repository one
       {
-        topicID: "secondTopicRepoOne",
-        topicName: "Second  Topic",
+        topicID: "GlobalSPEIdataset",
+        topicName: "Global SPEI dataset",
 
-        YoutubeVidioLink:
-          "https://www.youtube.com/watch?v=Bbs_OfyWm6o&pp=ygUNaHlkcm8gc2Vuc2luZw%3D%3D",
-        topicDescription:
-          "Laborum qui laborum culpa sit ad sit non deserunt nisi eu occaecat. Et deserunt pariatur exercitation sint pariatur labore laboris proident ex consectetur adipisicing ipsum laboris. Aute consectetur reprehenderit laboris nostrud culpa in nulla. Lorem do mollit nostrud qui aute veniam reprehenderit. Fugiat pariatur aliquip dolore elit adipisicing aliqua reprehenderit.",
+        YoutubeVidioLink: "https://spei.csic.es/ ",
+        topicDescription: `I am working on Drought characterization, transition,
+           and propagation from one catchment to another using different
+            statistical and machine learning models. Nowadays, trying to
+            develop a new index for the Indus Basin of Pakistan. During my
+            literature review, I came across a global SPEI (Standardized
+               Precipitation Evapotranspiration Index). Researchers working in drought monitoring and assessment can use the global SPEI dataset for their studies. Global SPEI is developed using the temperature and precipitation data retrieved from Climate Research Unit (CRU), where water balance is estimated using the Thornthwaite equation. SPEI data is available from 1- to 48-month timescale. The datasets is available with 0.5-degree x 0.5-degree spatial resolution. The link to Global SPEI is given below.`,
         topicPdfDownloadPath: "Repositories/RepositoryName/fileName.pdf",
       },
 
       //3rd Topic in Repository one
       {
-        topicID: "thirdTopicRepoOne",
-        topicName: "Third  Topic",
+        topicID: "GlobalRunoffDataCentre(GRDC)",
+        topicName: "Global Runoff Data Centre (GRDC)",
 
         YoutubeVidioLink:
-          "https://www.youtube.com/watch?v=Bbs_OfyWm6o&pp=ygUNaHlkcm8gc2Vuc2luZw%3D%3D",
-        topicDescription:
-          "Laborum qui laborum culpa sit ad sit non deserunt nisi eu occaecat. Et deserunt pariatur exercitation sint pariatur labore laboris proident ex consectetur adipisicing ipsum laboris. Aute consectetur reprehenderit laboris nostrud culpa in nulla. Lorem do mollit nostrud qui aute veniam reprehenderit. Fugiat pariatur aliquip dolore elit adipisicing aliqua reprehenderit.",
+          "https://portal.grdc.bafg.de/applications/public.html?publicuser=PublicUser#dataDownload/Subregions",
+        topicDescription: `I am working on Drought characterization, transition, and
+           propagation from one catchment to another using different statistical and machine
+           learning models. Nowadays, trying to develop a new index for the Indus Basin of Pakistan.
+           During my literature review, I came across a global SPEI (Standardized Precipitation
+             Evapotranspiration Index). Researchers working in drought monitoring and assessment
+              can use the global SPEI dataset for their studies. Global SPEI is developed
+               using the temperature and precipitation data retrieved from Climate
+                Research Unit (CRU), where water balance is estimated using the Thornthwaite
+                equation. SPEI data is available from 1- to 48-month timescale.
+                 The datasets is available with 0.5-degree x 0.5-degree spatial resolution.
+                 The link to Global SPEI is given below.`,
         topicPdfDownloadPath: "Repositories/RepositoryName/fileName.pdf",
       },
     ],
@@ -46,29 +63,48 @@ const allRepositories = [
 
   // Repository two
   {
-    RepositoryCategory: "Repositorytwo",
-    RepositoryName: "Repository &nbsp Two",
+    RepositoryCategory: "CoursesandResearchPapers",
+    RepositoryName: "Courses and Research Papers",
     RepositoryTopics: [
       //1st Topic in Repository two
       {
-        topicID: "firstTopicRepotwo",
-        topicName: "First Topic",
+        topicID: "MachineLearningCourses and Tools",
+        topicName: "Machine Learning Courses",
 
         YoutubeVidioLink:
           "https://www.youtube.com/watch?v=Bbs_OfyWm6o&pp=ygUNaHlkcm8gc2Vuc2luZw%3D%3D",
-        topicDescription:
-          "Laborum qui laborum culpa sit ad sit non deserunt nisi eu occaecat. Et deserunt pariatur exercitation sint pariatur labore laboris proident ex consectetur adipisicing ipsum laboris. Aute consectetur reprehenderit laboris nostrud culpa in nulla. Lorem do mollit nostrud qui aute veniam reprehenderit. Fugiat pariatur aliquip dolore elit adipisicing aliqua reprehenderit.",
+        topicDescription: `Following are the useful youtube channels to learn machine learning.
+
+          1. Machine Learning (ML) by Standford University
+          2. ML
+         3. Deep Learning (2018) by Standford University (materials are available in Syllabus)
+         4. Applied ML
+          5.Intro to ML
+          6.Intro to ML2
+          7.Statistical ML
+         8. ML with Graphics by Standford University
+          9.Probabilistic ML
+          10. Codanics (In Urdu, which I enjoyed the most)`,
         topicPdfDownloadPath: "Repositories/RepositoryName/fileName.pdf",
       },
       //2nd Topic in Repository two
       {
-        topicID: "secondTopicRepotwo",
-        topicName: "Second  Topic",
+        topicID: "Paperswithcode",
+        topicName: "Papers with code",
 
-        YoutubeVidioLink:
-          "https://www.youtube.com/watch?v=Bbs_OfyWm6o&pp=ygUNaHlkcm8gc2Vuc2luZw%3D%3D",
-        topicDescription:
-          "Laborum qui laborum culpa sit ad sit non deserunt nisi eu occaecat. Et deserunt pariatur exercitation sint pariatur labore laboris proident ex consectetur adipisicing ipsum laboris. Aute consectetur reprehenderit laboris nostrud culpa in nulla. Lorem do mollit nostrud qui aute veniam reprehenderit. Fugiat pariatur aliquip dolore elit adipisicing aliqua reprehenderit.",
+        YoutubeVidioLink: "https://paperswithcode.com/",
+        topicDescription: `Papers with code is an extremely useful website that provides recent
+         research articles with their codes. Just modify the codes
+          according to your needs and use them.`,
+        topicPdfDownloadPath: "Repositories/RepositoryName/fileName.pdf",
+      },
+      {
+        topicID: "DatatoViz",
+        topicName: "Data to Viz",
+
+        YoutubeVidioLink: "https://www.data-to-viz.com/",
+        topicDescription: `If you are interested in creating beautiful graphs using R or Python language for your research articles, Data to Viz is one of my
+         favorite websites. Please explore and share with your colleagues.`,
         topicPdfDownloadPath: "Repositories/RepositoryName/fileName.pdf",
       },
     ],
