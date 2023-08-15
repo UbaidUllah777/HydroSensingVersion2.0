@@ -89,7 +89,7 @@ const focusAreas = [
                             vel, facilisis quis sapien.`,
       },
     ],
-    fca_front_image: "img/foucusAreas/waterresoruceimage1.jpg",
+    fca_front_image: "img/foucusAreas/waterresourcefrontimage.jpg",
     fca_image393x205: "img/foucusAreas/waterresoruceimage1.jpg",
     fca_image291x245: "img/foucusAreas/waterresoruceimage2.jpg",
     fca_related_projects: [
@@ -156,8 +156,10 @@ const focusAreas = [
       },
     ],
     fca_front_image: "img/foucusAreas/services-1.jpg",
-    fca_image393x205: "img/foucusAreas/generic-6.jpg",
-    fca_image291x245: "img/foucusAreas/generic-3.jpg",
+    fca_image393x205:
+      "img/foucusAreas/satelliteprecipitationmeasurementsimage1.jpg",
+    fca_image291x245:
+      "img/foucusAreas/satelliteprecipitationmeasurementsimage2.jpg",
     fca_related_projects: [
       { project_id: "" },
       { project_id: "" },
@@ -226,8 +228,8 @@ const focusAreas = [
       },
     ],
     fca_front_image: "img/foucusAreas/services-1.jpg",
-    fca_image393x205: "img/foucusAreas/generic-6.jpg",
-    fca_image291x245: "img/foucusAreas/generic-3.jpg",
+    fca_image393x205: "img/foucusAreas/droughtmanagementimage1.jpg",
+    fca_image291x245: "img/foucusAreas/droughmanagementimage2.jpg",
     fca_related_projects: [
       { project_id: "" },
       { project_id: "" },
@@ -302,8 +304,8 @@ const focusAreas = [
       },
     ],
     fca_front_image: "img/foucusAreas/services-1.jpg",
-    fca_image393x205: "img/foucusAreas/generic-6.jpg",
-    fca_image291x245: "img/foucusAreas/generic-3.jpg",
+    fca_image393x205: "img/foucusAreas/hydrologicalmodellingimage1.jpg",
+    fca_image291x245: "img/foucusAreas/hydrologicalmodellingimage2.jpg",
     fca_related_projects: [
       { project_id: "" },
       { project_id: "" },
@@ -447,8 +449,8 @@ const focusAreas = [
       },
     ],
     fca_front_image: "img/foucusAreas/services-1.jpg",
-    fca_image393x205: "img/foucusAreas/generic-6.jpg",
-    fca_image291x245: "img/foucusAreas/generic-3.jpg",
+    fca_image393x205: "img/foucusAreas/googleearthengineimage1.jpg",
+    fca_image291x245: "img/foucusAreas/googleearthengineimage2.jpg",
     fca_related_projects: [
       { project_id: "" },
       { project_id: "" },
