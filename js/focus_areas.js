@@ -375,8 +375,8 @@ const focusAreas = [
       },
     ],
     fca_front_image: "img/foucusAreas/services-1.jpg",
-    fca_image393x205: "img/foucusAreas/generic-6.jpg",
-    fca_image291x245: "img/foucusAreas/generic-3.jpg",
+    fca_image393x205: "img/foucusAreas/Gisandremotesensingimage1.jpg",
+    fca_image291x245: "img/foucusAreas/Gisandremotesensingimage2.jpg",
     fca_related_projects: [
       { project_id: "" },
       { project_id: "" },

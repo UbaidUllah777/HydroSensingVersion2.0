@@ -28,8 +28,10 @@ const Services = [
     ],
 
     service_front_image: "img/foucusAreas/services-1.jpg",
-    service_image393x205: "img/foucusAreas/generic-6.jpg",
-    service_image291x245: "img/foucusAreas/generic-3.jpg",
+    service_image393x205:
+      "img/consultancyServices/waterresoruceservicesimage1.jpg",
+    service_image291x245:
+      "img/consultancyServices/waterresoruceservicesimage2.jpg",
     service_related_projects: [
       { project_id: "" },
       { project_id: "" },
@@ -68,8 +70,8 @@ const Services = [
     ],
 
     service_front_image: "img/foucusAreas/services-1.jpg",
-    service_image393x205: "img/foucusAreas/generic-6.jpg",
-    service_image291x245: "img/foucusAreas/generic-3.jpg",
+    service_image393x205: "img/consultancyServices/surfacewaterimage1.jpg",
+    service_image291x245: "img/consultancyServices/surfacewaterimage2.jpg",
     service_related_projects: [
       { project_id: "" },
       { project_id: "" },
@@ -104,8 +106,8 @@ const Services = [
     ],
 
     service_front_image: "img/foucusAreas/services-1.jpg",
-    service_image393x205: "img/foucusAreas/generic-6.jpg",
-    service_image291x245: "img/foucusAreas/generic-3.jpg",
+    service_image393x205: "img/consultancyServices/stromwaterimage1.jpg",
+    service_image291x245: "img/consultancyServices/stromwaterimage2.jpg",
     service_related_projects: [
       { project_id: "" },
       { project_id: "" },
@@ -144,8 +146,8 @@ const Services = [
     ],
 
     service_front_image: "img/foucusAreas/services-1.jpg",
-    service_image393x205: "img/foucusAreas/generic-6.jpg",
-    service_image291x245: "img/foucusAreas/generic-3.jpg",
+    service_image393x205: "img/consultancyServices/generic-6.jpg",
+    service_image291x245: "img/consultancyServices/generic-3.jpg",
     service_related_projects: [
       { project_id: "" },
       { project_id: "" },
