@@ -478,7 +478,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         <h4 class="font-weight-semibold text-color-light text-6 mb-1">${focus_area.fca_heading}</h4>
 
                     </div>
-                    <img src="img/foucusAreas/services-1.jpg" class="img-fluid" alt="${focus_area.fca_heading}" />
+                    <img src="${focus_area.fca_front_image}" class="img-fluid" alt="${focus_area.fca_heading}" />
                 </div>
                 <div class="card-body d-flex align-items-center custom-view-more px-4">
                 <p class="card-text w-100 mb-0">${focus_area.fca_short_desc} </p>
