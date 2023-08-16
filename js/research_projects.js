@@ -118,8 +118,8 @@ const researchProjects = [
   {
     RP_id: "projectFive",
     RP_heading: "Soil investigation for construction of Flats ",
-    RP_status_id: "ConsultancyServices",
-    RP_status: "Consultancy Services",
+    RP_status_id: "CompletedResearchProjects",
+    RP_status: "Completed Rsearch Projects",
     RP_image: "img/projects/project.jpg",
     RP_detail_image: "img/projects/project-short.jpg",
     RP_category: "categ3",
@@ -132,8 +132,7 @@ const researchProjects = [
           "Soil investigation for construction of Flats at Askari X, Rawalpindi",
       },
       {
-        paragraph:
-          "Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse.",
+        paragraph: "",
       },
     ],
     RP_scopes: [
@@ -160,10 +159,6 @@ const researchProjects = [
       {
         paragraph:
           "Soil investigation for construction of Grid station at F-9, Sector, Islamabad",
-      },
-      {
-        paragraph:
-          "Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse.",
       },
     ],
     RP_scopes: [{ scope: "Geotechnical Investigation" }],
