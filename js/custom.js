@@ -226,14 +226,25 @@ if (header) {
 const footerContent = `
 <div class="container pt-3">
 <div class="row justify-content-between align-items-center py-5 mb-3">
-  <div class="col-auto mb-4 mb-lg-0">
+  <div class="col-lg-7 mb-4 mb-lg-0">
     <h2 class="font-weight-normal text-color-light text-7 ls-0 mb-0">Let's Explore 
     <strong>HydroSensing</strong> with Us </h2>
   </div>
-  <div class="col-auto">
-    <a href="contact.html" class="btn btn-primary custom-btn-style-1 font-weight-medium btn-px-4 btn-py-2 text-4" data-cursor-effect-hover="plus" data-cursor-effect-hover-color="light">
-      <span class="text-color-light">Contact Us</span>
-    </a>
+  <div class="col-lg-4 col-sm-8 pt-2">
+  <div class="newsletter">
+  <div class="alert alert-success d-none" id="newsletterSuccess">
+    <strong>Success!</strong> You've been added to our email list.
+  </div>
+  <div class="alert alert-danger d-none" id="newsletterError"></div>
+  <form id="newsletterForm" action="../php/newsletter-subscribe.php"  method="POST" class="mb-4-5">
+    <div class="input-group">
+      <input style="padding-top:0px; padding-bottom:0px" class="form-control border-0" placeholder="Subscribe Now..." name="newsletterEmail" id="newsletterEmail" type="email">
+      <button class="btn btn-primary px-3" type="submit">
+        <img width="27" height="27" src="img/dms/hydroSensing/icons/arrow-right.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light'}" style="width: 27px;" />
+      </button>
+    </div>
+  </form>
+</div>
   </div>
 </div>
 <hr class="bg-color-light opacity-1 my-0">
@@ -302,7 +313,7 @@ const footerContent = `
 <div class="row pb-5">
   <div class="col-lg-12 text-center m-0">
     <hr class="bg-color-light opacity-1 mt-5 mb-4">
-    <p class="text-3-4">Hydrosensing, Research & Consulting Services. © 2023. All Rights Reserved. <span class="text-1" > Developed by <a class="text-1" href="https://bxtechnologies.net/">BX Technologies</a> </span></p>
+    <p class="text-3-4">Hydrosensing, Research & Consulting Services. © 2023. All Rights Reserved. <span class="text-1" > Developed by <a class="text-1" href="https://bxtechnologies.net/" target="_blank">BX Technologies</a> </span></p>
   </div>
 </div>
 </div>
