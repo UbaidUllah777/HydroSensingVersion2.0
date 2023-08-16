@@ -2,14 +2,14 @@ const researchProjects = [
   //project One
   {
     RP_id: "projectOne",
-    RP_heading: "ARTIFICIAL RECHARGE OF UNDERGROUND AQUIFER",
+    RP_heading: "Artificial Recharge of Underground Aquifers",
     RP_status_id: "CompletedResearchProjects",
     RP_status: "Completed Research Projects",
     RP_image: "img/projects/project.jpg",
-    RP_detail_image: "img/projects/project-short.jpg",
+    RP_detail_image: "img/projects/ArtificialRechargofUndergroundAquifers.jpg",
     RP_category: "categ1",
     shortDescription:
-      "Sunt pariatur in cupidatat minim velit exercitation officia duis aute quis consequat aliquip.",
+      "A study of the artificial recharge of underground aquifers in lahore paksitan",
     RP_paragraphs: [
       {
         paragraph: `Earth Services proudly has played a practical role in 
@@ -41,10 +41,9 @@ const researchProjects = [
     RP_status_id: "CompletedResearchProjects",
     RP_status: "Completed Research Projects",
     RP_image: "img/projects/project.jpg",
-    RP_detail_image: "img/projects/project-short.jpg",
+    RP_detail_image: "img/projects/Installationof40piezometers.jpg",
     RP_category: "categ1",
-    shortDescription:
-      "Sunt pariatur in cupidatat minim velit exercitation officia duis aute quis consequat aliquip.",
+    shortDescription: "A project for the installation of piezometers ",
 
     RP_paragraphs: [
       {
@@ -61,141 +60,115 @@ const researchProjects = [
   //project Three
   {
     RP_id: "projectThree",
-    RP_heading: "project Three",
+    RP_heading: " FILTER Technology for filtration of drain water",
     RP_status_id: "ConsultancyServices",
     RP_status: "Consultancy Services",
     RP_image: "img/projects/project.jpg",
-    RP_detail_image: "img/projects/project-short.jpg",
+    RP_detail_image: "img/projects/waterfilterationproject.jpg",
     RP_category: "categ1",
     shortDescription:
-      "Sunt pariatur in cupidatat minim velit exercitation officia duis aute quis consequat aliquip.",
+      "Development of FILTER Technology for filtration of drain water by bioremediation and related techniques.",
 
     RP_paragraphs: [
       {
         paragraph:
-          "Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse.",
+          "Development of FILTER Technology for filtration of drain water by bioremediation and related techniques.",
       },
       {
-        paragraph:
-          "Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse.",
-      },
-      {
-        paragraph:
-          "Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse.",
-      },
-      {
-        paragraph:
-          "Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse.",
+        paragraph: "",
       },
     ],
-    RP_scopes: [{ scope: "scope1" }, { scope: "scope2" }, { scope: "scope3" }],
-    RP_client: "Client Name",
-    RP_year: "2023",
+    RP_scopes: [{ scope: "water " }, { scope: "filteration technology" }],
+    RP_client: "UNESCO and NUST ",
+    RP_year: "2016",
     RP_URL: "#",
   },
   //project Four
   {
     RP_id: "projectFour",
-    RP_heading: "project Four",
+    RP_heading:
+      "Hydrological and hydraulic investigation for the top city lake,",
     RP_status_id: "ConsultancyServices",
-    RP_status: "Consultancy Services",
-    RP_image: "img/projects/project.jpg",
+    RP_status: "completedproject",
+
     RP_detail_image: "img/projects/project-short.jpg",
     RP_category: "categ2",
     shortDescription:
-      "Sunt pariatur in cupidatat minim velit exercitation officia duis aute quis consequat aliquip.",
+      "Hydrological and hydraulic investigation for the top city lake,Islamabad",
 
     RP_paragraphs: [
       {
         paragraph:
-          "Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse.",
+          "Hydrological and hydraulic investigation for the top city lake,",
       },
       {
-        paragraph:
-          "Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse.",
-      },
-      {
-        paragraph:
-          "Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse.",
-      },
-      {
-        paragraph:
-          "Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse.",
+        paragraph: "",
       },
     ],
-    RP_scopes: [{ scope: "scope1" }, { scope: "scope2" }, { scope: "scope3" }],
-    RP_client: "Client Name",
-    RP_year: "2023",
+    RP_scopes: [
+      { scope: "Hydrological, " },
+      { scope: "Hydraulic " },
+      { scope: "Remote Sensing investigation" },
+    ],
+    RP_client: "Top City",
+    RP_year: "2021",
     RP_URL: "#",
   },
   //project Five
   {
     RP_id: "projectFive",
-    RP_heading: "project Five",
+    RP_heading: "Soil investigation for construction of Flats ",
     RP_status_id: "ConsultancyServices",
     RP_status: "Consultancy Services",
     RP_image: "img/projects/project.jpg",
     RP_detail_image: "img/projects/project-short.jpg",
     RP_category: "categ3",
     shortDescription:
-      "Sunt pariatur in cupidatat minim velit exercitation officia duis aute quis consequat aliquip.",
+      "Soil investigation for construction of Flats at Askari X, Rawalpindi",
 
     RP_paragraphs: [
       {
         paragraph:
-          "Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse.",
-      },
-      {
-        paragraph:
-          "Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse.",
-      },
-      {
-        paragraph:
-          "Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse.",
+          "Soil investigation for construction of Flats at Askari X, Rawalpindi",
       },
       {
         paragraph:
           "Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse.",
       },
     ],
-    RP_scopes: [{ scope: "scope1" }, { scope: "scope2" }, { scope: "scope3" }],
-    RP_client: "Client Name",
-    RP_year: "2023",
+    RP_scopes: [
+      { scope: "Geotechnical Investigation" },
+      { scope: "soil analysis " },
+    ],
+    RP_client: "NUST University",
+    RP_year: "2016",
     RP_URL: "#",
   },
   //project Six
   {
     RP_id: "projectSix",
-    RP_heading: "project Six",
-    RP_status_id: "OngoingResearchProjects",
-    RP_status: "Ongoing Research Projects",
+    RP_heading: "Soil investigation for construction of Grid station",
+    RP_status_id: "CompletedRsearchProjects",
+    RP_status: "Completed Rsearch Projects",
     RP_image: "img/projects/project.jpg",
     RP_detail_image: "img/projects/project-short.jpg",
     RP_category: "categ4",
     shortDescription:
-      "Sunt pariatur in cupidatat minim velit exercitation officia duis aute quis consequat aliquip.",
+      "Soil investigation for construction of Grid station at F-9, Sector, Islamabad",
 
     RP_paragraphs: [
       {
         paragraph:
-          "Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse.",
-      },
-      {
-        paragraph:
-          "Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse.",
-      },
-      {
-        paragraph:
-          "Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse.",
+          "Soil investigation for construction of Grid station at F-9, Sector, Islamabad",
       },
       {
         paragraph:
           "Eiusmod laborum nisi cillum cillum in consectetur laborum. Proident tempor adipisicing pariatur ut. Ea eu ullamco consectetur velit esse laboris sint magna. Exercitation cillum proident nulla fugiat deserunt reprehenderit cupidatat est velit dolore nostrud esse.",
       },
     ],
-    RP_scopes: [{ scope: "scope1" }, { scope: "scope2" }, { scope: "scope3" }],
-    RP_client: "Client Name",
-    RP_year: "2023",
+    RP_scopes: [{ scope: "Geotechnical Investigation" }],
+    RP_client: "NUST, Islamabad",
+    RP_year: "2015",
     RP_URL: "#",
   },
 ];
