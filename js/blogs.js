@@ -329,7 +329,7 @@ const HydroBlogs = [
     blog_Month: "SEP",
     blog_fullDate: "02 SEP 2022",
     blog_image: "/img/blog/blog5.jpg", //393x205
-    blog_area: "My Area",
+    blog_area: "Climate Change",
     blog_paragraphs: [
       {
         paragraph: `Pakistan is an agricultural country whose gross domestic product (GDP) depends 
@@ -435,7 +435,7 @@ const HydroBlogs = [
     blog_Month: "JUL",
     blog_fullDate: "24 JUL 2022",
     blog_image: "/img/blog/blogsix.jpg", //393x205
-    blog_area: "My Area",
+    blog_area: "Climate Change",
     blog_paragraphs: [
       {
         paragraph: `Factors contributing to the frequent occurrence of forest fire events
@@ -549,14 +549,14 @@ const HydroBlogs = [
 
   {
     blog_id: "Blogseven",
-    blog_heading: "Forest Fires and Climate Change",
+    blog_heading: "The relationship between climate change and wildfires",
 
     blog_author: "Dr. Khalil",
     blog_day: "09",
     blog_Month: "JUL",
     blog_fullDate: "09 JUL 2022",
     blog_image: "/img/blog/blogseven.jpg", //393x205
-    blog_area: "My Area",
+    blog_area: "Environmental Risk Assessment",
     blog_paragraphs: [
       {
         paragraph: `Forest fires or wildfires are uncontrolled blazes fueled by weather (climate), 
@@ -684,7 +684,7 @@ for (const singleLatestBlog of LatestThreeBlogs) {
   if (ElindexBlogRow) {
     singleBlogItem = `
         <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
-							<a   onclick="setBlogId('${singleLatestBlog.blog_id}')" href="blog-post.html" class="custom-link-hover-effects text-decoration-none" data-cursor-effect-hover="plus">
+							<a   onclick="setBlogId('${singleLatestBlog.blog_id}')" href="blog-post.html" class="custom-link-hover-effects  text-decoration-none" data-cursor-effect-hover="plus">
 								<div class="card border-0 box-shadow-4">
 									<div class="card-img-top position-relative overlay">
 										<div class="position-absolute bottom-10 right-0 d-flex justify-content-end w-100 py-3 px-4 z-index-3">
@@ -699,7 +699,7 @@ for (const singleLatestBlog of LatestThreeBlogs) {
 									</div>
 									<div class="card-body p-4">
 										<span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">${singleLatestBlog.blog_area}</span>
-										<h4 class="font-weight-semibold text-5 text-color-hover-primary mb-2">${singleLatestBlog.blog_heading}</h4>
+										<h4 class="font-weight-semibold text-5 showOnlyTwoLines  text-color-hover-primary mb-2">${singleLatestBlog.blog_heading}</h4>
 										<span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
 											View More
 											<img width="27" height="27" src="img/dms/hydroSensing/icons/arrow-right.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary ms-2'}" style="width: 27px;" />
