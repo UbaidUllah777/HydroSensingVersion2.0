@@ -13,10 +13,12 @@ const HydroBlogs = [
     blog_area: "Climate Change Impact",
     blog_paragraphs: [
       {
+        paragraphHeading: "",
         paragraph:
           "Rainfall National rainfall for the month of March 2023 was largely above average (+42%) for whole Pakistan. However, Azad & Jammu Kashmir and Gilgit received less rainfall and were ranked 10th and 11th driest months with -59% and -74% below normal rainfall since 1961. KPK received 21% less rainfall. On the other hand, Balochistan (+132% above), Punjab (104% above) and Sindh (68% above) received rainfall and were ranked 8th, 10th and 11th wettest month since 1961.",
       },
       {
+        paragraphHeading: "",
         paragraph:
           "Temperature March 2023 was +1.63 °C warmer than average and ranked 13th warmest March during past 63 years. The situation on regional scale was similar; Balochistan (+1.22 °C),KPK  (+2.01 °C), Sindh (+1.74 °C), AJK (+2.86 °C), Punjab (+1.36 °C) and GB (+3.39 °C) all recorded warmer than average temperatures. March 2023 mean maximum temperature +1.57 °C warmer than average. The average minimum temperature also +2.16 °C Warmer than the country-average and ranked 6th warmest mean minimum in March since 1961.",
       },
@@ -36,6 +38,7 @@ const HydroBlogs = [
     blog_area: "Water Resource Management and Climate Change ",
     blog_paragraphs: [
       {
+        paragraphHeading: "",
         paragraph: `Pakistan is under severe flood in the month of August, especially the last few days.
            Today (August 26, 2022) Kabul river, Guddu and Sukkur barrages have been through a high
             flood situation. The adjoining areas are almost washed by floods in the past few days.
@@ -52,6 +55,7 @@ const HydroBlogs = [
                 as high to exceptionally high floods.`,
       },
       {
+        paragraphHeading: "",
         paragraph: `Overall, a discharge of 504,878 cusecs will pass by Kotri barrage. Today’s total
            inflow at the rim stations is 468,500 cusecs, which was 245,200 cusecs last year
             on the same day. The previous five and ten-year average flow at the stations was
@@ -61,6 +65,7 @@ const HydroBlogs = [
              MAF and 11.255 MAF, respectively.`,
       },
       {
+        paragraphHeading: "",
         paragraph: `Last month has broken the previous records for highest rainfall and minimum
          temperature across Pakistan (shown in Figure below), which is more evident as Sindh and
           Balochistan provinces have been subjected to severe floods. The flood has caused
@@ -84,6 +89,7 @@ const HydroBlogs = [
     blog_area: "climate Change ",
     blog_paragraphs: [
       {
+        paragraphHeading: "",
         paragraph: `Water sustains life, economic prosperity, ecological security, and human civilization.
            However, extreme climate changes at local and
           regional scales, drastic land-cover alterations, rapid population growth, rapid 
@@ -100,6 +106,7 @@ const HydroBlogs = [
                  (WWAP, 2017).`,
       },
       {
+        paragraphHeading: "",
         paragraph: `The problem of water security is extremely aggravated in developing 
         countries. The main water problems in such countries include limited access to
         clean and safe drinking water, poor water infrastructure and sanitation, polluted water,
@@ -112,6 +119,7 @@ const HydroBlogs = [
             lower water quality.`,
       },
       {
+        paragraphHeading: "",
         paragraph: `Considering Pakistan as an example from the list of developing countries,
          water scarcity has already become a petrifying reality, along with other environmental
           issues linked with climate change and the highly erratic nature of rainfall. In Pakistan,
@@ -131,6 +139,7 @@ const HydroBlogs = [
       },
 
       {
+        paragraphHeading: "",
         paragraph: `Comparison of Water Resources between Pakistan, China, and US
         Based on the AQUASTAT data of the Food and Agriculture Organization (FAO),
          the freshwater resources in Pakistan, China, and US are 259.15 billion m3,
@@ -157,6 +166,7 @@ const HydroBlogs = [
       },
 
       {
+        paragraphHeading: "",
         paragraph: `Key factors affecting the water resources
       1. Clear policies at the National and Provincial levels
       Pakistan had no clear policies about its water resources until 2018, when
@@ -172,6 +182,7 @@ const HydroBlogs = [
       },
 
       {
+        paragraphHeading: "",
         paragraph: `The policies are planned too late when the country has almost exhausted 
       its water reserves. China, on the other hand, has proposed and implemented various
        measures to protect water reserves since the 1970s. Most of the policies are related
@@ -184,6 +195,7 @@ const HydroBlogs = [
       },
 
       {
+        paragraphHeading: "",
         paragraph: `Similarly, US has more than 40 federal agencies that regulate and manage
        the country’s freshwater resources. The primary water federal laws to protect the 
        water reserves of US were proposed in 1948 (the Federal Water Pollution Control Act,
@@ -205,6 +217,7 @@ const HydroBlogs = [
       },
 
       {
+        paragraphHeading: "",
         paragraph: `2. Climate Change
       When it comes to the effects of climate change, Pakistan came to mind first.
        Pakistan ranks 8th among the countries most affected by climate change.
@@ -223,6 +236,7 @@ const HydroBlogs = [
       },
 
       {
+        paragraphHeading: "",
         paragraph: `As I mentioned earlier, the impact of climate in Pakistan is extremely local,
        and we must pay attention to it. A few months ago, Pakistan received more than 150% of normal 
        precipitation in July (https://hydrosensing4u.com/2022/07/31/climate-change-and-extreme-events/) 
@@ -245,6 +259,7 @@ const HydroBlogs = [
       },
 
       {
+        paragraphHeading: "",
         paragraph: `3. Poor Water Management
       Due to poor water management practices and lately proposed policies, the reservoir’s
       storage capacities are significantly reducing. For instance, the figure below shows
@@ -257,6 +272,7 @@ const HydroBlogs = [
       },
 
       {
+        paragraphHeading: "",
         paragraph: `4. Other Factors
       Other factors affecting water resources in Pakistan include a rapid increase in population,
        poor water management practices, water distribution issues among the provinces, inefficient
@@ -270,6 +286,7 @@ const HydroBlogs = [
       },
 
       {
+        paragraphHeading: "",
         paragraph: ` Acknowledgments:
       HydroSensing is thankful to Engr. Nuaman Ejaz (MS in Hydrology and Water Resources Management,
         King Abdulaziz University) for providing useful information and helping in the blog
@@ -292,6 +309,7 @@ const HydroBlogs = [
     blog_area: "Water Resource Management",
     blog_paragraphs: [
       {
+        paragraphHeading: "",
         paragraph: `Undoubtedly, hill torrents significantly contributed significantly to the recent
            2022 flood, which increased its severity by several folds. Today I was studying
            the 2010 judicial commission recommendation (Ch8), where a very beautiful sentence
@@ -305,6 +323,7 @@ const HydroBlogs = [
                 and Punjab, which will further cement national development and cohesion”.`,
       },
       {
+        paragraphHeading: "",
         paragraph: `As can be seen in the recent flood events, a large magnitude of water came down 
           the hill torrent, which is not captured and harnessed by water conservation
           structures/dams. The situation in Pakistan regarding water conservation in
@@ -332,6 +351,7 @@ const HydroBlogs = [
     blog_area: "Climate Change",
     blog_paragraphs: [
       {
+        paragraphHeading: "",
         paragraph: `Pakistan is an agricultural country whose gross domestic product (GDP) depends 
           mainly on its agriculture sector. The contribution of agricultural production to
            Pakistan’s GDP is around 24%, where 43% of the labour force contributes to the
@@ -346,6 +366,7 @@ const HydroBlogs = [
                 the vulnerability and mitigate the possible threats.`,
       },
       {
+        paragraphHeading: "",
         paragraph: `Pakistan ranks 8th among the countries most vulnerable to climate change 
           (Eckstien et al., 2018). Drought is one of the extreme events induced by
           severe changes in climate, which is experienced by Pakistan very frequently
@@ -360,6 +381,7 @@ const HydroBlogs = [
                 Similarly, Pakistan reported a decline in crop production by 2.6% during 2000–2001.`,
       },
       {
+        paragraphHeading: "",
         paragraph: `In the context of assessing the impact of drought on agriculture,
            there are little contributions from our research team. Recently,
             our paper was published in Natural Hazards which focuses on assessing the impact
@@ -377,6 +399,7 @@ const HydroBlogs = [
                   at 0.25 x 0.25 and 1-day resolutions from 2000 to 2020.`,
       },
       {
+        paragraphHeading: "",
         paragraph: `To analyze the impact of drought on agriculture, several variables, including maize,
            wheat, rice, sugarcane, and tobacco yields, are regressed against the SPEI. Besides,
             the impact of drought on irrigation area under canal, irrigation area under wells,
@@ -384,6 +407,7 @@ const HydroBlogs = [
               is also analyzed.`,
       },
       {
+        paragraphHeading: "",
         paragraph: `The concluding remarks from this study are listed below:
 
           The impact of climate change is extremely variable and a local scale phenomenon,
@@ -418,6 +442,7 @@ const HydroBlogs = [
       },
 
       {
+        paragraphHeading: "",
         paragraph: `For more details, please read the paper below:
       Hussain, A., Jadoon, K.Z., Rahman, K.U., Shang, S., Shahid, M., Ejaz, N. and Khan, H., 2022. Analyzing the impact of drought on agriculture: evidence from Pakistan using standardized precipitation evapotranspiration index. Natural Hazards, pp.1-20.`,
       },
@@ -438,14 +463,14 @@ const HydroBlogs = [
     blog_area: "Climate Change",
     blog_paragraphs: [
       {
+        paragraphHeading: "",
         paragraph: `Factors contributing to the frequent occurrence of forest fire events
           The factors and causes of extensive and frequent fire events can be divided
           into the following four broad perspectives:`,
       },
+
       {
-        paragraph: `Forest Management:`,
-      },
-      {
+        paragraphHeading: "Forest Management",
         paragraph: `Forest management, such as the accumulation of biomass both in abandoned pasture and 
           forest floor, is one of the major contributing factors in forest fire events,
            particularly in the spread of forest fire (FAO, 2005). Incompetent forest management
@@ -458,10 +483,9 @@ const HydroBlogs = [
               land use changes due to ownership rights, and lack of national forest
                institutional structure also contribute to poor forest management.`,
       },
+
       {
-        paragraph: `Extreme Events/Climate Change:`,
-      },
-      {
+        paragraphHeading: "Extreme Events/Climate Change",
         paragraph: `This factor is already discussed in the previous blog by taking the example 
         of forest fire events in Margalla Hills, Islamabad. Environment rarely causes the ignition
          of the forest but instead plays a catalytic role, as the fire spreads more easily during
@@ -471,10 +495,9 @@ const HydroBlogs = [
             in a significant increase in temperature and a decrease in precipitation in Pakistan.
              Therefore, forest fire events are expected to increase in the future.`,
       },
+
       {
-        paragraph: `Planning and Regulations:`,
-      },
-      {
+        paragraphHeading: "Planning and Regulations",
         paragraph: `Generally, inappropriate land use plans are proposed that do not consider the
          environment and local climate characteristics, for instance, aspects associated with natural
           fire occurrence in vegetation/forest. The plans have usually favored planting monoculture
@@ -482,11 +505,9 @@ const HydroBlogs = [
             appropriately by considering the opinion of forest specialists, and fire-resistant
             trees should be planted along with other trees.`,
       },
-      {
-        paragraph: `Inadequate Response or Lck of Capacity:`,
-      },
 
       {
+        paragraphHeading: "Inadequate Response or Lck of Capacity",
         paragraph: `Lack of capacity and/or inadequate response is the most important reason behind
         uncontrolled forest fire events. Other reasons in this category include poor monitoring,
         an inappropriate scheme for fire prevention, and a lack of rapid response units to
@@ -499,11 +520,9 @@ const HydroBlogs = [
              Overall, the lack of statistics and information about forest fire events and their
               causes is a major obstacle to effective forest management strategies.`,
       },
-      {
-        paragraph: `Impact of Wild/Forest Fire Events:`,
-      },
 
       {
+        paragraphHeading: "Impact of Wild/Forest Fire Events",
         paragraph: `Forest fire events are mostly linked with climate change and global warming,
          i.e., increase in temperature, decrease in precipitation, and consequently soil moisture 
          (as discussed in the previous blog). The burning of forests causes greenhouse gas 
@@ -520,11 +539,9 @@ const HydroBlogs = [
              include loss of timber/non-timber products, carbon sinks, loss in recreational
              activities, and exposure of biodiversity and aquifers/soils deterioration.`,
       },
-      {
-        paragraph: `Concluding Remarks:`,
-      },
 
       {
+        paragraphHeading: "Concluding Remarks",
         paragraph: `In concluding remarks, climate change can be considered the second most important
          factor contributing to forest fire events, ranked after human-induced events/incidents.
          The lack of information and appropriate knowledge, funding, and resources is recognized
@@ -534,6 +551,7 @@ const HydroBlogs = [
            The coordination between different departments should be made strong.`,
       },
       {
+        paragraphHeading: "",
         paragraph: `Forest management plans should be improved, particularly the techniques used 
         to prevent fire. Usually, the forest management strategies are considered effective in
          controlling forest fire events; therefore, policymakers are now recommending to
@@ -559,6 +577,7 @@ const HydroBlogs = [
     blog_area: "Environmental Risk Assessment",
     blog_paragraphs: [
       {
+        paragraphHeading: "",
         paragraph: `Forest fires or wildfires are uncontrolled blazes fueled by weather (climate), 
           wind, and underbrush that spread over acres of land and take away everything in
           their path. Forest fire events are increasing with time mainly linked to severe
@@ -569,6 +588,7 @@ const HydroBlogs = [
            and will consider the recent fire events across different regions of Pakistan.`,
       },
       {
+        paragraphHeading: "",
         paragraph: `The unprecedented forest fire events in the year 2021/2022 caused havoc across the globe.
            Australia has experienced the worst bushfire events
            (https://www.carbonbrief.org/media-reactionaustralias-bushères-and-climate-change).
@@ -579,6 +599,7 @@ const HydroBlogs = [
                per year are recorded in Yunnan from 1951 to 2000, which burned 111.85 million km2/year.`,
       },
       {
+        paragraphHeading: "",
         paragraph: `The interactive map by ScienceBrief (ScienceBrief – keep up with Science) confirms
            the role of climate change in the increased forest fire events due to favourable
             weather conditions. The interactive map (show fire events for the past 24 hours)
@@ -587,6 +608,7 @@ const HydroBlogs = [
                some regions of the globe are under fire events.`,
       },
       {
+        paragraphHeading: "",
         paragraph: `The fire event in Balochistan pine forests of Kohe Suliman ranges is one of the deadly
            fire events that burned around 40% of the pine trees. The Margalla Hills in Islamabad
            and Khyber Pakhtunkhwa (KP) province have also experienced several forest fires in the
@@ -603,6 +625,7 @@ const HydroBlogs = [
                There might be one answer, climate change.`,
       },
       {
+        paragraphHeading: "",
         paragraph: `The United Nations Convention to Combat Desertification (UNCD) has recently declared
            2020-2022 a severe drought period in Pakistan. The temperature has an increasing trend
             while rainfall has decreased over the last few years. The increase in temperature results
@@ -615,6 +638,7 @@ const HydroBlogs = [
                forest fire events due to increased temperature.`,
       },
       {
+        paragraphHeading: "",
         paragraph: `The mean temperature in Pakistan in 2022 was much higher than in previous years; e.g.,
            the mean monthly temperature for May was 30.93 °C, which is 2.17 °C higher than the mean
             monthly temperature of 28.77 °C. The temperature record shows that it is the fifth warmest
@@ -627,6 +651,7 @@ const HydroBlogs = [
               Jacobabad (Sindh Province) recorded the highest temperature of 51 °C on 14th May 2022.`,
       },
       {
+        paragraphHeading: "",
         paragraph: `Google Earth Engine (GEE) is used to calculate the land surface temperature (LST)
            from 2010 to 2022 (June). MODIS (MOD11A2.061) Terra Land Surface Temperature and
             Emissivity with 1 km spatial resolution and 8-day revisit time are used to calculate LST.
@@ -637,6 +662,7 @@ const HydroBlogs = [
              40 degrees.`,
       },
       {
+        paragraphHeading: "",
         paragraph: `The unofficial record from the Pakistan Council of Research in Water Resources (PCRWR) 
           demonstrated a significant decrease in rainfall across entire Pakistan.
            The report mentioned that rainfall in May 2022 was extremely below the normal rainfall 
@@ -650,10 +676,9 @@ const HydroBlogs = [
            The increased temperature along with dry vegetation (fuel) due to low soil
            moisture added to more intense fire events.`,
       },
+
       {
-        paragraph: `Possible Sources for Fire Detection`,
-      },
-      {
+        paragraphHeading: "Possible Sources for Fire Detection",
         paragraph: `Advances in Remote Sensing and GIS, including Google Earth Engine (GEE), are one of 
           the most effective ways to monitor fire forest events and extents. There are several
           methods, such as Fire Weather Index (FWI), Nesterove Index (NI), Modified Neterove Index (MNI),
