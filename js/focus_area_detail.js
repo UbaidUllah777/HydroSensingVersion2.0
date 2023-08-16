@@ -97,7 +97,7 @@ for (const singleOwlFocusArea of focusAreas) {
                   <h4 class="font-weight-semibold text-color-light text-6 mb-1">${singleOwlFocusArea.fca_heading}</h4>
 
               </div>
-              <img src="img/foucusAreas/services-1.jpg" class="img-fluid" alt="${singleOwlFocusArea.fca_heading}" />
+              <img src="${singleOwlFocusArea.fca_front_image}" class="img-fluid" alt="${singleOwlFocusArea.fca_heading}" />
           </div>
           <div class="card-body d-flex align-items-center custom-view-more px-4">
           <p class="card-text w-100 mb-0">${singleOwlFocusArea.fca_short_desc} </p>
