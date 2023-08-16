@@ -155,7 +155,8 @@ const focusAreas = [
                             vel, facilisis quis sapien.`,
       },
     ],
-    fca_front_image: "img/foucusAreas/services-1.jpg",
+    fca_front_image:
+      "img/foucusAreas/satelliteprecipitationmeasurementsimage1.jpg",
     fca_image393x205:
       "img/foucusAreas/satelliteprecipitationmeasurementsimage1.jpg",
     fca_image291x245:
@@ -227,7 +228,7 @@ const focusAreas = [
                             vel, facilisis quis sapien.`,
       },
     ],
-    fca_front_image: "img/foucusAreas/services-1.jpg",
+    fca_front_image: "img/foucusAreas/droughtmanagementimage1.jpg",
     fca_image393x205: "img/foucusAreas/droughtmanagementimage1.jpg",
     fca_image291x245: "img/foucusAreas/droughmanagementimage2.jpg",
     fca_related_projects: [
@@ -303,7 +304,7 @@ const focusAreas = [
                             vel, facilisis quis sapien.`,
       },
     ],
-    fca_front_image: "img/foucusAreas/services-1.jpg",
+    fca_front_image: "img/foucusAreas/hydrologicalmodellingimage1.jpg",
     fca_image393x205: "img/foucusAreas/hydrologicalmodellingimage1.jpg",
     fca_image291x245: "img/foucusAreas/hydrologicalmodellingimage2.jpg",
     fca_related_projects: [
@@ -374,7 +375,7 @@ const focusAreas = [
                             vel, facilisis quis sapien.`,
       },
     ],
-    fca_front_image: "img/foucusAreas/services-1.jpg",
+    fca_front_image: "img/foucusAreas/Gisandremotesensingimage1.jpg",
     fca_image393x205: "img/foucusAreas/Gisandremotesensingimage1.jpg",
     fca_image291x245: "img/foucusAreas/Gisandremotesensingimage2.jpg",
     fca_related_projects: [
@@ -448,7 +449,7 @@ const focusAreas = [
                             vel, facilisis quis sapien.`,
       },
     ],
-    fca_front_image: "img/foucusAreas/services-1.jpg",
+    fca_front_image: "img/foucusAreas/googleearthengineimage1.jpg",
     fca_image393x205: "img/foucusAreas/googleearthengineimage1.jpg",
     fca_image291x245: "img/foucusAreas/googleearthengineimage2.jpg",
     fca_related_projects: [
