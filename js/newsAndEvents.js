@@ -4,8 +4,9 @@ const newsAndEvents = [
     id: "NRELReportInSoutheastAsia",
     title:
       "NREL report says floating photovoltaics are promising solution in southeast Asia",
-    category: "Research and Development 1",
+    category: "Research and Development ",
     publishedOnDate: "12/07/2023",
+    readMoreLink: "",
     imgSrc: "img/newsAndHighlights/NREL.jpg",
     para: `Floating photovoltaics, installed alone or in combination with hydropower plants, show 
     potential for the Association of Southeast Asian Nations (ASEAN), according to a National
@@ -22,6 +23,7 @@ const newsAndEvents = [
       "NREL report says floating photovoltaics are promising solution in southeast Asia Two",
     category: "Research and Development",
     publishedOnDate: "13/07/2023",
+    readMoreLink: "",
     imgSrc: "img/newsAndHighlights/NREL.jpg",
     para: `Two Floating photovoltaics, installed alone or in combination with hydropower plants, show 
     potential for the Association of Southeast Asian Nations (ASEAN), according to a National
@@ -38,6 +40,7 @@ const newsAndEvents = [
       "NREL report says floating photovoltaics are promising solution in southeast Asia Three",
     category: "Research and Development",
     publishedOnDate: "14/07/2023",
+    readMoreLink: "",
     imgSrc: "img/newsAndHighlights/NREL.jpg",
     para: `Three Floating photovoltaics, installed alone or in combination with hydropower plants, show 
     potential for the Association of Southeast Asian Nations (ASEAN), according to a National
@@ -54,6 +57,7 @@ const newsAndEvents = [
       "NREL report says floating photovoltaics are promising solution in southeast Asia Four",
     category: "Research and Development",
     publishedOnDate: "15/07/2023",
+    readMoreLink: "",
     imgSrc: "img/newsAndHighlights/NREL.jpg",
     para: `Four Floating photovoltaics, installed alone or in combination with hydropower plants, show 
         potential for the Association of Southeast Asian Nations (ASEAN), according to a National
@@ -89,6 +93,12 @@ if (carousel) {
                 <h5 class="text-6 line-height-3 text-color-dark text-transform-none font-weight-semibold mb-2" >${event.title}</h5>
                 <span class="d-block text-color-primary text-5 mb-4 pb-2">${event.category}</span>
                 <p class="mb-4 pb-2" style="text-align: justify;">${event.para}</p>
+
+                <a
+                href="${event.readMoreLink}" target="_blank"
+                class="text-decoration-none custom-secondary-font text-color-primary"
+              > <span><i class="fa-solid fa-link" style="color: #0091ce;"></i></span> Read More
+              </a>
               </div>
             </div>
             <div class="col-lg-6" style="min-height: 33vw;">
