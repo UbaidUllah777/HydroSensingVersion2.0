@@ -8,7 +8,8 @@ const researchProjects = [
     RP_image: "img/projects/project.jpg",
     RP_detail_image: "img/projects/project-short.jpg",
     RP_category: "categ1",
-
+    shortDescription:
+      "Sunt pariatur in cupidatat minim velit exercitation officia duis aute quis consequat aliquip.",
     RP_paragraphs: [
       {
         paragraph: `Earth Services proudly has played a practical role in 
@@ -42,6 +43,9 @@ const researchProjects = [
     RP_image: "img/projects/project.jpg",
     RP_detail_image: "img/projects/project-short.jpg",
     RP_category: "categ1",
+    shortDescription:
+      "Sunt pariatur in cupidatat minim velit exercitation officia duis aute quis consequat aliquip.",
+
     RP_paragraphs: [
       {
         paragraph: `Installation of 40 piezometers in different zones of Lahore and Multan
@@ -63,6 +67,9 @@ const researchProjects = [
     RP_image: "img/projects/project.jpg",
     RP_detail_image: "img/projects/project-short.jpg",
     RP_category: "categ1",
+    shortDescription:
+      "Sunt pariatur in cupidatat minim velit exercitation officia duis aute quis consequat aliquip.",
+
     RP_paragraphs: [
       {
         paragraph:
@@ -95,6 +102,9 @@ const researchProjects = [
     RP_image: "img/projects/project.jpg",
     RP_detail_image: "img/projects/project-short.jpg",
     RP_category: "categ2",
+    shortDescription:
+      "Sunt pariatur in cupidatat minim velit exercitation officia duis aute quis consequat aliquip.",
+
     RP_paragraphs: [
       {
         paragraph:
@@ -127,6 +137,9 @@ const researchProjects = [
     RP_image: "img/projects/project.jpg",
     RP_detail_image: "img/projects/project-short.jpg",
     RP_category: "categ3",
+    shortDescription:
+      "Sunt pariatur in cupidatat minim velit exercitation officia duis aute quis consequat aliquip.",
+
     RP_paragraphs: [
       {
         paragraph:
@@ -159,6 +172,9 @@ const researchProjects = [
     RP_image: "img/projects/project.jpg",
     RP_detail_image: "img/projects/project-short.jpg",
     RP_category: "categ4",
+    shortDescription:
+      "Sunt pariatur in cupidatat minim velit exercitation officia duis aute quis consequat aliquip.",
+
     RP_paragraphs: [
       {
         paragraph:
@@ -196,37 +212,15 @@ function loadResearch(researchId, element) {
       for (const singleProject of researchProjects) {
         if (singleProject.RP_status_id == researchId) {
           var researchitem = `
-          <div class="col-sm-6 col-lg-3 my-4  ${singleProject.RP_status_id}">
-          <div class="portfolio-item">
-            <a onclick="setResearchId('${singleProject.RP_id}','${
-            singleProject.RP_category
-          }')" href="research-project-detial.html">
-              <span
-                class="thumb-info thumb-info-lighten border-radius-0"
-              >
-                <span class="thumb-info-wrapper border-radius-0">
-                  <img
-                    src="${singleProject.RP_image}"
-                    class="img-fluid border-radius-0"
-                    alt="${singleProject.RP_heading}"
-                  />
-  
-                  <span class="thumb-info-title  text-2"  style="font-size: 9px; padding: 5px 8px 2px; font-weight: 400; width:100%; max-width:100%; line-height: 1.5;">
-                    <span class="thumb-info-inner">${
-                      singleProject.RP_heading
-                    }</span>
-                    <span class="thumb-info-type">${""}</span>
-                  </span>
-                  <span class="thumb-info-action">
-                    <span
-                      class="thumb-info-action-icon bg-dark opacity-8"
-                      ><i class="fas fa-plus"></i
-                    ></span>
-                  </span>
-                </span>
-              </span>
-            </a>
+          <div id="${singleProject.RP_id}" class="col-sm-9 col-md-6 col-lg-4 mb-4">
+          <a onclick="setResearchId('${singleProject.RP_id}','${singleProject.RP_category}')"  href="research-project-detial.html" class="custom-link-hover-effects text-decoration-none" data-cursor-effect-hover="plus">
+          <div class="card card-border card-border-bottom card-border-hover bg-color-grey box-shadow-6 box-shadow-hover anim-hover-translate-top-10px transition-3ms">
+          <div class="card-body py-5">
+              <h4 class="card-title mb-1 text-3 showOnlyOneLine font-weight-bold text-color-secondary">${singleProject.RP_heading}</h4>
+              <p class="card-text showOnlyTwoLines">${singleProject.shortDescription}</p>
           </div>
+        </div>
+          </a>
         </div>
 
           
@@ -237,38 +231,16 @@ function loadResearch(researchId, element) {
     } else if (researchId == "allResearchs") {
       for (const singleProject of researchProjects) {
         var researchitem = `
-          <div class="col-sm-6 col-lg-3 my-4 ${singleProject.RP_status_id}">
-          <div class="portfolio-item">
-            <a onclick="setResearchId('${singleProject.RP_id}','${
-          singleProject.RP_category
-        }')"  href="research-project-detial.html">
-              <span
-                class="thumb-info thumb-info-lighten border-radius-0"
-              >
-                <span class="thumb-info-wrapper border-radius-0">
-                  <img
-                    src="${singleProject.RP_image}"
-                    class="img-fluid border-radius-0"
-                    alt="${singleProject.RP_heading}"
-                  />
-  
-                  <span class="thumb-info-title  text-2" style="font-size: 9px; padding: 5px 8px 2px; font-weight: 400; width:100%; max-width:100%; line-height: 1.5;">
-                    <span class="thumb-info-inner">${
-                      singleProject.RP_heading
-                    }</span>
-                    <span class="thumb-info-type">${""}</span>
-                  </span>
-                  <span class="thumb-info-action">
-                    <span
-                      class="thumb-info-action-icon bg-dark opacity-8"
-                      ><i class="fas fa-plus"></i
-                    ></span>
-                  </span>
-                </span>
-              </span>
-            </a>
-          </div>
+        <div id="${singleProject.RP_id}" class="col-sm-9 col-md-6 col-lg-4 mb-4">
+        <a onclick="setResearchId('${singleProject.RP_id}','${singleProject.RP_category}')"  href="research-project-detial.html" class="custom-link-hover-effects text-decoration-none" data-cursor-effect-hover="plus">
+        <div class="card card-border card-border-bottom card-border-hover bg-color-grey box-shadow-6 box-shadow-hover anim-hover-translate-top-10px transition-3ms">
+        <div class="card-body py-5">
+            <h4 class="card-title mb-1 text-3 showOnlyOneLine font-weight-bold text-color-secondary">${singleProject.RP_heading}</h4>
+            <p class="card-text showOnlyTwoLines">${singleProject.shortDescription}</p>
         </div>
+      </div>
+        </a>
+      </div>
 
           
           `;
