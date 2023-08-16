@@ -5,34 +5,10 @@ const allOpportunities = [
   {
     OpportunityCategory: "JobPostdocopportunities",
     OpportunityName: "Job / Postdoc Opportunities",
-    Opportunities: [
-      //1st Oppotunity
-      {
-        OpportunityID: "firstOpportunity",
-        OpportunityName: "Opportunity Name",
-
-        OpportunityLink: "#",
-        OpportunityDescription:
-          "Laborum qui laborum culpa sit ad sit non deserunt nisi eu occaecat. Et deserunt pariatur exercitation sint pariatur labore laboris proident ex consectetur adipisicing ipsum laboris. Aute consectetur reprehenderit laboris nostrud culpa in nulla. Lorem do mollit nostrud qui aute veniam reprehenderit. Fugiat pariatur aliquip dolore elit adipisicing aliqua reprehenderit.",
-      },
-
-      //2nd Oppotunity
-      {
-        OpportunityID: "secondOpportunity",
-        OpportunityName: "Second Opportunity Name",
-
-        day: "03",
-        month: "JAN",
-        year: "2022",
-
-        OpportunityLink: "#",
-        OpportunityDescription:
-          "Laborum qui laborum culpa sit ad sit non deserunt nisi eu occaecat. Et deserunt pariatur exercitation sint pariatur labore laboris proident ex consectetur adipisicing ipsum laboris. Aute consectetur reprehenderit laboris nostrud culpa in nulla. Lorem do mollit nostrud qui aute veniam reprehenderit. Fugiat pariatur aliquip dolore elit adipisicing aliqua reprehenderit.",
-      },
-    ],
+    Opportunities: [],
   },
 
-  // 2.	PhD Opportunities
+  //------ 2.	PhD Opportunities -------------
   {
     OpportunityCategory: "PhDOpportunities",
     OpportunityName: "PhD Opportunities",
@@ -164,43 +140,59 @@ for (const singleOpportunityCateg of allOpportunities) {
     ).id ==
     singleOpportunityCateg.OpportunityCategory + "CardBody"
   ) {
-    for (const singleOpportunity of singleOpportunityCateg.Opportunities) {
+    if (singleOpportunityCateg.Opportunities.length === 0) {
       document.getElementById(
         `${singleOpportunityCateg.OpportunityCategory}CardBody`
       ).innerHTML += `
-      <div class="row">
-      <div class="col">
-      <article
-        class="custom-post-event bg-color-light custom-sm-margin-bottom-2 mb-5"
-        style="position: relative"
-      >
-        
-        <div class="post-event-content ">
-          <h4 class="font-weight-bold text-color-dark">
-            <a
-              href="${singleOpportunity.topicPdfDownloadPath}"
-              class="text-decoration-none custom-secondary-font text-color-dark"
+        <div class="row">
+          <div class="col">
+            <article
+              class="custom-post-event bg-color-light custom-sm-margin-bottom-2 mb-5"
+              style="position: relative"
             >
-            ${singleOpportunity.OpportunityName}
-            </a>
-          </h4>
-          <p class="OpportunityDescription">
-           ${singleOpportunity.OpportunityDescription}
-          </p>
-          <a
-          href="${singleOpportunity.OpportunityLink}" target="_blank"
-          class="text-decoration-none custom-secondary-font text-color-primary"
-        > <span><i class="fa-solid fa-link"></i></span> Opportunity Link
-        </a>
-         
+              <div class="post-event-content">
+                <center><h5 class="pt-2 pb-2 font-weight-bold text-color-dark"> Currently No Opportunity Available in :  <span style="color:red">${singleOpportunityCateg.OpportunityName} </span> </h5></center>
+              </div>
+            </article>
+          </div>
         </div>
-        
-      </article>
-    </div>
-   
-    </div>
-    <hr class="solid" />        
-        `;
+      `;
+    } else {
+      for (const singleOpportunity of singleOpportunityCateg.Opportunities) {
+        document.getElementById(
+          `${singleOpportunityCateg.OpportunityCategory}CardBody`
+        ).innerHTML += `
+        <div class="row">
+        <div class="col">
+        <article
+          class="custom-post-event bg-color-light custom-sm-margin-bottom-2 mb-5"
+          style="position: relative"
+        >
+          
+          <div class="post-event-content ">
+            <h4 class="font-weight-bold text-color-dark">
+            
+              ${singleOpportunity.OpportunityName}
+              </a>
+            </h4>
+            <p class="OpportunityDescription">
+             ${singleOpportunity.OpportunityDescription}
+            </p>
+            <a
+            href="${singleOpportunity.OpportunityLink}" target="_blank"
+            class="text-decoration-none custom-secondary-font text-color-primary"
+          > <span><i class="fa-solid fa-link" style="color: #0091ce;"></i></span> Opportunity Link
+          </a>
+           
+          </div>
+          
+        </article>
+      </div>
+     
+      </div>
+      <hr class="solid" />        
+          `;
+      }
     }
   }
 }

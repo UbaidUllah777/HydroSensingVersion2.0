@@ -11,7 +11,7 @@ const allRepositories = [
         topicID: "GlobalGlaciersMonitoringService",
         topicName: "Global Glaciers Monitoring Service",
 
-        YoutubeVidioLink: "https://wgms.ch/",
+        supportingLink: "https://wgms.ch/",
         topicDescription: ` "Are you interested in world glacier data? If yes,
          then there is huge data available at your fingertips. 
          The World Glacier Monitoring Services (WGMS) and organizations 
@@ -28,7 +28,7 @@ const allRepositories = [
         topicID: "GlobalSPEIdataset",
         topicName: "Global SPEI dataset",
 
-        YoutubeVidioLink: "https://spei.csic.es/ ",
+        supportingLink: "https://spei.csic.es/ ",
         topicDescription: `I am working on Drought characterization, transition,
            and propagation from one catchment to another using different
             statistical and machine learning models. Nowadays, trying to
@@ -43,7 +43,7 @@ const allRepositories = [
         topicID: "GlobalRunoffDataCentre(GRDC)",
         topicName: "Global Runoff Data Centre (GRDC)",
 
-        YoutubeVidioLink:
+        supportingLink:
           "https://portal.grdc.bafg.de/applications/public.html?publicuser=PublicUser#dataDownload/Subregions",
         topicDescription: `I am working on Drought characterization, transition, and
            propagation from one catchment to another using different statistical and machine
@@ -71,7 +71,7 @@ const allRepositories = [
         topicID: "MachineLearningCourses and Tools",
         topicName: "Machine Learning Courses",
 
-        YoutubeVidioLink:
+        supportingLink:
           "https://www.youtube.com/watch?v=Bbs_OfyWm6o&pp=ygUNaHlkcm8gc2Vuc2luZw%3D%3D",
         topicDescription: `Following are the useful youtube channels to learn machine learning.
 
@@ -92,7 +92,7 @@ const allRepositories = [
         topicID: "Paperswithcode",
         topicName: "Papers with code",
 
-        YoutubeVidioLink: "https://paperswithcode.com/",
+        supportingLink: "https://paperswithcode.com/",
         topicDescription: `Papers with code is an extremely useful website that provides recent
          research articles with their codes. Just modify the codes
           according to your needs and use them.`,
@@ -102,7 +102,7 @@ const allRepositories = [
         topicID: "DatatoViz",
         topicName: "Data to Viz",
 
-        YoutubeVidioLink: "https://www.data-to-viz.com/",
+        supportingLink: "https://www.data-to-viz.com/",
         topicDescription: `If you are interested in creating beautiful graphs using R or Python language for your research articles, Data to Viz is one of my
          favorite websites. Please explore and share with your colleagues.`,
         topicPdfDownloadPath: "Repositories/RepositoryName/fileName.pdf",
@@ -120,7 +120,7 @@ const allRepositories = [
         topicID: "firstTopicRepothree",
         topicName: "First Topic",
 
-        YoutubeVidioLink:
+        supportingLink:
           "https://www.youtube.com/watch?v=Bbs_OfyWm6o&pp=ygUNaHlkcm8gc2Vuc2luZw%3D%3D",
         topicDescription:
           "Laborum qui laborum culpa sit ad sit non deserunt nisi eu occaecat. Et deserunt pariatur exercitation sint pariatur labore laboris proident ex consectetur adipisicing ipsum laboris. Aute consectetur reprehenderit laboris nostrud culpa in nulla. Lorem do mollit nostrud qui aute veniam reprehenderit. Fugiat pariatur aliquip dolore elit adipisicing aliqua reprehenderit.",
@@ -131,7 +131,7 @@ const allRepositories = [
         topicID: "secondTopicRepothree",
         topicName: "Second  Topic",
 
-        YoutubeVidioLink:
+        supportingLink:
           "https://www.youtube.com/watch?v=Bbs_OfyWm6o&pp=ygUNaHlkcm8gc2Vuc2luZw%3D%3D",
         topicDescription:
           "Laborum qui laborum culpa sit ad sit non deserunt nisi eu occaecat. Et deserunt pariatur exercitation sint pariatur labore laboris proident ex consectetur adipisicing ipsum laboris. Aute consectetur reprehenderit laboris nostrud culpa in nulla. Lorem do mollit nostrud qui aute veniam reprehenderit. Fugiat pariatur aliquip dolore elit adipisicing aliqua reprehenderit.",
@@ -143,7 +143,7 @@ const allRepositories = [
         topicID: "thirdTopicRepothree",
         topicName: "Third  Topic",
 
-        YoutubeVidioLink:
+        supportingLink:
           "https://www.youtube.com/watch?v=Bbs_OfyWm6o&pp=ygUNaHlkcm8gc2Vuc2luZw%3D%3D",
         topicDescription:
           "Laborum qui laborum culpa sit ad sit non deserunt nisi eu occaecat. Et deserunt pariatur exercitation sint pariatur labore laboris proident ex consectetur adipisicing ipsum laboris. Aute consectetur reprehenderit laboris nostrud culpa in nulla. Lorem do mollit nostrud qui aute veniam reprehenderit. Fugiat pariatur aliquip dolore elit adipisicing aliqua reprehenderit.",
@@ -203,9 +203,9 @@ for (const singleRepositoryCateg of allRepositories) {
              ${singleTopic.topicDescription}
             </p>
             <a
-            href="${singleTopic.YoutubeVidioLink}" target="_blank"
+            href="${singleTopic.supportingLink}" target="_blank"
             class="text-decoration-none custom-secondary-font text-color-primary"
-          > <span><i class="fa-brands fa-youtube" style="color: #d5151f;"></i></span> Youtube Video Link
+          > <span><i class="fa-solid fa-link" style="color: #0091ce;"></i></span> Supporting Link
           </a>
            
           </div>
