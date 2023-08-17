@@ -147,8 +147,8 @@ const researchProjects = [
   {
     RP_id: "projectSix",
     RP_heading: "Soil investigation for construction of Grid station",
-    RP_status_id: "CompletedRsearchProjects",
-    RP_status: "Completed Rsearch Projects",
+    RP_status_id: "CompletedResearchProjects",
+    RP_status: "Completed Research Projects",
     RP_image: "img/projects/project.jpg",
     RP_detail_image: "img/projects/project-short.jpg",
     RP_category: "categ4",
