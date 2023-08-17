@@ -1,12 +1,4 @@
 const testimonials = [
-  // testimonials one
-  {
-    id: "testimonialsOne",
-    author: "Abdullah AlQahtani",
-    testimonialPara: `Exploring the vital sources of fresh water, hydrosensing
-     highlighted their importance and the need for effective management.
-      Good luck in your efforts to preserve this invaluable resource.`,
-  },
   // testimonials Two
   {
     id: "testimonialsTwo",
@@ -22,16 +14,7 @@ const testimonials = [
            and help the graduate students to secure fully funded positions
             in well-reputed universities.`,
   },
-  // testimonials Three
-  {
-    id: "testimonialsThree",
-    author: "Muhammad Shafiq ",
-    testimonialPara: `HydroSensing delivers exceptional consultancy 
-    at the intersection of water resource engineering, hydrological
-     engineering, and climate change. Their expertise and tailored
-     solutions are invaluable for optimizing water management
-      strategies. Highly recommended!`,
-  },
+
   // testimonials Five
   {
     id: "testimonialsFour",
@@ -43,6 +26,24 @@ const testimonials = [
       realm of water resources and the field of climate change.
        I extend my support and offer my best
        wishes to Dr. Khalil and HydroSensing.`,
+  },
+  // testimonials one
+  {
+    id: "testimonialsOne",
+    author: "Abdullah AlQahtani",
+    testimonialPara: `Exploring the vital sources of fresh water, hydrosensing
+     highlighted their importance and the need for effective management.
+      Good luck in your efforts to preserve this invaluable resource.`,
+  },
+  // testimonials Three
+  {
+    id: "testimonialsThree",
+    author: "Muhammad Shafiq ",
+    testimonialPara: `HydroSensing delivers exceptional consultancy 
+    at the intersection of water resource engineering, hydrological
+     engineering, and climate change. Their expertise and tailored
+     solutions are invaluable for optimizing water management
+      strategies. Highly recommended!`,
   },
   {
     id: "testimonialsFive",
