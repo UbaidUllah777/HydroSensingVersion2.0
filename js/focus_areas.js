@@ -29,64 +29,28 @@ const focusAreas = [
     ],
     fca_QAs: [
       {
-        Qheading: "Why we Water Resource Engineering and Managment",
-        QA: `aw kana Donec tellus massa, tristique sit amet condim vel,
-                            facilisis quis sapien. Praesent id enim sit amet odio
-                            vulputate eleifend in in tortor. Donec tellus massa,
-                            tristique sit amet condim vel, facilisis quis sapien.
-                            Praesent id enim sit amet odio vulputate eleifend in in
-                            tortor. Donec tellus massa, tristique sit amet condim
-                            vel, facilisis quis sapien.`,
+        Qheading: "What is water resource engineering and management?",
+        QA: `Water resource engineering and management involves the planning, development, and sustainable management of water resources such as rivers, lakes, groundwater, and reservoirs. It focuses on optimizing water use, ensuring water availability, and mitigating risks related to water scarcity, flooding, and pollution`,
       },
       {
-        Qheading: "dalta ba dwayam question v",
-        QA: `Donec tellus massa, tristique sit amet condim vel,
-                            facilisis quis sapien. Praesent id enim sit amet odio
-                            vulputate eleifend in in tortor. Donec tellus massa,
-                            tristique sit amet condim vel, facilisis quis sapien.
-                            Praesent id enim sit amet odio vulputate eleifend in in
-                            tortor. Donec tellus massa, tristique sit amet condim
-                            vel, facilisis quis sapien.`,
+        Qheading:
+          "How does climate change impact water resources and how is it addressed in this field?",
+        QA: `Climate change affects water resources by altering precipitation patterns, melting glaciers, and increasing the frequency of extreme weather events. In water resource engineering and management, climate change is addressed through strategies like integrated water resources planning, adaptive management, and the development of climate-resilient infrastructure to mitigate risks and ensure water availability.`,
       },
       {
-        Qheading: "",
-        QA: `Donec tellus massa, tristique sit amet condim vel,
-                            facilisis quis sapien. Praesent id enim sit amet odio
-                            vulputate eleifend in in tortor. Donec tellus massa,
-                            tristique sit amet condim vel, facilisis quis sapien.
-                            Praesent id enim sit amet odio vulputate eleifend in in
-                            tortor. Donec tellus massa, tristique sit amet condim
-                            vel, facilisis quis sapien.`,
+        Qheading:
+          "What are the common techniques used in water resource engineering and management?",
+        QA: `Common techniques in water resource engineering and management include hydrological modeling, water quality monitoring, flood forecasting and management, water demand assessment, water allocation modeling, and the use of remote sensing and geographic information systems (GIS) for data analysis and mapping.`,
       },
       {
-        Qheading: "",
-        QA: `Donec tellus massa, tristique sit amet condim vel,
-                            facilisis quis sapien. Praesent id enim sit amet odio
-                            vulputate eleifend in in tortor. Donec tellus massa,
-                            tristique sit amet condim vel, facilisis quis sapien.
-                            Praesent id enim sit amet odio vulputate eleifend in in
-                            tortor. Donec tellus massa, tristique sit amet condim
-                            vel, facilisis quis sapien.`,
+        Qheading:
+          "How do water resource engineers and managers assess and monitor water availability?",
+        QA: `Water resource engineers and managers assess and monitor water availability through various methods, including streamflow gauging, groundwater level monitoring, satellite-based remote sensing, rainfall monitoring, and water balance calculations. These techniques help determine the quantity and quality of available water resources within a specific region.`,
       },
       {
-        Qheading: "",
-        QA: `Donec tellus massa, tristique sit amet condim vel,
-                            facilisis quis sapien. Praesent id enim sit amet odio
-                            vulputate eleifend in in tortor. Donec tellus massa,
-                            tristique sit amet condim vel, facilisis quis sapien.
-                            Praesent id enim sit amet odio vulputate eleifend in in
-                            tortor. Donec tellus massa, tristique sit amet condim
-                            vel, facilisis quis sapien.`,
-      },
-      {
-        Qheading: "",
-        QA: `Donec tellus massa, tristique sit amet condim vel,
-                            facilisis quis sapien. Praesent id enim sit amet odio
-                            vulputate eleifend in in tortor. Donec tellus massa,
-                            tristique sit amet condim vel, facilisis quis sapien.
-                            Praesent id enim sit amet odio vulputate eleifend in in
-                            tortor. Donec tellus massa, tristique sit amet condim
-                            vel, facilisis quis sapien.`,
+        Qheading:
+          "What career opportunities are available in water resource engineering and management?",
+        QA: `There are diverse career opportunities in water resource engineering and management. Professionals can work in government agencies, consulting firms, research institutions, and non-profit organizations. Roles include water resource engineer, hydrologist, water quality specialist, water policy analyst, environmental planner, and water project manager. Additionally, there are opportunities for specialization in areas such as water conservation, watershed management, and climate change adaptation.`,
       },
     ],
     fca_front_image: "img/foucusAreas/waterresourcefrontimage.jpg",
@@ -125,34 +89,28 @@ const focusAreas = [
     ],
     fca_QAs: [
       {
-        Qheading: "",
-        QA: `Donec tellus massa, tristique sit amet condim vel,
-                            facilisis quis sapien. Praesent id enim sit amet odio
-                            vulputate eleifend in in tortor. Donec tellus massa,
-                            tristique sit amet condim vel, facilisis quis sapien.
-                            Praesent id enim sit amet odio vulputate eleifend in in
-                            tortor. Donec tellus massa, tristique sit amet condim
-                            vel, facilisis quis sapien.`,
+        Qheading: "What are satellite precipitation measurements?",
+        QA: `Satellite precipitation measurements refer to the use of satellite-based sensors and instruments to estimate and monitor rainfall and other forms of precipitation over large geographic areas. These measurements provide valuable information about the spatial and temporal distribution of precipitation on a global scale.`,
       },
       {
-        Qheading: "",
-        QA: `Donec tellus massa, tristique sit amet condim vel,
-                            facilisis quis sapien. Praesent id enim sit amet odio
-                            vulputate eleifend in in tortor. Donec tellus massa,
-                            tristique sit amet condim vel, facilisis quis sapien.
-                            Praesent id enim sit amet odio vulputate eleifend in in
-                            tortor. Donec tellus massa, tristique sit amet condim
-                            vel, facilisis quis sapien.`,
+        Qheading: "How do satellites measure precipitation?",
+        QA: `Satellites measure precipitation using a variety of techniques, including passive microwave radiometry, radar, and infrared sensors. Passive microwave sensors detect microwave radiation emitted by precipitation particles, while radar instruments use pulses of electromagnetic waves to measure the intensity and location of precipitation. Infrared sensors detect cloud-top temperatures associated with precipitation systems.`,
       },
       {
-        Qheading: "",
-        QA: `Donec tellus massa, tristique sit amet condim vel,
-                            facilisis quis sapien. Praesent id enim sit amet odio
-                            vulputate eleifend in in tortor. Donec tellus massa,
-                            tristique sit amet condim vel, facilisis quis sapien.
-                            Praesent id enim sit amet odio vulputate eleifend in in
-                            tortor. Donec tellus massa, tristique sit amet condim
-                            vel, facilisis quis sapien.`,
+        Qheading:
+          "What is the importance of satellite precipitation measurements?",
+        QA: `Satellite precipitation measurements are crucial for various applications, including weather forecasting, hydrological modeling, flood monitoring, and climate studies. They provide valuable data for understanding precipitation patterns, identifying regions prone to drought or heavy rainfall, and assessing the overall water cycle dynamics.`,
+      },
+
+      {
+        Qheading: "How accurate are satellite precipitation measurements?",
+        QA: `Satellite precipitation measurements have improved significantly over the years, but accuracy can vary depending on various factors such as the type of instrument used, atmospheric conditions, and the complexity of precipitation events. Continuous efforts are made to improve calibration and validation techniques to enhance the accuracy of satellite-derived precipitation data.`,
+      },
+
+      {
+        Qheading:
+          "What are the applications of satellite precipitation measurements?",
+        QA: `Satellite precipitation measurements have a wide range of applications. They are used for weather forecasting, climate monitoring, drought and flood monitoring, water resource management, agricultural planning, and disaster management. These measurements provide valuable insights into precipitation variability, helping to inform decision-making processes in various sectors.`,
       },
     ],
     fca_front_image:
@@ -198,34 +156,27 @@ const focusAreas = [
     ],
     fca_QAs: [
       {
-        Qheading: "",
-        QA: `Donec tellus massa, tristique sit amet condim vel,
-                            facilisis quis sapien. Praesent id enim sit amet odio
-                            vulputate eleifend in in tortor. Donec tellus massa,
-                            tristique sit amet condim vel, facilisis quis sapien.
-                            Praesent id enim sit amet odio vulputate eleifend in in
-                            tortor. Donec tellus massa, tristique sit amet condim
-                            vel, facilisis quis sapien.`,
+        Qheading: "What is drought monitoring and impact assessment?",
+        QA: `Drought monitoring and impact assessment involve the systematic collection, analysis, and evaluation of data to understand the severity, extent, and duration of drought conditions. It also involves assessing the socioeconomic and environmental impacts of drought on various sectors and communities.`,
       },
       {
-        Qheading: "",
-        QA: `Donec tellus massa, tristique sit amet condim vel,
-                            facilisis quis sapien. Praesent id enim sit amet odio
-                            vulputate eleifend in in tortor. Donec tellus massa,
-                            tristique sit amet condim vel, facilisis quis sapien.
-                            Praesent id enim sit amet odio vulputate eleifend in in
-                            tortor. Donec tellus massa, tristique sit amet condim
-                            vel, facilisis quis sapien.`,
+        Qheading: "How is drought monitored?",
+        QA: `Drought monitoring involves the analysis of various meteorological and hydrological indicators such as precipitation, temperature, soil moisture, streamflow, and groundwater levels. These indicators are monitored over time to track changes in water availability and identify drought conditions.`,
       },
       {
-        Qheading: "",
-        QA: `Donec tellus massa, tristique sit amet condim vel,
-                            facilisis quis sapien. Praesent id enim sit amet odio
-                            vulputate eleifend in in tortor. Donec tellus massa,
-                            tristique sit amet condim vel, facilisis quis sapien.
-                            Praesent id enim sit amet odio vulputate eleifend in in
-                            tortor. Donec tellus massa, tristique sit amet condim
-                            vel, facilisis quis sapien.`,
+        Qheading: "What are the indicators used to assess drought impacts?",
+        QA: `Indicators used to assess drought impacts include agricultural productivity, water supply availability, reservoir levels, groundwater depletion, ecological health, economic losses, and social disruptions. These indicators provide insights into the effects of drought on different sectors and communities.`,
+      },
+
+      {
+        Qheading: "Why is drought monitoring and impact assessment important?",
+        QA: `Drought monitoring and impact assessment are vital for understanding the severity and impacts of drought. They help policymakers, water managers, and communities make informed decisions regarding water allocation, resource management, and drought mitigation strategies. By assessing the impacts, appropriate measures can be taken to minimize the negative effects of drought.`,
+      },
+
+      {
+        Qheading:
+          "What are the methods for assessing the socio-economic impacts of drought?",
+        QA: `Methods for assessing the socio-economic impacts of drought include surveys, economic modeling, remote sensing, and GIS-based analysis. These methods help evaluate the economic losses, agricultural impacts, water shortages, food security, health issues, and social vulnerabilities associated with drought. They provide valuable insights for planning and implementing drought management and mitigation measures.`,
       },
     ],
     fca_front_image: "img/foucusAreas/droughtmanagementimage1.jpg",
@@ -274,34 +225,26 @@ const focusAreas = [
 
     fca_QAs: [
       {
-        Qheading: "",
-        QA: `Donec tellus massa, tristique sit amet condim vel,
-                            facilisis quis sapien. Praesent id enim sit amet odio
-                            vulputate eleifend in in tortor. Donec tellus massa,
-                            tristique sit amet condim vel, facilisis quis sapien.
-                            Praesent id enim sit amet odio vulputate eleifend in in
-                            tortor. Donec tellus massa, tristique sit amet condim
-                            vel, facilisis quis sapien.`,
+        Qheading: "What is hydrological modeling?",
+        QA: `Hydrological modeling is a process that involves the mathematical representation of the hydrological cycle and the interactions between various components of the water cycle, including precipitation, evaporation, runoff, and groundwater flow. It simulates the behavior of water in a watershed or river basin to understand and predict hydrological processes.`,
       },
       {
-        Qheading: "",
-        QA: `Donec tellus massa, tristique sit amet condim vel,
-                            facilisis quis sapien. Praesent id enim sit amet odio
-                            vulputate eleifend in in tortor. Donec tellus massa,
-                            tristique sit amet condim vel, facilisis quis sapien.
-                            Praesent id enim sit amet odio vulputate eleifend in in
-                            tortor. Donec tellus massa, tristique sit amet condim
-                            vel, facilisis quis sapien.`,
+        Qheading: "How does hydrological modeling work?",
+        QA: `Hydrological modeling works by using mathematical equations and algorithms to simulate the movement of water through a watershed or river basin. It takes into account various factors such as rainfall, land characteristics, soil properties, vegetation cover, and topography to estimate water storage, flow rates, and water availability over time.`,
       },
       {
-        Qheading: "",
-        QA: `Donec tellus massa, tristique sit amet condim vel,
-                            facilisis quis sapien. Praesent id enim sit amet odio
-                            vulputate eleifend in in tortor. Donec tellus massa,
-                            tristique sit amet condim vel, facilisis quis sapien.
-                            Praesent id enim sit amet odio vulputate eleifend in in
-                            tortor. Donec tellus massa, tristique sit amet condim
-                            vel, facilisis quis sapien.`,
+        Qheading: "What are the key components of a hydrological model?",
+        QA: `The key components of a hydrological model typically include rainfall inputs, soil moisture, evapotranspiration, infiltration, surface runoff, subsurface flow, groundwater flow, and streamflow. These components are interconnected and interact with each other to represent the hydrological processes occurring within a given area.`,
+      },
+
+      {
+        Qheading: "What data is required for hydrological modeling?",
+        QA: `Data required for hydrological modeling includes meteorological data (rainfall, temperature, humidity, etc.), topographic data (elevation, slope, etc.), land cover and land use data, soil properties data, and streamflow measurements. Remote sensing data and GIS datasets are also commonly used to support hydrological modeling.`,
+      },
+
+      {
+        Qheading: "What are the applications of hydrological modeling?",
+        QA: `Hydrological modeling has various applications, including water resources management, flood forecasting and mitigation, drought analysis, ecosystem studies, and environmental impact assessments. It helps in understanding the impacts of land use changes, climate change, and water management strategies on water availability and quality. Hydrological models are also used for designing and evaluating water infrastructure projects, such as reservoirs and irrigation systems.`,
       },
     ],
     fca_front_image: "img/foucusAreas/hydrologicalmodellingimage1.jpg",
@@ -345,34 +288,27 @@ const focusAreas = [
     ],
     fca_QAs: [
       {
-        Qheading: "",
-        QA: `Donec tellus massa, tristique sit amet condim vel,
-                            facilisis quis sapien. Praesent id enim sit amet odio
-                            vulputate eleifend in in tortor. Donec tellus massa,
-                            tristique sit amet condim vel, facilisis quis sapien.
-                            Praesent id enim sit amet odio vulputate eleifend in in
-                            tortor. Donec tellus massa, tristique sit amet condim
-                            vel, facilisis quis sapien.`,
+        Qheading: "What are GIS and remote sensing applications?",
+        QA: `GIS (Geographic Information System) and remote sensing applications involve the use of spatial data and imagery to analyze, visualize, and interpret information about the Earth's surface. GIS focuses on the management, analysis, and visualization of spatial data, while remote sensing captures images and data from a distance using sensors.`,
       },
       {
-        Qheading: "",
-        QA: `Donec tellus massa, tristique sit amet condim vel,
-                            facilisis quis sapien. Praesent id enim sit amet odio
-                            vulputate eleifend in in tortor. Donec tellus massa,
-                            tristique sit amet condim vel, facilisis quis sapien.
-                            Praesent id enim sit amet odio vulputate eleifend in in
-                            tortor. Donec tellus massa, tristique sit amet condim
-                            vel, facilisis quis sapien.`,
+        Qheading: "How does GIS work in conjunction with remote sensing?",
+        QA: `GIS works in conjunction with remote sensing by providing a platform to store, manage, analyze, and integrate remote sensing data with other geographic data layers. GIS enables the visualization of remote sensing imagery, extraction of information from the imagery, and spatial analysis using the derived data.`,
       },
       {
-        Qheading: "",
-        QA: `Donec tellus massa, tristique sit amet condim vel,
-                            facilisis quis sapien. Praesent id enim sit amet odio
-                            vulputate eleifend in in tortor. Donec tellus massa,
-                            tristique sit amet condim vel, facilisis quis sapien.
-                            Praesent id enim sit amet odio vulputate eleifend in in
-                            tortor. Donec tellus massa, tristique sit amet condim
-                            vel, facilisis quis sapien.`,
+        Qheading:
+          "What are the common uses of GIS in remote sensing applications?",
+        QA: `Common uses of GIS in remote sensing applications include land cover classification, change detection, environmental monitoring, natural resource management, urban planning, disaster management, precision agriculture, and transportation planning. GIS provides spatial context and tools for analyzing and interpreting remote sensing data effectively.`,
+      },
+      {
+        Qheading:
+          "What types of data are utilized in GIS and remote sensing applications?",
+        QA: `GIS and remote sensing applications utilize various types of data, including satellite imagery, aerial photographs, LiDAR (Light Detection and Ranging) data, digital elevation models, land cover datasets, climate data, and socio-economic data. These datasets are integrated within GIS platforms to perform spatial analysis and generate valuable insights.`,
+      },
+      {
+        Qheading:
+          "What are the advantages of using GIS and remote sensing in various fields?",
+        QA: `The advantages of using GIS and remote sensing in various fields include the ability to capture and analyze large-scale and high-resolution spatial data, facilitate better decision-making through spatial analysis, provide a visual representation of complex information, monitor environmental changes over time, and support efficient resource management. These technologies have wide-ranging applications in environmental sciences, urban planning, agriculture, natural resource management, and disaster response.`,
       },
     ],
     fca_front_image: "img/foucusAreas/Gisandremotesensingimage1.jpg",
@@ -419,34 +355,27 @@ const focusAreas = [
     ],
     fca_QAs: [
       {
-        Qheading: "",
-        QA: `Donec tellus massa, tristique sit amet condim vel,
-                            facilisis quis sapien. Praesent id enim sit amet odio
-                            vulputate eleifend in in tortor. Donec tellus massa,
-                            tristique sit amet condim vel, facilisis quis sapien.
-                            Praesent id enim sit amet odio vulputate eleifend in in
-                            tortor. Donec tellus massa, tristique sit amet condim
-                            vel, facilisis quis sapien.`,
+        Qheading: "What is Google Earth Engine?",
+        QA: `Google Earth Engine is a cloud-based geospatial platform developed by Google that allows users to access and analyze an extensive collection of satellite imagery and geospatial datasets. It combines a vast archive of satellite imagery with powerful computational tools to enable large-scale analysis and visualization of geospatial data.`,
       },
       {
-        Qheading: "",
-        QA: `Donec tellus massa, tristique sit amet condim vel,
-                            facilisis quis sapien. Praesent id enim sit amet odio
-                            vulputate eleifend in in tortor. Donec tellus massa,
-                            tristique sit amet condim vel, facilisis quis sapien.
-                            Praesent id enim sit amet odio vulputate eleifend in in
-                            tortor. Donec tellus massa, tristique sit amet condim
-                            vel, facilisis quis sapien.`,
+        Qheading: "How does Google Earth Engine work?",
+        QA: `Google Earth Engine works by utilizing Google's cloud infrastructure to store and process massive amounts of geospatial data. It provides a JavaScript-based code editor and an API (Application Programming Interface) that enables users to write and execute geospatial analysis algorithms and workflows on the cloud, leveraging the computing power of Google's infrastructure.`,
       },
       {
-        Qheading: "",
-        QA: `Donec tellus massa, tristique sit amet condim vel,
-                            facilisis quis sapien. Praesent id enim sit amet odio
-                            vulputate eleifend in in tortor. Donec tellus massa,
-                            tristique sit amet condim vel, facilisis quis sapien.
-                            Praesent id enim sit amet odio vulputate eleifend in in
-                            tortor. Donec tellus massa, tristique sit amet condim
-                            vel, facilisis quis sapien.`,
+        Qheading:
+          "What are the key features and capabilities of Google Earth Engine?",
+        QA: `Google Earth Engine offers several key features and capabilities, including access to a vast and up-to-date collection of satellite imagery, integration with a wide range of geospatial datasets, tools for data manipulation and analysis, the ability to perform complex geospatial processing at scale, options for creating dynamic visualizations, and the ability to collaborate and share data and analyses with others.`,
+      },
+      {
+        Qheading: "What are the applications of Google Earth Engine?",
+        QA: `Google Earth Engine finds applications in various fields, including environmental monitoring, land cover and land use change analysis, ecosystem modeling, climate change studies, disaster monitoring and response, water resource management, agriculture monitoring, urban development planning, and biodiversity conservation. It enables researchers, scientists, and organizations to gain insights and make data-driven decisions by leveraging the vast collection of geospatial data and analysis capabilities.`,
+      },
+
+      {
+        Qheading:
+          "How can researchers and developers utilize Google Earth Engine?",
+        QA: `Researchers and developers can utilize Google Earth Engine by accessing the platform's extensive collection of geospatial data, using the provided code editor or API to develop and execute geospatial analysis algorithms, visualizing and interpreting results, and integrating Earth Engine with other tools and platforms. It offers a collaborative environment for sharing code, data, and analysis workflows, enabling collaboration and knowledge exchange among the geospatial community`,
       },
     ],
     fca_front_image: "img/foucusAreas/googleearthengineimage1.jpg",
