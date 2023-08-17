@@ -695,6 +695,108 @@ const HydroBlogs = [
 
   // blog eight
 
+  {
+    blog_id: "Blogeight",
+    blog_heading: "Eleven top worst disasters in Pakistan since 1935",
+
+    blog_author: "Dr. Khalil",
+    blog_day: "18",
+    blog_Month: "Sep",
+    blog_fullDate: "Sep 18 2022",
+    blog_image: "/img/blog/blogeight.jpg", //393x205
+    blog_area: "Environmental Risk Assessment",
+    blog_paragraphs: [
+      {
+        paragraphHeading: "Introduction",
+        paragraph: `Pakistan is ranking 8th among the most affected countries due to climate change.
+         The extreme events are increasing both in frequency and intensity as can be seen in
+          recent events, like flood 2022, drought (2018-2022), forest fires, etc.
+          This article lists the 11 worst natural disasters according to the National
+           Disaster Management Authority (NDMA) in the last 75 years:`,
+      },
+      {
+        paragraphHeading: "1935 and 1945 Quetta earthquake:",
+        paragraph: `A 7.7 Richter scale earthquake virtually levelled the city of Quetta in 
+        the eastern province of Balochistan, a part of British India. Approximately 60,000
+         people were killed in one of the deadliest earthquakes that hit South Asia.
+          The epicentre was 4 km southwest of the town of Ali Jaan, which was
+           153 km away from Quetta.  A 7.8 Richter Scale earthquake hit southwestern
+           Balochistan on 28 November 1945. The epicentre was 98 km southwest of
+           the town of Pasni. Apart from massive damage to property, the earthquake
+           led to a 40-foot Tsunami causing the deaths of over 4,000 people.`,
+      },
+      {
+        paragraphHeading: "1950 floods:",
+        paragraph: `Monsoon rain in 1950 killed more than 2,900 people across the country. 
+        Punjab Province, including the city of Lahore, was among the worst affected city
+        when the Ravi River recorded a massive flood. The flood also affected the
+         southern parts of Sindh province. Over 100,000 homes were destroyed,
+          leaving around 900,000 people homeless.`,
+      },
+      {
+        paragraphHeading: "1970 East Pakistan cyclone: ",
+        paragraph: `The Bhola tropical cyclone struck the territory of East Pakistan (now Bangladesh)
+         on 12 November 1970. It was the deadliest tropical cyclone ever recorded and is rated
+          as one of the worst natural disasters in modern times. Around 500,000 people
+          lost their lives, primarily as a result of the storm surging from a cyclone
+          that flooded much of the low-lying islands of the Ganges Delta.`,
+      },
+      {
+        paragraphHeading: "1974 Hunza earthquake:",
+        paragraph: `A 6.2 Richter Scale earthquake hit the Hunza in northern Pakistan and also
+         the Hazara and Swat districts of the Khyber Pakhtunkhwa Province on 28 December 1974.
+         About 5,300 people were killed, 17,000 injured and 97,000 affected. Landslides and
+          rockfalls contributed further to worsening the damage. Most of the destruction
+           was centred around the village of Pattan, around 160km north of Islamabad.`,
+      },
+      {
+        paragraphHeading: "1998-2002 drought:",
+        paragraph: `At least 1.2 million people in Balochistan were affected by the severe
+         drought, and over 100 died. According to the official statements from the government.
+          majority of deaths were recorded because of dehydration. Millions of animals perished.
+          One of the worst-affected areas was the town of Nushki, close to
+           the border with Afghanistan. The drought was intense during 2000
+            and lasted over 10 months.`,
+      },
+      {
+        paragraphHeading: "2005 Kashmir quake:",
+        paragraph: `A 7.6-Richter scale quake struck the Kashmir region on the 
+        India-Pakistan border and parts of northwestern Pakistan on 8 October 2005.
+         According to official figures, at least 73,000 people were dead and more
+          than 3.3 million were homeless. The worst affected areas included Neelum 
+          Valley and Bagh District in Pakistan-administered Kashmir and Mansehra 
+          Division in Khyber Pakhtunkhwa. <br></br> 2007 Cyclone Yemyin: At least 380 people were 
+          killed in Balochistan, 250 in Sindh and 100 in Balochistan as a result
+           of flash floods triggered by Cyclone Yemyin, which struck coastal 
+           areas in early July 2007. Around 350,000 people were displaced,
+            1.5 million were affected and more than two million livestock
+            perished. <br></br>2010 Hunza Lake disaster: A landslide in
+            January 2010 in Attabad village in Hunza-Nagar District in the
+             far north of the country killed 20 people and led to around 40
+              houses sliding into the Hunza river. Debris from the landslide
+              resulted in changing the river into a dam, leading to the formation
+              of a large lake which threatened to flood the downstream areas.
+              Approximately 20,000 people were forced to leave their homes by June.`,
+      },
+      {
+        paragraphHeading: "2010 floods:",
+        paragraph: `One of the massive floods in the history of Pakistan, which resulted
+         in 1985 deaths and more than 20 million affected. It also resulted in the loss
+         of more than 1.5 million livestock, and 5.18 million acres of agricultural
+          land and affected 78 districts which caused a loss of Rs. 860 billion.`,
+      },
+
+      {
+        paragraphHeading: "2022 floods:",
+        paragraph: `The 2022 flood was more severe than in 2010. Till now it resulted
+         in damage to 1.8 million houses, affected more than 20 million people with
+         a death toll of more than 1400, and affected/dead more than 0.75 million
+         livestock. Further, the flood flashed away around 3.6 million acres of
+         agricultural land and affected 81 districts. Overall, Pakistan suffered
+         a loss of 6,949 billion PKR till now because of the 2022 flood.`,
+      },
+    ],
+  },
   //blog nine
 
   //blog ten
