@@ -17,7 +17,6 @@ const RP_detail_Paras = document.getElementById("RP_detail_Paras");
 const ElRP_detail_Scope = document.getElementById("RP_detail_Scope");
 const ElRP_detail_Client = document.getElementById("RP_detail_Client");
 const ElRP_detail_Year = document.getElementById("RP_detail_Year");
-const ElRP_detail_URL = document.getElementById("RP_detail_URL");
 
 for (const singleClickedResearch of researchProjects) {
   if (singleClickedResearch.RP_id == ResearchProject) {
@@ -41,7 +40,6 @@ for (const singleClickedResearch of researchProjects) {
       }
       ElRP_detail_Client.textContent = `${singleClickedResearch.RP_client}`;
       ElRP_detail_Year.textContent = `${singleClickedResearch.RP_year}`;
-      ElRP_detail_URL.textContent = `${singleClickedResearch.RP_URL}`;
     }
   }
 }
