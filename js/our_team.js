@@ -139,7 +139,7 @@ const teamMembers = [
   {
     member_id: "DrSonghaoShang",
     member_heading: "Dr. Songhao Shang",
-    member_designation: "Associate Professor",
+    member_designation: "Professor",
     member_image: "img/team/Dr.-Shang.jpg",
     member_Linkedin: "#",
     member_Tiwtter: "#",
@@ -311,7 +311,7 @@ const teamMembers = [
   // *** Dr ProfDrHamzaFarooqGabriel profile ***
   {
     member_id: "DrHamzaFarooqGabriel",
-    member_heading: "Dr.Hamza Farooq Gabriel",
+    member_heading: "Dr. Hamza Farooq Gabriel",
     member_designation: "Professor/HoD",
     member_image: "img/team/ProfDrHamzaFarooqGabriel.jpg",
     member_Linkedin: "#",
@@ -538,7 +538,7 @@ const teamMembers = [
   // *** Dr Quoc Bao Pham Pham profile ***
   {
     member_id: "DrPham",
-    member_heading: "Dr.Quoc Bao Pham",
+    member_heading: "Dr. Quoc Bao Pham",
     member_designation: "Assistant Professor",
     member_image: "img/team/Pham.jpg",
     member_Linkedin: "#",
@@ -803,7 +803,7 @@ const teamMembers = [
   // *** Dr Sajjad Haider profile ***
   {
     member_id: "DrSajjadHaider",
-    member_heading: "Dr.sajjad Haider",
+    member_heading: "Dr. Sajjad Haider",
     member_designation: "Associate Professor",
     member_image: "img/team/Dr.sajjadHaider.jpeg",
     member_Linkedin: "#",
