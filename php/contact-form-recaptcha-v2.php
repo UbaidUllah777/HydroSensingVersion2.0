@@ -19,7 +19,7 @@ require 'php-mailer/src/Exception.php';
 if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])) {
 
 	// Your Google reCAPTCHA generated Secret Key here
-	$secret = '6LfU23wmAAAAADr4HQ1EOa94crXk2mORhadccKxD';
+	$secret = '6LdEfrYnAAAAAEbYXLS4PE8RTM30Hz1yXv6N6i7c';
 	
 	if( ini_get('allow_url_fopen') ) {
 		//reCAPTCHA - Using file_get_contents()
@@ -48,7 +48,7 @@ if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'
 	if($responseData->success) {
 
 		// Step 1 - Enter your email address below.
-		$email = 'info@bxtechnologies.net';
+		$email = 'info@hydrosensing4u.com';
 
 		// If the e-mail is not working, change the debug option to 2 | $debug = 2;
 		$debug = 0;
