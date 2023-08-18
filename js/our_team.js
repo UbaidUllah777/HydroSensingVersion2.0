@@ -1159,6 +1159,156 @@ const teamMembers = [
       },
     ],
   },
+  // kaleem ullah Profile
+  {
+    member_id: "KaleemUllah",
+    member_heading: "Mr. Kaleem Ullah Jan Khan",
+    member_designation: "PhD Student",
+    member_image: "img/team/kaleemUllahJanKhan.jpg",
+    member_Linkedin: "#",
+    member_Tiwtter: "#",
+    member_Facebook: "#",
+    member_email: "",
+    member_Phone: "",
+    member_Google_scholar: "",
+
+    member_paragraphs: [
+      {
+        paragraph: `Kaleem Ullah Jan Khan is currently an enrolled Ph.D. student 
+          in Department of Hydraulic Engineering, Tsinghua University.
+           Khan has more than four years research experience in
+           multi-disciplinary domains including; disaster management
+            strategy, Geo disaster prevention and mitigation based
+             on numerical and physical modelling, mechanical behavior
+              of rock and soil masses including Soil-rock mixtures (S-RM),
+               granular materials and embedded discrete fracture networks
+               in rocks. `,
+      },
+      {
+        paragraph: `Khan is mainly engaged in many projects under
+        the supervision of Jilin University and Tsinghua University,
+        China sponsored by the Natural Science Foundation of China (NSFC).`,
+      },
+    ],
+
+    member_education: [
+      {
+        institute_name: "  Tsinghua University, Beijing, China.",
+        graduation_period: "",
+        degree_name: "Ph.D in Civil Engineering (Geotechnical)",
+      },
+    ],
+
+    member_Experience: [
+      {
+        orgName: "LCTU Tsinghua University ",
+        orgPlace: "Beijing, China",
+        From: "Sep 2022",
+        To: "PRESENT",
+        designation: "Teaching Assistant ",
+        experienceDetail:
+          "School of Civil and Environmental Engineering, National University of Sciences and Technology ",
+      },
+      {
+        orgName: " College of Construction Engineering",
+        orgPlace: "Jilin University, China",
+        From: "Sep 2018",
+        To: "Jun 2021",
+        designation: "Research Assistant  ",
+        experienceDetail: "",
+      },
+    ],
+    member_AcadProf: [
+      {
+        AcadProfName: "Research Gate",
+        AcadProfURL:
+          "https://www.researchgate.net/profile/Kaleem-Ullah-Jan-Khan",
+      },
+    ],
+    member_ResearchInterests: [
+      {
+        ResearchInterest: "Hydraulic fracturing",
+      },
+      {
+        ResearchInterest: "Mechanical behavior of soil and rock masses",
+      },
+      {
+        ResearchInterest: "Geohazards with particular focus on landslides",
+      },
+      {
+        ResearchInterest: "Discrete fracture networks",
+      },
+      {
+        ResearchInterest: "Geotechnical reliability and risk assessment",
+      },
+    ],
+
+    member_ReprPublications: [
+      {
+        publication: `Kaleem Ullah Jan Khan, Changming Wang, Zhu Liang,
+           Lixin Zhang “Disaster management strategy for avoiding the future losses
+            by a slope failure at Nanhuan road, Fuxin area, Northeast China” International
+             Journal of Natural Science and Reviews (ISSN:2576-5086)
+              DOI: 10.28933/ijnsr-2020-08-1905`,
+      },
+      {
+        publication: `Kaleem Ullah Jan Khan, Changming Wang, Muhammad Wasim Jan Khan,
+           Zhu Liang, Shuo Li, Bailong Li “Influence of rainfall
+           infiltration on the stability of unsaturated coal
+           gangue accumulated slope” Journal of Mountain Science
+            DOI: 10.1007/s11629-020-6567-4`,
+      },
+      {
+        publication: `Zhu Liang, Changming Wang, Songling Han, Kaleem Ullah Jan Khan,
+           and Yiao Liu “Classification and susceptibility assessment of debris
+            flow based on a semi-quantitative method combination of the fuzzy C-means
+             algorithm, factor analysis and efficacy coefficient”  Natural Hazards and
+             Earth System Science DOI: 10.5194/nhess-20-1287-2020`,
+      },
+      {
+        publication: `Zhu Liang, Changming Wang, Kaleem Ullah Jan Khan “Application
+           and comparison of different ensemble learning machines combining with a
+           novel sampling strategy for shallow landslide susceptibility mapping” Stochastic
+            Environmental Research and Risk Assessment DOI: 10.1007/s00477-020-01893-y`,
+      },
+      {
+        publication: `Zhu Liang, Changming Wang, Donghe ma, Kaleem Ullah Jan Khan
+           “Exploring the potential relationship between the occurrence of debris
+            flow and landslide” Natural Hazards and Earth System Science
+             DOI: 10.5194/nhess-21-1247-2021`,
+      },
+      {
+        publication: `Zhu Liang, Changming Wang, Zhejie Duan, Hailiang Liu, Xiaoliang Liu,
+           Kaleem Ullah Jan Khan “A hybrid model consisting of supervised and
+           unsupervised learning for landslide susceptibility mapping” Remote
+            Sensing DOI: 10.3390/rs13081464 `,
+      },
+      {
+        publication: `Hailiang Liu, Donghe Ma, Changming Wang, Xiaoyang Liu, Di Wu, 
+          Kaleem Ullah Jan Khan “Study on the frost heave mechanism of the water
+           conveyance canal and optimized design of slope protection” Bulletin Of
+            Engineering Geology and Environment DOI: 10.1007/s10064-021-02447-4`,
+      },
+      {
+        publication: `Hailiang Liu, Donghe Ma, Changming Wang, Xiaoyang Liu, Di Wu, Bailong Li, 
+          Kaleem Ullah   Jan Khan “Study on the hydrothermal coupling characteristics of
+          polyurethane insulation boards slope protection structure incorporating phase
+           change effect” Scientific Reports DOI: 10.1038/s41598-021-97561-4`,
+      },
+      {
+        publication: `Shuo Li, Changming Wang, Suoyu Zhang, Tong Li, Kaleem Ullah Jan
+           Khan “Bound water characteristics and microstructure evolution during
+           uniaxial compression of mucky silty clay” Journal of Soils and Sediments
+            DOI: 10.1007/s11368-021-03102-x`,
+      },
+      {
+        publication: `Hailiang Liu, Changming Wang, Xiaoyang Liu, Di Wu, Heran Yang, 
+          Zhimin Zhang, Kaleem Ullah Jan Khan “Deformation characteristics and prediction
+           of unbound volcanic ash pavement based on the mechanistic-empirical design
+            guide” Construction and Building Materials DOI: 10.1016/j.conbuildmat.2022.126975`,
+      },
+    ],
+  },
 ];
 // *** ALL DATA of Our Focus Area : END ***
 
