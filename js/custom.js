@@ -236,20 +236,20 @@ const footerContent = `
     <strong>Success!</strong> You've been added to our email list.
   </div>
   <div class="alert alert-danger d-none" id="newsletterError"></div>
-  <form id="newsletterForm" action="https://bxtechnologies.us10.list-manage.com/subscribe/post?u=17ac614f142f9b0e8ea6f8d7a&amp;id=7bd84a2e8d&amp;f_id=00be3fe2f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate mb-4-5" target="_blank" >
+  <form id="newsletterForm" action="https://hydrosensing4u.us13.list-manage.com/subscribe/post?u=329e472ea1d5d2647945de70c&amp;id=62e62740e6&amp;f_id=00522ee5f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate mb-4-5" target="_blank"  >
   <div class="input-group">
     <input style="padding-top:0px; padding-bottom:0px" class="form-control border-0 required email" placeholder="Subscribe Now..."type="email" name="EMAIL"  id="mce-EMAIL" required="" value="">
-    <button class="btn btn-primary px-3" type="submit" name="subscribe" id="mc-embedded-subscribe" value="Subscribe">
+    <button class="btn btn-primary px-3" type="submit" name="subscribe" id="mc-embedded-subscribe"  value="Subscribe">
       <img width="27" height="27" src="img/dms/hydroSensing/icons/arrow-right.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light'}" style="width: 27px;" />
     </button>
-    <div id="mce-responses" class="clear foot">
-      <div class="response" id="mce-error-response" style="display: none;"></div>
-      <div class="response" id="mce-success-response" style="display: none;"></div>
+		<div id="mce-responses" class="clear foot">
+			<div class="response" id="mce-error-response" style="display: none;"></div>
+			<div class="response" id="mce-success-response" style="display: none;"></div>
+		</div>
+    <div aria-hidden="true" style="position: absolute; left: -5000px;">
+	  /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
+	  <input type="text" name="b_329e472ea1d5d2647945de70c_62e62740e6" tabindex="-1" value="">
   </div>
-  <div aria-hidden="true" style="position: absolute; left: -5000px;">
-  /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
-  <input type="text" name="b_17ac614f142f9b0e8ea6f8d7a_7bd84a2e8d" tabindex="-1" value="">
-</div>
   </div>
   </form>
 </div>
