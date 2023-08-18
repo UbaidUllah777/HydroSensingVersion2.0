@@ -151,7 +151,9 @@ for (const singleOpportunityCateg of allOpportunities) {
               style="position: relative"
             >
               <div class="post-event-content">
-                <center><h5 class="pt-2 pb-2 font-weight-bold text-color-dark"> Currently No Opportunity Available in :  <span style="color:red">${singleOpportunityCateg.OpportunityName} </span> </h5></center>
+                <center><h5 class="pt-2 font-weight-bold text-color-dark"  style="text-transform: none;"> Currently No Opportunity Available in :  <span style="color:red">${singleOpportunityCateg.OpportunityName} </span> </h5>
+                <br/> <p class=" pb-2 ">  <span style="color:#7bb146 ">Stay Connected</span>  to grab the new Opportunity</p>
+                </center>
               </div>
             </article>
           </div>

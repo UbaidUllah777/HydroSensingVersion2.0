@@ -110,46 +110,11 @@ const allRepositories = [
     ],
   },
 
-  // Repository three
+  // Tutorials Repository
   {
-    RepositoryCategory: "Repositorythree",
-    RepositoryName: "Repository &nbsp Three",
-    RepositoryTopics: [
-      //1st Topic in Repository three
-      {
-        topicID: "firstTopicRepothree",
-        topicName: "First Topic",
-
-        supportingLink:
-          "https://www.youtube.com/watch?v=Bbs_OfyWm6o&pp=ygUNaHlkcm8gc2Vuc2luZw%3D%3D",
-        topicDescription:
-          "Laborum qui laborum culpa sit ad sit non deserunt nisi eu occaecat. Et deserunt pariatur exercitation sint pariatur labore laboris proident ex consectetur adipisicing ipsum laboris. Aute consectetur reprehenderit laboris nostrud culpa in nulla. Lorem do mollit nostrud qui aute veniam reprehenderit. Fugiat pariatur aliquip dolore elit adipisicing aliqua reprehenderit.",
-        topicPdfDownloadPath: "Repositories/RepositoryName/fileName.pdf",
-      },
-      //2nd Topic in Repository three
-      {
-        topicID: "secondTopicRepothree",
-        topicName: "Second  Topic",
-
-        supportingLink:
-          "https://www.youtube.com/watch?v=Bbs_OfyWm6o&pp=ygUNaHlkcm8gc2Vuc2luZw%3D%3D",
-        topicDescription:
-          "Laborum qui laborum culpa sit ad sit non deserunt nisi eu occaecat. Et deserunt pariatur exercitation sint pariatur labore laboris proident ex consectetur adipisicing ipsum laboris. Aute consectetur reprehenderit laboris nostrud culpa in nulla. Lorem do mollit nostrud qui aute veniam reprehenderit. Fugiat pariatur aliquip dolore elit adipisicing aliqua reprehenderit.",
-        topicPdfDownloadPath: "Repositories/RepositoryName/fileName.pdf",
-      },
-
-      //3rd Topic in Repository three
-      {
-        topicID: "thirdTopicRepothree",
-        topicName: "Third  Topic",
-
-        supportingLink:
-          "https://www.youtube.com/watch?v=Bbs_OfyWm6o&pp=ygUNaHlkcm8gc2Vuc2luZw%3D%3D",
-        topicDescription:
-          "Laborum qui laborum culpa sit ad sit non deserunt nisi eu occaecat. Et deserunt pariatur exercitation sint pariatur labore laboris proident ex consectetur adipisicing ipsum laboris. Aute consectetur reprehenderit laboris nostrud culpa in nulla. Lorem do mollit nostrud qui aute veniam reprehenderit. Fugiat pariatur aliquip dolore elit adipisicing aliqua reprehenderit.",
-        topicPdfDownloadPath: "Repositories/RepositoryName/fileName.pdf",
-      },
-    ],
+    RepositoryCategory: "tutorialsRepository",
+    RepositoryName: "Tutorials",
+    RepositoryTopics: [],
   },
 ];
 
@@ -179,10 +144,30 @@ for (const singleRepositoryCateg of allRepositories) {
     ).id ==
     singleRepositoryCateg.RepositoryCategory + "CardBody"
   ) {
-    for (singleTopic of singleRepositoryCateg.RepositoryTopics) {
+    if (singleRepositoryCateg.RepositoryTopics.length === 0) {
       document.getElementById(
         `${singleRepositoryCateg.RepositoryCategory}CardBody`
       ).innerHTML += `
+      <div class="row">
+        <div class="col">
+          <article
+            class="custom-post-event bg-color-light custom-sm-margin-bottom-2 mb-5"
+            style="position: relative"
+          >
+            <div class="post-event-content">
+              <center><h5 class="pt-2 font-weight-bold text-color-dark" style="text-transform: none;"> Currently No Content Available in :  <span style="color:red">${singleRepositoryCateg.RepositoryName} </span> </h5>
+              <br/> <p class=" pb-2 "> Content will be Uploaded soon, <span style="color:#7bb146 ">stay Connected</span> </p>
+              </center>
+            </div>
+          </article>
+        </div>
+      </div>
+    `;
+    } else {
+      for (singleTopic of singleRepositoryCateg.RepositoryTopics) {
+        document.getElementById(
+          `${singleRepositoryCateg.RepositoryCategory}CardBody`
+        ).innerHTML += `
         <div class="row">
         <div class="col-lg-8">
         <article
@@ -226,6 +211,7 @@ for (const singleRepositoryCateg of allRepositories) {
       </div>
       <hr class="solid" />
         `;
+      }
     }
   }
 }
